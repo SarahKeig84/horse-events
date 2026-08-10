@@ -1,10 +1,13 @@
 """
 Refreshes data/events.json from each venue's public booking calendar.
 
-Only touches events tagged "source": "auto" (Moreton Morrell, Swallowfield,
-Solihull RC, Walsgrave ARC). Events tagged "source": "manual" (ASBRC, Crown RC)
-are left exactly as they are in the file -- this script never invents or
-removes those.
+Only touches events tagged "source": "auto": Moreton Morrell, Swallowfield,
+Solihull RC, Walsgrave ARC and Swalcliffe Park (native booking-platform
+events), Cotswold Cup legs at those venues plus Offchurch Bury/Hazleton
+Manor/Waverton House/Cirencester Park, and horse-events.co.uk listings at
+Swalcliffe, Moreton Morrell, Solihull RC, Dallas Burston and Barcheston.
+Events tagged "source": "manual" (ASBRC, Crown RC) are left exactly as they
+are in the file -- this script never invents or removes those.
 
 If a venue's site is unreachable or its page format changes and nothing can
 be parsed, that venue's previous "auto" events are kept as-is rather than
@@ -106,6 +109,154 @@ def fetch_ics_venue(session, venue_key, listing_url, site_root):
     return events
 
 
+MONTH_NUMBERS = {
+    name: i for i, name in enumerate(
+        ["January", "February", "March", "April", "May", "June", "July", "August",
+         "September", "October", "November", "December"], start=1)
+}
+
+# Only legs close to CV35, or anywhere in Gloucestershire, per Sarah's request --
+# most of the series (Dorset, Derbyshire, Somerset, Wiltshire, West Sussex) is
+# too far away to be worth showing. Matched against the leg's venue name.
+COTSWOLD_CUP_VENUE_MAP = {
+    "offchurch": "offchurch-bury",
+    "solihull": "solihull-rc",
+    "moreton morrell": "moreton-morrell",
+    "hazleton": "hazleton-manor",
+    "waverton": "waverton-house",
+    "cirencester": "cirencester-park",
+}
+
+
+def fetch_cotswold_cup(session):
+    """The Cotswold Cup is a traveling unaffiliated eventing series, not a
+    single venue -- its site (cotswoldcup.co.uk) publishes one central
+    calendar of legs as a series of <h4>name</h4><p>location</p><p>date</p>
+    blocks. We only keep legs at venues in COTSWOLD_CUP_VENUE_MAP."""
+    resp = session.get("https://cotswoldcup.co.uk/", headers=HEADERS, timeout=20)
+    resp.raise_for_status()
+    html = resp.text
+
+    events = []
+    for block in re.finditer(
+        r"<h4>(.*?)</h4>\s*<p>(.*?)</p>\s*<p>(.*?)</p>(.*?)(?=<h4>|\Z)", html, re.S
+    ):
+        raw_name, _location, raw_date, tail = block.groups()
+        name = re.sub(r"\*\s*NEW\s*\*", "", unescape(raw_name)).strip()
+
+        venue_key = None
+        for needle, key in COTSWOLD_CUP_VENUE_MAP.items():
+            if needle in name.lower():
+                venue_key = key
+                break
+        if venue_key is None:
+            continue
+
+        if "CANCELLED" in tail[:400]:
+            continue
+
+        date_str = unescape(raw_date)
+        month_match = re.search(
+            r"(" + "|".join(MONTH_NUMBERS) + r")\s+(\d{4})", date_str, re.IGNORECASE
+        )
+        if not month_match:
+            continue
+        month_name, year = month_match.group(1), int(month_match.group(2))
+        month_num = MONTH_NUMBERS[month_name.title()]
+        days = [int(d) for d in re.findall(r"\d{1,2}", date_str.split(month_name)[0])]
+        if not days:
+            continue
+        start = date(year, month_num, min(days))
+        end = date(year, month_num, max(days)) if max(days) != min(days) else None
+
+        if start < TODAY or start > WINDOW_END:
+            continue
+
+        title = "Cotswold Cup Championships" if "champs" in name.lower() else "Cotswold Cup Qualifier"
+        events.append({
+            "id": f"cotswold-cup-{venue_key}-{start.isoformat()}",
+            "title": title,
+            "venueKey": venue_key,
+            "date": start.isoformat(),
+            "endDate": end.isoformat() if end else None,
+            "time": None,
+            "type": "Show",
+            "url": "https://cotswoldcup.co.uk/",
+            "notes": "",
+            "source": "auto",
+        })
+    return events
+
+
+# horse-events.co.uk profile slugs for venues confirmed to have one. This site
+# carries British Eventing / Pony Club style events that the MyRidingLife /
+# EquineAffairs booking platform doesn't list at all, so it's genuinely
+# additional coverage rather than a duplicate of the ICS venues.
+HORSE_EVENTS_VENUES = {
+    "swalcliffe": "swalcliffe-park-equestrian",
+    "moreton-morrell": "moreton-morrell-college",
+    "solihull-rc": "solihull-riding-club",
+    "dallas-burston": "dallas-burston-polo-club",
+    "barcheston": "barcheston-grounds-farm",
+}
+
+
+def fetch_horse_events(session, venue_key, slug):
+    resp = session.get(f"https://www.horse-events.co.uk/venues/{slug}", headers=HEADERS, timeout=20)
+    resp.raise_for_status()
+    html = resp.text
+
+    events = []
+    for block_match in re.finditer(
+        r'data-href="([^"]+)"\s+id="result-(\d+)"(.*?)(?=data-href="[^"]+"\s+id="result-\d+"|\Z)',
+        html, re.S,
+    ):
+        href, result_id, block = block_match.groups()
+
+        title_match = re.search(r'class="result-title overline">(.*?)</div>', block, re.S)
+        date_match = re.search(r'class="result-date">(.*?)</div>', block, re.S)
+        if not title_match or not date_match:
+            continue
+
+        raw_title = title_match.group(1)
+        cancelled = bool(re.search(r"cancelled", raw_title, re.IGNORECASE))
+        title = re.sub(r"<[^>]+>", "", raw_title)
+        title = re.sub(r"\s*-\s*Cancelled\s*$", "", unescape(title), flags=re.IGNORECASE).strip()
+        if cancelled:
+            continue
+
+        date_str = unescape(re.sub(r"<[^>]+>", "", date_match.group(1))).strip()
+        month_match = re.search(
+            r"(" + "|".join(MONTH_NUMBERS) + r")\s+(\d{4})", date_str, re.IGNORECASE
+        )
+        if not month_match:
+            continue
+        month_name, year = month_match.group(1), int(month_match.group(2))
+        month_num = MONTH_NUMBERS[month_name.title()]
+        days = [int(d) for d in re.findall(r"\d{1,2}", date_str.split(month_name)[0])]
+        if not days:
+            continue
+        start = date(year, month_num, min(days))
+        end = date(year, month_num, max(days)) if max(days) != min(days) else None
+
+        if start < TODAY or start > WINDOW_END:
+            continue
+
+        events.append({
+            "id": f"horse-events-{venue_key}-{result_id}",
+            "title": title,
+            "venueKey": venue_key,
+            "date": start.isoformat(),
+            "endDate": end.isoformat() if end else None,
+            "time": None,
+            "type": classify(title),
+            "url": href,
+            "notes": "",
+            "source": "auto",
+        })
+    return events
+
+
 def fetch_walsgrave(session):
     """Walsgrave ARC publishes a plain-text 'Show Dates <year>' list on their
     calendar page rather than a booking system -- parse that section only."""
@@ -147,7 +298,7 @@ def fetch_walsgrave(session):
     return events
 
 
-AUTO_VENUE_KEYS = ["moreton-morrell", "swallowfield", "solihull-rc", "walsgrave-arc"]
+AUTO_VENUE_KEYS = ["moreton-morrell", "swallowfield", "solihull-rc", "walsgrave-arc", "swalcliffe"]
 
 
 def scrape_all(session):
@@ -193,6 +344,15 @@ def scrape_all(session):
     except Exception as exc:  # noqa: BLE001
         print(f"WARN: walsgrave-arc scrape failed: {exc}", file=sys.stderr)
 
+    try:
+        results["swalcliffe"] = fetch_ics_venue(
+            session, "swalcliffe",
+            "https://www.equineaffairs.com/RemoteLocationEventList.aspx?LocationID=1093",
+            "https://www.equineaffairs.com",
+        )
+    except Exception as exc:  # noqa: BLE001
+        print(f"WARN: swalcliffe scrape failed: {exc}", file=sys.stderr)
+
     return results
 
 
@@ -201,9 +361,23 @@ def main():
         data = json.load(f)
 
     manual_events = [e for e in data.get("events", []) if e.get("source") != "auto"]
+
+    # Cotswold Cup and Horse Events entries are tagged by id prefix, not just
+    # venueKey, since a single leg/listing can land at a venueKey (e.g.
+    # solihull-rc, moreton-morrell) that also has its own independently
+    # scraped native events -- keep each source's pool separate so one
+    # source's fallback doesn't clobber another's data for the same venue.
     old_auto_by_venue = {}
+    old_cotswold_events = []
+    old_horse_events_by_venue = {}
     for e in data.get("events", []):
-        if e.get("source") == "auto":
+        if e.get("source") != "auto":
+            continue
+        if e["id"].startswith("cotswold-cup-"):
+            old_cotswold_events.append(e)
+        elif e["id"].startswith("horse-events-"):
+            old_horse_events_by_venue.setdefault(e["venueKey"], []).append(e)
+        else:
             old_auto_by_venue.setdefault(e["venueKey"], []).append(e)
 
     session = requests.Session()
@@ -216,6 +390,19 @@ def main():
         else:
             print(f"INFO: keeping previous data for {venue_key} (scrape unavailable)", file=sys.stderr)
             new_auto_events.extend(old_auto_by_venue.get(venue_key, []))
+
+    try:
+        new_auto_events.extend(fetch_cotswold_cup(session))
+    except Exception as exc:  # noqa: BLE001
+        print(f"WARN: cotswold-cup scrape failed: {exc}", file=sys.stderr)
+        new_auto_events.extend(old_cotswold_events)
+
+    for venue_key, slug in HORSE_EVENTS_VENUES.items():
+        try:
+            new_auto_events.extend(fetch_horse_events(session, venue_key, slug))
+        except Exception as exc:  # noqa: BLE001
+            print(f"WARN: horse-events/{venue_key} scrape failed: {exc}", file=sys.stderr)
+            new_auto_events.extend(old_horse_events_by_venue.get(venue_key, []))
 
     new_auto_events.sort(key=lambda e: (e["date"], e["venueKey"], e["title"]))
 
