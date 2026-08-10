@@ -318,18 +318,18 @@ def scrape_all(session):
     for that venue and old data for it should be kept as a fallback."""
     results = {key: None for key in AUTO_VENUE_KEYS}
 
+    # NOTE: LocationID=751 on myridinglife.com is NOT Moreton Morrell -- it's
+    # "Moreton Equestrian Centre" in Moreton, Dorchester, Dorset (DT2 8RG), a
+    # totally unrelated venue that just happens to share the word "Moreton".
+    # Only locationID=44 is the real Moreton Morrell (Warwickshire College,
+    # Moreton Morrell, CV35 9BL). Do not add 751 back without re-verifying
+    # the address on an eventdetails.aspx page -- confirmed by hand 2026-08-10.
     try:
-        mm = fetch_ics_venue(
-            session, "moreton-morrell",
-            "https://www.myridinglife.com/RemoteLocationEventList.aspx?LocationID=751",
-            "https://www.myridinglife.com",
-        )
-        mm += fetch_ics_venue(
+        results["moreton-morrell"] = fetch_ics_venue(
             session, "moreton-morrell",
             "https://www.myridinglife.com/RemoteLocationEventList.aspx?locationID=44&from=rl",
             "https://www.myridinglife.com",
         )
-        results["moreton-morrell"] = mm
     except Exception as exc:  # noqa: BLE001 -- keep going even if one venue breaks
         print(f"WARN: moreton-morrell scrape failed: {exc}", file=sys.stderr)
 

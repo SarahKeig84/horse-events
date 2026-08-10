@@ -43,9 +43,12 @@
     const legend = document.getElementById("legend");
     legend.innerHTML = "";
     DATA.venues.forEach((v) => {
+      const isOff = hiddenVenues.has(v.key);
       const chip = document.createElement("button");
-      chip.className = "legend-chip" + (hiddenVenues.has(v.key) ? " off" : "");
-      chip.innerHTML = `<span class="dot" style="background:${v.color}"></span>${v.name}`;
+      chip.type = "button";
+      chip.className = "legend-chip" + (isOff ? " off" : "");
+      chip.setAttribute("aria-pressed", String(!isOff));
+      chip.innerHTML = `<span class="dot" style="background:${v.color}"></span><span>${v.name}</span><span class="check">${isOff ? "" : "&#10003;"}</span>`;
       chip.addEventListener("click", () => {
         if (hiddenVenues.has(v.key)) hiddenVenues.delete(v.key);
         else hiddenVenues.add(v.key);
@@ -54,6 +57,10 @@
       });
       legend.appendChild(chip);
     });
+
+    const count = document.getElementById("venueFilterCount");
+    const hiddenN = hiddenVenues.size;
+    count.textContent = hiddenN === 0 ? "All shown" : `${hiddenN} hidden`;
   }
 
   // ---------- Calendar ----------
@@ -221,6 +228,21 @@
     document.getElementById("modalClose").addEventListener("click", closeModal);
     document.getElementById("modalBackdrop").addEventListener("click", (e) => {
       if (e.target.id === "modalBackdrop") closeModal();
+    });
+
+    document.getElementById("showAllVenues").addEventListener("click", () => {
+      hiddenVenues.clear();
+      renderLegend();
+      renderCurrentView();
+    });
+    document.getElementById("hideAllVenues").addEventListener("click", () => {
+      DATA.venues.forEach((v) => hiddenVenues.add(v.key));
+      renderLegend();
+      renderCurrentView();
+    });
+    document.addEventListener("click", (e) => {
+      const filter = document.getElementById("venueFilter");
+      if (filter.open && !filter.contains(e.target)) filter.open = false;
     });
   }
 
