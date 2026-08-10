@@ -2,12 +2,15 @@
 Refreshes data/events.json from each venue's public booking calendar.
 
 Only touches events tagged "source": "auto": Moreton Morrell, Swallowfield,
-Solihull RC, Walsgrave ARC and Swalcliffe Park (native booking-platform
+Solihull RC, Walsgrave ARC, Swalcliffe Park and Onley (native booking-platform
 events), Cotswold Cup legs at those venues plus Offchurch Bury/Hazleton
 Manor/Waverton House/Cirencester Park, and horse-events.co.uk listings at
 Swalcliffe, Moreton Morrell, Solihull RC, Dallas Burston, Barcheston, Aston
 Le Walls, Onley, and Rugby Riding Club (Pony Club-restricted events are
 filtered out of the horse-events.co.uk listings -- Sarah isn't a member).
+Onley is unusual in having two independent auto sources (its own
+myridinglife.com listing plus horse-events.co.uk) since it hosts both
+regular unaffiliated bookings and separately-organised affiliated shows.
 Events tagged "source": "manual" (ASBRC, Crown RC) are left exactly as they
 are in the file -- this script never invents or removes those.
 
@@ -310,7 +313,7 @@ def fetch_walsgrave(session):
     return events
 
 
-AUTO_VENUE_KEYS = ["moreton-morrell", "swallowfield", "solihull-rc", "walsgrave-arc", "swalcliffe"]
+AUTO_VENUE_KEYS = ["moreton-morrell", "swallowfield", "solihull-rc", "walsgrave-arc", "swalcliffe", "onley"]
 
 
 def scrape_all(session):
@@ -355,6 +358,15 @@ def scrape_all(session):
         results["walsgrave-arc"] = fetch_walsgrave(session)
     except Exception as exc:  # noqa: BLE001
         print(f"WARN: walsgrave-arc scrape failed: {exc}", file=sys.stderr)
+
+    try:
+        results["onley"] = fetch_ics_venue(
+            session, "onley",
+            "https://www.myridinglife.com/RemoteLocationEventList.aspx?locationID=2291",
+            "https://www.myridinglife.com",
+        )
+    except Exception as exc:  # noqa: BLE001
+        print(f"WARN: onley scrape failed: {exc}", file=sys.stderr)
 
     try:
         results["swalcliffe"] = fetch_ics_venue(
