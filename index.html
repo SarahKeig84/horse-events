@@ -33,7 +33,21 @@
   </div>
 </div>
 
-<div class="legend" id="legend" aria-label="Filter by venue"></div>
+<div class="venue-filter-wrap">
+  <details class="venue-filter" id="venueFilter">
+    <summary>
+      <span>Venues</span>
+      <span class="venue-filter-count" id="venueFilterCount"></span>
+    </summary>
+    <div class="venue-filter-panel">
+      <div class="venue-filter-actions">
+        <button type="button" id="showAllVenues">Show all</button>
+        <button type="button" id="hideAllVenues">Hide all</button>
+      </div>
+      <div class="legend" id="legend" aria-label="Filter by venue"></div>
+    </div>
+  </details>
+</div>
 
 <main id="mainContent">
 
