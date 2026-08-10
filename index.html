@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Horse Events</title>
+<meta name="description" content="Personal tracker for local horse riding events and shows" />
+
+<link rel="manifest" href="manifest.json" />
+<meta name="theme-color" content="#78716c" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta name="apple-mobile-web-app-title" content="Horse Events" />
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+<link rel="icon" href="icons/icon-192.png" />
+
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<header class="app-header">
+  <h1>🐴 Horse Events</h1>
+  <p class="updated-line" id="updatedLine"></p>
+</header>
+
+<div class="toolbar">
+  <div class="search-wrap">
+    <input type="search" id="searchInput" placeholder="Search events, venues, or type…" aria-label="Search events" />
+  </div>
+  <div class="view-toggle" role="tablist" aria-label="View">
+    <button class="toggle-btn active" id="calendarViewBtn" role="tab" aria-selected="true">Calendar</button>
+    <button class="toggle-btn" id="listViewBtn" role="tab" aria-selected="false">List</button>
+  </div>
+</div>
+
+<div class="legend" id="legend" aria-label="Filter by venue"></div>
+
+<main id="mainContent">
+
+  <section id="calendarView" class="view">
+    <div class="cal-nav">
+      <button id="prevMonth" aria-label="Previous month">‹</button>
+      <h2 id="monthLabel"></h2>
+      <button id="nextMonth" aria-label="Next month">›</button>
+    </div>
+    <div class="cal-weekdays">
+      <span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span>
+    </div>
+    <div class="cal-grid" id="calGrid"></div>
+  </section>
+
+  <section id="listView" class="view hidden">
+    <div id="listContainer"></div>
+  </section>
+
+  <p id="emptyState" class="empty-state hidden">No events match your search/filters.</p>
+
+  <section class="gaps" id="gapsSection">
+    <h3>Known gaps</h3>
+    <ul id="gapsList"></ul>
+  </section>
+
+</main>
+
+<div class="modal-backdrop hidden" id="modalBackdrop">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalDate">
+    <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+    <h3 id="modalDate"></h3>
+    <div id="modalEvents"></div>
+  </div>
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>

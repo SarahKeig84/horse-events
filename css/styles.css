@@ -1,0 +1,282 @@
+:root {
+  --bg: #faf7f2;
+  --surface: #ffffff;
+  --ink: #2b2420;
+  --ink-soft: #6b6058;
+  --border: #e7ded3;
+  --brand: #78716c;
+  --brand-dark: #57524d;
+  --accent: #b8860b;
+  --radius: 12px;
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; }
+
+.hidden { display: none !important; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.app-header {
+  padding: env(safe-area-inset-top, 0px) 16px 8px;
+  padding-top: calc(env(safe-area-inset-top, 0px) + 16px);
+  background: var(--brand);
+  color: #fff;
+}
+.app-header h1 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+.updated-line {
+  margin: 4px 0 0;
+  font-size: 0.78rem;
+  opacity: 0.85;
+}
+
+.toolbar {
+  display: flex;
+  gap: 8px;
+  padding: 12px 16px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  flex-wrap: wrap;
+}
+.search-wrap { flex: 1 1 200px; }
+#searchInput {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-size: 0.95rem;
+  background: var(--bg);
+  color: var(--ink);
+}
+#searchInput:focus { outline: 2px solid var(--brand); outline-offset: 1px; }
+
+.view-toggle {
+  display: flex;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  flex: 0 0 auto;
+}
+.toggle-btn {
+  border: none;
+  background: var(--surface);
+  color: var(--ink-soft);
+  padding: 10px 16px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.toggle-btn.active {
+  background: var(--brand);
+  color: #fff;
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 10px 16px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+.legend-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  font-size: 0.78rem;
+  cursor: pointer;
+  user-select: none;
+  color: var(--ink);
+  transition: opacity 0.15s;
+}
+.legend-chip .dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  flex: none;
+}
+.legend-chip.off {
+  opacity: 0.4;
+}
+
+main { padding: 12px 16px 32px; max-width: 720px; margin: 0 auto; }
+
+.view.hidden { display: none; }
+
+/* Calendar */
+.cal-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 4px 0 10px;
+}
+.cal-nav h2 { margin: 0; font-size: 1.05rem; }
+.cal-nav button {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  border-radius: 8px;
+  width: 36px;
+  height: 36px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  color: var(--ink);
+}
+
+.cal-weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+  font-size: 0.72rem;
+  color: var(--ink-soft);
+  margin-bottom: 4px;
+}
+
+.cal-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 4px;
+}
+.cal-day {
+  aspect-ratio: 1 / 1;
+  border-radius: 10px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 4px 2px;
+  cursor: default;
+  position: relative;
+}
+.cal-day.outside { opacity: 0.35; }
+.cal-day.today { border-color: var(--brand); border-width: 2px; }
+.cal-day.has-events {
+  cursor: pointer;
+  background: #fffdf9;
+}
+.cal-day.has-events:active { background: #f3ece0; }
+.cal-day .daynum { font-size: 0.82rem; }
+.cal-dots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  justify-content: center;
+  margin-top: 3px;
+}
+.cal-dots .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+/* List view */
+.list-group { margin-bottom: 18px; }
+.list-date {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+  margin: 0 0 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.event-card {
+  display: flex;
+  gap: 10px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--brand);
+  border-radius: 10px;
+  padding: 10px 12px;
+  margin-bottom: 8px;
+}
+.event-card .etitle { font-weight: 600; font-size: 0.95rem; margin: 0 0 2px; }
+.event-card .emeta { font-size: 0.8rem; color: var(--ink-soft); }
+.event-card .etag {
+  display: inline-block;
+  font-size: 0.68rem;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: var(--bg);
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.empty-state {
+  text-align: center;
+  color: var(--ink-soft);
+  padding: 32px 12px;
+}
+
+.gaps {
+  margin-top: 28px;
+  padding-top: 16px;
+  border-top: 1px dashed var(--border);
+}
+.gaps h3 { font-size: 0.85rem; color: var(--ink-soft); margin: 0 0 8px; }
+.gaps ul { margin: 0; padding-left: 18px; font-size: 0.82rem; color: var(--ink-soft); }
+.gaps li { margin-bottom: 4px; }
+
+/* Modal */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(20, 16, 12, 0.45);
+  display: flex;
+  align-items: flex-end;
+  z-index: 20;
+}
+.modal-backdrop.hidden { display: none; }
+.modal {
+  background: var(--surface);
+  width: 100%;
+  max-height: 75vh;
+  overflow-y: auto;
+  border-radius: 16px 16px 0 0;
+  padding: 20px 18px calc(20px + env(safe-area-inset-bottom, 0px));
+  position: relative;
+}
+.modal-close {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  border: none;
+  background: none;
+  font-size: 1.4rem;
+  color: var(--ink-soft);
+  cursor: pointer;
+}
+.modal h3 { margin: 0 0 12px; font-size: 1.05rem; }
+
+@media (min-width: 640px) {
+  .modal-backdrop { align-items: center; justify-content: center; }
+  .modal { width: 420px; border-radius: 16px; max-height: 80vh; }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1b1815;
+    --surface: #262220;
+    --ink: #f2ede6;
+    --ink-soft: #a89e93;
+    --border: #3a352f;
+  }
+  .cal-day.has-events { background: #2c2723; }
+  .cal-day.has-events:active { background: #34302a; }
+}
