@@ -5,7 +5,9 @@ Only touches events tagged "source": "auto": Moreton Morrell, Swallowfield,
 Solihull RC, Walsgrave ARC and Swalcliffe Park (native booking-platform
 events), Cotswold Cup legs at those venues plus Offchurch Bury/Hazleton
 Manor/Waverton House/Cirencester Park, and horse-events.co.uk listings at
-Swalcliffe, Moreton Morrell, Solihull RC, Dallas Burston and Barcheston.
+Swalcliffe, Moreton Morrell, Solihull RC, Dallas Burston, Barcheston, Aston
+Le Walls, Onley, and Rugby Riding Club (Pony Club-restricted events are
+filtered out of the horse-events.co.uk listings -- Sarah isn't a member).
 Events tagged "source": "manual" (ASBRC, Crown RC) are left exactly as they
 are in the file -- this script never invents or removes those.
 
@@ -198,7 +200,15 @@ HORSE_EVENTS_VENUES = {
     "solihull-rc": "solihull-riding-club",
     "dallas-burston": "dallas-burston-polo-club",
     "barcheston": "barcheston-grounds-farm",
+    "aston-le-walls": "aston-le-walls-equestrian",
+    "onley": "onley-equestrian-centre",
+    "rugby-riding-club": "rugby-riding-club",
 }
+
+# Sarah isn't a Pony Club member, so Pony Club rallies/championships (which
+# are restricted to members) aren't things she can actually attend -- these
+# are always named with "Pony Club" in the title on horse-events.co.uk.
+PONY_CLUB_RE = re.compile(r"pony club", re.IGNORECASE)
 
 
 def fetch_horse_events(session, venue_key, slug):
@@ -223,6 +233,8 @@ def fetch_horse_events(session, venue_key, slug):
         title = re.sub(r"<[^>]+>", "", raw_title)
         title = re.sub(r"\s*-\s*Cancelled\s*$", "", unescape(title), flags=re.IGNORECASE).strip()
         if cancelled:
+            continue
+        if PONY_CLUB_RE.search(title):
             continue
 
         date_str = unescape(re.sub(r"<[^>]+>", "", date_match.group(1))).strip()
