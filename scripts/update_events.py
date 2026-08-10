@@ -2,15 +2,16 @@
 Refreshes data/events.json from each venue's public booking calendar.
 
 Only touches events tagged "source": "auto": Moreton Morrell, Swallowfield,
-Solihull RC, Walsgrave ARC, Swalcliffe Park and Onley (native booking-platform
-events), Cotswold Cup legs at those venues plus Offchurch Bury/Hazleton
-Manor/Waverton House/Cirencester Park, and horse-events.co.uk listings at
-Swalcliffe, Moreton Morrell, Solihull RC, Dallas Burston, Barcheston, Aston
-Le Walls, Onley, and Rugby Riding Club (Pony Club-restricted events are
-filtered out of the horse-events.co.uk listings -- Sarah isn't a member).
-Onley is unusual in having two independent auto sources (its own
-myridinglife.com listing plus horse-events.co.uk) since it hosts both
-regular unaffiliated bookings and separately-organised affiliated shows.
+Solihull RC, Walsgrave ARC and Swalcliffe Park (native booking-platform
+events), Onley (Equipe organizer page -- their real system of record),
+Rugby Riding Club (their own EntryMaster Lite site), Cotswold Cup legs at
+those venues plus Offchurch Bury/Hazleton Manor/Waverton House/Cirencester
+Park, and horse-events.co.uk listings at Swalcliffe, Moreton Morrell,
+Solihull RC, Dallas Burston, Barcheston, Aston Le Walls, Onley, and Rugby
+Riding Club (Pony Club-restricted events are filtered out of the
+horse-events.co.uk listings -- Sarah isn't a member). Onley and Rugby
+Riding Club each have two independent auto sources since they host both
+their own regular bookings and separately-organised affiliated shows.
 Events tagged "source": "manual" (ASBRC, Crown RC) are left exactly as they
 are in the file -- this script never invents or removes those.
 
@@ -193,6 +194,114 @@ def fetch_cotswold_cup(session):
     return events
 
 
+def fetch_onley_equipe(session):
+    """Onley's real system of record is Equipe (organizer id 404), not
+    MyRidingLife -- it lists ~25 shows vs MyRidingLife's 1. Each show card
+    embeds a clean JSON blob (React component props) with startsOn/endsOn,
+    so no free-text date parsing is needed here."""
+    resp = session.get("https://entry.equipe.com/organizers/404/meetings", headers=HEADERS, timeout=20)
+    resp.raise_for_status()
+    html = resp.text
+
+    events = []
+    for match in re.finditer(r'data-react-component-props-value="([^"]+)"', html):
+        try:
+            payload = json.loads(unescape(match.group(1)))
+        except ValueError:
+            continue
+        name = payload.get("name")
+        url = payload.get("url")
+        starts_on = payload.get("startsOn")
+        ends_on = payload.get("endsOn")
+        if not name or not url or not starts_on:
+            continue
+        if "cancelled" in name.lower():
+            continue
+
+        title = re.sub(r"\s+", " ", name).strip()
+        start = datetime.strptime(starts_on, "%Y-%m-%d").date()
+        end = None
+        if ends_on and ends_on != starts_on:
+            end = datetime.strptime(ends_on, "%Y-%m-%d").date()
+
+        if start < TODAY or start > WINDOW_END:
+            continue
+
+        meeting_id = url.rsplit("/", 1)[-1]
+        events.append({
+            "id": f"onley-equipe-{meeting_id}",
+            "title": title,
+            "venueKey": "onley",
+            "date": start.isoformat(),
+            "endDate": end.isoformat() if end else None,
+            "time": None,
+            "type": classify(title),
+            "url": f"https://entry.equipe.com{url}",
+            "notes": "",
+            "source": "auto",
+        })
+    return events
+
+
+def fetch_rugby_entrymaster(session):
+    """Rugby Riding Club runs its own EntryMaster Lite site. The homepage
+    lists whatever's currently open for booking, including things not at
+    their own venue (e.g. an off-site Points Award afternoon) -- only keep
+    cards whose own Venue field actually says Rugby Riding Club."""
+    resp = session.get("https://rugbyrc.lite.events", headers=HEADERS, timeout=20)
+    resp.raise_for_status()
+    html = resp.text
+
+    events = []
+    for block_match in re.finditer(
+        r'<a id="(event\d+)"></a>.*?'
+        r'<div class="w3-text-white regularfont">(.*?)</div>\s*'
+        r'<div class="w3-text-sand tinyfont"><strong>(.*?)</strong></div>(.*?)'
+        r'(?=<a id="event\d+"></a>|\Z)',
+        html, re.S,
+    ):
+        anchor_id, raw_title, raw_date, tail = block_match.groups()
+        title = unescape(re.sub(r"<[^>]+>", "", raw_title)).strip()
+
+        venue_match = re.search(r"Venue:</strong>\s*([^<]+)<", tail)
+        if not venue_match or "rugby riding club" not in venue_match.group(1).strip().lower():
+            continue
+
+        date_str = unescape(re.sub(r"<[^>]+>", "", raw_date)).strip()
+        date_tokens = re.findall(r"\d{1,2} [A-Za-z]{3} \d{4}", date_str)
+        if not date_tokens:
+            continue
+        try:
+            start = datetime.strptime(date_tokens[0], "%d %b %Y").date()
+        except ValueError:
+            continue
+        end = None
+        if len(date_tokens) > 1:
+            try:
+                end_candidate = datetime.strptime(date_tokens[1], "%d %b %Y").date()
+                if end_candidate != start:
+                    end = end_candidate
+            except ValueError:
+                pass
+
+        if start < TODAY or start > WINDOW_END:
+            continue
+
+        events.append({
+            "id": f"rugby-riding-club-entrymaster-{anchor_id}",
+            "title": title,
+            "venueKey": "rugby-riding-club",
+            "date": start.isoformat(),
+            "endDate": end.isoformat() if end else None,
+            "time": None,
+            "type": classify(title),
+            "url": "https://rugbyrc.lite.events",
+            "notes": "",
+            "source": "auto",
+        })
+    return events
+
+
 # horse-events.co.uk profile slugs for venues confirmed to have one. This site
 # carries British Eventing / Pony Club style events that the MyRidingLife /
 # EquineAffairs booking platform doesn't list at all, so it's genuinely
@@ -313,7 +422,7 @@ def fetch_walsgrave(session):
     return events
 
 
-AUTO_VENUE_KEYS = ["moreton-morrell", "swallowfield", "solihull-rc", "walsgrave-arc", "swalcliffe", "onley"]
+AUTO_VENUE_KEYS = ["moreton-morrell", "swallowfield", "solihull-rc", "walsgrave-arc", "swalcliffe", "onley", "rugby-riding-club"]
 
 
 def scrape_all(session):
@@ -359,14 +468,18 @@ def scrape_all(session):
     except Exception as exc:  # noqa: BLE001
         print(f"WARN: walsgrave-arc scrape failed: {exc}", file=sys.stderr)
 
+    # NOTE: Onley's real system of record is Equipe, not MyRidingLife -- their
+    # myridinglife.com listing (locationID=2291) only had 1 event vs Equipe's
+    # ~25. Use fetch_onley_equipe below instead of fetch_ics_venue here.
     try:
-        results["onley"] = fetch_ics_venue(
-            session, "onley",
-            "https://www.myridinglife.com/RemoteLocationEventList.aspx?locationID=2291",
-            "https://www.myridinglife.com",
-        )
+        results["onley"] = fetch_onley_equipe(session)
     except Exception as exc:  # noqa: BLE001
         print(f"WARN: onley scrape failed: {exc}", file=sys.stderr)
+
+    try:
+        results["rugby-riding-club"] = fetch_rugby_entrymaster(session)
+    except Exception as exc:  # noqa: BLE001
+        print(f"WARN: rugby-riding-club scrape failed: {exc}", file=sys.stderr)
 
     try:
         results["swalcliffe"] = fetch_ics_venue(
