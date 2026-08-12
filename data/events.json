@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-11",
+  "updated": "2026-08-12",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -172,42 +172,6 @@
       "source": "manual"
     },
     {
-      "id": "moreton-morrell-553180",
-      "title": "James McCullough Evening Pole Work Clinic",
-      "venueKey": "moreton-morrell",
-      "date": "2026-08-11",
-      "endDate": null,
-      "time": null,
-      "type": "Clinic",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553180",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-8352",
-      "title": "Onley Grounds Equestrian Centre (P-GP/PYO FEI) (I-GP) Tuesday, 11 August 2026",
-      "venueKey": "onley",
-      "date": "2026-08-11",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://entry.equipe.com/meetings/8352",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-538979",
-      "title": "Evening Progressive Clear Round Show Jumping",
-      "venueKey": "solihull-rc",
-      "date": "2026-08-11",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=538979",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "moreton-morrell-553173",
       "title": "Kate Cowell 1 to 1 Dressage Clinic",
       "venueKey": "moreton-morrell",
@@ -232,30 +196,6 @@
       "source": "auto"
     },
     {
-      "id": "swallowfield-556310",
-      "title": "Swallowfield Equestrian Evening Stressless Dressage sponsored by Align Rider Solutions",
-      "venueKey": "swallowfield",
-      "date": "2026-08-12",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=556310",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-8354",
-      "title": "Onley Grounds EC British Dressage Petplan Summer Area Festival 13th - 16th August 2026",
-      "venueKey": "onley",
-      "date": "2026-08-13",
-      "endDate": "2026-08-16",
-      "time": null,
-      "type": "Dressage",
-      "url": "https://entry.equipe.com/meetings/8354",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "moreton-morrell-566725",
       "title": "Miniature Horse show - Stabling Only",
       "venueKey": "moreton-morrell",
@@ -264,6 +204,18 @@
       "time": null,
       "type": "Show",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=566725",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "onley-equipe-8354",
+      "title": "Onley Grounds EC British Dressage Petplan Summer Area Festival 14th - 17th August 2026",
+      "venueKey": "onley",
+      "date": "2026-08-14",
+      "endDate": "2026-08-17",
+      "time": null,
+      "type": "Dressage",
+      "url": "https://entry.equipe.com/meetings/8354",
       "notes": "",
       "source": "auto"
     },
@@ -288,6 +240,18 @@
       "time": null,
       "type": "Training",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=568120",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-556310",
+      "title": "Swallowfield Equestrian Stressless Dressage sponsored by Align Rider Solutions",
+      "venueKey": "swallowfield",
+      "date": "2026-08-15",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=556310",
       "notes": "",
       "source": "auto"
     },
@@ -720,6 +684,18 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=538996",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-569988",
+      "title": "Swallowfield Equestrian British Dressage QWL",
+      "venueKey": "swallowfield",
+      "date": "2026-09-05",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=569988",
       "notes": "",
       "source": "auto"
     },
@@ -1500,6 +1476,30 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=565553",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-553183",
+      "title": "James McCullough Evening Pole Work Clinic",
+      "venueKey": "moreton-morrell",
+      "date": "2026-11-10",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553183",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "solihull-rc-538986",
+      "title": "Evening Progressive Clear Round Show Jumping",
+      "venueKey": "solihull-rc",
+      "date": "2026-11-10",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=538986",
       "notes": "",
       "source": "auto"
     }
