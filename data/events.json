@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12",
+  "updated": "2026-08-13",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -170,30 +170,6 @@
       "url": "https://www.crownriding.co.uk/news",
       "notes": "Full-time (21-23 Aug), Saturday-only, and Sunday-only options advertised. The only 2026 date found on Crown's public site — their main competition calendar sits behind the member-only portal.",
       "source": "manual"
-    },
-    {
-      "id": "moreton-morrell-553173",
-      "title": "Kate Cowell 1 to 1 Dressage Clinic",
-      "venueKey": "moreton-morrell",
-      "date": "2026-08-12",
-      "endDate": null,
-      "time": null,
-      "type": "Clinic",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553173",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-8355",
-      "title": "Onley Grounds EC- British Dressage Petplan Festival Stables 12th - 16th August 2026",
-      "venueKey": "onley",
-      "date": "2026-08-12",
-      "endDate": "2026-08-16",
-      "time": null,
-      "type": "Dressage",
-      "url": "https://entry.equipe.com/meetings/8355",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "moreton-morrell-566725",
@@ -868,6 +844,18 @@
       "source": "auto"
     },
     {
+      "id": "solihull-rc-570034",
+      "title": "Unaffiliated Dressage Championship",
+      "venueKey": "solihull-rc",
+      "date": "2026-09-13",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=570034",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "horse-events-swalcliffe-23348",
       "title": "Swalcliffe Park Mini Eventer Challenge kindly sponsored by Aspen Cooling Ltd",
       "venueKey": "swalcliffe",
@@ -1500,6 +1488,18 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=538986",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "solihull-rc-566814",
+      "title": "Senior British Show Jumping Cat 2",
+      "venueKey": "solihull-rc",
+      "date": "2026-11-11",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=566814",
       "notes": "",
       "source": "auto"
     }
