@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-13",
+  "updated": "2026-08-14",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -372,6 +372,18 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://entry.equipe.com/meetings/8072",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "solihull-rc-570099",
+      "title": "Carefree & Casual Dressage",
+      "venueKey": "solihull-rc",
+      "date": "2026-08-22",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=570099",
       "notes": "",
       "source": "auto"
     },
@@ -832,6 +844,18 @@
       "source": "auto"
     },
     {
+      "id": "solihull-rc-570510",
+      "title": "Charity Hack & Snack",
+      "venueKey": "solihull-rc",
+      "date": "2026-09-12",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=570510",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "solihull-rc-566463",
       "title": "Solihull Riding Club Car Boot and Second-Hand Tack Sale",
       "venueKey": "solihull-rc",
@@ -964,6 +988,18 @@
       "source": "auto"
     },
     {
+      "id": "onley-equipe-9047",
+      "title": "Onley Grounds Equestrian Complex - Saturday 19th September - Unaffiliated Dressage - International Outdoor Arena",
+      "venueKey": "onley",
+      "date": "2026-09-19",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://entry.equipe.com/meetings/9047",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "onley-equipe-8317",
       "title": "SSADL 19th & 20th September 2026",
       "venueKey": "onley",
@@ -996,6 +1032,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=563052",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "onley-equipe-9046",
+      "title": "Onley Grounds Unaffiliated Showjumping - Sunday 20th Septmber 2026",
+      "venueKey": "onley",
+      "date": "2026-09-20",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://entry.equipe.com/meetings/9046",
       "notes": "",
       "source": "auto"
     },
@@ -1500,6 +1548,18 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=566814",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-553252",
+      "title": "Moreton Morrell Evening Unaff Dress Down Dressage Competition Inc Stoneleigh RC Points",
+      "venueKey": "moreton-morrell",
+      "date": "2026-11-12",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553252",
       "notes": "",
       "source": "auto"
     }
