@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14",
+  "updated": "2026-08-15",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -170,30 +170,6 @@
       "url": "https://www.crownriding.co.uk/news",
       "notes": "Full-time (21-23 Aug), Saturday-only, and Sunday-only options advertised. The only 2026 date found on Crown's public site — their main competition calendar sits behind the member-only portal.",
       "source": "manual"
-    },
-    {
-      "id": "moreton-morrell-566725",
-      "title": "Miniature Horse show - Stabling Only",
-      "venueKey": "moreton-morrell",
-      "date": "2026-08-14",
-      "endDate": "2026-08-16",
-      "time": null,
-      "type": "Show",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=566725",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-8354",
-      "title": "Onley Grounds EC British Dressage Petplan Summer Area Festival 14th - 17th August 2026",
-      "venueKey": "onley",
-      "date": "2026-08-14",
-      "endDate": "2026-08-17",
-      "time": null,
-      "type": "Dressage",
-      "url": "https://entry.equipe.com/meetings/8354",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "solihull-rc-538995",
@@ -1048,6 +1024,18 @@
       "source": "auto"
     },
     {
+      "id": "onley-equipe-9051",
+      "title": "Onley Grounds Equestrian Complex - Evening Dress Down Dressage - Wednesday 23rd September - Indoor - from 17.30pm",
+      "venueKey": "onley",
+      "date": "2026-09-23",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://entry.equipe.com/meetings/9051",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "onley-equipe-7784",
       "title": "Onley Grounds Senior British Showjumping - 23 September 2026",
       "venueKey": "onley",
@@ -1084,6 +1072,18 @@
       "source": "auto"
     },
     {
+      "id": "onley-equipe-9050",
+      "title": "Onley Grounds Evening Clear Round - Thursday 24th September 2026 - 17.30pm start",
+      "venueKey": "onley",
+      "date": "2026-09-24",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://entry.equipe.com/meetings/9050",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "solihull-rc-565542",
       "title": "British Dressage (P-GP/PYO FEI)+FS",
       "venueKey": "solihull-rc",
@@ -1104,6 +1104,18 @@
       "time": null,
       "type": "Show",
       "url": "https://cotswoldcup.co.uk/",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "onley-equipe-7812",
+      "title": "Onley Grounds Unaffiliated Showjumping - Saturday 26th September 2026",
+      "venueKey": "onley",
+      "date": "2026-09-26",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://entry.equipe.com/meetings/7812",
       "notes": "",
       "source": "auto"
     },
