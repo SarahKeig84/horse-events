@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15",
+  "updated": "2026-08-16",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -170,42 +170,6 @@
       "url": "https://www.crownriding.co.uk/news",
       "notes": "Full-time (21-23 Aug), Saturday-only, and Sunday-only options advertised. The only 2026 date found on Crown's public site — their main competition calendar sits behind the member-only portal.",
       "source": "manual"
-    },
-    {
-      "id": "solihull-rc-538995",
-      "title": "Weekend Winter Unaffiliated & Mini Show Jumping inc BRC Club & Trailblazers Qualifiers",
-      "venueKey": "solihull-rc",
-      "date": "2026-08-15",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=538995",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-568120",
-      "title": "Swallowfield Equestrian Cross Country Schooling",
-      "venueKey": "swallowfield",
-      "date": "2026-08-15",
-      "endDate": null,
-      "time": null,
-      "type": "Training",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=568120",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-556310",
-      "title": "Swallowfield Equestrian Stressless Dressage sponsored by Align Rider Solutions",
-      "venueKey": "swallowfield",
-      "date": "2026-08-15",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=556310",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "horse-events-aston-le-walls-28388",
@@ -700,18 +664,6 @@
       "source": "auto"
     },
     {
-      "id": "onley-equipe-7783",
-      "title": "Onley Grounds Senior British Showjumping - 9 September 2026",
-      "venueKey": "onley",
-      "date": "2026-09-09",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://entry.equipe.com/meetings/7783",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "solihull-rc-554161",
       "title": "Carefree & Casual Evening Dressage",
       "venueKey": "solihull-rc",
@@ -952,18 +904,6 @@
       "source": "auto"
     },
     {
-      "id": "onley-equipe-8450",
-      "title": "Concours De Elegance - Stable Bookings thursday 24th - Sunday 27th September 2026",
-      "venueKey": "onley",
-      "date": "2026-09-19",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://entry.equipe.com/meetings/8450",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "onley-equipe-9047",
       "title": "Onley Grounds Equestrian Complex - Saturday 19th September - Unaffiliated Dressage - International Outdoor Arena",
       "venueKey": "onley",
@@ -1072,6 +1012,18 @@
       "source": "auto"
     },
     {
+      "id": "onley-equipe-8450",
+      "title": "Concours De Elegance - Stable Bookings thursday 24th - Sunday 27th September 2026",
+      "venueKey": "onley",
+      "date": "2026-09-24",
+      "endDate": "2026-09-27",
+      "time": null,
+      "type": "Other",
+      "url": "https://entry.equipe.com/meetings/8450",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "onley-equipe-9050",
       "title": "Onley Grounds Evening Clear Round - Thursday 24th September 2026 - 17.30pm start",
       "venueKey": "onley",
@@ -1169,7 +1121,7 @@
     },
     {
       "id": "onley-equipe-7818",
-      "title": "Onley Grounds Evening Clear Round - 29 September 2026",
+      "title": "Onley Grounds Evening Clear Round - 29 September 2026 - Indoor - 17.30pm start",
       "venueKey": "onley",
       "date": "2026-09-29",
       "endDate": null,
@@ -1572,6 +1524,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553252",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "solihull-rc-538997",
+      "title": "Weekend Winter Unaffiliated & Mini Show Jumping inc BRC Club & Trailblazers Qualifiers",
+      "venueKey": "solihull-rc",
+      "date": "2026-11-14",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=538997",
       "notes": "",
       "source": "auto"
     }
