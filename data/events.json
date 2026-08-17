@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-16",
+  "updated": "2026-08-17",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -170,42 +170,6 @@
       "url": "https://www.crownriding.co.uk/news",
       "notes": "Full-time (21-23 Aug), Saturday-only, and Sunday-only options advertised. The only 2026 date found on Crown's public site — their main competition calendar sits behind the member-only portal.",
       "source": "manual"
-    },
-    {
-      "id": "horse-events-aston-le-walls-28388",
-      "title": "Aston Le Walls Two Phase SJ & XC Sunday 16 August",
-      "venueKey": "aston-le-walls",
-      "date": "2026-08-16",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.horse-events.co.uk/horse-events/aston-le-walls-two-phase-sj-xc-sunday-16-august",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-559525",
-      "title": "Working Equitation with Emma Taylor",
-      "venueKey": "swallowfield",
-      "date": "2026-08-16",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=559525",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "walsgrave-arc-2026-08-16",
-      "title": "Club Show",
-      "venueKey": "walsgrave-arc",
-      "date": "2026-08-16",
-      "endDate": null,
-      "time": "10:00",
-      "type": "Show",
-      "url": "https://www.walsgravearc.co.uk/calendar",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "horse-events-aston-le-walls-28389",
@@ -1536,6 +1500,30 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=538997",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-563252",
+      "title": "Kate Cowell 1 to 1 Dressage Clinic",
+      "venueKey": "moreton-morrell",
+      "date": "2026-11-15",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=563252",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "solihull-rc-566820",
+      "title": "Senior British Show Jumping Cat 1",
+      "venueKey": "solihull-rc",
+      "date": "2026-11-15",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=566820",
       "notes": "",
       "source": "auto"
     }
