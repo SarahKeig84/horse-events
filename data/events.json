@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17",
+  "updated": "2026-08-18",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -172,18 +172,6 @@
       "source": "manual"
     },
     {
-      "id": "horse-events-aston-le-walls-28389",
-      "title": "Aston Le Walls Two Phase SJ & XC Monday 17th August 2026",
-      "venueKey": "aston-le-walls",
-      "date": "2026-08-17",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.horse-events.co.uk/horse-events/aston-le-walls-two-phase-sj-xc-monday-17th-august-2026",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "solihull-rc-568501",
       "title": "Jane Richmond Evening Polework Clinic",
       "venueKey": "solihull-rc",
@@ -348,6 +336,18 @@
       "time": null,
       "type": "Training",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=568121",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "solihull-rc-571139",
+      "title": "Evening Progressive Clear Round Show Jumping",
+      "venueKey": "solihull-rc",
+      "date": "2026-08-25",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571139",
       "notes": "",
       "source": "auto"
     },
@@ -568,6 +568,18 @@
       "source": "auto"
     },
     {
+      "id": "solihull-rc-571151",
+      "title": "Inter Area Summer Show Jumping Championship",
+      "venueKey": "solihull-rc",
+      "date": "2026-09-05",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571151",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "solihull-rc-538996",
       "title": "Weekend Winter Unaffiliated & Mini Show Jumping inc BRC Club & Trailblazers Qualifiers",
       "venueKey": "solihull-rc",
@@ -592,6 +604,18 @@
       "source": "auto"
     },
     {
+      "id": "swallowfield-571154",
+      "title": "Unaffiliated Short Arena Dressage Series with Trailblazer First Round Qualifiers",
+      "venueKey": "swallowfield",
+      "date": "2026-09-05",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571154",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "onley-equipe-8967",
       "title": "Onley Grounds Equestrian Complex - Sunday 6th September - Unaffiliated Dressage - Indoor",
       "venueKey": "onley",
@@ -600,6 +624,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://entry.equipe.com/meetings/8967",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "solihull-rc-571129",
+      "title": "Inter Area Summer Dressage Championships",
+      "venueKey": "solihull-rc",
+      "date": "2026-09-06",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571129",
       "notes": "",
       "source": "auto"
     },
@@ -744,6 +780,30 @@
       "time": null,
       "type": "Other",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=570510",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-571072",
+      "title": "Swallowfield Equestrian British Dressage QWL",
+      "venueKey": "swallowfield",
+      "date": "2026-09-12",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571072",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-571152",
+      "title": "Swallowfield Equestrian Unaffiliated Stressless Dressage",
+      "venueKey": "swallowfield",
+      "date": "2026-09-12",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571152",
       "notes": "",
       "source": "auto"
     },
@@ -916,6 +976,18 @@
       "source": "auto"
     },
     {
+      "id": "swallowfield-571155",
+      "title": "Unaffiliated Short Arena Dressage Series with Trailblazer First Round Qualifiers",
+      "venueKey": "swallowfield",
+      "date": "2026-09-19",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571155",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "onley-equipe-9046",
       "title": "Onley Grounds Unaffiliated Showjumping - Sunday 20th Septmber 2026",
       "venueKey": "onley",
@@ -1036,6 +1108,18 @@
       "source": "auto"
     },
     {
+      "id": "swallowfield-571130",
+      "title": "BWE Regional Competition at Swallowfield EC",
+      "venueKey": "swallowfield",
+      "date": "2026-09-26",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571130",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "moreton-morrell-553177",
       "title": "Kate Cowell 1 to 1 Dressage Clinic",
       "venueKey": "moreton-morrell",
@@ -1068,6 +1152,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=565093",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-571153",
+      "title": "Swallowfield Equestrian Unaffiliated Long Arena Dressage",
+      "venueKey": "swallowfield",
+      "date": "2026-09-27",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571153",
       "notes": "",
       "source": "auto"
     },
@@ -1140,6 +1236,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=565543",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-571134",
+      "title": "Working Equitation with Emma Taylor",
+      "venueKey": "swallowfield",
+      "date": "2026-10-03",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571134",
       "notes": "",
       "source": "auto"
     },
@@ -1444,6 +1552,18 @@
       "source": "auto"
     },
     {
+      "id": "swallowfield-571135",
+      "title": "Working Equitation with Emma Taylor",
+      "venueKey": "swallowfield",
+      "date": "2026-11-07",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571135",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "moreton-morrell-553183",
       "title": "James McCullough Evening Pole Work Clinic",
       "venueKey": "moreton-morrell",
@@ -1524,6 +1644,18 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=566820",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-551178",
+      "title": "Richard Baldwin one to one Dressage Clinic",
+      "venueKey": "moreton-morrell",
+      "date": "2026-11-16",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=551178",
       "notes": "",
       "source": "auto"
     }
