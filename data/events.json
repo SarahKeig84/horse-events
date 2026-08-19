@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18",
+  "updated": "2026-08-19",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -170,18 +170,6 @@
       "url": "https://www.crownriding.co.uk/news",
       "notes": "Full-time (21-23 Aug), Saturday-only, and Sunday-only options advertised. The only 2026 date found on Crown's public site — their main competition calendar sits behind the member-only portal.",
       "source": "manual"
-    },
-    {
-      "id": "solihull-rc-568501",
-      "title": "Jane Richmond Evening Polework Clinic",
-      "venueKey": "solihull-rc",
-      "date": "2026-08-18",
-      "endDate": null,
-      "time": null,
-      "type": "Clinic",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=568501",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "solihull-rc-554160",
@@ -612,6 +600,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571154",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-571192",
+      "title": "Moreton Morrell British Dressage (P-GP/PYO FEI)+FS",
+      "venueKey": "moreton-morrell",
+      "date": "2026-09-06",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=571192",
       "notes": "",
       "source": "auto"
     },
@@ -1276,6 +1276,18 @@
       "source": "auto"
     },
     {
+      "id": "moreton-morrell-571193",
+      "title": "Moreton Morrell British Dressage (P-GP/PYO FEI)+FS+PE",
+      "venueKey": "moreton-morrell",
+      "date": "2026-10-10",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=571193",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "solihull-rc-566464",
       "title": "Solihull Riding Club Car Boot and Second-Hand Tack Sale",
       "venueKey": "solihull-rc",
@@ -1608,6 +1620,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553252",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-571194",
+      "title": "Moreton Morrell British Dressage (P-GP/PYO FEI)+FS",
+      "venueKey": "moreton-morrell",
+      "date": "2026-11-14",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=571194",
       "notes": "",
       "source": "auto"
     },
