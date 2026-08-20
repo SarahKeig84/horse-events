@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19",
+  "updated": "2026-08-20",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -170,30 +170,6 @@
       "url": "https://www.crownriding.co.uk/news",
       "notes": "Full-time (21-23 Aug), Saturday-only, and Sunday-only options advertised. The only 2026 date found on Crown's public site — their main competition calendar sits behind the member-only portal.",
       "source": "manual"
-    },
-    {
-      "id": "solihull-rc-554160",
-      "title": "Carefree & Casual Evening Dressage",
-      "venueKey": "solihull-rc",
-      "date": "2026-08-19",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=554160",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-556768",
-      "title": "The Dancing Horse Clinic with Ali Lane",
-      "venueKey": "swallowfield",
-      "date": "2026-08-19",
-      "endDate": null,
-      "time": null,
-      "type": "Clinic",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=556768",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "moreton-morrell-545542",
@@ -444,6 +420,18 @@
       "time": null,
       "type": "Other",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=565570",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-571280",
+      "title": "Swallowfield Equestrian Cross Country Schooling",
+      "venueKey": "swallowfield",
+      "date": "2026-08-31",
+      "endDate": null,
+      "time": null,
+      "type": "Training",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571280",
       "notes": "",
       "source": "auto"
     },
@@ -833,13 +821,25 @@
     },
     {
       "id": "horse-events-swalcliffe-23348",
-      "title": "Swalcliffe Park Mini Eventer Challenge kindly sponsored by Aspen Cooling Ltd",
+      "title": "Swalcliffe Park Mini Eventer Challenge CHAMPIONSHIP kindly sponsored by Aspen Cooling Ltd",
       "venueKey": "swalcliffe",
       "date": "2026-09-13",
       "endDate": null,
       "time": null,
-      "type": "Other",
+      "type": "Show",
       "url": "https://www.horse-events.co.uk/horse-events/swalcliffe-park-mini-eventer-challenge-kindly-sponsored-by-aspen-cooling-ltd-20260913",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-571287",
+      "title": "Swallowfield Equestrian Cross Country Schooling",
+      "venueKey": "swallowfield",
+      "date": "2026-09-13",
+      "endDate": null,
+      "time": null,
+      "type": "Training",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571287",
       "notes": "",
       "source": "auto"
     },
@@ -892,6 +892,18 @@
       "source": "auto"
     },
     {
+      "id": "swallowfield-571276",
+      "title": "Indoor Polework Clinic with Jo Swain",
+      "venueKey": "swallowfield",
+      "date": "2026-09-16",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571276",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "onley-equipe-7817",
       "title": "Onley Grounds Evening Clear Round - 17 September 2026",
       "venueKey": "onley",
@@ -912,6 +924,18 @@
       "time": null,
       "type": "Clinic",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=568502",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-571285",
+      "title": "Swallowfield Equestrian Cross Country Schooling",
+      "venueKey": "swallowfield",
+      "date": "2026-09-18",
+      "endDate": null,
+      "time": null,
+      "type": "Training",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571285",
       "notes": "",
       "source": "auto"
     },
@@ -1108,6 +1132,18 @@
       "source": "auto"
     },
     {
+      "id": "solihull-rc-571273",
+      "title": "Pre- HOYS Unaffiliated Working Hunter Show",
+      "venueKey": "solihull-rc",
+      "date": "2026-09-26",
+      "endDate": null,
+      "time": null,
+      "type": "Show",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571273",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "swallowfield-571130",
       "title": "BWE Regional Competition at Swallowfield EC",
       "venueKey": "swallowfield",
@@ -1228,6 +1264,30 @@
       "source": "auto"
     },
     {
+      "id": "onley-equipe-8478",
+      "title": "Onley Grounds Oktoberfest Senior BS - 1st to 4th Oct 2026",
+      "venueKey": "onley",
+      "date": "2026-10-01",
+      "endDate": "2026-10-04",
+      "time": null,
+      "type": "Other",
+      "url": "https://entry.equipe.com/meetings/8478",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "onley-equipe-8479",
+      "title": "Onley Grounds Oktoberfest Stables - 1st-4th Oct 2026",
+      "venueKey": "onley",
+      "date": "2026-10-01",
+      "endDate": "2026-10-04",
+      "time": null,
+      "type": "Other",
+      "url": "https://entry.equipe.com/meetings/8479",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "solihull-rc-565543",
       "title": "British Dressage (P-GP/PYO FEI)+FS",
       "venueKey": "solihull-rc",
@@ -1236,6 +1296,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=565543",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-571286",
+      "title": "Swallowfield Equestrian Cross Country Schooling",
+      "venueKey": "swallowfield",
+      "date": "2026-10-03",
+      "endDate": null,
+      "time": null,
+      "type": "Training",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571286",
       "notes": "",
       "source": "auto"
     },
@@ -1288,6 +1360,18 @@
       "source": "auto"
     },
     {
+      "id": "swallowfield-571275",
+      "title": "Pick & Mix Training Camp",
+      "venueKey": "swallowfield",
+      "date": "2026-10-10",
+      "endDate": null,
+      "time": null,
+      "type": "Training",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571275",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "solihull-rc-566464",
       "title": "Solihull Riding Club Car Boot and Second-Hand Tack Sale",
       "venueKey": "solihull-rc",
@@ -1320,6 +1404,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=554162",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-571277",
+      "title": "Indoor Polework Clinic with Jo Swain",
+      "venueKey": "swallowfield",
+      "date": "2026-10-14",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571277",
       "notes": "",
       "source": "auto"
     },
@@ -1612,6 +1708,18 @@
       "source": "auto"
     },
     {
+      "id": "swallowfield-571278",
+      "title": "Indoor Polework Clinic with Jo Swain",
+      "venueKey": "swallowfield",
+      "date": "2026-11-11",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571278",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "moreton-morrell-553252",
       "title": "Moreton Morrell Evening Unaff Dress Down Dressage Competition Inc Stoneleigh RC Points",
       "venueKey": "moreton-morrell",
@@ -1680,6 +1788,30 @@
       "time": null,
       "type": "Clinic",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=551178",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "solihull-rc-554163",
+      "title": "Carefree & Casual Evening Dressage",
+      "venueKey": "solihull-rc",
+      "date": "2026-11-18",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=554163",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-556774",
+      "title": "The Dancing Horse Clinic with Ali Lane",
+      "venueKey": "swallowfield",
+      "date": "2026-11-18",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=556774",
       "notes": "",
       "source": "auto"
     }
