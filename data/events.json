@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20",
+  "updated": "2026-08-21",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -170,54 +170,6 @@
       "url": "https://www.crownriding.co.uk/news",
       "notes": "Full-time (21-23 Aug), Saturday-only, and Sunday-only options advertised. The only 2026 date found on Crown's public site — their main competition calendar sits behind the member-only portal.",
       "source": "manual"
-    },
-    {
-      "id": "moreton-morrell-545542",
-      "title": "Moreton Morrell Evening Unaff Dress Down Dressage Competition Inc Stoneleigh RC Points",
-      "venueKey": "moreton-morrell",
-      "date": "2026-08-20",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=545542",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-7815",
-      "title": "Onley Grounds Evening Clear Round - 20 August 2026",
-      "venueKey": "onley",
-      "date": "2026-08-20",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://entry.equipe.com/meetings/7815",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-8868",
-      "title": "Onley Grounds Senior British Showjumping - 21st - 23rd August 2026",
-      "venueKey": "onley",
-      "date": "2026-08-20",
-      "endDate": "2026-08-23",
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://entry.equipe.com/meetings/8868",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-560409",
-      "title": "British Dressage (P-GP/PYO FEI)+PE",
-      "venueKey": "solihull-rc",
-      "date": "2026-08-20",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=560409",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "onley-equipe-8072",
@@ -756,18 +708,6 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://entry.equipe.com/meetings/7813",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-570510",
-      "title": "Charity Hack & Snack",
-      "venueKey": "solihull-rc",
-      "date": "2026-09-12",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=570510",
       "notes": "",
       "source": "auto"
     },
@@ -1324,6 +1264,18 @@
       "source": "auto"
     },
     {
+      "id": "horse-events-aston-le-walls-29430",
+      "title": "The Grafton Eventer Challenge Sunday 4th October 2026 SAVE THE DATE",
+      "venueKey": "aston-le-walls",
+      "date": "2026-10-04",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.horse-events.co.uk/horse-events/the-grafton-eventer-challenge-sunday-4th-october-2026",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "swallowfield-556771",
       "title": "The Dancing Horse Clinic with Ali Lane",
       "venueKey": "swallowfield",
@@ -1812,6 +1764,30 @@
       "time": null,
       "type": "Clinic",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=556774",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-553251",
+      "title": "Moreton Morrell Thursday Night Progressive Clear Round Jumping",
+      "venueKey": "moreton-morrell",
+      "date": "2026-11-19",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553251",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "solihull-rc-565578",
+      "title": "British Dressage (P-GP/PYO FEI)+PE+PEFS",
+      "venueKey": "solihull-rc",
+      "date": "2026-11-19",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=565578",
       "notes": "",
       "source": "auto"
     }
