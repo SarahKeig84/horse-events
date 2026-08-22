@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21",
+  "updated": "2026-08-22",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -170,18 +170,6 @@
       "url": "https://www.crownriding.co.uk/news",
       "notes": "Full-time (21-23 Aug), Saturday-only, and Sunday-only options advertised. The only 2026 date found on Crown's public site — their main competition calendar sits behind the member-only portal.",
       "source": "manual"
-    },
-    {
-      "id": "onley-equipe-8072",
-      "title": "Onley Grounds British Showjumping Stables - 21st to 23rd August 2026",
-      "venueKey": "onley",
-      "date": "2026-08-21",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://entry.equipe.com/meetings/8072",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "solihull-rc-570099",
@@ -712,6 +700,18 @@
       "source": "auto"
     },
     {
+      "id": "solihull-rc-571492",
+      "title": "Charity Hack & Snack Fun Ride",
+      "venueKey": "solihull-rc",
+      "date": "2026-09-12",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571492",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "swallowfield-571072",
       "title": "Swallowfield Equestrian British Dressage QWL",
       "venueKey": "swallowfield",
@@ -1205,7 +1205,7 @@
     },
     {
       "id": "onley-equipe-8478",
-      "title": "Onley Grounds Oktoberfest Senior BS - 1st to 4th Oct 2026",
+      "title": "Onley Grounds Oktober Fest Senior BS - 1st to 4th Oct 2026",
       "venueKey": "onley",
       "date": "2026-10-01",
       "endDate": "2026-10-04",
