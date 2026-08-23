@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22",
+  "updated": "2026-08-23",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -170,42 +170,6 @@
       "url": "https://www.crownriding.co.uk/news",
       "notes": "Full-time (21-23 Aug), Saturday-only, and Sunday-only options advertised. The only 2026 date found on Crown's public site — their main competition calendar sits behind the member-only portal.",
       "source": "manual"
-    },
-    {
-      "id": "solihull-rc-570099",
-      "title": "Carefree & Casual Dressage",
-      "venueKey": "solihull-rc",
-      "date": "2026-08-22",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=570099",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-561487",
-      "title": "Swallowfield Equestrian British Dressage TQ",
-      "venueKey": "swallowfield",
-      "date": "2026-08-22",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=561487",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-566655",
-      "title": "Swallowfield Equestrian Unaffiliated Long Arena Dressage",
-      "venueKey": "swallowfield",
-      "date": "2026-08-22",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=566655",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "solihull-rc-560598",
