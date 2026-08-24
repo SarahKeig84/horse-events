@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23",
+  "updated": "2026-08-24",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -170,42 +170,6 @@
       "url": "https://www.crownriding.co.uk/news",
       "notes": "Full-time (21-23 Aug), Saturday-only, and Sunday-only options advertised. The only 2026 date found on Crown's public site — their main competition calendar sits behind the member-only portal.",
       "source": "manual"
-    },
-    {
-      "id": "solihull-rc-560598",
-      "title": "British Dressage (P-GP/PYO FEI)+FS",
-      "venueKey": "solihull-rc",
-      "date": "2026-08-23",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=560598",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-568549",
-      "title": "Unaffiliated Dressage inc MCI & SSADL Blue Chip Qualifiers",
-      "venueKey": "solihull-rc",
-      "date": "2026-08-23",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=568549",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-568121",
-      "title": "Swallowfield Equestrian Cross Country Schooling",
-      "venueKey": "swallowfield",
-      "date": "2026-08-23",
-      "endDate": null,
-      "time": null,
-      "type": "Training",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=568121",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "solihull-rc-571139",
@@ -1145,7 +1109,7 @@
     },
     {
       "id": "onley-equipe-7785",
-      "title": "Onley Grounds Senior British Showjumping -30 September 2026",
+      "title": "Onley Grounds Senior British Showjumping (Indoors) -30 September 2026",
       "venueKey": "onley",
       "date": "2026-09-30",
       "endDate": null,
@@ -1308,18 +1272,6 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=567258",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-554162",
-      "title": "Carefree & Casual Evening Dressage",
-      "venueKey": "solihull-rc",
-      "date": "2026-10-14",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=554162",
       "notes": "",
       "source": "auto"
     },
@@ -1504,6 +1456,18 @@
       "source": "auto"
     },
     {
+      "id": "onley-equipe-9088",
+      "title": "Onley Grounds Senior British Showjumping - 29 October 2026",
+      "venueKey": "onley",
+      "date": "2026-10-29",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://entry.equipe.com/meetings/9088",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "solihull-rc-568504",
       "title": "Jane Richmond Evening Polework Clinic",
       "venueKey": "solihull-rc",
@@ -1648,6 +1612,18 @@
       "source": "auto"
     },
     {
+      "id": "onley-equipe-9105",
+      "title": "Onley Grounds Stables BS 12-15th November 2026",
+      "venueKey": "onley",
+      "date": "2026-11-12",
+      "endDate": "2026-11-15",
+      "time": null,
+      "type": "Other",
+      "url": "https://entry.equipe.com/meetings/9105",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "moreton-morrell-571194",
       "title": "Moreton Morrell British Dressage (P-GP/PYO FEI)+FS",
       "venueKey": "moreton-morrell",
@@ -1708,18 +1684,6 @@
       "source": "auto"
     },
     {
-      "id": "solihull-rc-554163",
-      "title": "Carefree & Casual Evening Dressage",
-      "venueKey": "solihull-rc",
-      "date": "2026-11-18",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=554163",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "swallowfield-556774",
       "title": "The Dancing Horse Clinic with Ali Lane",
       "venueKey": "swallowfield",
@@ -1752,6 +1716,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=565578",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-571296",
+      "title": "Kate Cowell 1 to 1 Dressage Clinic",
+      "venueKey": "moreton-morrell",
+      "date": "2026-11-22",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=571296",
       "notes": "",
       "source": "auto"
     }
