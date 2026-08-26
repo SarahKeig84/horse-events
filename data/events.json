@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25",
+  "updated": "2026-08-26",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -170,18 +170,6 @@
       "url": "https://www.crownriding.co.uk/news",
       "notes": "Full-time (21-23 Aug), Saturday-only, and Sunday-only options advertised. The only 2026 date found on Crown's public site — their main competition calendar sits behind the member-only portal.",
       "source": "manual"
-    },
-    {
-      "id": "solihull-rc-571139",
-      "title": "Evening Progressive Clear Round Show Jumping",
-      "venueKey": "solihull-rc",
-      "date": "2026-08-25",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571139",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "moreton-morrell-567330",
@@ -1204,6 +1192,18 @@
       "source": "auto"
     },
     {
+      "id": "moreton-morrell-572044",
+      "title": "WHPC Open Winter Show Jumping Show",
+      "venueKey": "moreton-morrell",
+      "date": "2026-10-04",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=572044",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "swallowfield-556771",
       "title": "The Dancing Horse Clinic with Ali Lane",
       "venueKey": "swallowfield",
@@ -1228,6 +1228,18 @@
       "source": "auto"
     },
     {
+      "id": "horse-events-aston-le-walls-29584",
+      "title": "Aston le Walls KBIS Arena Eventer Challenge Saturday 10th October 2026",
+      "venueKey": "aston-le-walls",
+      "date": "2026-10-10",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.horse-events.co.uk/horse-events/aston-le-walls-kbis-arena-eventer-challenge-saturday-10th-october-2026",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "moreton-morrell-571193",
       "title": "Moreton Morrell British Dressage (P-GP/PYO FEI)+FS+PE",
       "venueKey": "moreton-morrell",
@@ -1248,6 +1260,18 @@
       "time": null,
       "type": "Training",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571275",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "horse-events-aston-le-walls-29096",
+      "title": "Bloxham Aston Le Walls Eventer Challenge Series 2027",
+      "venueKey": "aston-le-walls",
+      "date": "2026-10-11",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.horse-events.co.uk/horse-events/bloxham-aston-le-walls-eventer-challenge-series-2027",
       "notes": "",
       "source": "auto"
     },
@@ -1728,6 +1752,18 @@
       "time": null,
       "type": "Clinic",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=571296",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "solihull-rc-538987",
+      "title": "Evening Progressive Clear Round Show Jumping",
+      "venueKey": "solihull-rc",
+      "date": "2026-11-24",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=538987",
       "notes": "",
       "source": "auto"
     }
