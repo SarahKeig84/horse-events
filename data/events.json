@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26",
+  "updated": "2026-08-27",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -172,18 +172,6 @@
       "source": "manual"
     },
     {
-      "id": "moreton-morrell-567330",
-      "title": "Moreton Morrell British Hannoverian Horse Society Stabling Only",
-      "venueKey": "moreton-morrell",
-      "date": "2026-08-26",
-      "endDate": "2026-08-29",
-      "time": null,
-      "type": "Other",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=567330",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "moreton-morrell-562995",
       "title": "The British Hanoverian Society Annual Show",
       "venueKey": "moreton-morrell",
@@ -316,6 +304,18 @@
       "source": "auto"
     },
     {
+      "id": "swallowfield-572297",
+      "title": "Outdoor Arena Show Jumping Course Hire",
+      "venueKey": "swallowfield",
+      "date": "2026-09-01",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=572297",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "onley-equipe-7782",
       "title": "Onley Grounds Senior British Showjumping - 2 September 2026",
       "venueKey": "onley",
@@ -324,6 +324,18 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://entry.equipe.com/meetings/7782",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-572298",
+      "title": "Outdoor Arena Show Jumping Course Hire",
+      "venueKey": "swallowfield",
+      "date": "2026-09-02",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=572298",
       "notes": "",
       "source": "auto"
     },
@@ -384,6 +396,42 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=568551",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-572299",
+      "title": "Outdoor Arena Show Jumping Course Hire",
+      "venueKey": "swallowfield",
+      "date": "2026-09-03",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=572299",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-572639",
+      "title": "British Miniature Horse Stabling Only",
+      "venueKey": "moreton-morrell",
+      "date": "2026-09-04",
+      "endDate": "2026-09-05",
+      "time": null,
+      "type": "Other",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=572639",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-572300",
+      "title": "Outdoor Arena Show Jumping Course Hire",
+      "venueKey": "swallowfield",
+      "date": "2026-09-04",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=572300",
       "notes": "",
       "source": "auto"
     },
@@ -592,6 +640,30 @@
       "source": "auto"
     },
     {
+      "id": "moreton-morrell-572309",
+      "title": "WHPC Mounted Games Training - MG Trainer - BLOCK BOOKING (6 Sessions)",
+      "venueKey": "moreton-morrell",
+      "date": "2026-09-11",
+      "endDate": "2026-10-16",
+      "time": null,
+      "type": "Training",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=572309",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-572302",
+      "title": "WHPC Mounted Games Training - Moreton Morrell  - MG Trainer",
+      "venueKey": "moreton-morrell",
+      "date": "2026-09-11",
+      "endDate": null,
+      "time": null,
+      "type": "Training",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=572302",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "horse-events-dallas-burston-29125",
       "title": "LandS EVENTING LTD Arena Eventing Training Day 12th Sept 2026",
       "venueKey": "dallas-burston",
@@ -780,6 +852,18 @@
       "time": null,
       "type": "Clinic",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=568502",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-572304",
+      "title": "WHPC Mounted Games Training - Moreton Morrell  - MG Trainer",
+      "venueKey": "moreton-morrell",
+      "date": "2026-09-18",
+      "endDate": null,
+      "time": null,
+      "type": "Training",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=572304",
       "notes": "",
       "source": "auto"
     },
@@ -976,6 +1060,18 @@
       "source": "auto"
     },
     {
+      "id": "moreton-morrell-572305",
+      "title": "WHPC Mounted Games Training - Moreton Morrell  - MG Trainer",
+      "venueKey": "moreton-morrell",
+      "date": "2026-09-25",
+      "endDate": null,
+      "time": null,
+      "type": "Training",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=572305",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "onley-equipe-7812",
       "title": "Onley Grounds Unaffiliated Showjumping - Saturday 26th September 2026",
       "venueKey": "onley",
@@ -1156,6 +1252,18 @@
       "source": "auto"
     },
     {
+      "id": "moreton-morrell-572306",
+      "title": "WHPC Mounted Games Training - Moreton Morrell  - MG Trainer",
+      "venueKey": "moreton-morrell",
+      "date": "2026-10-02",
+      "endDate": null,
+      "time": null,
+      "type": "Training",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=572306",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "swallowfield-571286",
       "title": "Swallowfield Equestrian Cross Country Schooling",
       "venueKey": "swallowfield",
@@ -1204,6 +1312,18 @@
       "source": "auto"
     },
     {
+      "id": "solihull-rc-572689",
+      "title": "Five Ways to Wellbeing Programme (Week 1 – Connect)",
+      "venueKey": "solihull-rc",
+      "date": "2026-10-05",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=572689",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "swallowfield-556771",
       "title": "The Dancing Horse Clinic with Ali Lane",
       "venueKey": "swallowfield",
@@ -1224,6 +1344,18 @@
       "time": null,
       "type": "Clinic",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=568503",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-572307",
+      "title": "WHPC Mounted Games Training - Moreton Morrell  - MG Trainer",
+      "venueKey": "moreton-morrell",
+      "date": "2026-10-09",
+      "endDate": null,
+      "time": null,
+      "type": "Training",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=572307",
       "notes": "",
       "source": "auto"
     },
@@ -1300,6 +1432,18 @@
       "source": "auto"
     },
     {
+      "id": "solihull-rc-572692",
+      "title": "Five Ways to Wellbeing Programme (Week 2 – Keep Learning)",
+      "venueKey": "solihull-rc",
+      "date": "2026-10-12",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=572692",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "swallowfield-571277",
       "title": "Indoor Polework Clinic with Jo Swain",
       "venueKey": "swallowfield",
@@ -1348,6 +1492,18 @@
       "source": "auto"
     },
     {
+      "id": "moreton-morrell-572308",
+      "title": "WHPC Mounted Games Training - Moreton Morrell  - MG Trainer",
+      "venueKey": "moreton-morrell",
+      "date": "2026-10-16",
+      "endDate": null,
+      "time": null,
+      "type": "Training",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=572308",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "moreton-morrell-553245",
       "title": "Moreton Morrell RC Unaffiliated Dressage inc Stoneleigh RC Points",
       "venueKey": "moreton-morrell",
@@ -1356,6 +1512,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553245",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "onley-equipe-9126",
+      "title": "Onley Grounds - Horseball Stabling Saturday 17th & Sunday 18th October 2026",
+      "venueKey": "onley",
+      "date": "2026-10-17",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://entry.equipe.com/meetings/9126",
       "notes": "",
       "source": "auto"
     },
@@ -1392,6 +1560,18 @@
       "time": null,
       "type": "Clinic",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=551177",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "solihull-rc-572693",
+      "title": "Five Ways to Wellbeing Programme (Week 3 – Be Active)",
+      "venueKey": "solihull-rc",
+      "date": "2026-10-19",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=572693",
       "notes": "",
       "source": "auto"
     },
@@ -1452,6 +1632,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=565545",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "solihull-rc-572694",
+      "title": "Five Ways to Wellbeing Programme (Week 4 – Take Notice)",
+      "venueKey": "solihull-rc",
+      "date": "2026-10-26",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=572694",
       "notes": "",
       "source": "auto"
     },
@@ -1536,6 +1728,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=568032",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "solihull-rc-572695",
+      "title": "Five Ways to Wellbeing Programme (Week 5 – Give )",
+      "venueKey": "solihull-rc",
+      "date": "2026-11-02",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=572695",
       "notes": "",
       "source": "auto"
     },
@@ -1672,6 +1876,18 @@
       "source": "auto"
     },
     {
+      "id": "swallowfield-572762",
+      "title": "Swallowfield Equestrian British Dressage QWL",
+      "venueKey": "swallowfield",
+      "date": "2026-11-14",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=572762",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "moreton-morrell-563252",
       "title": "Kate Cowell 1 to 1 Dressage Clinic",
       "venueKey": "moreton-morrell",
@@ -1764,6 +1980,30 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=538987",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-571198",
+      "title": "Moreton Morrell British Dressage (P-GP/PYO FEI)+FS+PE",
+      "venueKey": "moreton-morrell",
+      "date": "2026-11-25",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=571198",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "solihull-rc-566815",
+      "title": "Senior British Show Jumping Cat 2",
+      "venueKey": "solihull-rc",
+      "date": "2026-11-25",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=566815",
       "notes": "",
       "source": "auto"
     }
