@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27",
+  "updated": "2026-08-28",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -170,18 +170,6 @@
       "url": "https://www.crownriding.co.uk/news",
       "notes": "Full-time (21-23 Aug), Saturday-only, and Sunday-only options advertised. The only 2026 date found on Crown's public site — their main competition calendar sits behind the member-only portal.",
       "source": "manual"
-    },
-    {
-      "id": "moreton-morrell-562995",
-      "title": "The British Hanoverian Society Annual Show",
-      "venueKey": "moreton-morrell",
-      "date": "2026-08-27",
-      "endDate": "2026-08-28",
-      "time": null,
-      "type": "Show",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=562995",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "cotswold-cup-offchurch-bury-2026-08-29",
