@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29",
+  "updated": "2026-08-30",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -170,42 +170,6 @@
       "url": "https://www.crownriding.co.uk/news",
       "notes": "Full-time (21-23 Aug), Saturday-only, and Sunday-only options advertised. The only 2026 date found on Crown's public site — their main competition calendar sits behind the member-only portal.",
       "source": "manual"
-    },
-    {
-      "id": "cotswold-cup-offchurch-bury-2026-08-29",
-      "title": "Cotswold Cup Qualifier",
-      "venueKey": "offchurch-bury",
-      "date": "2026-08-29",
-      "endDate": null,
-      "time": null,
-      "type": "Show",
-      "url": "https://cotswoldcup.co.uk/",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-560601",
-      "title": "Swallowfield Equestrian British Dressage (P-AM)",
-      "venueKey": "swallowfield",
-      "date": "2026-08-29",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=560601",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-566656",
-      "title": "Swallowfield Equestrian Unaffiliated Long Arena Dressage",
-      "venueKey": "swallowfield",
-      "date": "2026-08-29",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=566656",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "swallowfield-565938",
@@ -1300,6 +1264,18 @@
       "source": "auto"
     },
     {
+      "id": "onley-equipe-9138",
+      "title": "Onley Grounds Equestrian Complex - Sunday 4th October - Unaffiliated Dressage - Outdoor",
+      "venueKey": "onley",
+      "date": "2026-10-04",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://entry.equipe.com/meetings/9138",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "solihull-rc-572689",
       "title": "Five Ways to Wellbeing Programme (Week 1 – Connect)",
       "venueKey": "solihull-rc",
@@ -1428,6 +1404,18 @@
       "time": null,
       "type": "Other",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=572692",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-573049",
+      "title": "WHPC Pony Club only - Evening Flatwork/Pole Rally - Moreton Morrell - Clara/Kiri",
+      "venueKey": "moreton-morrell",
+      "date": "2026-10-13",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=573049",
       "notes": "",
       "source": "auto"
     },
@@ -1780,6 +1768,18 @@
       "source": "auto"
     },
     {
+      "id": "moreton-morrell-573050",
+      "title": "WHPC Pony Club only - Evening Flatwork/Pole Rally - Moreton Morrell - Clara/Kiri",
+      "venueKey": "moreton-morrell",
+      "date": "2026-11-10",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=573050",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "solihull-rc-538986",
       "title": "Evening Progressive Clear Round Show Jumping",
       "venueKey": "solihull-rc",
@@ -1960,6 +1960,18 @@
       "source": "auto"
     },
     {
+      "id": "moreton-morrell-573051",
+      "title": "WHPC Pony Club only - Evening Flatwork/Pole Rally - Moreton Morrell - Clara/Kiri",
+      "venueKey": "moreton-morrell",
+      "date": "2026-11-24",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=573051",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "solihull-rc-538987",
       "title": "Evening Progressive Clear Round Show Jumping",
       "venueKey": "solihull-rc",
@@ -1992,6 +2004,30 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=566815",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-572111",
+      "title": "WHPC Open Winter Show Jumping Show",
+      "venueKey": "moreton-morrell",
+      "date": "2026-11-28",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=572111",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-571136",
+      "title": "Working Equitation with Emma Taylor",
+      "venueKey": "swallowfield",
+      "date": "2026-11-28",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571136",
       "notes": "",
       "source": "auto"
     }
