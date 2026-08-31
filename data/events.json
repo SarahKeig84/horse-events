@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30",
+  "updated": "2026-08-31",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -170,30 +170,6 @@
       "url": "https://www.crownriding.co.uk/news",
       "notes": "Full-time (21-23 Aug), Saturday-only, and Sunday-only options advertised. The only 2026 date found on Crown's public site — their main competition calendar sits behind the member-only portal.",
       "source": "manual"
-    },
-    {
-      "id": "swallowfield-565938",
-      "title": "Clear Round Two Phase & Unaffiliated Show Jumping",
-      "venueKey": "swallowfield",
-      "date": "2026-08-30",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=565938",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "walsgrave-arc-2026-08-30",
-      "title": "Club Show",
-      "venueKey": "walsgrave-arc",
-      "date": "2026-08-30",
-      "endDate": null,
-      "time": "10:00",
-      "type": "Show",
-      "url": "https://www.walsgravearc.co.uk/calendar",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "horse-events-aston-le-walls-28915",
@@ -1756,6 +1732,18 @@
       "source": "auto"
     },
     {
+      "id": "horse-events-aston-le-walls-29594",
+      "title": "Aston le Walls KBIS Arena Eventer Challenge Sunday 8th November 2026",
+      "venueKey": "aston-le-walls",
+      "date": "2026-11-08",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.horse-events.co.uk/horse-events/aston-le-walls-kbis-arena-eventer-challenge-sunday-8th-november-2026",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "moreton-morrell-553183",
       "title": "James McCullough Evening Pole Work Clinic",
       "venueKey": "moreton-morrell",
@@ -2028,6 +2016,18 @@
       "time": null,
       "type": "Other",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571136",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-553253",
+      "title": "Moreton Morrell RC Unaffiliated Dressage inc Stoneleigh RC Points",
+      "venueKey": "moreton-morrell",
+      "date": "2026-11-29",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553253",
       "notes": "",
       "source": "auto"
     }
