@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01",
+  "updated": "2026-09-02",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -172,30 +172,6 @@
       "source": "manual"
     },
     {
-      "id": "onley-equipe-7816",
-      "title": "Onley Grounds Evening Clear Round - Tuesday 1st September 2026",
-      "venueKey": "onley",
-      "date": "2026-09-01",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://entry.equipe.com/meetings/7816",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-572297",
-      "title": "Outdoor Arena Show Jumping Course Hire",
-      "venueKey": "swallowfield",
-      "date": "2026-09-01",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=572297",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "onley-equipe-7782",
       "title": "Onley Grounds Senior British Showjumping - 2 September 2026",
       "venueKey": "onley",
@@ -364,6 +340,18 @@
       "source": "auto"
     },
     {
+      "id": "swallowfield-573552",
+      "title": "Swallowfield Equestrian Cross Country Schooling",
+      "venueKey": "swallowfield",
+      "date": "2026-09-05",
+      "endDate": null,
+      "time": null,
+      "type": "Training",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=573552",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "swallowfield-571154",
       "title": "Unaffiliated Short Arena Dressage Series with Trailblazer First Round Qualifiers",
       "venueKey": "swallowfield",
@@ -408,6 +396,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571129",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-573553",
+      "title": "Swallowfield Equestrian Cross Country Schooling",
+      "venueKey": "swallowfield",
+      "date": "2026-09-06",
+      "endDate": null,
+      "time": null,
+      "type": "Training",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=573553",
       "notes": "",
       "source": "auto"
     },
@@ -724,6 +724,18 @@
       "source": "auto"
     },
     {
+      "id": "solihull-rc-573550",
+      "title": "Hannah Jackson Showjumping Clinic",
+      "venueKey": "solihull-rc",
+      "date": "2026-09-17",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=573550",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "solihull-rc-568502",
       "title": "Jane Richmond Evening Polework Clinic",
       "venueKey": "solihull-rc",
@@ -768,6 +780,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553243",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "onley-equipe-8450",
+      "title": "Concours De Elegance - Stable Bookings thursday 24th - Sunday 27th September 2026",
+      "venueKey": "onley",
+      "date": "2026-09-19",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://entry.equipe.com/meetings/8450",
       "notes": "",
       "source": "auto"
     },
@@ -888,18 +912,6 @@
       "time": null,
       "type": "Clinic",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553181",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-8450",
-      "title": "Concours De Elegance - Stable Bookings thursday 24th - Sunday 27th September 2026",
-      "venueKey": "onley",
-      "date": "2026-09-24",
-      "endDate": "2026-09-27",
-      "time": null,
-      "type": "Other",
-      "url": "https://entry.equipe.com/meetings/8450",
       "notes": "",
       "source": "auto"
     },
@@ -1132,6 +1144,18 @@
       "source": "auto"
     },
     {
+      "id": "solihull-rc-573551",
+      "title": "Solihull Riding Club Quiz Night",
+      "venueKey": "solihull-rc",
+      "date": "2026-10-01",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=573551",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "moreton-morrell-572306",
       "title": "WHPC Mounted Games Training - Moreton Morrell  - MG Trainer",
       "venueKey": "moreton-morrell",
@@ -1140,6 +1164,18 @@
       "time": null,
       "type": "Training",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=572306",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "solihull-rc-573586",
+      "title": "Weekend Winter Unaffiliated & Mini Show Jumping inc BRC Club & Trailblazers Qualifiers",
+      "venueKey": "solihull-rc",
+      "date": "2026-10-03",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=573586",
       "notes": "",
       "source": "auto"
     },
@@ -2028,6 +2064,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553253",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-573380",
+      "title": "WHPC Pony Club only - Evening Flatwork - Moreton Morrell - Fran",
+      "venueKey": "moreton-morrell",
+      "date": "2026-12-01",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=573380",
       "notes": "",
       "source": "auto"
     }
