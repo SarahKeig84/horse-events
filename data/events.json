@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02",
+  "updated": "2026-09-03",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -170,42 +170,6 @@
       "url": "https://www.crownriding.co.uk/news",
       "notes": "Full-time (21-23 Aug), Saturday-only, and Sunday-only options advertised. The only 2026 date found on Crown's public site — their main competition calendar sits behind the member-only portal.",
       "source": "manual"
-    },
-    {
-      "id": "onley-equipe-7782",
-      "title": "Onley Grounds Senior British Showjumping - 2 September 2026",
-      "venueKey": "onley",
-      "date": "2026-09-02",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://entry.equipe.com/meetings/7782",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-572298",
-      "title": "Outdoor Arena Show Jumping Course Hire",
-      "venueKey": "swallowfield",
-      "date": "2026-09-02",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=572298",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-556311",
-      "title": "Swallowfield Equestrian Evening Stressless Dressage sponsored by Align Rider Solutions",
-      "venueKey": "swallowfield",
-      "date": "2026-09-02",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=556311",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "moreton-morrell-553238",
@@ -916,18 +880,6 @@
       "source": "auto"
     },
     {
-      "id": "onley-equipe-9050",
-      "title": "Onley Grounds Evening Clear Round - Thursday 24th September 2026 - 17.30pm start",
-      "venueKey": "onley",
-      "date": "2026-09-24",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://entry.equipe.com/meetings/9050",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "solihull-rc-565542",
       "title": "British Dressage (P-GP/PYO FEI)+FS",
       "venueKey": "solihull-rc",
@@ -1096,6 +1048,18 @@
       "source": "auto"
     },
     {
+      "id": "swallowfield-573746",
+      "title": "Swallowfield Equestrian Evening Stressless Dressage sponsored by Align Rider Solutions",
+      "venueKey": "swallowfield",
+      "date": "2026-09-30",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=573746",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "moreton-morrell-553244",
       "title": "Moreton Morrell Evening Unaff Dress Down Dressage Competition Inc Stoneleigh RC Points",
       "venueKey": "moreton-morrell",
@@ -1248,6 +1212,18 @@
       "time": null,
       "type": "Other",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=572689",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "onley-equipe-9164",
+      "title": "British Agility Wednesday 7th - Sunday 11th October 2026",
+      "venueKey": "onley",
+      "date": "2026-10-07",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://entry.equipe.com/meetings/9164",
       "notes": "",
       "source": "auto"
     },
@@ -1516,6 +1492,18 @@
       "source": "auto"
     },
     {
+      "id": "onley-equipe-9160",
+      "title": "Onley Grounds Equestrian Complex - Haddon Training Stable Bookings Tuesday 20th - Thursday 22nd October 2026",
+      "venueKey": "onley",
+      "date": "2026-10-19",
+      "endDate": null,
+      "time": null,
+      "type": "Training",
+      "url": "https://entry.equipe.com/meetings/9160",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "solihull-rc-572693",
       "title": "Five Ways to Wellbeing Programme (Week 3 – Be Active)",
       "venueKey": "solihull-rc",
@@ -1636,6 +1624,18 @@
       "source": "auto"
     },
     {
+      "id": "swallowfield-573747",
+      "title": "Swallowfield Equestrian Evening Stressless Dressage sponsored by Align Rider Solutions",
+      "venueKey": "swallowfield",
+      "date": "2026-10-28",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=573747",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "onley-equipe-9088",
       "title": "Onley Grounds Senior British Showjumping - 29 October 2026",
       "venueKey": "onley",
@@ -1732,6 +1732,18 @@
       "source": "auto"
     },
     {
+      "id": "onley-equipe-9165",
+      "title": "British Agility Thursday 5th - Sunday 8th November 2026",
+      "venueKey": "onley",
+      "date": "2026-11-05",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://entry.equipe.com/meetings/9165",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "solihull-rc-565553",
       "title": "British Dressage (P-GP/PYO FEI)+FS",
       "venueKey": "solihull-rc",
@@ -1768,6 +1780,18 @@
       "source": "auto"
     },
     {
+      "id": "moreton-morrell-573050",
+      "title": "WHPC Pony Club only - Evening Flatwork/Pole Rally - Moreton Morrell - Clara/Kiri",
+      "venueKey": "moreton-morrell",
+      "date": "2026-11-09",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=573050",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "moreton-morrell-553183",
       "title": "James McCullough Evening Pole Work Clinic",
       "venueKey": "moreton-morrell",
@@ -1776,18 +1800,6 @@
       "time": null,
       "type": "Clinic",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553183",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "moreton-morrell-573050",
-      "title": "WHPC Pony Club only - Evening Flatwork/Pole Rally - Moreton Morrell - Clara/Kiri",
-      "venueKey": "moreton-morrell",
-      "date": "2026-11-10",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=573050",
       "notes": "",
       "source": "auto"
     },
@@ -1972,6 +1984,18 @@
       "source": "auto"
     },
     {
+      "id": "swallowfield-573638",
+      "title": "Swallowfield Equestrian British Dressage (P-AM)+FS",
+      "venueKey": "swallowfield",
+      "date": "2026-11-21",
+      "endDate": "2026-11-22",
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=573638",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "moreton-morrell-571296",
       "title": "Kate Cowell 1 to 1 Dressage Clinic",
       "venueKey": "moreton-morrell",
@@ -2032,6 +2056,18 @@
       "source": "auto"
     },
     {
+      "id": "swallowfield-573748",
+      "title": "Swallowfield Equestrian Evening Stressless Dressage sponsored by Align Rider Solutions",
+      "venueKey": "swallowfield",
+      "date": "2026-11-25",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=573748",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "moreton-morrell-572111",
       "title": "WHPC Open Winter Show Jumping Show",
       "venueKey": "moreton-morrell",
@@ -2076,6 +2112,18 @@
       "time": null,
       "type": "Other",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=573380",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-556775",
+      "title": "The Dancing Horse Clinic with Ali Lane",
+      "venueKey": "swallowfield",
+      "date": "2026-12-02",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=556775",
       "notes": "",
       "source": "auto"
     }
