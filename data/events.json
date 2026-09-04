@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03",
+  "updated": "2026-09-04",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -170,66 +170,6 @@
       "url": "https://www.crownriding.co.uk/news",
       "notes": "Full-time (21-23 Aug), Saturday-only, and Sunday-only options advertised. The only 2026 date found on Crown's public site — their main competition calendar sits behind the member-only portal.",
       "source": "manual"
-    },
-    {
-      "id": "moreton-morrell-553238",
-      "title": "Moreton Morrell Evening Unaff Dress Down Dressage Competition Inc Stoneleigh RC Points",
-      "venueKey": "moreton-morrell",
-      "date": "2026-09-03",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553238",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-8965",
-      "title": "Onley Grounds Equestrian Complex - Evening Dress Down Dressage - Thursday 3rd September - Indoor from 17.30pm",
-      "venueKey": "onley",
-      "date": "2026-09-03",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://entry.equipe.com/meetings/8965",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-560600",
-      "title": "British Dressage (P-GP/PYO FEI)+FS",
-      "venueKey": "solihull-rc",
-      "date": "2026-09-03",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=560600",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-568551",
-      "title": "Unaffiliated Dressage inc MCI & SSADL Blue Chip Qualifiers",
-      "venueKey": "solihull-rc",
-      "date": "2026-09-03",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=568551",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-572299",
-      "title": "Outdoor Arena Show Jumping Course Hire",
-      "venueKey": "swallowfield",
-      "date": "2026-09-03",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=572299",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "moreton-morrell-572639",
@@ -1324,6 +1264,18 @@
       "source": "auto"
     },
     {
+      "id": "onley-equipe-9173",
+      "title": "Onley Grounds Unaffiliated Showjumping - Sunday 11th October 2026 - Outdoor",
+      "venueKey": "onley",
+      "date": "2026-10-11",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://entry.equipe.com/meetings/9173",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "solihull-rc-566464",
       "title": "Solihull Riding Club Car Boot and Second-Hand Tack Sale",
       "venueKey": "solihull-rc",
@@ -2124,6 +2076,18 @@
       "time": null,
       "type": "Clinic",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=556775",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-553242",
+      "title": "Moreton Morrell Thursday Night Progressive Clear Round Jumping",
+      "venueKey": "moreton-morrell",
+      "date": "2026-12-03",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553242",
       "notes": "",
       "source": "auto"
     }
