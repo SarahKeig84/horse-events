@@ -49,10 +49,15 @@
       const row = document.createElement("label");
       row.className = "result-row";
       const checked = selected.has(key);
+      // Horse Events only gets an eventCount when the search narrowed to a
+      // handful of matches (see attachHorseEventsCounts in the edge
+      // function) -- broad queries leave it undefined, so fall back to
+      // just the source label rather than printing "undefined".
+      const label = SOURCE_LABELS[v.source] || v.source;
       const subtitle =
-        v.source === "horse-events"
-          ? SOURCE_LABELS["horse-events"]
-          : `${SOURCE_LABELS.horsemonkey} · ${v.eventCount} upcoming event${v.eventCount === 1 ? "" : "s"} found`;
+        v.eventCount == null
+          ? label
+          : `${label} · ${v.eventCount} upcoming event${v.eventCount === 1 ? "" : "s"} found`;
       row.innerHTML = `
         <input type="checkbox" ${checked ? "checked" : ""} />
         <span>

@@ -13,8 +13,17 @@
 // Request:  POST { "query": "<venue name fragment, 3+ chars>" }
 // Response: { "venues": [
 //   { "source": "horsemonkey", "name": "<canonical venue_name>", "eventCount": n },
-//   { "source": "horse-events", "name": "<venue name>", "slug": "<url slug>" }
+//   { "source": "horse-events", "name": "<venue name>", "slug": "<url slug>", "eventCount"?: n }
 // ] }
+//
+// Unlike Horse Monkey's search API (which returns actual event rows, so
+// counting them is free), Horse Events' venue directory only returns
+// name+slug -- getting a count means a separate fetch of that venue's own
+// profile page. Doing that for every match on a broad query (e.g.
+// "Equestrian" -> 30+ venues) would make search slow and hammer their site,
+// so eventCount is only attached for Horse Events results when a query
+// narrows the match list down to MAX_HORSE_EVENTS_COUNT_FETCHES or fewer
+// (see attachHorseEventsCounts) -- otherwise it's simply omitted.
 //
 // Two things learned the hard way while building the personal version of
 // this app, both load-bearing here:
@@ -31,6 +40,8 @@
 
 const HORSEMONKEY_SEARCH_URL = "https://horsemonkey.com/uk/search";
 const HORSE_EVENTS_VENUES_URL = "https://www.horse-events.co.uk/horse-events-venues/";
+const HORSE_EVENTS_VENUE_PAGE_URL = "https://www.horse-events.co.uk/venues/";
+const MAX_HORSE_EVENTS_COUNT_FETCHES = 12;
 const CORS_HEADERS = {
   "Access-Control-Allow-Origin": "*",
   "Access-Control-Allow-Headers": "authorization, x-client-info, apikey, content-type",
@@ -41,7 +52,7 @@ const REQUEST_HEADERS = {
 };
 
 type HorseMonkeyVenue = { source: "horsemonkey"; name: string; eventCount: number };
-type HorseEventsVenue = { source: "horse-events"; name: string; slug: string };
+type HorseEventsVenue = { source: "horse-events"; name: string; slug: string; eventCount?: number };
 
 Deno.serve(async (req: Request) => {
   if (req.method === "OPTIONS") {
@@ -76,8 +87,13 @@ Deno.serve(async (req: Request) => {
   if (horseMonkeyResult.status === "fulfilled") venues.push(...horseMonkeyResult.value);
   else errors.push(`Horse Monkey: ${String(horseMonkeyResult.reason)}`);
 
-  if (horseEventsResult.status === "fulfilled") venues.push(...horseEventsResult.value);
-  else errors.push(`Horse Events: ${String(horseEventsResult.reason)}`);
+  if (horseEventsResult.status === "fulfilled") {
+    let horseEventsVenues = horseEventsResult.value;
+    if (horseEventsVenues.length > 0 && horseEventsVenues.length <= MAX_HORSE_EVENTS_COUNT_FETCHES) {
+      horseEventsVenues = await attachHorseEventsCounts(horseEventsVenues);
+    }
+    venues.push(...horseEventsVenues);
+  } else errors.push(`Horse Events: ${String(horseEventsResult.reason)}`);
 
   venues.sort((a, b) => a.name.localeCompare(b.name));
 
@@ -135,6 +151,47 @@ async function searchHorseEvents(query: string): Promise<HorseEventsVenue[]> {
     if (name) seen.set(slug, name);
   }
   return [...seen.entries()].map(([slug, name]) => ({ source: "horse-events" as const, name, slug }));
+}
+
+// Fetches each venue's own profile page in parallel and counts its
+// upcoming events. Only called when the match list is small (see
+// MAX_HORSE_EVENTS_COUNT_FETCHES) -- a per-venue fetch doesn't scale to
+// broad queries. A venue whose page fetch fails is left without an
+// eventCount rather than failing the whole search.
+async function attachHorseEventsCounts(list: HorseEventsVenue[]): Promise<HorseEventsVenue[]> {
+  const pages = await Promise.allSettled(
+    list.map((v) =>
+      fetch(`${HORSE_EVENTS_VENUE_PAGE_URL}${v.slug}`, { headers: REQUEST_HEADERS }).then((resp) => {
+        if (!resp.ok) throw new Error(`upstream returned ${resp.status}`);
+        return resp.text();
+      })
+    )
+  );
+  return list.map((v, i) => {
+    const page = pages[i];
+    return page.status === "fulfilled" ? { ...v, eventCount: countHorseEventsUpcoming(page.value) } : v;
+  });
+}
+
+// Same "result-NNNNN" card pattern scripts/scrapers.py's fetch_horse_events
+// parses in full (with date-window filtering) -- here we only need a rough
+// upcoming count for display, so cancelled/Pony Club entries are excluded
+// but date parsing is skipped (the venue page itself already only lists
+// upcoming events).
+function countHorseEventsUpcoming(html: string): number {
+  let count = 0;
+  const blockRe = /data-href="[^"]+"\s+id="result-\d+"(.*?)(?=data-href="[^"]+"\s+id="result-\d+"|$)/gs;
+  let match: RegExpExecArray | null;
+  while ((match = blockRe.exec(html)) !== null) {
+    const titleMatch = match[1].match(/class="result-title overline">([\s\S]*?)<\/div>/);
+    if (!titleMatch) continue;
+    const rawTitle = titleMatch[1];
+    if (/cancelled/i.test(rawTitle)) continue;
+    const title = decodeHtmlEntities(rawTitle.replace(/<[^>]+>/g, ""));
+    if (/pony club/i.test(title)) continue;
+    count++;
+  }
+  return count;
 }
 
 function decodeHtmlEntities(s: string): string {
