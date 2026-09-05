@@ -2,16 +2,22 @@
 Refreshes data/events.json from each venue's public booking calendar.
 
 Only touches events tagged "source": "auto": Moreton Morrell, Swallowfield,
-Solihull RC, Walsgrave ARC and Swalcliffe Park (native booking-platform
-events), Onley (Equipe organizer page -- their real system of record),
-Rugby Riding Club (their own EntryMaster Lite site), Cotswold Cup legs at
-those venues plus Offchurch Bury/Hazleton Manor/Waverton House/Cirencester
-Park, and horse-events.co.uk listings at Swalcliffe, Moreton Morrell,
-Solihull RC, Dallas Burston, Barcheston, Aston Le Walls, Onley, and Rugby
-Riding Club (Pony Club-restricted events are filtered out of the
-horse-events.co.uk listings -- Sarah isn't a member). Onley and Rugby
-Riding Club each have two independent auto sources since they host both
-their own regular bookings and separately-organised affiliated shows.
+Solihull RC, Walsgrave ARC, Swalcliffe Park and CCR Equestrian (native
+booking-platform events), Onley (Equipe organizer page -- their real system
+of record), Rugby Riding Club (their own EntryMaster Lite site), The
+Unicorn Equestrian Centre (their own "What's On" page -- Pony Club and dog
+agility entries filtered out, Sarah isn't a Pony Club member and doesn't do
+dog agility), Cotswold Cup legs at those venues plus Offchurch Bury/Hazleton
+Manor/Waverton House/Cirencester Park, and horse-events.co.uk listings at
+Swalcliffe, Moreton Morrell, Solihull RC, Dallas Burston, Barcheston, Aston
+Le Walls, Onley, and Rugby Riding Club (Pony Club-restricted events are
+filtered out of the horse-events.co.uk listings too), and Lowlands
+Equestrian Centre (an RDA centre with its own EC Pro booking site --
+lists both open unaffiliated shows and recurring RDA clinics). Onley and
+Rugby Riding Club each have two independent auto sources since they host
+both their own regular bookings and separately-organised affiliated shows.
+Allens Hill Equestrian Centre has no scrapeable source (their own site uses
+image-based show posters, not text) and stays a manual "gaps" entry.
 Events tagged "source": "manual" (ASBRC, Crown RC) are left exactly as they
 are in the file -- this script never invents or removes those.
 
@@ -381,6 +387,113 @@ def fetch_horse_events(session, venue_key, slug):
     return events
 
 
+UNICORN_EXCLUDE_RE = re.compile(r"pony club|dog agility", re.IGNORECASE)
+
+
+def fetch_unicorn_equestrian(session):
+    """The Unicorn Equestrian Centre's "What's On" page lists each event as
+    an <article> card with a title and a date (or date range). Excludes
+    Pony Club (members-only, Sarah isn't a member) and dog agility (not a
+    horse event) entries. A few cards use non-standard date text (a
+    recurring-series description, a slash-separated date with no month
+    name, opening-hours text) and are simply skipped since they don't match
+    the "D Month YYYY" pattern -- not worth a special-case parser for one
+    or two cards."""
+    resp = session.get("https://unicornequestrian.co.uk/whats-on", headers=HEADERS, timeout=20)
+    resp.raise_for_status()
+    html = resp.text
+
+    events = []
+    for block_match in re.finditer(r"<article[^>]*>(.*?)</article>", html, re.S):
+        block = block_match.group(1)
+        title_match = re.search(r"<h2[^>]*>(.*?)</h2>", block, re.S)
+        date_match = re.search(r"lucide-calendar.*?</svg>([^<]+)<", block, re.S)
+        if not title_match or not date_match:
+            continue
+
+        title = unescape(re.sub(r"<[^>]+>", "", title_match.group(1))).strip()
+        if UNICORN_EXCLUDE_RE.search(title):
+            continue
+
+        date_str = unescape(date_match.group(1)).strip()
+        month_pattern = "|".join(MONTH_NUMBERS)
+        date_tokens = re.findall(r"\d{1,2} (?:" + month_pattern + r") \d{4}", date_str)
+        if not date_tokens:
+            continue
+        try:
+            start = datetime.strptime(date_tokens[0], "%d %B %Y").date()
+        except ValueError:
+            continue
+        end = None
+        if len(date_tokens) > 1:
+            try:
+                end_candidate = datetime.strptime(date_tokens[1], "%d %B %Y").date()
+                if end_candidate > start:  # guards against malformed ranges on their site
+                    end = end_candidate
+            except ValueError:
+                pass
+
+        if start < TODAY or start > WINDOW_END:
+            continue
+
+        slug = re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
+        events.append({
+            "id": f"the-unicorn-{slug}-{start.isoformat()}",
+            "title": title,
+            "venueKey": "the-unicorn",
+            "date": start.isoformat(),
+            "endDate": end.isoformat() if end else None,
+            "time": None,
+            "type": classify(title),
+            "url": "https://unicornequestrian.co.uk/whats-on",
+            "notes": "",
+            "source": "auto",
+        })
+    return events
+
+
+def fetch_lowlands(session):
+    """Lowlands Equestrian Centre (an RDA -- Riding for the Disabled
+    Association -- centre) runs its own EC Pro booking site. Its upcoming
+    events page lists both open unaffiliated shows and recurring RDA-run
+    clinics as clean event cards with a DD/MM/YYYY date."""
+    resp = session.get("https://lowlandsequestriancentre.ecpro.co.uk/events/upcoming", headers=HEADERS, timeout=20)
+    resp.raise_for_status()
+    html = resp.text
+
+    events = []
+    for match in re.finditer(
+        r'<a href="(/events/\d+)" class="client-event-listing-link">[\s\S]*?'
+        r'<h2 class="client-event-listing-card-title">(.*?)</h2>[\s\S]*?'
+        r'<span>(\d{2}/\d{2}/\d{4})</span>',
+        html,
+    ):
+        href, raw_title, date_str = match.groups()
+        title = unescape(re.sub(r"<[^>]+>", "", raw_title)).strip()
+        try:
+            start = datetime.strptime(date_str, "%d/%m/%Y").date()
+        except ValueError:
+            continue
+
+        if start < TODAY or start > WINDOW_END:
+            continue
+
+        event_id = href.rsplit("/", 1)[-1]
+        events.append({
+            "id": f"lowlands-{event_id}",
+            "title": title,
+            "venueKey": "lowlands",
+            "date": start.isoformat(),
+            "endDate": None,
+            "time": None,
+            "type": classify(title),
+            "url": f"https://lowlandsequestriancentre.ecpro.co.uk{href}",
+            "notes": "",
+            "source": "auto",
+        })
+    return events
+
+
 def fetch_walsgrave(session):
     """Walsgrave ARC publishes a plain-text 'Show Dates <year>' list on their
     calendar page rather than a booking system -- parse that section only."""
@@ -422,7 +535,10 @@ def fetch_walsgrave(session):
     return events
 
 
-AUTO_VENUE_KEYS = ["moreton-morrell", "swallowfield", "solihull-rc", "walsgrave-arc", "swalcliffe", "onley", "rugby-riding-club"]
+AUTO_VENUE_KEYS = [
+    "moreton-morrell", "swallowfield", "solihull-rc", "walsgrave-arc", "swalcliffe",
+    "onley", "rugby-riding-club", "ccr-equestrian", "the-unicorn", "lowlands",
+]
 
 
 def scrape_all(session):
@@ -489,6 +605,25 @@ def scrape_all(session):
         )
     except Exception as exc:  # noqa: BLE001
         print(f"WARN: swalcliffe scrape failed: {exc}", file=sys.stderr)
+
+    try:
+        results["ccr-equestrian"] = fetch_ics_venue(
+            session, "ccr-equestrian",
+            "https://www.myridinglife.com/RemoteLocationEventList.aspx?locationID=2865&from=rl",
+            "https://www.myridinglife.com",
+        )
+    except Exception as exc:  # noqa: BLE001
+        print(f"WARN: ccr-equestrian scrape failed: {exc}", file=sys.stderr)
+
+    try:
+        results["the-unicorn"] = fetch_unicorn_equestrian(session)
+    except Exception as exc:  # noqa: BLE001
+        print(f"WARN: the-unicorn scrape failed: {exc}", file=sys.stderr)
+
+    try:
+        results["lowlands"] = fetch_lowlands(session)
+    except Exception as exc:  # noqa: BLE001
+        print(f"WARN: lowlands scrape failed: {exc}", file=sys.stderr)
 
     return results
 
