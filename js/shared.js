@@ -13,6 +13,15 @@
   const params = new URLSearchParams(window.location.search);
   const listId = params.get("list");
   const ownerToken = params.get("owner");
+  const justAdded = params.get("justAdded");
+
+  if (justAdded) {
+    // Strip it from the address bar so refreshing/sharing this link doesn't
+    // keep showing the notice.
+    params.delete("justAdded");
+    const qs = params.toString();
+    window.history.replaceState({}, "", window.location.pathname + (qs ? `?${qs}` : ""));
+  }
 
   function showError(message) {
     document.getElementById("mainContent").innerHTML =
@@ -30,6 +39,10 @@
   } catch (err) {
     showError(`Could not connect (${err.message}).`);
     return;
+  }
+
+  if (justAdded) {
+    document.getElementById("freshnessNotice").classList.remove("hidden");
   }
 
   async function load() {

@@ -159,6 +159,27 @@
     }
   }
 
+  // Fire-and-forget: kicks off the shared scraper immediately instead of
+  // leaving a freshly-added venue with no events until the next scheduled
+  // run (up to 24h away) -- confusing for anyone who just added a venue and
+  // expects to see something. Safe to call even when nothing new actually
+  // needed scraping (e.g. a venue someone else already added) -- worst case
+  // it's a redundant refresh. Never blocks or fails the add flow: if this
+  // errors (edge function not deployed yet, GitHub token not set up, rate
+  // limited), the venue is still added fine and just waits for the next
+  // scheduled run like before this existed.
+  function triggerScrape() {
+    fetch(`${window.SUPABASE_URL}/functions/v1/trigger-scrape`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${window.SUPABASE_ANON_KEY}`,
+        apikey: window.SUPABASE_ANON_KEY,
+      },
+      body: "{}",
+    }).catch(() => {});
+  }
+
   function venueRpcArgs(v) {
     // For results found by pasting a URL, externalRef IS the scrape
     // identifier (a listing URL, organizer id, or site URL depending on
@@ -196,7 +217,9 @@
         });
         if (addError) throw addError;
         if (!added) throw new Error("This calendar link is no longer valid.");
-        window.location.href = `shared.html?list=${encodeURIComponent(addToListId)}&owner=${encodeURIComponent(addToOwnerToken)}`;
+        triggerScrape();
+        window.location.href =
+          `shared.html?list=${encodeURIComponent(addToListId)}&owner=${encodeURIComponent(addToOwnerToken)}&justAdded=1`;
         return;
       }
 
@@ -207,7 +230,9 @@
       if (listError) throw listError;
       const { id, owner_token } = rows[0];
 
-      window.location.href = `shared.html?list=${encodeURIComponent(id)}&owner=${encodeURIComponent(owner_token)}`;
+      triggerScrape();
+      window.location.href =
+        `shared.html?list=${encodeURIComponent(id)}&owner=${encodeURIComponent(owner_token)}&justAdded=1`;
     } catch (err) {
       showStatus(`Couldn't ${isAddMode ? "add to" : "create"} your calendar: ${err.message}`, true);
       createBtn.disabled = false;
