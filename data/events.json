@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04",
+  "updated": "2026-09-05",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -170,30 +170,6 @@
       "url": "https://www.crownriding.co.uk/news",
       "notes": "Full-time (21-23 Aug), Saturday-only, and Sunday-only options advertised. The only 2026 date found on Crown's public site — their main competition calendar sits behind the member-only portal.",
       "source": "manual"
-    },
-    {
-      "id": "moreton-morrell-572639",
-      "title": "British Miniature Horse Stabling Only",
-      "venueKey": "moreton-morrell",
-      "date": "2026-09-04",
-      "endDate": "2026-09-05",
-      "time": null,
-      "type": "Other",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=572639",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-572300",
-      "title": "Outdoor Arena Show Jumping Course Hire",
-      "venueKey": "swallowfield",
-      "date": "2026-09-04",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=572300",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "onley-equipe-8935",
@@ -688,18 +664,6 @@
       "source": "auto"
     },
     {
-      "id": "onley-equipe-8450",
-      "title": "Concours De Elegance - Stable Bookings thursday 24th - Sunday 27th September 2026",
-      "venueKey": "onley",
-      "date": "2026-09-19",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://entry.equipe.com/meetings/8450",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "onley-equipe-9047",
       "title": "Onley Grounds Equestrian Complex - Saturday 19th September - Unaffiliated Dressage - International Outdoor Arena",
       "venueKey": "onley",
@@ -772,6 +736,18 @@
       "source": "auto"
     },
     {
+      "id": "onley-equipe-9176",
+      "title": "Onley Grounds British Dressage (P-AM) + FS 22nd September 2026",
+      "venueKey": "onley",
+      "date": "2026-09-22",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://entry.equipe.com/meetings/9176",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "onley-equipe-9051",
       "title": "Onley Grounds Equestrian Complex - Evening Dress Down Dressage - Wednesday 23rd September - Indoor - from 17.30pm",
       "venueKey": "onley",
@@ -816,6 +792,18 @@
       "time": null,
       "type": "Clinic",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553181",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "onley-equipe-8450",
+      "title": "Concours De Elegance - Stable Bookings thursday 24th - Sunday 27th September 2026",
+      "venueKey": "onley",
+      "date": "2026-09-24",
+      "endDate": "2026-09-25",
+      "time": null,
+      "type": "Other",
+      "url": "https://entry.equipe.com/meetings/8450",
       "notes": "",
       "source": "auto"
     },
@@ -1384,6 +1372,18 @@
       "source": "auto"
     },
     {
+      "id": "onley-equipe-9177",
+      "title": "Onley Grounds EC British Dressage (P-FEI INT 1Q + MUSIC + FEI + PYO) 16th October 2026",
+      "venueKey": "onley",
+      "date": "2026-10-16",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://entry.equipe.com/meetings/9177",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "moreton-morrell-553245",
       "title": "Moreton Morrell RC Unaffiliated Dressage inc Stoneleigh RC Points",
       "venueKey": "moreton-morrell",
@@ -1524,6 +1524,30 @@
       "time": null,
       "type": "Clinic",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553182",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "onley-equipe-9178",
+      "title": "Onley Grounds EC British Dressage (P-GP/ PYO FEI) + FSM 24th October 2026",
+      "venueKey": "onley",
+      "date": "2026-10-24",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://entry.equipe.com/meetings/9178",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "solihull-rc-574015",
+      "title": "Barrier Animal Health Spring Festival 2027 Area 7 Arena Eventing Qualifiers",
+      "venueKey": "solihull-rc",
+      "date": "2026-10-24",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=574015",
       "notes": "",
       "source": "auto"
     },
@@ -1800,6 +1824,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553252",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "onley-equipe-9179",
+      "title": "Onley Grounds British Dressage (P-AM) + FS 12th November 2026",
+      "venueKey": "onley",
+      "date": "2026-11-12",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://entry.equipe.com/meetings/9179",
       "notes": "",
       "source": "auto"
     },
