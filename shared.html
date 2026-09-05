@@ -7,15 +7,6 @@
 <meta name="description" content="A shared, auto-updating horse events calendar" />
 <link rel="icon" href="icons/icon-192.png" />
 <link rel="stylesheet" href="css/styles.css" />
-<style>
-  .owner-bar {
-    max-width: 720px; margin: 0 auto; padding: 8px 16px 0; display: flex; justify-content: flex-end;
-  }
-  .owner-bar button {
-    border: none; background: none; color: var(--ink-soft); font-size: 0.78rem;
-    text-decoration: underline; cursor: pointer; padding: 4px;
-  }
-</style>
 </head>
 <body>
 
@@ -25,6 +16,7 @@
 </header>
 
 <div class="owner-bar hidden" id="ownerBar">
+  <a href="#" id="addVenueLink">+ Add a venue</a>
   <button type="button" id="deleteListBtn">Delete this calendar</button>
 </div>
 
@@ -96,6 +88,7 @@
 <script src="js/supabase-config.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="js/calendar-core.js"></script>
+<script src="js/list-events.js"></script>
 <script src="js/shared.js"></script>
 </body>
 </html>

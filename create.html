@@ -22,6 +22,7 @@
     padding: 10px 16px; font-size: 0.9rem; cursor: pointer;
   }
   .search-row button:disabled { opacity: 0.5; cursor: default; }
+  .or-divider { text-align: center; font-size: 0.78rem; color: var(--ink-soft); margin: 4px 0; }
   .hint { font-size: 0.8rem; color: var(--ink-soft); margin: 0 0 16px; }
   .result-list { display: flex; flex-direction: column; gap: 8px; margin-bottom: 20px; }
   .result-row {
@@ -56,14 +57,32 @@
 <div class="create-wrap">
   <p class="hint">
     This searches <strong>Horse Monkey</strong>'s national venue database and
-    <strong>Horse Events</strong>' venue directory. If your venue uses neither, it won't
-    show up here — that's a real limit of this early version, not a bug.
+    <strong>Horse Events</strong>' venue directory by name.
   </p>
 
   <div class="search-row">
     <input type="text" id="searchInput" placeholder="Venue name (3+ letters)…" autocomplete="off" />
     <button type="button" id="searchBtn">Search</button>
   </div>
+
+  <p class="or-divider">— or —</p>
+
+  <p class="hint">
+    If your venue uses <strong>MyRidingLife</strong>, <strong>EquineAffairs</strong>,
+    <strong>Equipe</strong>, <strong>EntryMaster Lite</strong>, or <strong>EC Pro</strong>
+    for bookings, paste a link to its event listing/booking page below instead — none of
+    those support name search, so we can't find them any other way.
+  </p>
+
+  <div class="search-row">
+    <input type="text" id="urlInput" placeholder="Paste your venue's booking page URL…" autocomplete="off" />
+    <button type="button" id="urlBtn">Check</button>
+  </div>
+
+  <p class="hint">
+    A venue on some other booking system (or with no online booking at all) won't show up
+    here either way — that's a real limit of this early version, not a bug.
+  </p>
 
   <div id="statusMsg" class="status-msg hidden"></div>
   <div id="resultList" class="result-list"></div>

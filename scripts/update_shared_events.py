@@ -5,11 +5,13 @@ update_events.py, which handles Sarah's personal, hardcoded venue list.
 Runs as its own scheduled GitHub Actions workflow so a Supabase outage or a
 bug here can never block Sarah's daily personal run, and vice versa.
 
-Supports venues added via either of the two sources with genuine ad-hoc
-venue-name search: Horse Monkey (source == "horsemonkey") and
-horse-events.co.uk (source == "horse-events", identified by its URL slug
-stored in venues.external_ref). Any other `source` value is skipped with a
-warning; nothing in this script invents a scraper for it.
+Supports venues added via ad-hoc venue-name search (source == "horsemonkey"
+or "horse-events", identified by venues.canonical_venue_name / external_ref
+respectively) as well as venues added by pasting their own booking-page URL
+on a platform scripts/scrapers.py's detect_venue_url recognizes ("myridinglife",
+"equipe", "entrymaster-lite", "ecpro" -- see that function's docstring for
+what each stores in external_ref). Any other `source` value is skipped with
+a warning; nothing in this script invents a scraper for it.
 
 Requires two environment variables (set as GitHub Actions secrets):
     SUPABASE_URL              e.g. https://xxxxxxxx.supabase.co
@@ -24,7 +26,14 @@ from datetime import datetime, timezone
 
 import requests
 
-from scrapers import fetch_horsemonkey, fetch_horse_events
+from scrapers import (
+    fetch_horsemonkey,
+    fetch_horse_events,
+    fetch_ics_venue_from_url,
+    fetch_equipe,
+    fetch_entrymaster_lite,
+    fetch_ecpro,
+)
 
 SUPABASE_URL = os.environ.get("SUPABASE_URL", "").rstrip("/")
 SUPABASE_SERVICE_ROLE_KEY = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
@@ -112,6 +121,26 @@ def main():
                     print(f"WARN: skipping venue {venue['name']!r} -- horse-events source with no slug", file=sys.stderr)
                     continue
                 events = fetch_horse_events(session, venue["id"], venue["external_ref"])
+            elif source == "myridinglife":
+                if not venue.get("external_ref"):
+                    print(f"WARN: skipping venue {venue['name']!r} -- myridinglife source with no listing URL", file=sys.stderr)
+                    continue
+                events = fetch_ics_venue_from_url(session, venue["id"], venue["external_ref"])
+            elif source == "equipe":
+                if not venue.get("external_ref"):
+                    print(f"WARN: skipping venue {venue['name']!r} -- equipe source with no organizer id", file=sys.stderr)
+                    continue
+                events = fetch_equipe(session, venue["id"], venue["external_ref"])
+            elif source == "entrymaster-lite":
+                if not venue.get("external_ref"):
+                    print(f"WARN: skipping venue {venue['name']!r} -- entrymaster-lite source with no site URL", file=sys.stderr)
+                    continue
+                events = fetch_entrymaster_lite(session, venue["id"], venue["external_ref"])
+            elif source == "ecpro":
+                if not venue.get("external_ref"):
+                    print(f"WARN: skipping venue {venue['name']!r} -- ecpro source with no site URL", file=sys.stderr)
+                    continue
+                events = fetch_ecpro(session, venue["id"], venue["external_ref"])
             else:
                 print(f"WARN: skipping venue {venue['name']!r} -- unsupported source {source!r}", file=sys.stderr)
                 continue

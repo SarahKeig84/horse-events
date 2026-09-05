@@ -47,11 +47,11 @@ from scrapers import (
     TODAY,
     fetch_ics_venue,
     fetch_cotswold_cup,
-    fetch_onley_equipe,
-    fetch_rugby_entrymaster,
+    fetch_equipe,
+    fetch_entrymaster_lite,
     fetch_horse_events,
     fetch_unicorn_equestrian,
-    fetch_lowlands,
+    fetch_ecpro,
     fetch_horsemonkey,
     fetch_walsgrave,
 )
@@ -135,14 +135,17 @@ def scrape_all(session):
 
     # NOTE: Onley's real system of record is Equipe, not MyRidingLife -- their
     # myridinglife.com listing (locationID=2291) only had 1 event vs Equipe's
-    # ~25. Use fetch_onley_equipe below instead of fetch_ics_venue here.
+    # ~25. Use fetch_equipe below instead of fetch_ics_venue here.
     try:
-        results["onley"] = fetch_onley_equipe(session)
+        results["onley"] = fetch_equipe(session, "onley", 404)
     except Exception as exc:  # noqa: BLE001
         print(f"WARN: onley scrape failed: {exc}", file=sys.stderr)
 
     try:
-        results["rugby-riding-club"] = fetch_rugby_entrymaster(session)
+        results["rugby-riding-club"] = fetch_entrymaster_lite(
+            session, "rugby-riding-club", "https://rugbyrc.lite.events",
+            venue_name_filter="rugby riding club",
+        )
     except Exception as exc:  # noqa: BLE001
         print(f"WARN: rugby-riding-club scrape failed: {exc}", file=sys.stderr)
 
@@ -170,7 +173,9 @@ def scrape_all(session):
         print(f"WARN: the-unicorn scrape failed: {exc}", file=sys.stderr)
 
     try:
-        results["lowlands"] = fetch_lowlands(session)
+        results["lowlands"] = fetch_ecpro(
+            session, "lowlands", "https://lowlandsequestriancentre.ecpro.co.uk/events/upcoming"
+        )
     except Exception as exc:  # noqa: BLE001
         print(f"WARN: lowlands scrape failed: {exc}", file=sys.stderr)
 

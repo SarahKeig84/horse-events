@@ -40,6 +40,24 @@ html, body {
   opacity: 0.85;
 }
 
+.owner-bar {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 8px 16px 0;
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+.owner-bar button, .owner-bar a {
+  border: none;
+  background: none;
+  color: var(--ink-soft);
+  font-size: 0.78rem;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 4px;
+}
+
 .toolbar {
   display: flex;
   gap: 8px;

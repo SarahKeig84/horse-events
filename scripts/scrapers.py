@@ -15,6 +15,7 @@ import json
 import re
 from datetime import datetime, timedelta, date
 from html import unescape
+from urllib.parse import urlsplit
 
 import requests
 from bs4 import BeautifulSoup
@@ -109,6 +110,16 @@ def fetch_ics_venue(session, venue_key, listing_url, site_root):
     return events
 
 
+def fetch_ics_venue_from_url(session, venue_key, listing_url):
+    """Thin wrapper around fetch_ics_venue for callers that only have the
+    venue's listing URL (e.g. a visitor-pasted URL) rather than a
+    separately-known site_root -- site_root is always just that URL's own
+    origin, so there's nothing platform-specific left to ask the caller for."""
+    parts = urlsplit(listing_url)
+    site_root = f"{parts.scheme}://{parts.netloc}"
+    return fetch_ics_venue(session, venue_key, listing_url, site_root)
+
+
 MONTH_NUMBERS = {
     name: i for i, name in enumerate(
         ["January", "February", "March", "April", "May", "June", "July", "August",
@@ -188,12 +199,17 @@ def fetch_cotswold_cup(session):
     return events
 
 
-def fetch_onley_equipe(session):
-    """Onley's real system of record is Equipe (organizer id 404), not
-    MyRidingLife -- it lists ~25 shows vs MyRidingLife's 1. Each show card
-    embeds a clean JSON blob (React component props) with startsOn/endsOn,
-    so no free-text date parsing is needed here."""
-    resp = session.get("https://entry.equipe.com/organizers/404/meetings", headers=HEADERS, timeout=20)
+def fetch_equipe(session, venue_key, organizer_id):
+    """Equipe is a multi-tenant show-entry platform -- every organizer gets
+    their own https://entry.equipe.com/organizers/<id>/meetings page listing
+    their shows. Discovered via Onley (organizer id 404), whose real system
+    of record turned out to be Equipe rather than MyRidingLife -- it lists
+    ~25 shows vs MyRidingLife's 1. Each show card embeds a clean JSON blob
+    (React component props) with startsOn/endsOn, so no free-text date
+    parsing is needed here."""
+    resp = session.get(
+        f"https://entry.equipe.com/organizers/{organizer_id}/meetings", headers=HEADERS, timeout=20
+    )
     resp.raise_for_status()
     html = resp.text
 
@@ -223,9 +239,9 @@ def fetch_onley_equipe(session):
 
         meeting_id = url.rsplit("/", 1)[-1]
         events.append({
-            "id": f"onley-equipe-{meeting_id}",
+            "id": f"{venue_key}-equipe-{meeting_id}",
             "title": title,
-            "venueKey": "onley",
+            "venueKey": venue_key,
             "date": start.isoformat(),
             "endDate": end.isoformat() if end else None,
             "time": None,
@@ -237,12 +253,16 @@ def fetch_onley_equipe(session):
     return events
 
 
-def fetch_rugby_entrymaster(session):
-    """Rugby Riding Club runs its own EntryMaster Lite site. The homepage
-    lists whatever's currently open for booking, including things not at
-    their own venue (e.g. an off-site Points Award afternoon) -- only keep
-    cards whose own Venue field actually says Rugby Riding Club."""
-    resp = session.get("https://rugbyrc.lite.events", headers=HEADERS, timeout=20)
+def fetch_entrymaster_lite(session, venue_key, site_url, venue_name_filter=None):
+    """EntryMaster Lite is a multi-tenant booking platform -- every club gets
+    its own <slug>.lite.events site with this same card markup. Discovered
+    via Rugby Riding Club, whose homepage lists whatever's currently open
+    for booking, including things not at their own venue (e.g. an off-site
+    Points Award afternoon) -- passing venue_name_filter keeps only cards
+    whose own Venue field matches (Rugby's own call uses this; a freshly
+    added venue normally doesn't need it, since a club's own site typically
+    only lists its own events)."""
+    resp = session.get(site_url, headers=HEADERS, timeout=20)
     resp.raise_for_status()
     html = resp.text
 
@@ -257,9 +277,10 @@ def fetch_rugby_entrymaster(session):
         anchor_id, raw_title, raw_date, tail = block_match.groups()
         title = unescape(re.sub(r"<[^>]+>", "", raw_title)).strip()
 
-        venue_match = re.search(r"Venue:</strong>\s*([^<]+)<", tail)
-        if not venue_match or "rugby riding club" not in venue_match.group(1).strip().lower():
-            continue
+        if venue_name_filter is not None:
+            venue_match = re.search(r"Venue:</strong>\s*([^<]+)<", tail)
+            if not venue_match or venue_name_filter.lower() not in venue_match.group(1).strip().lower():
+                continue
 
         date_str = unescape(re.sub(r"<[^>]+>", "", raw_date)).strip()
         date_tokens = re.findall(r"\d{1,2} [A-Za-z]{3} \d{4}", date_str)
@@ -282,14 +303,14 @@ def fetch_rugby_entrymaster(session):
             continue
 
         events.append({
-            "id": f"rugby-riding-club-entrymaster-{anchor_id}",
+            "id": f"{venue_key}-entrymaster-{anchor_id}",
             "title": title,
-            "venueKey": "rugby-riding-club",
+            "venueKey": venue_key,
             "date": start.isoformat(),
             "endDate": end.isoformat() if end else None,
             "time": None,
             "type": classify(title),
-            "url": "https://rugbyrc.lite.events",
+            "url": site_url,
             "notes": "",
             "source": "auto",
         })
@@ -421,14 +442,18 @@ def fetch_unicorn_equestrian(session):
     return events
 
 
-def fetch_lowlands(session):
-    """Lowlands Equestrian Centre (an RDA -- Riding for the Disabled
-    Association -- centre) runs its own EC Pro booking site. Its upcoming
-    events page lists both open unaffiliated shows and recurring RDA-run
-    clinics as clean event cards with a DD/MM/YYYY date."""
-    resp = session.get("https://lowlandsequestriancentre.ecpro.co.uk/events/upcoming", headers=HEADERS, timeout=20)
+def fetch_ecpro(session, venue_key, site_url):
+    """EC Pro is a multi-tenant booking platform -- every venue gets its own
+    <slug>.ecpro.co.uk site with this same card markup. Discovered via
+    Lowlands Equestrian Centre (an RDA -- Riding for the Disabled
+    Association -- centre); its upcoming events page lists both open
+    unaffiliated shows and recurring RDA-run clinics as clean event cards
+    with a DD/MM/YYYY date. `site_url` should be that venue's own
+    /events/upcoming page."""
+    resp = session.get(site_url, headers=HEADERS, timeout=20)
     resp.raise_for_status()
     html = resp.text
+    site_root = f"{urlsplit(site_url).scheme}://{urlsplit(site_url).netloc}"
 
     events = []
     for match in re.finditer(
@@ -449,14 +474,14 @@ def fetch_lowlands(session):
 
         event_id = href.rsplit("/", 1)[-1]
         events.append({
-            "id": f"lowlands-{event_id}",
+            "id": f"{venue_key}-ecpro-{event_id}",
             "title": title,
-            "venueKey": "lowlands",
+            "venueKey": venue_key,
             "date": start.isoformat(),
             "endDate": None,
             "time": None,
             "type": classify(title),
-            "url": f"https://lowlandsequestriancentre.ecpro.co.uk{href}",
+            "url": f"{site_root}{href}",
             "notes": "",
             "source": "auto",
         })
@@ -589,3 +614,38 @@ def fetch_walsgrave(session):
             "source": "auto",
         })
     return events
+
+
+EQUIPE_ORGANIZER_RE = re.compile(r"^https?://entry\.equipe\.com/organizers/(\d+)", re.IGNORECASE)
+MYRIDINGLIFE_HOSTS = ("myridinglife.com", "www.myridinglife.com", "equineaffairs.com", "www.equineaffairs.com")
+
+
+def detect_venue_url(url):
+    """Given a venue's own booking-page URL, identifies which of the
+    self-serve-able multi-tenant platforms (see fetch_ics_venue_from_url,
+    fetch_equipe, fetch_entrymaster_lite, fetch_ecpro) it's on and what
+    identifier that platform's fetcher needs.
+
+    Returns (source, external_ref) or None if the URL doesn't match any
+    known platform. Deliberately does NOT cover Unicorn Equestrian,
+    Walsgrave ARC or the Cotswold Cup -- those are bespoke one-off parsers
+    tuned to one specific site's own markup, not a shared platform, so
+    there's nothing generic here to detect.
+    """
+    parts = urlsplit(url)
+    host = parts.netloc.lower()
+
+    if host in MYRIDINGLIFE_HOSTS and "remotelocationeventlist.aspx" in parts.path.lower():
+        return "myridinglife", url
+
+    equipe_match = EQUIPE_ORGANIZER_RE.match(url)
+    if equipe_match:
+        return "equipe", equipe_match.group(1)
+
+    if host.endswith(".lite.events"):
+        return "entrymaster-lite", f"{parts.scheme}://{parts.netloc}"
+
+    if host.endswith(".ecpro.co.uk"):
+        return "ecpro", url
+
+    return None

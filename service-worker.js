@@ -1,4 +1,4 @@
-const CACHE_NAME = "horse-events-v3";
+const CACHE_NAME = "horse-events-v4";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -6,6 +6,8 @@ const APP_SHELL = [
   "./css/styles.css",
   "./js/calendar-core.js",
   "./js/app.js",
+  "./js/list-events.js",
+  "./js/supabase-config.js",
   "./data/events.json",
   "./icons/icon-192.png",
   "./icons/icon-512.png",

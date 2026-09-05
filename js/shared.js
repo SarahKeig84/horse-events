@@ -33,57 +33,26 @@
   }
 
   async function load() {
-    const { data: listVenues, error: lvError } = await client
-      .from("list_venues")
-      .select("venues(id,name)")
-      .eq("list_id", listId);
-    if (lvError) throw lvError;
-    if (!listVenues || listVenues.length === 0) {
+    const result = await window.HorseEventsListEvents.fetchListEvents(client, listId);
+    if (!result) {
       showError("This calendar doesn't exist (or has been deleted).");
       return;
     }
 
-    const venues = listVenues.map((row, i) => ({
-      key: row.venues.id,
-      name: row.venues.name,
-      color: PALETTE[i % PALETTE.length],
-      url: "",
-    }));
-    const venueIds = venues.map((v) => v.key);
-
-    const { data: eventRows, error: evError } = await client
-      .from("events")
-      .select("*")
-      .in("venue_id", venueIds);
-    if (evError) throw evError;
-
-    const events = (eventRows || []).map((row) => ({
-      id: row.id,
-      title: row.title,
-      venueKey: row.venue_id,
-      date: row.date,
-      endDate: row.end_date,
-      time: row.time,
-      type: row.type,
-      url: row.url,
-      notes: row.notes,
-    }));
-
-    const latestUpdate = (eventRows || []).reduce(
-      (max, r) => (r.updated_at && r.updated_at > max ? r.updated_at : max),
-      ""
-    );
+    const venues = result.venues.map((v, i) => ({ ...v, color: PALETTE[i % PALETTE.length], url: "" }));
 
     window.HorseEventsCalendar.init({
-      updated: latestUpdate ? latestUpdate.slice(0, 10) : null,
+      updated: result.updated,
       venues,
-      events,
+      events: result.events,
       gaps: [],
     });
 
     if (ownerToken) {
       const ownerBar = document.getElementById("ownerBar");
       ownerBar.classList.remove("hidden");
+      document.getElementById("addVenueLink").href =
+        `create.html?list=${encodeURIComponent(listId)}&owner=${encodeURIComponent(ownerToken)}`;
       document.getElementById("deleteListBtn").addEventListener("click", async () => {
         if (!window.confirm("Delete this calendar? This can't be undone.")) return;
         const { data: deleted, error } = await client.rpc("delete_list_if_owner", {

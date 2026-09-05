@@ -13,20 +13,41 @@
 
   const searchInput = document.getElementById("searchInput");
   const searchBtn = document.getElementById("searchBtn");
+  const urlInput = document.getElementById("urlInput");
+  const urlBtn = document.getElementById("urlBtn");
   const statusMsg = document.getElementById("statusMsg");
   const resultList = document.getElementById("resultList");
   const selectedBar = document.getElementById("selectedBar");
   const selectedCount = document.getElementById("selectedCount");
   const createBtn = document.getElementById("createBtn");
 
-  const SOURCE_LABELS = { horsemonkey: "Horse Monkey", "horse-events": "Horse Events" };
+  const SOURCE_LABELS = {
+    horsemonkey: "Horse Monkey",
+    "horse-events": "Horse Events",
+    myridinglife: "MyRidingLife / EquineAffairs",
+    equipe: "Equipe",
+    "entrymaster-lite": "EntryMaster Lite",
+    ecpro: "EC Pro",
+  };
+
+  // If this page was opened with ?list=&owner= (from the "+ Add a venue"
+  // link on an existing calendar), venues get added to that list instead of
+  // a brand new one being created.
+  const params = new URLSearchParams(window.location.search);
+  const addToListId = params.get("list");
+  const addToOwnerToken = params.get("owner");
+  const isAddMode = !!(addToListId && addToOwnerToken);
+  if (isAddMode) createBtn.textContent = "Add to my calendar";
 
   // A venue result is uniquely identified by (source, name) for Horse
-  // Monkey or (source, slug) for Horse Events -- two different sources can
+  // Monkey, (source, slug) for Horse Events, or (source, externalRef) for
+  // everything found by pasting a URL -- two different sources can
   // legitimately return the same venue name, so plain name alone isn't a
   // safe key here the way it was when this only searched one source.
   function resultKey(v) {
-    return v.source === "horse-events" ? `horse-events:${v.slug}` : `horsemonkey:${v.name}`;
+    if (v.source === "horse-events") return `horse-events:${v.slug}`;
+    if (v.externalRef) return `${v.source}:${v.externalRef}`;
+    return `horsemonkey:${v.name}`;
   }
 
   const selected = new Map();
@@ -82,6 +103,21 @@
     selectedCount.textContent = `${n} venue${n === 1 ? "" : "s"} selected`;
   }
 
+  async function callSearchVenues(body) {
+    const resp = await fetch(`${window.SUPABASE_URL}/functions/v1/search-venues`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${window.SUPABASE_ANON_KEY}`,
+        apikey: window.SUPABASE_ANON_KEY,
+      },
+      body: JSON.stringify(body),
+    });
+    const data = await resp.json();
+    if (!resp.ok) throw new Error(data.error || `Search failed (${resp.status})`);
+    return data;
+  }
+
   async function runSearch() {
     const query = searchInput.value.trim();
     if (query.length < 3) {
@@ -92,17 +128,7 @@
     showStatus("Searching…", false);
     resultList.innerHTML = "";
     try {
-      const resp = await fetch(`${window.SUPABASE_URL}/functions/v1/search-venues`, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer ${window.SUPABASE_ANON_KEY}`,
-          apikey: window.SUPABASE_ANON_KEY,
-        },
-        body: JSON.stringify({ query }),
-      });
-      const data = await resp.json();
-      if (!resp.ok) throw new Error(data.error || `Search failed (${resp.status})`);
+      const data = await callSearchVenues({ query });
       renderResults(data.venues || []);
       if (data.partialErrors && data.partialErrors.length) {
         showStatus(`Some sources didn't respond (${data.partialErrors.join("; ")}) -- results may be incomplete.`, true);
@@ -114,22 +140,64 @@
     }
   }
 
+  async function runUrlDetect() {
+    const url = urlInput.value.trim();
+    if (!url) {
+      showStatus("Paste a venue's booking page URL first.", true);
+      return;
+    }
+    urlBtn.disabled = true;
+    showStatus("Checking that URL…", false);
+    resultList.innerHTML = "";
+    try {
+      const data = await callSearchVenues({ url });
+      renderResults(data.venues || []);
+    } catch (err) {
+      showStatus(err.message, true);
+    } finally {
+      urlBtn.disabled = false;
+    }
+  }
+
+  function venueRpcArgs(v) {
+    // For results found by pasting a URL, externalRef IS the scrape
+    // identifier (a listing URL, organizer id, or site URL depending on
+    // platform) -- it's stored as canonical_venue_name too, since that's
+    // what the unique(source, canonical_venue_name) constraint dedupes
+    // repeated adds of the same real-world venue on. `name` stays the
+    // (best-effort guessed) display name.
+    if (v.source === "horse-events") {
+      return { p_name: v.name, p_canonical_venue_name: v.name, p_source: v.source, p_external_ref: v.slug };
+    }
+    if (v.externalRef) {
+      return { p_name: v.name, p_canonical_venue_name: v.externalRef, p_source: v.source, p_external_ref: v.externalRef };
+    }
+    return { p_name: v.name, p_canonical_venue_name: v.name, p_source: v.source, p_external_ref: null };
+  }
+
   async function createCalendar() {
     if (selected.size === 0) return;
     createBtn.disabled = true;
-    showStatus("Creating your calendar…", false);
+    showStatus(isAddMode ? "Adding to your calendar…" : "Creating your calendar…", false);
     try {
       const client = getClient();
       const venueIds = [];
       for (const v of selected.values()) {
-        const { data: venueId, error } = await client.rpc("get_or_create_venue", {
-          p_name: v.name,
-          p_canonical_venue_name: v.name,
-          p_source: v.source,
-          p_external_ref: v.source === "horse-events" ? v.slug : null,
-        });
+        const { data: venueId, error } = await client.rpc("get_or_create_venue", venueRpcArgs(v));
         if (error) throw error;
         venueIds.push(venueId);
+      }
+
+      if (isAddMode) {
+        const { data: added, error: addError } = await client.rpc("add_venues_to_list", {
+          p_list_id: addToListId,
+          p_owner_token: addToOwnerToken,
+          p_venue_ids: venueIds,
+        });
+        if (addError) throw addError;
+        if (!added) throw new Error("This calendar link is no longer valid.");
+        window.location.href = `shared.html?list=${encodeURIComponent(addToListId)}&owner=${encodeURIComponent(addToOwnerToken)}`;
+        return;
       }
 
       const { data: rows, error: listError } = await client.rpc("create_list", {
@@ -141,7 +209,7 @@
 
       window.location.href = `shared.html?list=${encodeURIComponent(id)}&owner=${encodeURIComponent(owner_token)}`;
     } catch (err) {
-      showStatus(`Couldn't create your calendar: ${err.message}`, true);
+      showStatus(`Couldn't ${isAddMode ? "add to" : "create"} your calendar: ${err.message}`, true);
       createBtn.disabled = false;
     }
   }
@@ -149,6 +217,10 @@
   searchBtn.addEventListener("click", runSearch);
   searchInput.addEventListener("keydown", (e) => {
     if (e.key === "Enter") runSearch();
+  });
+  urlBtn.addEventListener("click", runUrlDetect);
+  urlInput.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") runUrlDetect();
   });
   createBtn.addEventListener("click", createCalendar);
 })();

@@ -1,19 +1,22 @@
-// Supabase Edge Function: proxies two venue-search sources server-side, so
-// neither's request shape has to live in client-side JS and neither site
-// sees traffic directly from random visitors' browsers:
+// Supabase Edge Function: proxies venue-search/detection sources
+// server-side, so neither's request shape has to live in client-side JS and
+// neither site sees traffic directly from random visitors' browsers:
 //   - Horse Monkey's undocumented internal search API (national, JSON)
 //   - horse-events.co.uk's venue directory keyword filter (national, HTML)
-// These are the only two sources found (out of everything this project
-// scrapes) that support genuine ad-hoc venue-NAME search rather than
-// requiring a venue id/slug already known in advance -- MyRidingLife/
-// EquineAffairs, Equipe and EntryMaster all have no such search.
+//   - four multi-tenant booking platforms without any name search at all
+//     (MyRidingLife/EquineAffairs, Equipe, EntryMaster Lite, EC Pro) --
+//     detected instead from a venue's own booking-page URL, since there's
+//     no way to search them by name (see detectPlatform)
 //
 // Deploy with: supabase functions deploy search-venues
 //
-// Request:  POST { "query": "<venue name fragment, 3+ chars>" }
+// Request: POST { "query": "<venue name fragment, 3+ chars>" }
+//       or POST { "url": "<venue's own booking-page URL>" }
 // Response: { "venues": [
 //   { "source": "horsemonkey", "name": "<canonical venue_name>", "eventCount": n },
-//   { "source": "horse-events", "name": "<venue name>", "slug": "<url slug>", "eventCount"?: n }
+//   { "source": "horse-events", "name": "<venue name>", "slug": "<url slug>", "eventCount"?: n },
+//   { "source": "myridinglife" | "equipe" | "entrymaster-lite" | "ecpro",
+//     "name": "<best-effort guess>", "externalRef": "<scrape identifier>", "eventCount"?: n }
 // ] }
 //
 // Unlike Horse Monkey's search API (which returns actual event rows, so
@@ -23,7 +26,8 @@
 // "Equestrian" -> 30+ venues) would make search slow and hammer their site,
 // so eventCount is only attached for Horse Events results when a query
 // narrows the match list down to MAX_HORSE_EVENTS_COUNT_FETCHES or fewer
-// (see attachHorseEventsCounts) -- otherwise it's simply omitted.
+// (see attachHorseEventsCounts) -- otherwise it's simply omitted. A `url`
+// request only ever names one venue, so its count is always attempted.
 //
 // Two things learned the hard way while building the personal version of
 // this app, both load-bearing here:
@@ -53,6 +57,13 @@ const REQUEST_HEADERS = {
 
 type HorseMonkeyVenue = { source: "horsemonkey"; name: string; eventCount: number };
 type HorseEventsVenue = { source: "horse-events"; name: string; slug: string; eventCount?: number };
+type UrlSourcedSource = "myridinglife" | "equipe" | "entrymaster-lite" | "ecpro";
+type UrlSourcedVenue = {
+  source: UrlSourcedSource;
+  name: string;
+  externalRef: string;
+  eventCount?: number;
+};
 
 Deno.serve(async (req: Request) => {
   if (req.method === "OPTIONS") {
@@ -62,13 +73,18 @@ Deno.serve(async (req: Request) => {
     return json({ error: "Method not allowed" }, 405);
   }
 
-  let query: unknown;
+  let body: { query?: unknown; url?: unknown };
   try {
-    ({ query } = await req.json());
+    body = await req.json();
   } catch {
     return json({ error: "Invalid JSON body" }, 400);
   }
 
+  if (typeof body.url === "string") {
+    return await handleUrlDetection(body.url);
+  }
+
+  const query = body.query;
   if (typeof query !== "string" || query.trim().length < 3) {
     return json({ error: "query must be at least 3 characters" }, 400);
   }
@@ -151,6 +167,143 @@ async function searchHorseEvents(query: string): Promise<HorseEventsVenue[]> {
     if (name) seen.set(slug, name);
   }
   return [...seen.entries()].map(([slug, name]) => ({ source: "horse-events" as const, name, slug }));
+}
+
+// Detects which self-serve-able multi-tenant platform a pasted venue URL is
+// on and returns the identifier that platform's fetcher needs -- the exact
+// same mapping as scripts/scrapers.py's detect_venue_url (kept in sync by
+// hand; there's no shared module between Python and Deno here). Deliberately
+// does NOT cover Unicorn Equestrian, Walsgrave ARC or the Cotswold Cup --
+// those are bespoke one-off parsers tuned to one specific site's own
+// markup, not a shared platform, so there's nothing generic to detect.
+const EQUIPE_ORGANIZER_RE = /^https?:\/\/entry\.equipe\.com\/organizers\/(\d+)/i;
+const MYRIDINGLIFE_HOSTS = new Set([
+  "myridinglife.com",
+  "www.myridinglife.com",
+  "equineaffairs.com",
+  "www.equineaffairs.com",
+]);
+
+function detectPlatform(url: string): { source: UrlSourcedSource; externalRef: string } | null {
+  let parsed: URL;
+  try {
+    parsed = new URL(url);
+  } catch {
+    return null;
+  }
+  const host = parsed.hostname.toLowerCase();
+
+  if (MYRIDINGLIFE_HOSTS.has(host) && parsed.pathname.toLowerCase().includes("remotelocationeventlist.aspx")) {
+    return { source: "myridinglife", externalRef: url };
+  }
+
+  const equipeMatch = url.match(EQUIPE_ORGANIZER_RE);
+  if (equipeMatch) {
+    return { source: "equipe", externalRef: equipeMatch[1] };
+  }
+
+  if (host.endsWith(".lite.events")) {
+    return { source: "entrymaster-lite", externalRef: `${parsed.protocol}//${parsed.host}` };
+  }
+
+  if (host.endsWith(".ecpro.co.uk")) {
+    return { source: "ecpro", externalRef: url };
+  }
+
+  return null;
+}
+
+// Best-effort venue name guess -- these platforms don't expose a clean
+// venue-name field the way Horse Monkey and Horse Events do, and where the
+// name lives varies enough per platform that one generic <title>-splitting
+// heuristic gets it visibly wrong (confirmed live): MyRidingLife/
+// EquineAffairs' <title> is "All Events at <venue>"; Equipe's <title> and
+// og:title are both platform-generic ("Equipe Entry System Shows"/"Equipe
+// Entry") with the real name only in an <h3 class="p-3"> heading;
+// EntryMaster Lite's <title> is similarly generic but its og:title meta is
+// "<venue> Online Entry System"; EC Pro's <title> is "Upcoming Events |
+// <venue>" -- the venue is the LAST segment, not the first. Whatever this
+// returns is still just a starting point, not a guarantee -- the visitor
+// picking a URL result can see and correct it before adding it.
+function guessVenueName(source: UrlSourcedSource, html: string): string | null {
+  switch (source) {
+    case "myridinglife": {
+      const m = html.match(/<title[^>]*>\s*All Events at ([^<]+?)\s*<\/title>/i);
+      return m ? decodeHtmlEntities(m[1]).trim() : null;
+    }
+    case "equipe": {
+      const m = html.match(/<h3 class="p-3">\s*([^<]+?)\s*<\/h3>/i);
+      return m ? decodeHtmlEntities(m[1]).trim() : null;
+    }
+    case "entrymaster-lite": {
+      const m = html.match(/<meta property="og:title" content="([^"]+)"/i);
+      if (!m) return null;
+      return decodeHtmlEntities(m[1]).replace(/\s+(online )?entry system\s*$/i, "").trim() || null;
+    }
+    case "ecpro": {
+      const m = html.match(/<title[^>]*>([^<]+)<\/title>/i);
+      if (!m) return null;
+      const parts = decodeHtmlEntities(m[1]).split("|");
+      return parts[parts.length - 1].trim() || null;
+    }
+  }
+}
+
+async function handleUrlDetection(url: string): Promise<Response> {
+  const detected = detectPlatform(url.trim());
+  if (!detected) {
+    return json({ error: "We don't recognize this booking platform yet. Try a Horse Monkey or Horse Events search instead, or check the URL." }, 400);
+  }
+
+  let html: string;
+  try {
+    const resp = await fetch(
+      detected.source === "equipe"
+        ? `https://entry.equipe.com/organizers/${detected.externalRef}/meetings`
+        : detected.externalRef,
+      { headers: REQUEST_HEADERS }
+    );
+    if (!resp.ok) throw new Error(`upstream returned ${resp.status}`);
+    html = await resp.text();
+  } catch (err) {
+    return json({ error: `Couldn't reach that page (${String(err)}). Double-check the URL.` }, 502);
+  }
+
+  const venue: UrlSourcedVenue = {
+    source: detected.source,
+    name: guessVenueName(detected.source, html) || url,
+    externalRef: detected.externalRef,
+    eventCount: countUpcomingForPlatform(detected.source, html),
+  };
+  return json({ venues: [venue] });
+}
+
+function countUpcomingForPlatform(source: UrlSourcedSource, html: string): number {
+  switch (source) {
+    case "myridinglife": {
+      let count = 0;
+      for (const m of html.matchAll(/eventdetails\.aspx\?id=\d+"[^>]*>([^<]+)</g)) {
+        if (!/private|group lesson|recall|training field|hayfield|long walk|arena hire/i.test(m[1])) count++;
+      }
+      return count;
+    }
+    case "equipe": {
+      let count = 0;
+      for (const m of html.matchAll(/data-react-component-props-value="([^"]+)"/g)) {
+        try {
+          const payload = JSON.parse(decodeHtmlEntities(m[1]));
+          if (payload.name && payload.url && payload.startsOn && !/cancelled/i.test(payload.name)) count++;
+        } catch {
+          // skip malformed blobs
+        }
+      }
+      return count;
+    }
+    case "entrymaster-lite":
+      return [...html.matchAll(/<a id="event\d+"><\/a>/g)].length;
+    case "ecpro":
+      return [...html.matchAll(/class="client-event-listing-link"/g)].length;
+  }
 }
 
 // Fetches each venue's own profile page in parallel and counts its

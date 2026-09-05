@@ -28,9 +28,14 @@ create extension if not exists pgcrypto;
 create table if not exists venues (
   id uuid primary key default gen_random_uuid(),
   name text not null,                    -- display name shown in the app
-  canonical_venue_name text not null,    -- exact Horse Monkey venue_name string, used for exact-match re-scraping
-  source text not null default 'horsemonkey',  -- 'horsemonkey' | 'horse-events'
-  external_ref text,                     -- horse-events.co.uk's venue slug; null for horsemonkey (canonical_venue_name is its own identifier)
+  -- Exact Horse Monkey venue_name string for horsemonkey venues (used for
+  -- exact-match re-scraping); for every other source, the scrape identifier
+  -- itself (URL/organizer id) -- either way, the thing that makes this
+  -- constraint correctly dedupe repeated adds of the same real-world venue.
+  canonical_venue_name text not null,
+  -- 'horsemonkey' | 'horse-events' | 'myridinglife' | 'equipe' | 'entrymaster-lite' | 'ecpro'
+  source text not null default 'horsemonkey',
+  external_ref text,                     -- platform-specific identifier; null for horsemonkey (canonical_venue_name is its own identifier)
   created_at timestamptz not null default now(),
   unique (source, canonical_venue_name)
 );
@@ -156,3 +161,33 @@ begin
 end;
 $$;
 grant execute on function delete_list_if_owner(uuid, uuid) to anon;
+
+-- Adds venues to an existing list -- the missing piece that lets a list
+-- grow over time. Mirrors delete_list_if_owner's owner-token check: only
+-- the creator (holder of owner_token) can add more venues; a shared
+-- read-only link alone isn't enough.
+create or replace function add_venues_to_list(
+  p_list_id uuid,
+  p_owner_token uuid,
+  p_venue_ids uuid[]
+) returns boolean
+language plpgsql
+security definer
+set search_path = public
+as $$
+begin
+  if not exists (select 1 from lists where id = p_list_id and owner_token = p_owner_token) then
+    return false;
+  end if;
+  if p_venue_ids is null or array_length(p_venue_ids, 1) is null then
+    raise exception 'At least one venue is required';
+  end if;
+
+  insert into list_venues (list_id, venue_id)
+  select p_list_id, v from unnest(p_venue_ids) as v
+  on conflict do nothing;
+
+  return true;
+end;
+$$;
+grant execute on function add_venues_to_list(uuid, uuid, uuid[]) to anon;
