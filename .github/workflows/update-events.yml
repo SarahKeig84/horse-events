@@ -34,7 +34,27 @@ jobs:
           git add data/events.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
-          else
-            git commit -m "Auto-update event data"
-            git push
+            exit 0
           fi
+          git commit -m "Auto-update event data"
+
+          # Someone may have pushed (e.g. a manual data edit) while this run
+          # was scraping, which would make a plain push fail as non-fast-forward.
+          # Rebase onto the latest remote and retry a few times before giving up.
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              echo "Pushed successfully"
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt) -- fetching and rebasing"
+            git fetch origin main
+            if ! git rebase origin/main; then
+              echo "Rebase conflict -- keeping this run's data as-is on top"
+              git rebase --abort
+              git reset --soft origin/main
+              git commit -m "Auto-update event data"
+            fi
+            sleep 5
+          done
+          echo "Failed to push after multiple attempts"
+          exit 1
