@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Build your Horse Events calendar</title>
+<meta name="description" content="Search for your local venue and get your own shareable, auto-updating horse events calendar" />
+<link rel="icon" href="icons/icon-192.png" />
+<link rel="stylesheet" href="css/styles.css" />
+<style>
+  .create-wrap { max-width: 560px; margin: 0 auto; padding: 16px; }
+  .create-header { padding: calc(env(safe-area-inset-top, 0px) + 20px) 16px 16px; background: var(--brand); color: #fff; }
+  .create-header h1 { margin: 0 0 6px; font-size: 1.3rem; }
+  .create-header p { margin: 0; font-size: 0.85rem; opacity: 0.9; }
+  .search-row { display: flex; gap: 8px; margin: 16px 0; }
+  .search-row input {
+    flex: 1; padding: 10px 12px; border: 1px solid var(--border); border-radius: 10px;
+    font-size: 0.95rem; background: var(--surface); color: var(--ink);
+  }
+  .search-row button {
+    border: none; background: var(--brand); color: #fff; border-radius: 10px;
+    padding: 10px 16px; font-size: 0.9rem; cursor: pointer;
+  }
+  .search-row button:disabled { opacity: 0.5; cursor: default; }
+  .hint { font-size: 0.8rem; color: var(--ink-soft); margin: 0 0 16px; }
+  .result-list { display: flex; flex-direction: column; gap: 8px; margin-bottom: 20px; }
+  .result-row {
+    display: flex; align-items: center; gap: 10px; padding: 10px 12px;
+    border: 1px solid var(--border); border-radius: 10px; background: var(--surface); cursor: pointer;
+  }
+  .result-row input[type="checkbox"] { width: 18px; height: 18px; flex: none; }
+  .result-row .rname { font-weight: 600; font-size: 0.92rem; }
+  .result-row .rcount { font-size: 0.78rem; color: var(--ink-soft); }
+  .selected-bar {
+    position: sticky; bottom: 0; background: var(--surface); border-top: 1px solid var(--border);
+    padding: 12px 16px calc(12px + env(safe-area-inset-bottom, 0px));
+    display: flex; justify-content: space-between; align-items: center; gap: 10px;
+  }
+  .selected-bar button {
+    border: none; background: var(--brand); color: #fff; border-radius: 10px;
+    padding: 10px 18px; font-size: 0.9rem; cursor: pointer;
+  }
+  .selected-bar button:disabled { opacity: 0.5; cursor: default; }
+  .status-msg { font-size: 0.85rem; color: var(--ink-soft); padding: 8px 0; }
+  .status-msg.error { color: #b91c1c; }
+  a.back-link { color: var(--ink-soft); font-size: 0.8rem; }
+</style>
+</head>
+<body>
+
+<header class="create-header">
+  <h1>🐴 Build your own Horse Events calendar</h1>
+  <p>Search for your riding venue below, pick as many as you like, and get your own shareable link that keeps itself up to date.</p>
+</header>
+
+<div class="create-wrap">
+  <p class="hint">
+    This searches <strong>Horse Monkey</strong>'s national venue database. If your venue
+    doesn't use Horse Monkey, it won't show up here — that's a real limit of this early
+    version, not a bug.
+  </p>
+
+  <div class="search-row">
+    <input type="text" id="searchInput" placeholder="Venue name (3+ letters)…" autocomplete="off" />
+    <button type="button" id="searchBtn">Search</button>
+  </div>
+
+  <div id="statusMsg" class="status-msg hidden"></div>
+  <div id="resultList" class="result-list"></div>
+
+  <p><a class="back-link" href="index.html">&larr; Back to Horse Events</a></p>
+</div>
+
+<div class="selected-bar hidden" id="selectedBar">
+  <span id="selectedCount"></span>
+  <button type="button" id="createBtn">Create my calendar</button>
+</div>
+
+<script src="js/supabase-config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+<script src="js/create.js"></script>
+</body>
+</html>
