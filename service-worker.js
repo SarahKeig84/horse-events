@@ -1,9 +1,10 @@
-const CACHE_NAME = "horse-events-v2";
+const CACHE_NAME = "horse-events-v3";
 const APP_SHELL = [
   "./",
   "./index.html",
   "./manifest.json",
   "./css/styles.css",
+  "./js/calendar-core.js",
   "./js/app.js",
   "./data/events.json",
   "./icons/icon-192.png",

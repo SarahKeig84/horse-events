@@ -29,7 +29,8 @@ create table if not exists venues (
   id uuid primary key default gen_random_uuid(),
   name text not null,                    -- display name shown in the app
   canonical_venue_name text not null,    -- exact Horse Monkey venue_name string, used for exact-match re-scraping
-  source text not null default 'horsemonkey',
+  source text not null default 'horsemonkey',  -- 'horsemonkey' | 'horse-events'
+  external_ref text,                     -- horse-events.co.uk's venue slug; null for horsemonkey (canonical_venue_name is its own identifier)
   created_at timestamptz not null default now(),
   unique (source, canonical_venue_name)
 );
@@ -84,11 +85,12 @@ create policy events_select on events for select using (true);
 -- the scraper's own service-role key, which bypasses RLS entirely.
 
 -- Finds an existing venue by (source, canonical name) or creates it.
--- Called from the search page when a visitor picks a Horse Monkey result.
+-- Called from the search page when a visitor picks a search result.
 create or replace function get_or_create_venue(
   p_name text,
   p_canonical_venue_name text,
-  p_source text default 'horsemonkey'
+  p_source text default 'horsemonkey',
+  p_external_ref text default null
 ) returns uuid
 language plpgsql
 security definer
@@ -97,15 +99,16 @@ as $$
 declare
   v_id uuid;
 begin
-  insert into venues (name, canonical_venue_name, source)
-  values (p_name, p_canonical_venue_name, p_source)
+  insert into venues (name, canonical_venue_name, source, external_ref)
+  values (p_name, p_canonical_venue_name, p_source, p_external_ref)
   on conflict (source, canonical_venue_name) do update
-    set name = excluded.name
+    set name = excluded.name,
+        external_ref = excluded.external_ref
   returning id into v_id;
   return v_id;
 end;
 $$;
-grant execute on function get_or_create_venue(text, text, text) to anon;
+grant execute on function get_or_create_venue(text, text, text, text) to anon;
 
 -- Creates a list from a set of venue ids, returns its id + owner_token
 -- (the owner_token is only ever shown to the creator, once, in the URL).

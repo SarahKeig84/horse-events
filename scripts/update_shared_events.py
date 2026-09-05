@@ -5,10 +5,11 @@ update_events.py, which handles Sarah's personal, hardcoded venue list.
 Runs as its own scheduled GitHub Actions workflow so a Supabase outage or a
 bug here can never block Sarah's daily personal run, and vice versa.
 
-v1 scope: only venues added via Horse Monkey search are supported here
-(source == "horsemonkey" in the `venues` table) -- that's the only source
-with genuine ad-hoc venue search. Any other `source` value is skipped with
-a warning; nothing in this script invents a scraper for it.
+Supports venues added via either of the two sources with genuine ad-hoc
+venue-name search: Horse Monkey (source == "horsemonkey") and
+horse-events.co.uk (source == "horse-events", identified by its URL slug
+stored in venues.external_ref). Any other `source` value is skipped with a
+warning; nothing in this script invents a scraper for it.
 
 Requires two environment variables (set as GitHub Actions secrets):
     SUPABASE_URL              e.g. https://xxxxxxxx.supabase.co
@@ -23,7 +24,7 @@ from datetime import datetime, timezone
 
 import requests
 
-from scrapers import fetch_horsemonkey
+from scrapers import fetch_horsemonkey, fetch_horse_events
 
 SUPABASE_URL = os.environ.get("SUPABASE_URL", "").rstrip("/")
 SUPABASE_SERVICE_ROLE_KEY = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
@@ -41,7 +42,7 @@ def fetch_venues(session):
     resp = session.get(
         f"{SUPABASE_URL}/rest/v1/venues",
         headers=supabase_headers(),
-        params={"select": "id,name,canonical_venue_name,source"},
+        params={"select": "id,name,canonical_venue_name,source,external_ref"},
         timeout=20,
     )
     resp.raise_for_status()
@@ -91,24 +92,31 @@ def main():
 
     total_events = 0
     for venue in venues:
-        if venue["source"] != "horsemonkey":
-            print(f"WARN: skipping venue {venue['name']!r} -- unsupported source {venue['source']!r}", file=sys.stderr)
-            continue
-
+        source = venue["source"]
         try:
-            # venue["id"] (a UUID) makes each event id globally unique even
-            # if two venues happen to share a Horse Monkey event id range.
-            # exact_venue_name enforces exact equality against the stored
-            # canonical name -- see fetch_horsemonkey's docstring for why
-            # this can't be left to Horse Monkey's own `operator` field.
-            events = fetch_horsemonkey(
-                session,
-                venue_key=venue["id"],
-                venue_filter_value=venue["canonical_venue_name"],
-                exact_venue_name=venue["canonical_venue_name"],
-            )
+            if source == "horsemonkey":
+                # venue["id"] (a UUID) makes each event id globally unique
+                # even if two venues happen to share a Horse Monkey event id
+                # range. exact_venue_name enforces exact equality against
+                # the stored canonical name -- see fetch_horsemonkey's
+                # docstring for why this can't be left to Horse Monkey's
+                # own `operator` field.
+                events = fetch_horsemonkey(
+                    session,
+                    venue_key=venue["id"],
+                    venue_filter_value=venue["canonical_venue_name"],
+                    exact_venue_name=venue["canonical_venue_name"],
+                )
+            elif source == "horse-events":
+                if not venue.get("external_ref"):
+                    print(f"WARN: skipping venue {venue['name']!r} -- horse-events source with no slug", file=sys.stderr)
+                    continue
+                events = fetch_horse_events(session, venue["id"], venue["external_ref"])
+            else:
+                print(f"WARN: skipping venue {venue['name']!r} -- unsupported source {source!r}", file=sys.stderr)
+                continue
         except Exception as exc:  # noqa: BLE001 -- one bad venue must not block the rest
-            print(f"WARN: horsemonkey/{venue['name']} scrape failed: {exc}", file=sys.stderr)
+            print(f"WARN: {source}/{venue['name']} scrape failed: {exc}", file=sys.stderr)
             continue
 
         rows = [to_supabase_row(e, venue["id"], now_iso) for e in events]

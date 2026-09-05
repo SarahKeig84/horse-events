@@ -19,10 +19,16 @@
   const selectedCount = document.getElementById("selectedCount");
   const createBtn = document.getElementById("createBtn");
 
-  // Keyed by venue name (Horse Monkey's canonical venue_name string) ->
-  // { name, eventCount }. This IS the exact string we store/re-search by
-  // later -- see fetch_horsemonkey's docstring in scripts/scrapers.py for
-  // why exact-name tracking matters here.
+  const SOURCE_LABELS = { horsemonkey: "Horse Monkey", "horse-events": "Horse Events" };
+
+  // A venue result is uniquely identified by (source, name) for Horse
+  // Monkey or (source, slug) for Horse Events -- two different sources can
+  // legitimately return the same venue name, so plain name alone isn't a
+  // safe key here the way it was when this only searched one source.
+  function resultKey(v) {
+    return v.source === "horse-events" ? `horse-events:${v.slug}` : `horsemonkey:${v.name}`;
+  }
+
   const selected = new Map();
 
   function showStatus(text, isError) {
@@ -39,20 +45,26 @@
     }
     showStatus("", false);
     venues.forEach((v) => {
+      const key = resultKey(v);
       const row = document.createElement("label");
       row.className = "result-row";
-      const checked = selected.has(v.name);
+      const checked = selected.has(key);
+      const subtitle =
+        v.source === "horse-events"
+          ? SOURCE_LABELS["horse-events"]
+          : `${SOURCE_LABELS.horsemonkey} · ${v.eventCount} upcoming event${v.eventCount === 1 ? "" : "s"} found`;
       row.innerHTML = `
         <input type="checkbox" ${checked ? "checked" : ""} />
         <span>
           <div class="rname"></div>
-          <div class="rcount">${v.eventCount} upcoming event${v.eventCount === 1 ? "" : "s"} found</div>
+          <div class="rcount"></div>
         </span>`;
       row.querySelector(".rname").textContent = v.name;
+      row.querySelector(".rcount").textContent = subtitle;
       const checkbox = row.querySelector("input");
       checkbox.addEventListener("change", () => {
-        if (checkbox.checked) selected.set(v.name, v);
-        else selected.delete(v.name);
+        if (checkbox.checked) selected.set(key, v);
+        else selected.delete(key);
         updateSelectedBar();
       });
       resultList.appendChild(row);
@@ -87,6 +99,9 @@
       const data = await resp.json();
       if (!resp.ok) throw new Error(data.error || `Search failed (${resp.status})`);
       renderResults(data.venues || []);
+      if (data.partialErrors && data.partialErrors.length) {
+        showStatus(`Some sources didn't respond (${data.partialErrors.join("; ")}) -- results may be incomplete.`, true);
+      }
     } catch (err) {
       showStatus(`Search failed: ${err.message}`, true);
     } finally {
@@ -105,7 +120,8 @@
         const { data: venueId, error } = await client.rpc("get_or_create_venue", {
           p_name: v.name,
           p_canonical_venue_name: v.name,
-          p_source: "horsemonkey",
+          p_source: v.source,
+          p_external_ref: v.source === "horse-events" ? v.slug : null,
         });
         if (error) throw error;
         venueIds.push(venueId);
