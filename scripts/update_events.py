@@ -16,8 +16,17 @@ Equestrian Centre (an RDA centre with its own EC Pro booking site --
 lists both open unaffiliated shows and recurring RDA clinics). Onley and
 Rugby Riding Club each have two independent auto sources since they host
 both their own regular bookings and separately-organised affiliated shows.
-Allens Hill Equestrian Centre has no scrapeable source (their own site uses
-image-based show posters, not text) and stays a manual "gaps" entry.
+Allens Hill Competition Centre has no text-based source of its own (their
+site uses image-based show posters) but is genuinely very active on Horse
+Monkey (horsemonkey.com) -- see fetch_horsemonkey(), which hits Horse
+Monkey's undocumented internal search API directly. Google does not index
+Horse Monkey's content at all, so a plain web search will wrongly suggest
+a venue has nothing there; always check the site itself. HORSEMONKEY_VENUES
+also picks up a handful of extra clinics/BRC events Horse Monkey has for
+Moreton Morrell, Solihull RC, CCR Equestrian, The Unicorn and Aston Le
+Walls that their primary sources above don't list -- additive, not a
+replacement, merged in separately so it can't clobber those venues'
+native data if Horse Monkey's scrape fails.
 Events tagged "source": "manual" (ASBRC, Crown RC) are left exactly as they
 are in the file -- this script never invents or removes those.
 
@@ -494,6 +503,81 @@ def fetch_lowlands(session):
     return events
 
 
+def fetch_horsemonkey(session, venue_key, venue_filter_value):
+    """Horse Monkey's site is a Vue SPA with a completely undocumented
+    internal search API. Reverse-engineered by intercepting the real
+    search box's network traffic in a browser -- Google does not index
+    this site's content at all, so a plain web search will wrongly suggest
+    a venue has "nothing" on Horse Monkey.
+
+    The API is POST https://horsemonkey.com/uk/search with a JSON body
+    shaped like:
+        {"params": {"currentPage": 1, "perPage": 100, "sortBy": "start",
+                     "sortDesc": false,
+                     "filter": [{"field": "venue_name", "operator": "contains",
+                                 "value": "<venue name>"}]}}
+    It's strict: every one of currentPage/perPage/sortBy/sortDesc/filter
+    must be present, filter must be an array of {field, operator, value}
+    objects, and an unrecognised field/operator crashes with a bare 500
+    rather than a helpful validation error. Confirmed working with
+    field "venue_name" and operator "contains" -- treat that combination
+    as load-bearing and don't "simplify" it without re-testing live.
+    """
+    body = {
+        "params": {
+            "currentPage": 1,
+            "perPage": 100,
+            "sortBy": "start",
+            "sortDesc": False,
+            "filter": [{"field": "venue_name", "operator": "contains", "value": venue_filter_value}],
+        }
+    }
+    resp = session.post(
+        "https://horsemonkey.com/uk/search",
+        headers={**HEADERS, "Content-Type": "application/json", "X-Requested-With": "XMLHttpRequest"},
+        json=body,
+        timeout=20,
+    )
+    resp.raise_for_status()
+    data = resp.json()
+
+    events = []
+    for row in data.get("rows", []):
+        title = (row.get("name") or "").strip()
+        start_raw = row.get("start")
+        if not title or not start_raw:
+            continue
+        if NOISE_RE.search(title) or PONY_CLUB_RE.search(title):
+            continue
+        if (row.get("disciplines") or "") == "Arena Booking":
+            continue
+
+        start = datetime.strptime(start_raw[:10], "%Y-%m-%d").date()
+        end = None
+        end_raw = row.get("end")
+        if end_raw:
+            end_date = datetime.strptime(end_raw[:10], "%Y-%m-%d").date()
+            if end_date > start:
+                end = end_date
+
+        if start < TODAY or start > WINDOW_END:
+            continue
+
+        events.append({
+            "id": f"{venue_key}-hm-{row['id']}",
+            "title": title,
+            "venueKey": venue_key,
+            "date": start.isoformat(),
+            "endDate": end.isoformat() if end else None,
+            "time": None,
+            "type": classify(title),
+            "url": row.get("publicUrl") or "https://horsemonkey.com",
+            "notes": "",
+            "source": "auto",
+        })
+    return events
+
+
 def fetch_walsgrave(session):
     """Walsgrave ARC publishes a plain-text 'Show Dates <year>' list on their
     calendar page rather than a booking system -- parse that section only."""
@@ -539,6 +623,20 @@ AUTO_VENUE_KEYS = [
     "moreton-morrell", "swallowfield", "solihull-rc", "walsgrave-arc", "swalcliffe",
     "onley", "rugby-riding-club", "ccr-equestrian", "the-unicorn", "lowlands",
 ]
+
+# Horse Monkey coverage per venue. Allens Hill has no other source at all;
+# the rest already have a primary source above (ICS, their own site, etc.)
+# and Horse Monkey just adds a handful of extra clinics/BRC events that
+# platform doesn't list -- so these are additive, not a replacement, and
+# get merged in separately in main() rather than through AUTO_VENUE_KEYS.
+HORSEMONKEY_VENUES = {
+    "allens-hill": "Allens Hill",
+    "moreton-morrell": "Moreton Morrell",
+    "solihull-rc": "Solihull",
+    "ccr-equestrian": "CCR",
+    "the-unicorn": "Unicorn",
+    "aston-le-walls": "Aston Le Walls",
+}
 
 
 def scrape_all(session):
@@ -642,6 +740,7 @@ def main():
     old_auto_by_venue = {}
     old_cotswold_events = []
     old_horse_events_by_venue = {}
+    old_horsemonkey_by_venue = {}
     for e in data.get("events", []):
         if e.get("source") != "auto":
             continue
@@ -649,6 +748,8 @@ def main():
             old_cotswold_events.append(e)
         elif e["id"].startswith("horse-events-"):
             old_horse_events_by_venue.setdefault(e["venueKey"], []).append(e)
+        elif "-hm-" in e["id"]:
+            old_horsemonkey_by_venue.setdefault(e["venueKey"], []).append(e)
         else:
             old_auto_by_venue.setdefault(e["venueKey"], []).append(e)
 
@@ -675,6 +776,13 @@ def main():
         except Exception as exc:  # noqa: BLE001
             print(f"WARN: horse-events/{venue_key} scrape failed: {exc}", file=sys.stderr)
             new_auto_events.extend(old_horse_events_by_venue.get(venue_key, []))
+
+    for venue_key, name_filter in HORSEMONKEY_VENUES.items():
+        try:
+            new_auto_events.extend(fetch_horsemonkey(session, venue_key, name_filter))
+        except Exception as exc:  # noqa: BLE001
+            print(f"WARN: horsemonkey/{venue_key} scrape failed: {exc}", file=sys.stderr)
+            new_auto_events.extend(old_horsemonkey_by_venue.get(venue_key, []))
 
     new_auto_events.sort(key=lambda e: (e["date"], e["venueKey"], e["title"]))
 
