@@ -326,6 +326,7 @@ main { padding: 12px 16px 32px; max-width: 720px; margin: 0 auto; }
 .gaps h3 { font-size: 0.85rem; color: var(--ink-soft); margin: 0 0 8px; }
 .gaps ul { margin: 0; padding-left: 18px; font-size: 0.82rem; color: var(--ink-soft); }
 .gaps li { margin-bottom: 4px; }
+.gaps li a { color: var(--brand); font-weight: 600; text-decoration: underline; }
 
 /* Modal */
 .modal-backdrop {

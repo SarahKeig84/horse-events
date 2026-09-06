@@ -187,7 +187,18 @@ window.HorseEventsCalendar = (function () {
     (DATA.gaps || []).forEach((g) => {
       const li = document.createElement("li");
       const v = vbk[g.venueKey];
-      li.textContent = `${v ? v.name : g.venueKey}: ${g.reason}`;
+      const name = v ? v.name : g.venueKey;
+      if (v && v.url) {
+        const a = document.createElement("a");
+        a.href = v.url;
+        a.target = "_blank";
+        a.rel = "noopener";
+        a.textContent = name;
+        li.appendChild(a);
+        li.appendChild(document.createTextNode(`: ${g.reason}`));
+      } else {
+        li.textContent = `${name}: ${g.reason}`;
+      }
       list.appendChild(li);
     });
     const gapsSection = document.getElementById("gapsSection");
