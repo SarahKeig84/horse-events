@@ -3554,6 +3554,42 @@
       "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/10705",
       "notes": "",
       "source": "auto"
+    },
+    {
+      "id": "oak-tree-farm-1",
+      "title": "Poleastics at Oak Tree Farm",
+      "venueKey": "oak-tree-farm",
+      "date": "2026-09-12",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=568640",
+      "notes": "Run by RG Equine Training",
+      "source": "manual"
+    },
+    {
+      "id": "oak-tree-farm-2",
+      "title": "Assisted Clear Round XC Oak Tree Farm",
+      "venueKey": "oak-tree-farm",
+      "date": "2026-09-13",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=573056",
+      "notes": "Run by RG Equine Training",
+      "source": "manual"
+    },
+    {
+      "id": "oak-tree-farm-3",
+      "title": "Poleastics at Oak Tree Farm",
+      "venueKey": "oak-tree-farm",
+      "date": "2026-10-03",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=568641",
+      "notes": "Run by RG Equine Training",
+      "source": "manual"
     }
   ],
   "gaps": [
@@ -3567,7 +3603,7 @@
     },
     {
       "venueKey": "oak-tree-farm",
-      "reason": "No single published calendar - clinic dates are scattered across individual instructors' own websites and social media rather than one venue calendar."
+      "reason": "No single published calendar or discoverable venue page -- RG Equine Training's clinics there are tracked manually (found via MyRidingLife's own event search, not a scrapable venue link), but other instructors' activity at this venue isn't covered."
     }
   ]
 }
