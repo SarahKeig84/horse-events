@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06",
+  "updated": "2026-09-07",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -242,78 +242,6 @@
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=568641",
       "notes": "Run by RG Equine Training",
       "source": "manual"
-    },
-    {
-      "id": "allens-hill-hm-90755",
-      "title": "End of Summer Showing Show",
-      "venueKey": "allens-hill",
-      "date": "2026-09-06",
-      "endDate": null,
-      "time": null,
-      "type": "Show",
-      "url": "https://horsemonkey.com/uk/equestrian_event/90755/End+of+Summer+Showing+Show",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "moreton-morrell-571192",
-      "title": "Moreton Morrell British Dressage (P-GP/PYO FEI)+FS",
-      "venueKey": "moreton-morrell",
-      "date": "2026-09-06",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=571192",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-8967",
-      "title": "Onley Grounds Equestrian Complex - Sunday 6th September - Unaffiliated Dressage - Indoor",
-      "venueKey": "onley",
-      "date": "2026-09-06",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://entry.equipe.com/meetings/8967",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-571129",
-      "title": "Inter Area Summer Dressage Championships",
-      "venueKey": "solihull-rc",
-      "date": "2026-09-06",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571129",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-573553",
-      "title": "Swallowfield Equestrian Cross Country Schooling",
-      "venueKey": "swallowfield",
-      "date": "2026-09-06",
-      "endDate": null,
-      "time": null,
-      "type": "Training",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=573553",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-559526",
-      "title": "Working Equitation with Emma Taylor",
-      "venueKey": "swallowfield",
-      "date": "2026-09-06",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=559526",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "allens-hill-hm-85418",
@@ -3528,6 +3456,42 @@
       "time": null,
       "type": "Other",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571137",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "horse-events-aston-le-walls-29595",
+      "title": "Aston le Walls KBIS Arena Eventer Challenge Sunday 6th December 2026",
+      "venueKey": "aston-le-walls",
+      "date": "2026-12-06",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.horse-events.co.uk/horse-events/aston-le-walls-kbis-arena-eventer-challenge-sunday-6th-december-2026",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "lowlands-ecpro-9611",
+      "title": "Christmas Horse Show",
+      "venueKey": "lowlands",
+      "date": "2026-12-06",
+      "endDate": null,
+      "time": null,
+      "type": "Show",
+      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/9611",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "solihull-rc-565547",
+      "title": "British Dressage (P-GP/PYO FEI)+FS",
+      "venueKey": "solihull-rc",
+      "date": "2026-12-06",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=565547",
       "notes": "",
       "source": "auto"
     }
