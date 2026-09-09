@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08",
+  "updated": "2026-09-09",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -242,30 +242,6 @@
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=568641",
       "notes": "Run by RG Equine Training",
       "source": "manual"
-    },
-    {
-      "id": "ccr-equestrian-539466",
-      "title": "CCR Equestrian Senior British Show Jumping Cat 2",
-      "venueKey": "ccr-equestrian",
-      "date": "2026-09-08",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=539466",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-8646",
-      "title": "Onley Grounds Equestrian Centre British Dressage (P-AM) (I-AM) Tuesday, 08 September 2026",
-      "venueKey": "onley",
-      "date": "2026-09-08",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://entry.equipe.com/meetings/8646",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "allens-hill-hm-90825",
@@ -1036,6 +1012,18 @@
       "source": "auto"
     },
     {
+      "id": "solihull-rc-574424",
+      "title": "Unaffiliated Dressage inc MCI Qualifiers",
+      "venueKey": "solihull-rc",
+      "date": "2026-09-24",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=574424",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "allens-hill-hm-85850",
       "title": "PYO Combined Training (I-E 50cm-1.00m), Unaffiliated Dressage (I-E) & Clear Round Showjumping",
       "venueKey": "allens-hill",
@@ -1217,7 +1205,7 @@
     },
     {
       "id": "onley-equipe-7786",
-      "title": "Onley Grounds Junior British Showjumping - 27 September 2026",
+      "title": "Onley Grounds Indoor Junior British Showjumping - 27 September 2026",
       "venueKey": "onley",
       "date": "2026-09-27",
       "endDate": null,
@@ -1584,6 +1572,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://entry.equipe.com/meetings/9138",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "solihull-rc-574386",
+      "title": "BRC Winter Intermediate Team and Individual Junior and Senior Dressage Qualifer",
+      "venueKey": "solihull-rc",
+      "date": "2026-10-04",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=574386",
       "notes": "",
       "source": "auto"
     },
@@ -2452,6 +2452,18 @@
       "source": "auto"
     },
     {
+      "id": "onley-equipe-9250",
+      "title": "Onley Grounds Midland Foal & Youngstock Stable Bookings - Sunday 1st Novmber 2026",
+      "venueKey": "onley",
+      "date": "2026-11-01",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://entry.equipe.com/meetings/9250",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "solihull-rc-566813",
       "title": "Senior British Show Jumping Cat 2",
       "venueKey": "solihull-rc",
@@ -3280,6 +3292,18 @@
       "source": "auto"
     },
     {
+      "id": "swallowfield-574422",
+      "title": "Swallowfield Equestrian British Dressage QWL",
+      "venueKey": "swallowfield",
+      "date": "2026-11-29",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=574422",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "the-unicorn-hm-89920",
       "title": "RoR South East and Midlands - Day Camp With Bruce Haskell,  Unicorn Equestrian Centre Stud, GL54 1JZ",
       "venueKey": "the-unicorn",
@@ -3492,6 +3516,30 @@
       "time": null,
       "type": "Clinic",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=551179",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-573052",
+      "title": "WHPC Pony Club only - Evening Flatwork/Pole Rally - Moreton Morrell - Clara/Kiri",
+      "venueKey": "moreton-morrell",
+      "date": "2026-12-08",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=573052",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "solihull-rc-538988",
+      "title": "Evening Progressive Clear Round Show Jumping",
+      "venueKey": "solihull-rc",
+      "date": "2026-12-08",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=538988",
       "notes": "",
       "source": "auto"
     }
