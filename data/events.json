@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09",
+  "updated": "2026-09-10",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -244,54 +244,6 @@
       "source": "manual"
     },
     {
-      "id": "allens-hill-hm-90825",
-      "title": "Showjumping inc BS Club (Open to All), Seniors (C2)",
-      "venueKey": "allens-hill",
-      "date": "2026-09-09",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://horsemonkey.com/uk/equestrian_event/90825/Showjumping+inc+BS+Club+%28Open+to+All%29%2C+Seniors+%28C2%29",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "ccr-equestrian-539441",
-      "title": "CCR Equestrian Clear Rounds",
-      "venueKey": "ccr-equestrian",
-      "date": "2026-09-09",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=539441",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-554161",
-      "title": "Carefree & Casual Evening Dressage",
-      "venueKey": "solihull-rc",
-      "date": "2026-09-09",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=554161",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-556769",
-      "title": "The Dancing Horse Clinic with Ali Lane",
-      "venueKey": "swallowfield",
-      "date": "2026-09-09",
-      "endDate": null,
-      "time": null,
-      "type": "Clinic",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=556769",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "moreton-morrell-553239",
       "title": "Moreton Morrell Thursday Night Progressive Clear Round Jumping",
       "venueKey": "moreton-morrell",
@@ -360,18 +312,6 @@
       "time": null,
       "type": "Dressage",
       "url": "https://horsemonkey.com/uk/equestrian_event/85847/PYO+Combined+Training+%28I-E+50cm-1.00m%29%2C+Unaffiliated+Dressage+%28I-E%29+%26+Clear+Round+Showjumping",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "lowlands-ecpro-10693",
-      "title": "Friday Clinic with Jo Hayward",
-      "venueKey": "lowlands",
-      "date": "2026-09-11",
-      "endDate": null,
-      "time": null,
-      "type": "Clinic",
-      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/10693",
       "notes": "",
       "source": "auto"
     },
@@ -905,7 +845,7 @@
     },
     {
       "id": "onley-equipe-9176",
-      "title": "Onley Grounds British Dressage (P-AM) + FS 22nd September 2026",
+      "title": "Onley Grounds British Dressage (P-AM) + FS & PARA 22nd September 2026",
       "venueKey": "onley",
       "date": "2026-09-22",
       "endDate": null,
@@ -1864,6 +1804,18 @@
       "source": "auto"
     },
     {
+      "id": "onley-equipe-9252",
+      "title": "Onley Grounds Evening Clear Round - Wednesday 14th October 2026",
+      "venueKey": "onley",
+      "date": "2026-10-14",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://entry.equipe.com/meetings/9252",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "swallowfield-571277",
       "title": "Indoor Polework Clinic with Jo Swain",
       "venueKey": "swallowfield",
@@ -2044,6 +1996,18 @@
       "source": "auto"
     },
     {
+      "id": "onley-equipe-9253",
+      "title": "Onley Grounds Equestrian Complex - Saturday 17th October 2026 - Unaffiliated Dressage & Combined Training 60cm-1m (PLS NOTE HELD ON OUTDOOR ARENA)",
+      "venueKey": "onley",
+      "date": "2026-10-17",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://entry.equipe.com/meetings/9253",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "moreton-morrell-569250",
       "title": "The Side Saddle Association Area 5 Autumn Show",
       "venueKey": "moreton-morrell",
@@ -2052,6 +2016,18 @@
       "time": null,
       "type": "Show",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=569250",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "onley-equipe-9254",
+      "title": "Onley Grounds Unaffiliated Showjumping - Sunday 18th October 2026 - OUTDOOR",
+      "venueKey": "onley",
+      "date": "2026-10-18",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://entry.equipe.com/meetings/9254",
       "notes": "",
       "source": "auto"
     },
@@ -2260,6 +2236,18 @@
       "source": "auto"
     },
     {
+      "id": "onley-equipe-9255",
+      "title": "Onley Grounds Unaffiliated Showjumping - Sunday 25th October 2026 - Indoor - Starting at 10am",
+      "venueKey": "onley",
+      "date": "2026-10-25",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://entry.equipe.com/meetings/9255",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "solihull-rc-565545",
       "title": "British Dressage (P-GP/PYO FEI)+FS",
       "venueKey": "solihull-rc",
@@ -2328,6 +2316,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=568635",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "onley-equipe-9256",
+      "title": "Onley Grounds Evening Clear Round - Wednesday 28th October 2026 - Indoor",
+      "venueKey": "onley",
+      "date": "2026-10-28",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://entry.equipe.com/meetings/9256",
       "notes": "",
       "source": "auto"
     },
@@ -2448,6 +2448,30 @@
       "time": null,
       "type": "Other",
       "url": "https://horsemonkey.com/uk/equestrian_event/86964/4636+2026++BD+Senior+Camp+++-++%40+Unicorn+Trust%2C+Glos+with+Becky+Moody%2C+Matt+Hicks+%26+Damian+Hallam",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "the-unicorn-hm-79133",
+      "title": "4636 2026  BD Senior Performance Camp  -  @ Unicorn Trust, Glos",
+      "venueKey": "the-unicorn",
+      "date": "2026-10-31",
+      "endDate": "2026-11-01",
+      "time": null,
+      "type": "Other",
+      "url": "https://horsemonkey.com/uk/equestrian_event/79133/4636+2026++BD+Senior+Performance+Camp++-++%40+Unicorn+Trust%2C+Glos",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-hm-92286",
+      "title": "4633 - BD NW How Classical Groundwork Training can help improve performance and prevent injury with Charlotte Wittbom and Rachel Greetham (Team GB Physio), Moreton Morrell College",
+      "venueKey": "moreton-morrell",
+      "date": "2026-11-01",
+      "endDate": null,
+      "time": null,
+      "type": "Training",
+      "url": "https://horsemonkey.com/uk/equestrian_event/92286/4633+-+BD+NW+How+Classical+Groundwork+Training+can+help+improve+performance+and+prevent+injury+with+Charlotte+Wittbom+and+Rachel+Greetham+%28Team+GB+Physio%29%2C+Moreton+Morrell+College",
       "notes": "",
       "source": "auto"
     },
@@ -2796,6 +2820,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://entry.equipe.com/meetings/9179",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "onley-equipe-9251",
+      "title": "Onley Grounds EC Senior BS 12th -15th November 2026",
+      "venueKey": "onley",
+      "date": "2026-11-12",
+      "endDate": "2026-11-15",
+      "time": null,
+      "type": "Other",
+      "url": "https://entry.equipe.com/meetings/9251",
       "notes": "",
       "source": "auto"
     },
@@ -3540,6 +3576,54 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=538988",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "ccr-equestrian-553294",
+      "title": "CCR Equestrian Clear Rounds",
+      "venueKey": "ccr-equestrian",
+      "date": "2026-12-09",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553294",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "solihull-rc-566816",
+      "title": "Senior British Show Jumping Cat 2",
+      "venueKey": "solihull-rc",
+      "date": "2026-12-09",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=566816",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-571279",
+      "title": "Indoor Festive Polework Clinic with Jo Swain",
+      "venueKey": "swallowfield",
+      "date": "2026-12-09",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571279",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-556776",
+      "title": "The Dancing Horse Clinic with Ali Lane",
+      "venueKey": "swallowfield",
+      "date": "2026-12-09",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=556776",
       "notes": "",
       "source": "auto"
     }
