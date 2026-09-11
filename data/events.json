@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10",
+  "updated": "2026-09-11",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -242,66 +242,6 @@
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=568641",
       "notes": "Run by RG Equine Training",
       "source": "manual"
-    },
-    {
-      "id": "moreton-morrell-553239",
-      "title": "Moreton Morrell Thursday Night Progressive Clear Round Jumping",
-      "venueKey": "moreton-morrell",
-      "date": "2026-09-10",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553239",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-8966",
-      "title": "Onley Grounds Equestrian Complex - Evening Dress Down Dressage - Thursday 10th Sept - Indoor from 17.30pm",
-      "venueKey": "onley",
-      "date": "2026-09-10",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://entry.equipe.com/meetings/8966",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-8959",
-      "title": "Onley Grounds Evening Clear Round - 10th September 2026 - 5.30pm start",
-      "venueKey": "onley",
-      "date": "2026-09-10",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://entry.equipe.com/meetings/8959",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-565556",
-      "title": "British Dressage (P-GP/PYO FEI)+PE+PEFS",
-      "venueKey": "solihull-rc",
-      "date": "2026-09-10",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=565556",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-568552",
-      "title": "Unaffiliated Dressage inc MCI & SSADL Blue Chip Qualifiers",
-      "venueKey": "solihull-rc",
-      "date": "2026-09-10",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=568552",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "allens-hill-hm-85847",
@@ -700,6 +640,18 @@
       "source": "auto"
     },
     {
+      "id": "onley-equipe-8450",
+      "title": "Concours De Elegance - Stable Bookings thursday 24th - Sunday 27th September 2026",
+      "venueKey": "onley",
+      "date": "2026-09-19",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://entry.equipe.com/meetings/8450",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "onley-equipe-9047",
       "title": "Onley Grounds Equestrian Complex - Saturday 19th September - Unaffiliated Dressage - International Outdoor Arena",
       "venueKey": "onley",
@@ -924,18 +876,6 @@
       "time": null,
       "type": "Clinic",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553181",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-8450",
-      "title": "Concours De Elegance - Stable Bookings thursday 24th - Sunday 27th September 2026",
-      "venueKey": "onley",
-      "date": "2026-09-24",
-      "endDate": "2026-09-25",
-      "time": null,
-      "type": "Other",
-      "url": "https://entry.equipe.com/meetings/8450",
       "notes": "",
       "source": "auto"
     },
@@ -1468,6 +1408,18 @@
       "source": "auto"
     },
     {
+      "id": "allens-hill-hm-92376",
+      "title": "Showjumping - Unaffiliated (60cm - 1.10m)",
+      "venueKey": "allens-hill",
+      "date": "2026-10-04",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://horsemonkey.com/uk/equestrian_event/92376/Showjumping+-+Unaffiliated+%2860cm+-+1.10m%29",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "horse-events-aston-le-walls-29430",
       "title": "The Grafton Eventer Challenge Sunday 4th October 2026 SAVE THE DATE",
       "venueKey": "aston-le-walls",
@@ -1704,6 +1656,18 @@
       "time": null,
       "type": "Training",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571275",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "allens-hill-hm-92377",
+      "title": "Showjumping - Unaffiliated (60cm - 1.10m)",
+      "venueKey": "allens-hill",
+      "date": "2026-10-11",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://horsemonkey.com/uk/equestrian_event/92377/Showjumping+-+Unaffiliated+%2860cm+-+1.10m%29",
       "notes": "",
       "source": "auto"
     },
@@ -3624,6 +3588,30 @@
       "time": null,
       "type": "Clinic",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=556776",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "ccr-equestrian-553340",
+      "title": "CCR Equestrian Senior British Show Jumping Cat 2",
+      "venueKey": "ccr-equestrian",
+      "date": "2026-12-10",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553340",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-553254",
+      "title": "Moreton Morrell Evening Unaff Dress Down Dressage Competition Inc Stoneleigh RC Points",
+      "venueKey": "moreton-morrell",
+      "date": "2026-12-10",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553254",
       "notes": "",
       "source": "auto"
     }
