@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11",
+  "updated": "2026-09-12",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -242,42 +242,6 @@
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=568641",
       "notes": "Run by RG Equine Training",
       "source": "manual"
-    },
-    {
-      "id": "allens-hill-hm-85847",
-      "title": "PYO Combined Training (I-E 50cm-1.00m), Unaffiliated Dressage (I-E) & Clear Round Showjumping",
-      "venueKey": "allens-hill",
-      "date": "2026-09-11",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/85847/PYO+Combined+Training+%28I-E+50cm-1.00m%29%2C+Unaffiliated+Dressage+%28I-E%29+%26+Clear+Round+Showjumping",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "moreton-morrell-572309",
-      "title": "WHPC Mounted Games Training - MG Trainer - BLOCK BOOKING (6 Sessions)",
-      "venueKey": "moreton-morrell",
-      "date": "2026-09-11",
-      "endDate": "2026-10-16",
-      "time": null,
-      "type": "Training",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=572309",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "moreton-morrell-572302",
-      "title": "WHPC Mounted Games Training - Moreton Morrell  - MG Trainer",
-      "venueKey": "moreton-morrell",
-      "date": "2026-09-11",
-      "endDate": null,
-      "time": null,
-      "type": "Training",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=572302",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "allens-hill-hm-85880",
@@ -744,6 +708,18 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://entry.equipe.com/meetings/9046",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-574657",
+      "title": "Unaffiliated Show Jumping (including Trailblazers Qualifiers)",
+      "venueKey": "swallowfield",
+      "date": "2026-09-20",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=574657",
       "notes": "",
       "source": "auto"
     },
@@ -1421,7 +1397,7 @@
     },
     {
       "id": "horse-events-aston-le-walls-29430",
-      "title": "The Grafton Eventer Challenge Sunday 4th October 2026 SAVE THE DATE",
+      "title": "The Grafton Eventer Challenge Sunday 4th October 2026",
       "venueKey": "aston-le-walls",
       "date": "2026-10-04",
       "endDate": null,
@@ -1500,6 +1476,18 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553333",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "allens-hill-hm-92380",
+      "title": "Showjumping - Unaffiliated (70cm - 1.20m)",
+      "venueKey": "allens-hill",
+      "date": "2026-10-07",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://horsemonkey.com/uk/equestrian_event/92380/Showjumping+-+Unaffiliated+%2870cm+-+1.20m%29",
       "notes": "",
       "source": "auto"
     },
@@ -1740,6 +1728,18 @@
       "time": null,
       "type": "Other",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=573049",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "allens-hill-hm-92381",
+      "title": "Showjumping - Unaffiliated (70cm - 1.20m)",
+      "venueKey": "allens-hill",
+      "date": "2026-10-14",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://horsemonkey.com/uk/equestrian_event/92381/Showjumping+-+Unaffiliated+%2870cm+-+1.20m%29",
       "notes": "",
       "source": "auto"
     },
@@ -2080,6 +2080,18 @@
       "source": "auto"
     },
     {
+      "id": "allens-hill-hm-92382",
+      "title": "Showjumping - Unaffiliated (70cm - 1.20m)",
+      "venueKey": "allens-hill",
+      "date": "2026-10-21",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://horsemonkey.com/uk/equestrian_event/92382/Showjumping+-+Unaffiliated+%2870cm+-+1.20m%29",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "ccr-equestrian-553287",
       "title": "CCR Equestrian Clear Rounds",
       "venueKey": "ccr-equestrian",
@@ -2224,6 +2236,18 @@
       "source": "auto"
     },
     {
+      "id": "swallowfield-574658",
+      "title": "Unaffiliated Show Jumping (including Trailblazers Qualifiers)",
+      "venueKey": "swallowfield",
+      "date": "2026-10-25",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=574658",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "solihull-rc-572694",
       "title": "Five Ways to Wellbeing Programme (Week 4 – Take Notice)",
       "venueKey": "solihull-rc",
@@ -2256,6 +2280,18 @@
       "time": null,
       "type": "Clinic",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553174",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "allens-hill-hm-92383",
+      "title": "Showjumping - Unaffiliated (70cm - 1.20m)",
+      "venueKey": "allens-hill",
+      "date": "2026-10-28",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://horsemonkey.com/uk/equestrian_event/92383/Showjumping+-+Unaffiliated+%2870cm+-+1.20m%29",
       "notes": "",
       "source": "auto"
     },
@@ -2664,6 +2700,18 @@
       "time": null,
       "type": "Other",
       "url": "https://www.horse-events.co.uk/horse-events/aston-le-walls-kbis-arena-eventer-challenge-sunday-8th-november-2026",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-574659",
+      "title": "Unaffiliated Show Jumping (including Trailblazers Qualifiers)",
+      "venueKey": "swallowfield",
+      "date": "2026-11-08",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=574659",
       "notes": "",
       "source": "auto"
     },
@@ -3508,6 +3556,18 @@
       "source": "auto"
     },
     {
+      "id": "swallowfield-574660",
+      "title": "Unaffiliated Show Jumping (including Trailblazers Qualifiers)",
+      "venueKey": "swallowfield",
+      "date": "2026-12-06",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=574660",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "moreton-morrell-551179",
       "title": "Richard Baldwin one to one Dressage Clinic",
       "venueKey": "moreton-morrell",
@@ -3612,6 +3672,30 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553254",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "allens-hill-hm-85856",
+      "title": "PYO Combined Training (I-E 50cm-1.00m), Unaffiliated Dressage (I-E) & Clear Round Showjumping",
+      "venueKey": "allens-hill",
+      "date": "2026-12-11",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://horsemonkey.com/uk/equestrian_event/85856/PYO+Combined+Training+%28I-E+50cm-1.00m%29%2C+Unaffiliated+Dressage+%28I-E%29+%26+Clear+Round+Showjumping",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "lowlands-ecpro-10706",
+      "title": "Friday Clinic with Jo Hayward",
+      "venueKey": "lowlands",
+      "date": "2026-12-11",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/10706",
       "notes": "",
       "source": "auto"
     }
