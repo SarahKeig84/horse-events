@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12",
+  "updated": "2026-09-13",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -242,90 +242,6 @@
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=568641",
       "notes": "Run by RG Equine Training",
       "source": "manual"
-    },
-    {
-      "id": "allens-hill-hm-85880",
-      "title": "PYO Combined Training & Unaffiliated Dressage &  NEW - MINI SHOW JUMPING & Clear Round",
-      "venueKey": "allens-hill",
-      "date": "2026-09-12",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/85880/PYO+Combined+Training+%26+Unaffiliated+Dressage+%26++NEW+-+MINI+SHOW+JUMPING+%26+Clear+Round",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "ccr-equestrian-543860",
-      "title": "CCR Equestrian Senior British Show Jumping CAT1 & Club & Schools",
-      "venueKey": "ccr-equestrian",
-      "date": "2026-09-12",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=543860",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "horse-events-dallas-burston-29125",
-      "title": "LandS EVENTING LTD Arena Eventing Training Day 12th Sept 2026",
-      "venueKey": "dallas-burston",
-      "date": "2026-09-12",
-      "endDate": null,
-      "time": null,
-      "type": "Training",
-      "url": "https://www.horse-events.co.uk/horse-events/lands-eventing-ltd-arena-eventing-training-day-12th-sept-2026",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-7813",
-      "title": "Onley Grounds Unaffiliated Showjumping - 12 &13 September 2026",
-      "venueKey": "onley",
-      "date": "2026-09-12",
-      "endDate": "2026-09-13",
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://entry.equipe.com/meetings/7813",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-571492",
-      "title": "Charity Hack & Snack Fun Ride",
-      "venueKey": "solihull-rc",
-      "date": "2026-09-12",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571492",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-571072",
-      "title": "Swallowfield Equestrian British Dressage QWL",
-      "venueKey": "swallowfield",
-      "date": "2026-09-12",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571072",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-571152",
-      "title": "Swallowfield Equestrian Unaffiliated Stressless Dressage",
-      "venueKey": "swallowfield",
-      "date": "2026-09-12",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571152",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "allens-hill-hm-90300",
@@ -773,7 +689,7 @@
     },
     {
       "id": "onley-equipe-9176",
-      "title": "Onley Grounds British Dressage (P-AM) + FS & PARA 22nd September 2026",
+      "title": "Onley Grounds British Dressage (P-AM) + FSM & PARA 22nd September 2026",
       "venueKey": "onley",
       "date": "2026-09-22",
       "endDate": null,
@@ -3696,6 +3612,42 @@
       "time": null,
       "type": "Clinic",
       "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/10706",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "allens-hill-hm-85883",
+      "title": "PYO Combined Training & Unaffiliated Dressage &  NEW - MINI SHOW JUMPING & Clear Round",
+      "venueKey": "allens-hill",
+      "date": "2026-12-12",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://horsemonkey.com/uk/equestrian_event/85883/PYO+Combined+Training+%26+Unaffiliated+Dressage+%26++NEW+-+MINI+SHOW+JUMPING+%26+Clear+Round",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "ccr-equestrian-553270",
+      "title": "CCR Equestrian Unafiliated SJ - Senior & Junior - HARTPURY QUALIFER",
+      "venueKey": "ccr-equestrian",
+      "date": "2026-12-12",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553270",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-571126",
+      "title": "Swallowfield Equestrian British Dressage QWL",
+      "venueKey": "swallowfield",
+      "date": "2026-12-12",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571126",
       "notes": "",
       "source": "auto"
     }
