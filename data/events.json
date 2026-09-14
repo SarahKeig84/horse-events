@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-13",
+  "updated": "2026-09-14",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -242,78 +242,6 @@
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=568641",
       "notes": "Run by RG Equine Training",
       "source": "manual"
-    },
-    {
-      "id": "allens-hill-hm-90300",
-      "title": "Showjumping - Unaffiliated (60cm - 1.10m)",
-      "venueKey": "allens-hill",
-      "date": "2026-09-13",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://horsemonkey.com/uk/equestrian_event/90300/Showjumping+-+Unaffiliated+%2860cm+-+1.10m%29",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-566463",
-      "title": "Solihull Riding Club Car Boot and Second-Hand Tack Sale",
-      "venueKey": "solihull-rc",
-      "date": "2026-09-13",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=566463",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-570034",
-      "title": "Unaffiliated Dressage Championship",
-      "venueKey": "solihull-rc",
-      "date": "2026-09-13",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=570034",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "horse-events-swalcliffe-23348",
-      "title": "Swalcliffe Park Mini Eventer Challenge CHAMPIONSHIP kindly sponsored by Aspen Cooling Ltd",
-      "venueKey": "swalcliffe",
-      "date": "2026-09-13",
-      "endDate": null,
-      "time": null,
-      "type": "Show",
-      "url": "https://www.horse-events.co.uk/horse-events/swalcliffe-park-mini-eventer-challenge-kindly-sponsored-by-aspen-cooling-ltd-20260913",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-571287",
-      "title": "Swallowfield Equestrian Cross Country Schooling",
-      "venueKey": "swallowfield",
-      "date": "2026-09-13",
-      "endDate": null,
-      "time": null,
-      "type": "Training",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571287",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "walsgrave-arc-2026-09-13",
-      "title": "Club Show",
-      "venueKey": "walsgrave-arc",
-      "date": "2026-09-13",
-      "endDate": null,
-      "time": "10:00",
-      "type": "Show",
-      "url": "https://www.walsgravearc.co.uk/calendar",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "ccr-equestrian-571609",
@@ -2177,13 +2105,13 @@
     },
     {
       "id": "the-unicorn-hm-80702",
-      "title": "4646 BD South and West Regional Youth Camp  -  @ Unicorn Trust, Glos with Hannah Biggs & Alice Peternell",
+      "title": "4646 BD South and West Regional Senior, Para & Youth Camp  -  @ Unicorn Trust, Glos with Hannah Biggs & Alice Peternell",
       "venueKey": "the-unicorn",
       "date": "2026-10-26",
       "endDate": "2026-10-27",
       "time": null,
       "type": "Other",
-      "url": "https://horsemonkey.com/uk/equestrian_event/80702/4646+BD+South+and+West+Regional+Youth+Camp++-++%40+Unicorn+Trust%2C+Glos+with+Hannah+Biggs+%26+Alice+Peternell",
+      "url": "https://horsemonkey.com/uk/equestrian_event/80702/4646+BD+South+and+West+Regional+Senior%2C+Para+%26+Youth+Camp++-++%40+Unicorn+Trust%2C+Glos+with+Hannah+Biggs+%26+Alice+Peternell",
       "notes": "",
       "source": "auto"
     },
