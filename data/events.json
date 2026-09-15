@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14",
+  "updated": "2026-09-15",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -242,30 +242,6 @@
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=568641",
       "notes": "Run by RG Equine Training",
       "source": "manual"
-    },
-    {
-      "id": "ccr-equestrian-571609",
-      "title": "EVENING Equestrian Clear Rounds",
-      "venueKey": "ccr-equestrian",
-      "date": "2026-09-14",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=571609",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "moreton-morrell-551176",
-      "title": "Richard Baldwin one to one Dressage Clinic",
-      "venueKey": "moreton-morrell",
-      "date": "2026-09-14",
-      "endDate": null,
-      "time": null,
-      "type": "Clinic",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=551176",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "aston-le-walls-hm-87544",
