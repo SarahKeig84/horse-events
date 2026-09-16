@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-15",
+  "updated": "2026-09-16",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -242,30 +242,6 @@
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=568641",
       "notes": "Run by RG Equine Training",
       "source": "manual"
-    },
-    {
-      "id": "aston-le-walls-hm-87544",
-      "title": "TAP 2 Day Camp Midlands - Lucy Jackson and Sarah Gairdner at Aston Le Walls",
-      "venueKey": "aston-le-walls",
-      "date": "2026-09-15",
-      "endDate": "2026-09-16",
-      "time": null,
-      "type": "Other",
-      "url": "https://horsemonkey.com/uk/equestrian_event/87544/TAP+2+Day+Camp+Midlands+-+Lucy+Jackson+and+Sarah+Gairdner+at+Aston+Le+Walls",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-538983",
-      "title": "Evening Progressive Clear Round Show Jumping",
-      "venueKey": "solihull-rc",
-      "date": "2026-09-15",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=538983",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "allens-hill-hm-90826",
@@ -892,6 +868,18 @@
       "source": "auto"
     },
     {
+      "id": "rugby-riding-club-entrymaster-event70",
+      "title": "SEPTEMBER POINTS SHOW",
+      "venueKey": "rugby-riding-club",
+      "date": "2026-09-27",
+      "endDate": null,
+      "time": null,
+      "type": "Show",
+      "url": "https://rugbyrc.lite.events",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "swallowfield-565093",
       "title": "Swallowfield Equestrian British Dressage (P-AM)+FS",
       "venueKey": "swallowfield",
@@ -1037,7 +1025,7 @@
     },
     {
       "id": "onley-equipe-8478",
-      "title": "Onley Grounds Oktober Fest Senior BS - 1st to 4th Oct 2026",
+      "title": "Onley Grounds Oktoberfest Senior BS - 1st to 4th Oct 2026",
       "venueKey": "onley",
       "date": "2026-10-01",
       "endDate": "2026-10-04",
@@ -1528,6 +1516,18 @@
       "source": "auto"
     },
     {
+      "id": "swallowfield-574897",
+      "title": "Unaffiliated Short Arena Dressage Series with Trailblazer First Round Qualifiers",
+      "venueKey": "swallowfield",
+      "date": "2026-10-11",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=574897",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "solihull-rc-572692",
       "title": "Five Ways to Wellbeing Programme (Week 2 – Keep Learning)",
       "venueKey": "solihull-rc",
@@ -1816,6 +1816,18 @@
       "source": "auto"
     },
     {
+      "id": "solihull-rc-575084",
+      "title": "British Riding Clubs Horslyx Area 5 Junior and Senior Show Jumping Qualifier",
+      "venueKey": "solihull-rc",
+      "date": "2026-10-18",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=575084",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "swallowfield-568030",
       "title": "Swallowfield Equestrian British Dressage (P-AM)+FS",
       "venueKey": "swallowfield",
@@ -1824,6 +1836,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=568030",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-574896",
+      "title": "Swallowfield Equestrian Unaffiliated Long Arena Dressage",
+      "venueKey": "swallowfield",
+      "date": "2026-10-18",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=574896",
       "notes": "",
       "source": "auto"
     },
@@ -2028,6 +2052,18 @@
       "time": null,
       "type": "Other",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=574015",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-574899",
+      "title": "Swallowfield Equestrian Unaffiliated Stressless Dressage",
+      "venueKey": "swallowfield",
+      "date": "2026-10-24",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=574899",
       "notes": "",
       "source": "auto"
     },
@@ -2248,6 +2284,18 @@
       "source": "auto"
     },
     {
+      "id": "onley-equipe-9285",
+      "title": "Onley Grounds Equestrian Complex - Saturday 31st October 2026 - Unaffiliated Dressage & Combined Training 60cm-1m (PLS NOTE HELD ON OUTDOOR ARENA)",
+      "venueKey": "onley",
+      "date": "2026-10-31",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://entry.equipe.com/meetings/9285",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "swallowfield-568031",
       "title": "Swallowfield Equestrian British Dressage (P-AM)",
       "venueKey": "swallowfield",
@@ -2256,6 +2304,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=568031",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-574898",
+      "title": "Unaffiliated Short Arena Dressage Series with Trailblazer First Round Qualifiers",
+      "venueKey": "swallowfield",
+      "date": "2026-10-31",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=574898",
       "notes": "",
       "source": "auto"
     },
@@ -3552,6 +3612,30 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571126",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "ccr-equestrian-553341",
+      "title": "CCR Equestrian Senior British Show Jumping Cat 2",
+      "venueKey": "ccr-equestrian",
+      "date": "2026-12-15",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553341",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-553184",
+      "title": "James McCullough Evening Pole Work Clinic",
+      "venueKey": "moreton-morrell",
+      "date": "2026-12-15",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553184",
       "notes": "",
       "source": "auto"
     }
