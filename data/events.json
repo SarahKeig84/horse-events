@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16",
+  "updated": "2026-09-17",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -242,54 +242,6 @@
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=568641",
       "notes": "Run by RG Equine Training",
       "source": "manual"
-    },
-    {
-      "id": "allens-hill-hm-90826",
-      "title": "Showjumping inc BS Club (Open to All), Seniors (C2)",
-      "venueKey": "allens-hill",
-      "date": "2026-09-16",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://horsemonkey.com/uk/equestrian_event/90826/Showjumping+inc+BS+Club+%28Open+to+All%29%2C+Seniors+%28C2%29",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "ccr-equestrian-539442",
-      "title": "CCR Equestrian Clear Rounds",
-      "venueKey": "ccr-equestrian",
-      "date": "2026-09-16",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=539442",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "moreton-morrell-563049",
-      "title": "Moreton Morrell British Dressage (P-GP/PYO FEI)+FS+PE",
-      "venueKey": "moreton-morrell",
-      "date": "2026-09-16",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=563049",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-571276",
-      "title": "Indoor Polework Clinic with Jo Swain",
-      "venueKey": "swallowfield",
-      "date": "2026-09-16",
-      "endDate": null,
-      "time": null,
-      "type": "Clinic",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571276",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "onley-equipe-7817",
@@ -3636,6 +3588,30 @@
       "time": null,
       "type": "Clinic",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553184",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "ccr-equestrian-553295",
+      "title": "CCR Equestrian Clear Rounds",
+      "venueKey": "ccr-equestrian",
+      "date": "2026-12-16",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553295",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "solihull-rc-554164",
+      "title": "Carefree & Casual Evening Dressage",
+      "venueKey": "solihull-rc",
+      "date": "2026-12-16",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=554164",
       "notes": "",
       "source": "auto"
     }
