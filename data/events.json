@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18",
+  "updated": "2026-09-19",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -244,54 +244,6 @@
       "source": "manual"
     },
     {
-      "id": "allens-hill-hm-88532",
-      "title": "British Dressage (P-AM)",
-      "venueKey": "allens-hill",
-      "date": "2026-09-18",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/88532/British+Dressage+%28P-AM%29",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "allens-hill-hm-85507",
-      "title": "Unaffiliated Dressage (P-AM)",
-      "venueKey": "allens-hill",
-      "date": "2026-09-18",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/85507/Unaffiliated+Dressage+%28P-AM%29",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "moreton-morrell-572304",
-      "title": "WHPC Mounted Games Training - Moreton Morrell  - MG Trainer",
-      "venueKey": "moreton-morrell",
-      "date": "2026-09-18",
-      "endDate": null,
-      "time": null,
-      "type": "Training",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=572304",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-571285",
-      "title": "Swallowfield Equestrian Cross Country Schooling",
-      "venueKey": "swallowfield",
-      "date": "2026-09-18",
-      "endDate": null,
-      "time": null,
-      "type": "Training",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571285",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "allens-hill-hm-85558",
       "title": "Dressage Championships (I-M) and Team Dressage (I-E)",
       "venueKey": "allens-hill",
@@ -336,18 +288,6 @@
       "time": null,
       "type": "Dressage",
       "url": "https://entry.equipe.com/meetings/9047",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-8317",
-      "title": "SSADL 19th & 20th September 2026",
-      "venueKey": "onley",
-      "date": "2026-09-19",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://entry.equipe.com/meetings/8317",
       "notes": "",
       "source": "auto"
     },
@@ -1372,6 +1312,18 @@
       "source": "auto"
     },
     {
+      "id": "solihull-rc-575558",
+      "title": "Carefree & Casual Dressage",
+      "venueKey": "solihull-rc",
+      "date": "2026-10-10",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=575558",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "swallowfield-571275",
       "title": "Pick & Mix Training Camp",
       "venueKey": "swallowfield",
@@ -1452,6 +1404,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=574897",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "allens-hill-hm-92648",
+      "title": "TAP Training Day West Mids (Worcestershire) - Karen Nicholas Show Jumping Clinic at Allens Hill",
+      "venueKey": "allens-hill",
+      "date": "2026-10-12",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://horsemonkey.com/uk/equestrian_event/92648/TAP+Training+Day+West+Mids+%28Worcestershire%29+-+Karen+Nicholas+Show+Jumping+Clinic+at+Allens+Hill",
       "notes": "",
       "source": "auto"
     },
@@ -3612,6 +3576,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=565579",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "allens-hill-hm-85496",
+      "title": "Unaffiliated Dressage (P-AM)",
+      "venueKey": "allens-hill",
+      "date": "2026-12-18",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://horsemonkey.com/uk/equestrian_event/85496/Unaffiliated+Dressage+%28P-AM%29",
       "notes": "",
       "source": "auto"
     }
