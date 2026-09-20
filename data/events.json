@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19",
+  "updated": "2026-09-20",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -242,90 +242,6 @@
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=568641",
       "notes": "Run by RG Equine Training",
       "source": "manual"
-    },
-    {
-      "id": "allens-hill-hm-85558",
-      "title": "Dressage Championships (I-M) and Team Dressage (I-E)",
-      "venueKey": "allens-hill",
-      "date": "2026-09-19",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/85558/Dressage+Championships+%28I-M%29+and+Team+Dressage+%28I-E%29",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "moreton-morrell-553243",
-      "title": "Moreton Morrell RC Unaffiliated Dressage inc Stoneleigh RC Points",
-      "venueKey": "moreton-morrell",
-      "date": "2026-09-19",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553243",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-8450",
-      "title": "Concours De Elegance - Stable Bookings thursday 24th - Sunday 27th September 2026",
-      "venueKey": "onley",
-      "date": "2026-09-19",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://entry.equipe.com/meetings/8450",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-9047",
-      "title": "Onley Grounds Equestrian Complex - Saturday 19th September - Unaffiliated Dressage - International Outdoor Arena",
-      "venueKey": "onley",
-      "date": "2026-09-19",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://entry.equipe.com/meetings/9047",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-567201",
-      "title": "608 Equine & Farm Vets - Diddy One Day Event Championships",
-      "venueKey": "solihull-rc",
-      "date": "2026-09-19",
-      "endDate": "2026-09-20",
-      "time": null,
-      "type": "Show",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=567201",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-563052",
-      "title": "Swallowfield Equestrian British Dressage (P-AM)+FS",
-      "venueKey": "swallowfield",
-      "date": "2026-09-19",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=563052",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-571155",
-      "title": "Unaffiliated Short Arena Dressage Series with Trailblazer First Round Qualifiers",
-      "venueKey": "swallowfield",
-      "date": "2026-09-19",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571155",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "allens-hill-hm-90829",
@@ -1944,6 +1860,18 @@
       "time": null,
       "type": "Other",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=574015",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "solihull-rc-575612",
+      "title": "Dressage Test Riding Clinic with Sue Ridley List 4 BD Judge",
+      "venueKey": "solihull-rc",
+      "date": "2026-10-24",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=575612",
       "notes": "",
       "source": "auto"
     },
@@ -3588,6 +3516,42 @@
       "time": null,
       "type": "Dressage",
       "url": "https://horsemonkey.com/uk/equestrian_event/85496/Unaffiliated+Dressage+%28P-AM%29",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "allens-hill-hm-85550",
+      "title": "Unaffiliated Dressage (I-E) NPS Qualifer (P-N) Team Dressage (I-E)",
+      "venueKey": "allens-hill",
+      "date": "2026-12-19",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://horsemonkey.com/uk/equestrian_event/85550/Unaffiliated+Dressage+%28I-E%29+NPS+Qualifer+%28P-N%29+Team+Dressage+%28I-E%29",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "ccr-equestrian-559841",
+      "title": "CCR Equestrian Junior British Show Jumping",
+      "venueKey": "ccr-equestrian",
+      "date": "2026-12-19",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=559841",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-553255",
+      "title": "Moreton Morrell RC Unaffiliated Dressage inc Stoneleigh RC Points",
+      "venueKey": "moreton-morrell",
+      "date": "2026-12-19",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553255",
       "notes": "",
       "source": "auto"
     }
