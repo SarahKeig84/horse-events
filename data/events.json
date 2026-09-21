@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20",
+  "updated": "2026-09-21",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -242,66 +242,6 @@
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=568641",
       "notes": "Run by RG Equine Training",
       "source": "manual"
-    },
-    {
-      "id": "allens-hill-hm-90829",
-      "title": "Showjumping inc BS Club/Schools (Open to All) & Ponies",
-      "venueKey": "allens-hill",
-      "date": "2026-09-20",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://horsemonkey.com/uk/equestrian_event/90829/Showjumping+inc+BS+ClubSchools+%28Open+to+All%29+%26+Ponies",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "ccr-equestrian-568500",
-      "title": "FFRC End of Season Championship Show",
-      "venueKey": "ccr-equestrian",
-      "date": "2026-09-20",
-      "endDate": null,
-      "time": null,
-      "type": "Show",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=568500",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-9046",
-      "title": "Onley Grounds Unaffiliated Showjumping - Sunday 20th Septmber 2026",
-      "venueKey": "onley",
-      "date": "2026-09-20",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://entry.equipe.com/meetings/9046",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-574657",
-      "title": "Unaffiliated Show Jumping (including Trailblazers Qualifiers)",
-      "venueKey": "swallowfield",
-      "date": "2026-09-20",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=574657",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "the-unicorn-hm-83715",
-      "title": "RDA Unicorn Centre  Unaffiliated Dressage Series and Points Championship",
-      "venueKey": "the-unicorn",
-      "date": "2026-09-20",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/83715/RDA+Unicorn+Centre++Unaffiliated+Dressage+Series+and+Points+Championship",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "allens-hill-hm-85419",
@@ -1553,7 +1493,7 @@
     },
     {
       "id": "ccr-equestrian-553384",
-      "title": "CCR Equestrian Senior British Show Jumping Cat 1",
+      "title": "CCR Equestrian Senior British Show Jumping Cat 1 inc Blue Chip Qualifiers",
       "venueKey": "ccr-equestrian",
       "date": "2026-10-17",
       "endDate": null,
@@ -2068,6 +2008,18 @@
       "source": "auto"
     },
     {
+      "id": "ccr-equestrian-hm-92453",
+      "title": "5* Performance Awards BS Gloucestershire Academy Training",
+      "venueKey": "ccr-equestrian",
+      "date": "2026-10-30",
+      "endDate": null,
+      "time": null,
+      "type": "Training",
+      "url": "https://horsemonkey.com/uk/equestrian_event/92453/5%2A+Performance+Awards+BS+Gloucestershire+Academy+Training",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "lowlands-ecpro-10700",
       "title": "Friday Clinic with Jo Hayward",
       "venueKey": "lowlands",
@@ -2369,7 +2321,7 @@
     },
     {
       "id": "ccr-equestrian-559840",
-      "title": "CCR Equestrian Junior British Show Jumping",
+      "title": "CCR Equestrian Junior British Show Jumping inc Blue Chip Qualifiers",
       "venueKey": "ccr-equestrian",
       "date": "2026-11-07",
       "endDate": null,
@@ -2993,7 +2945,7 @@
     },
     {
       "id": "ccr-equestrian-553385",
-      "title": "CCR Equestrian Senior British Show Jumping Cat 1",
+      "title": "CCR Equestrian Senior British Show Jumping Cat 1 inc Blue Chip Qualifiers",
       "venueKey": "ccr-equestrian",
       "date": "2026-11-28",
       "endDate": null,
@@ -3533,7 +3485,7 @@
     },
     {
       "id": "ccr-equestrian-559841",
-      "title": "CCR Equestrian Junior British Show Jumping",
+      "title": "CCR Equestrian Junior British Show Jumping inc Blue Chip Qualifiers",
       "venueKey": "ccr-equestrian",
       "date": "2026-12-19",
       "endDate": null,
@@ -3552,6 +3504,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553255",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-572112",
+      "title": "WHPC Open Winter Show Jumping Show",
+      "venueKey": "moreton-morrell",
+      "date": "2026-12-20",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=572112",
       "notes": "",
       "source": "auto"
     }
