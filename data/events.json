@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21",
+  "updated": "2026-09-22",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -242,30 +242,6 @@
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=568641",
       "notes": "Run by RG Equine Training",
       "source": "manual"
-    },
-    {
-      "id": "allens-hill-hm-85419",
-      "title": "BS Area 33 Training",
-      "venueKey": "allens-hill",
-      "date": "2026-09-21",
-      "endDate": null,
-      "time": null,
-      "type": "Training",
-      "url": "https://horsemonkey.com/uk/equestrian_event/85419/BS+Area+33+Training",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "ccr-equestrian-571610",
-      "title": "EVENING Equestrian Clear Rounds",
-      "venueKey": "ccr-equestrian",
-      "date": "2026-09-21",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=571610",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "ccr-equestrian-539467",
@@ -725,7 +701,7 @@
     },
     {
       "id": "moreton-morrell-553244",
-      "title": "Moreton Morrell Evening Unaff Dress Down Dressage Competition Inc Stoneleigh RC Points",
+      "title": "Moreton Morrell Evening Unaff Dress Down Dressage Competition",
       "venueKey": "moreton-morrell",
       "date": "2026-10-01",
       "endDate": null,
@@ -2056,6 +2032,18 @@
       "source": "auto"
     },
     {
+      "id": "onley-equipe-9341",
+      "title": "Onley Grounds EC - Mounted Games Stables Bookings - Saturday 31st October 2026",
+      "venueKey": "onley",
+      "date": "2026-10-31",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://entry.equipe.com/meetings/9341",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "onley-equipe-9285",
       "title": "Onley Grounds Equestrian Complex - Saturday 31st October 2026 - Unaffiliated Dressage & Combined Training 60cm-1m (PLS NOTE HELD ON OUTDOOR ARENA)",
       "venueKey": "onley",
@@ -2104,18 +2092,6 @@
       "source": "auto"
     },
     {
-      "id": "the-unicorn-hm-79133",
-      "title": "4636 2026  BD Senior Performance Camp  -  @ Unicorn Trust, Glos",
-      "venueKey": "the-unicorn",
-      "date": "2026-10-31",
-      "endDate": "2026-11-01",
-      "time": null,
-      "type": "Other",
-      "url": "https://horsemonkey.com/uk/equestrian_event/79133/4636+2026++BD+Senior+Performance+Camp++-++%40+Unicorn+Trust%2C+Glos",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "moreton-morrell-hm-92286",
       "title": "4633 - BD NW How Classical Groundwork Training can help improve performance and prevent injury with Charlotte Wittbom and Rachel Greetham (Team GB Physio), Moreton Morrell College",
       "venueKey": "moreton-morrell",
@@ -2136,6 +2112,18 @@
       "time": null,
       "type": "Other",
       "url": "https://entry.equipe.com/meetings/9250",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "onley-equipe-9342",
+      "title": "Onley Grounds Unaffiliated Showjumping - Sunday 1st November 2026 - Outdoor",
+      "venueKey": "onley",
+      "date": "2026-11-01",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://entry.equipe.com/meetings/9342",
       "notes": "",
       "source": "auto"
     },
@@ -2332,6 +2320,18 @@
       "source": "auto"
     },
     {
+      "id": "onley-equipe-9352",
+      "title": "Onley Grounds Daytime Clear Round - 30cm-1m - Saturday 7th November 2026 - 10am start",
+      "venueKey": "onley",
+      "date": "2026-11-07",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://entry.equipe.com/meetings/9352",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "swallowfield-571135",
       "title": "Working Equitation with Emma Taylor",
       "venueKey": "swallowfield",
@@ -2465,7 +2465,7 @@
     },
     {
       "id": "moreton-morrell-553252",
-      "title": "Moreton Morrell Evening Unaff Dress Down Dressage Competition Inc Stoneleigh RC Points",
+      "title": "Moreton Morrell Evening Unaff Dress Down Dressage Competition",
       "venueKey": "moreton-morrell",
       "date": "2026-11-12",
       "endDate": null,
@@ -3317,7 +3317,7 @@
     },
     {
       "id": "moreton-morrell-553254",
-      "title": "Moreton Morrell Evening Unaff Dress Down Dressage Competition Inc Stoneleigh RC Points",
+      "title": "Moreton Morrell Evening Unaff Dress Down Dressage Competition",
       "venueKey": "moreton-morrell",
       "date": "2026-12-10",
       "endDate": null,
