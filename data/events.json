@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22",
+  "updated": "2026-09-23",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -244,30 +244,6 @@
       "source": "manual"
     },
     {
-      "id": "ccr-equestrian-539467",
-      "title": "CCR Equestrian Senior British Show Jumping Cat 2",
-      "venueKey": "ccr-equestrian",
-      "date": "2026-09-22",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=539467",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-9176",
-      "title": "Onley Grounds British Dressage (P-AM) + FSM & PARA 22nd September 2026",
-      "venueKey": "onley",
-      "date": "2026-09-22",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://entry.equipe.com/meetings/9176",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "allens-hill-hm-90827",
       "title": "Showjumping inc BS Club (Open to All), Seniors (C2)",
       "venueKey": "allens-hill",
@@ -396,6 +372,18 @@
       "time": null,
       "type": "Training",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=572305",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "onley-equipe-8450",
+      "title": "Concours De Elegance - Stable Bookings thursday 24th - Sunday 27th September 2026",
+      "venueKey": "onley",
+      "date": "2026-09-25",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://entry.equipe.com/meetings/8450",
       "notes": "",
       "source": "auto"
     },
@@ -1240,6 +1228,18 @@
       "source": "auto"
     },
     {
+      "id": "allens-hill-hm-92787",
+      "title": "Karen Nicholas Showjumping Clinic",
+      "venueKey": "allens-hill",
+      "date": "2026-10-12",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://horsemonkey.com/uk/equestrian_event/92787/Karen+Nicholas+Showjumping+Clinic",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "allens-hill-hm-92648",
       "title": "TAP Training Day West Mids (Worcestershire) - Karen Nicholas Show Jumping Clinic at Allens Hill",
       "venueKey": "allens-hill",
@@ -1380,6 +1380,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=565554",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "solihull-rc-575919",
+      "title": "Unaffiliated Dressage inc MCI Qualifiers",
+      "venueKey": "solihull-rc",
+      "date": "2026-10-15",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=575919",
       "notes": "",
       "source": "auto"
     },
@@ -2356,6 +2368,18 @@
       "source": "auto"
     },
     {
+      "id": "onley-equipe-9355",
+      "title": "Onley Grounds Unaffiliated Showjumping - Sunday 8th November 2026 - Outdoor",
+      "venueKey": "onley",
+      "date": "2026-11-08",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://entry.equipe.com/meetings/9355",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "swallowfield-574659",
       "title": "Unaffiliated Show Jumping (including Trailblazers Qualifiers)",
       "venueKey": "swallowfield",
@@ -2388,6 +2412,18 @@
       "time": null,
       "type": "Clinic",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553183",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "onley-equipe-9358",
+      "title": "Onley Grounds Equestrian Complex - Evening Dress Down Dressage - Tuesday 10th November - Indoor from 17.30pm",
+      "venueKey": "onley",
+      "date": "2026-11-10",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://entry.equipe.com/meetings/9358",
       "notes": "",
       "source": "auto"
     },
@@ -3376,6 +3412,18 @@
       "source": "auto"
     },
     {
+      "id": "moreton-morrell-575832",
+      "title": "Moreton Morrell British Dressage (P-GP/PYO FEI)+FS+PE",
+      "venueKey": "moreton-morrell",
+      "date": "2026-12-12",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=575832",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "swallowfield-571126",
       "title": "Swallowfield Equestrian British Dressage QWL",
       "venueKey": "swallowfield",
@@ -3516,6 +3564,30 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=572112",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-573053",
+      "title": "WHPC Pony Club only - Evening Flatwork Rally - Moreton Morrell - Clara/Kiri",
+      "venueKey": "moreton-morrell",
+      "date": "2026-12-22",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=573053",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "solihull-rc-538989",
+      "title": "Evening Progressive Clear Round Show Jumping",
+      "venueKey": "solihull-rc",
+      "date": "2026-12-22",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=538989",
       "notes": "",
       "source": "auto"
     }
