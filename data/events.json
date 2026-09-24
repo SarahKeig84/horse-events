@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23",
+  "updated": "2026-09-24",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -244,66 +244,6 @@
       "source": "manual"
     },
     {
-      "id": "allens-hill-hm-90827",
-      "title": "Showjumping inc BS Club (Open to All), Seniors (C2)",
-      "venueKey": "allens-hill",
-      "date": "2026-09-23",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://horsemonkey.com/uk/equestrian_event/90827/Showjumping+inc+BS+Club+%28Open+to+All%29%2C+Seniors+%28C2%29",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "ccr-equestrian-539443",
-      "title": "CCR Equestrian Clear Rounds",
-      "venueKey": "ccr-equestrian",
-      "date": "2026-09-23",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=539443",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-9051",
-      "title": "Onley Grounds Equestrian Complex - Evening Dress Down Dressage - Wednesday 23rd September - Indoor - from 17.30pm",
-      "venueKey": "onley",
-      "date": "2026-09-23",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://entry.equipe.com/meetings/9051",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-7784",
-      "title": "Onley Grounds Senior British Showjumping - 23 September 2026",
-      "venueKey": "onley",
-      "date": "2026-09-23",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://entry.equipe.com/meetings/7784",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-556770",
-      "title": "The Dancing Horse Clinic with Ali Lane",
-      "venueKey": "swallowfield",
-      "date": "2026-09-23",
-      "endDate": null,
-      "time": null,
-      "type": "Clinic",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=556770",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "moreton-morrell-553181",
       "title": "James McCullough Evening Pole Work Clinic",
       "venueKey": "moreton-morrell",
@@ -348,18 +288,6 @@
       "time": null,
       "type": "Dressage",
       "url": "https://horsemonkey.com/uk/equestrian_event/85850/PYO+Combined+Training+%28I-E+50cm-1.00m%29%2C+Unaffiliated+Dressage+%28I-E%29+%26+Clear+Round+Showjumping",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "lowlands-ecpro-10694",
-      "title": "Friday Clinic with Jo Hayward",
-      "venueKey": "lowlands",
-      "date": "2026-09-25",
-      "endDate": null,
-      "time": null,
-      "type": "Clinic",
-      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/10694",
       "notes": "",
       "source": "auto"
     },
@@ -504,18 +432,6 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://horsemonkey.com/uk/equestrian_event/90830/Showjumping+inc+BS+Club+%28Open+to+All%29+%26+Seniors+%28C1%29",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "lowlands-ecpro-9687",
-      "title": "Unaffiliated Dressage Competition - CHAMPIONSHIP",
-      "venueKey": "lowlands",
-      "date": "2026-09-27",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/9687",
       "notes": "",
       "source": "auto"
     },
@@ -748,14 +664,14 @@
       "source": "auto"
     },
     {
-      "id": "solihull-rc-575441",
+      "id": "solihull-rc-576037",
       "title": "Unaffiliated Dressage inc MCI Qualifiers",
       "venueKey": "solihull-rc",
       "date": "2026-10-01",
       "endDate": null,
       "time": null,
       "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=575441",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=576037",
       "notes": "",
       "source": "auto"
     },
@@ -1528,6 +1444,18 @@
       "source": "auto"
     },
     {
+      "id": "lowlands-ecpro-9687",
+      "title": "Unaffiliated Dressage Competition - CHAMPIONSHIP",
+      "venueKey": "lowlands",
+      "date": "2026-10-18",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/9687",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "moreton-morrell-569250",
       "title": "The Side Saddle Association Area 5 Autumn Show",
       "venueKey": "moreton-morrell",
@@ -1836,6 +1764,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=565545",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "solihull-rc-576003",
+      "title": "Unaffiliated Dressage inc MCI Qualifiers",
+      "venueKey": "solihull-rc",
+      "date": "2026-10-25",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=576003",
       "notes": "",
       "source": "auto"
     },
@@ -2452,6 +2392,18 @@
       "source": "auto"
     },
     {
+      "id": "onley-equipe-9251",
+      "title": "Onley Grounds EC Senior BS 12th -15th November 2026",
+      "venueKey": "onley",
+      "date": "2026-11-11",
+      "endDate": "2026-11-15",
+      "time": null,
+      "type": "Other",
+      "url": "https://entry.equipe.com/meetings/9251",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "onley-equipe-9230",
       "title": "Onley Grounds Senior BS Stabling November 12th - 15th",
       "venueKey": "onley",
@@ -2520,18 +2472,6 @@
       "time": null,
       "type": "Dressage",
       "url": "https://entry.equipe.com/meetings/9179",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-9251",
-      "title": "Onley Grounds EC Senior BS 12th -15th November 2026",
-      "venueKey": "onley",
-      "date": "2026-11-12",
-      "endDate": "2026-11-15",
-      "time": null,
-      "type": "Other",
-      "url": "https://entry.equipe.com/meetings/9251",
       "notes": "",
       "source": "auto"
     },
@@ -3556,6 +3496,18 @@
       "source": "auto"
     },
     {
+      "id": "swallowfield-576034",
+      "title": "Swallowfield Equestrian British Dressage (P-AM)+FS",
+      "venueKey": "swallowfield",
+      "date": "2026-12-19",
+      "endDate": "2026-12-20",
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=576034",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "moreton-morrell-572112",
       "title": "WHPC Open Winter Show Jumping Show",
       "venueKey": "moreton-morrell",
@@ -3588,6 +3540,18 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=538989",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "ccr-equestrian-553296",
+      "title": "CCR Equestrian Clear Rounds",
+      "venueKey": "ccr-equestrian",
+      "date": "2026-12-23",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553296",
       "notes": "",
       "source": "auto"
     }
