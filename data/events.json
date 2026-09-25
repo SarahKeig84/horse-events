@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24",
+  "updated": "2026-09-25",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -242,42 +242,6 @@
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=568641",
       "notes": "Run by RG Equine Training",
       "source": "manual"
-    },
-    {
-      "id": "moreton-morrell-553181",
-      "title": "James McCullough Evening Pole Work Clinic",
-      "venueKey": "moreton-morrell",
-      "date": "2026-09-24",
-      "endDate": null,
-      "time": null,
-      "type": "Clinic",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553181",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-565542",
-      "title": "British Dressage (P-GP/PYO FEI)+FS",
-      "venueKey": "solihull-rc",
-      "date": "2026-09-24",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=565542",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-574424",
-      "title": "Unaffiliated Dressage inc MCI Qualifiers",
-      "venueKey": "solihull-rc",
-      "date": "2026-09-24",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=574424",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "allens-hill-hm-85850",
