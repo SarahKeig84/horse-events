@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25",
+  "updated": "2026-09-26",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -242,42 +242,6 @@
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=568641",
       "notes": "Run by RG Equine Training",
       "source": "manual"
-    },
-    {
-      "id": "allens-hill-hm-85850",
-      "title": "PYO Combined Training (I-E 50cm-1.00m), Unaffiliated Dressage (I-E) & Clear Round Showjumping",
-      "venueKey": "allens-hill",
-      "date": "2026-09-25",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/85850/PYO+Combined+Training+%28I-E+50cm-1.00m%29%2C+Unaffiliated+Dressage+%28I-E%29+%26+Clear+Round+Showjumping",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "moreton-morrell-572305",
-      "title": "WHPC Mounted Games Training - Moreton Morrell  - MG Trainer",
-      "venueKey": "moreton-morrell",
-      "date": "2026-09-25",
-      "endDate": null,
-      "time": null,
-      "type": "Training",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=572305",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-8450",
-      "title": "Concours De Elegance - Stable Bookings thursday 24th - Sunday 27th September 2026",
-      "venueKey": "onley",
-      "date": "2026-09-25",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://entry.equipe.com/meetings/8450",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "allens-hill-hm-91279",
@@ -785,7 +749,7 @@
     },
     {
       "id": "ccr-equestrian-553262",
-      "title": "CCR Equestrian Unafiliated SJ - Senior & Junior",
+      "title": "CCR Equestrian Unafiliated SJ - Senior & Junior - TRAILLAZER QUALIFIER",
       "venueKey": "ccr-equestrian",
       "date": "2026-10-04",
       "endDate": null,
@@ -1937,7 +1901,7 @@
     },
     {
       "id": "ccr-equestrian-553264",
-      "title": "CCR Equestrian Unafiliated SJ - Senior & Junior",
+      "title": "CCR Equestrian Unafiliated SJ - Senior & Junior - Halloween theme",
       "venueKey": "ccr-equestrian",
       "date": "2026-10-31",
       "endDate": null,
@@ -2372,7 +2336,7 @@
       "title": "Onley Grounds Senior BS Stabling November 12th - 15th",
       "venueKey": "onley",
       "date": "2026-11-11",
-      "endDate": null,
+      "endDate": "2026-11-15",
       "time": null,
       "type": "Other",
       "url": "https://entry.equipe.com/meetings/9230",
@@ -2489,7 +2453,7 @@
     },
     {
       "id": "ccr-equestrian-553267",
-      "title": "CCR Equestrian Unafiliated SJ - Senior & Junior - HARTPURY QUALIFER",
+      "title": "CCR Equestrian Unafiliated SJ - Senior & Junior - HARTPURY QUALIFER - TRAILLAZER QUALIF",
       "venueKey": "ccr-equestrian",
       "date": "2026-11-14",
       "endDate": null,
@@ -3305,7 +3269,7 @@
     },
     {
       "id": "ccr-equestrian-553270",
-      "title": "CCR Equestrian Unafiliated SJ - Senior & Junior - HARTPURY QUALIFER",
+      "title": "CCR Equestrian Unafiliated SJ - Senior & Junior - HARTPURY QUALIFER- TRAILLAZER QUALIFI",
       "venueKey": "ccr-equestrian",
       "date": "2026-12-12",
       "endDate": null,
