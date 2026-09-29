@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28",
+  "updated": "2026-09-29",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -242,18 +242,6 @@
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=568641",
       "notes": "Run by RG Equine Training",
       "source": "manual"
-    },
-    {
-      "id": "ccr-equestrian-571611",
-      "title": "EVENING Equestrian Clear Rounds",
-      "venueKey": "ccr-equestrian",
-      "date": "2026-09-28",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=571611",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "onley-equipe-7818",
@@ -1252,6 +1240,18 @@
       "source": "auto"
     },
     {
+      "id": "the-unicorn-hm-92960",
+      "title": "4586 - U21 International Training Camp, Unicorn 19 & 20 October 2026",
+      "venueKey": "the-unicorn",
+      "date": "2026-10-18",
+      "endDate": "2026-10-20",
+      "time": null,
+      "type": "Training",
+      "url": "https://horsemonkey.com/uk/equestrian_event/92960/4586+-+U21+International+Training+Camp%2C+Unicorn+19+%26+20+October+2026",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "moreton-morrell-551177",
       "title": "Richard Baldwin one to one Dressage Clinic",
       "venueKey": "moreton-morrell",
@@ -1480,6 +1480,18 @@
       "source": "auto"
     },
     {
+      "id": "allens-hill-hm-92448",
+      "title": "Showjumping inc BS Club (Open to All) & Seniors (C1) with Blue Chip Qualifiers",
+      "venueKey": "allens-hill",
+      "date": "2026-10-25",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://horsemonkey.com/uk/equestrian_event/92448/Showjumping+inc+BS+Club+%28Open+to+All%29+%26+Seniors+%28C1%29+with+Blue+Chip+Qualifiers",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "onley-equipe-9255",
       "title": "Onley Grounds Unaffiliated Showjumping - Sunday 25th October 2026 - Indoor - Starting at 10am",
       "venueKey": "onley",
@@ -1488,6 +1500,18 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://entry.equipe.com/meetings/9255",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "rugby-riding-club-entrymaster-event73",
+      "title": "HALLOWEEN SHOW",
+      "venueKey": "rugby-riding-club",
+      "date": "2026-10-25",
+      "endDate": null,
+      "time": null,
+      "type": "Show",
+      "url": "https://rugbyrc.lite.events",
       "notes": "",
       "source": "auto"
     },
@@ -1673,13 +1697,13 @@
     },
     {
       "id": "ccr-equestrian-hm-92453",
-      "title": "5* Performance Awards BS Gloucestershire Academy Training",
+      "title": "BS Gloucestershire Academy Training",
       "venueKey": "ccr-equestrian",
       "date": "2026-10-30",
       "endDate": null,
       "time": null,
       "type": "Training",
-      "url": "https://horsemonkey.com/uk/equestrian_event/92453/5%2A+Performance+Awards+BS+Gloucestershire+Academy+Training",
+      "url": "https://horsemonkey.com/uk/equestrian_event/92453/BS+Gloucestershire+Academy+Training",
       "notes": "",
       "source": "auto"
     },
@@ -1709,7 +1733,7 @@
     },
     {
       "id": "ccr-equestrian-553264",
-      "title": "CCR Equestrian Unafiliated SJ - Senior & Junior - Halloween theme",
+      "title": "CCR Equestrian Unafiliated SJ - Senior & Junior - Halloween theme - CRICKLAND",
       "venueKey": "ccr-equestrian",
       "date": "2026-10-31",
       "endDate": null,
@@ -2261,7 +2285,7 @@
     },
     {
       "id": "ccr-equestrian-553267",
-      "title": "CCR Equestrian Unafiliated SJ - Senior & Junior - HARTPURY QUALIFER - TRAILLAZER QUALIF",
+      "title": "CCR Equestrian Unafiliated SJ - Senior & Junior - HARTPURY - TRAILLAZER- CRICKLAND",
       "venueKey": "ccr-equestrian",
       "date": "2026-11-14",
       "endDate": null,
@@ -3077,7 +3101,7 @@
     },
     {
       "id": "ccr-equestrian-553270",
-      "title": "CCR Equestrian Unafiliated SJ - Senior & Junior - HARTPURY QUALIFER- TRAILLAZER QUALIFI",
+      "title": "CCR Equestrian Unafiliated SJ - Senior & Junior - HARTPURY - TRAILLAZER- CRICKLAND",
       "venueKey": "ccr-equestrian",
       "date": "2026-12-12",
       "endDate": null,
