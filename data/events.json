@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29",
+  "updated": "2026-09-30",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -242,30 +242,6 @@
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=568641",
       "notes": "Run by RG Equine Training",
       "source": "manual"
-    },
-    {
-      "id": "onley-equipe-7818",
-      "title": "Onley Grounds Evening Clear Round - 29 September 2026 - Indoor - 17.30pm start",
-      "venueKey": "onley",
-      "date": "2026-09-29",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://entry.equipe.com/meetings/7818",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-538990",
-      "title": "Evening Working Hunter Progressive Clear Round",
-      "venueKey": "solihull-rc",
-      "date": "2026-09-29",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=538990",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "allens-hill-hm-90828",
@@ -1240,18 +1216,6 @@
       "source": "auto"
     },
     {
-      "id": "the-unicorn-hm-92960",
-      "title": "4586 - U21 International Training Camp, Unicorn 19 & 20 October 2026",
-      "venueKey": "the-unicorn",
-      "date": "2026-10-18",
-      "endDate": "2026-10-20",
-      "time": null,
-      "type": "Training",
-      "url": "https://horsemonkey.com/uk/equestrian_event/92960/4586+-+U21+International+Training+Camp%2C+Unicorn+19+%26+20+October+2026",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "moreton-morrell-551177",
       "title": "Richard Baldwin one to one Dressage Clinic",
       "venueKey": "moreton-morrell",
@@ -1392,6 +1356,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://horsemonkey.com/uk/equestrian_event/85852/PYO+Combined+Training+%28I-E+50cm-1.00m%29%2C+Unaffiliated+Dressage+%28I-E%29+%26+Clear+Round+Showjumping",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "lowlands-ecpro-10927",
+      "title": "Tea with a Pony",
+      "venueKey": "lowlands",
+      "date": "2026-10-23",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/10927",
       "notes": "",
       "source": "auto"
     },
@@ -1764,6 +1740,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://entry.equipe.com/meetings/9285",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "solihull-rc-577546",
+      "title": "Halloween Fun Show",
+      "venueKey": "solihull-rc",
+      "date": "2026-10-31",
+      "endDate": null,
+      "time": null,
+      "type": "Show",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=577546",
       "notes": "",
       "source": "auto"
     },
@@ -2884,6 +2872,18 @@
       "source": "auto"
     },
     {
+      "id": "horse-events-dallas-burston-31136",
+      "title": "LandS Eventing Super Arena Cross Country Pairs Festive Fancy Dress Optional 5th Dec 2026",
+      "venueKey": "dallas-burston",
+      "date": "2026-12-05",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.horse-events.co.uk/horse-events/lands-eventing-super-arena-cross-country-pairs-festive-fancy-dress-optional-5th-dec-2026",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "moreton-morrell-553175",
       "title": "Kate Cowell 1 to 1 Dressage Clinic",
       "venueKey": "moreton-morrell",
@@ -3312,6 +3312,18 @@
       "time": null,
       "type": "Other",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553296",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "ccr-equestrian-553342",
+      "title": "CCR Equestrian Senior British Show Jumping Cat 2",
+      "venueKey": "ccr-equestrian",
+      "date": "2026-12-29",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553342",
       "notes": "",
       "source": "auto"
     }
