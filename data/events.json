@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30",
+  "updated": "2026-10-01",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -244,54 +244,6 @@
       "source": "manual"
     },
     {
-      "id": "allens-hill-hm-90828",
-      "title": "Showjumping inc BS Club (Open to All), Seniors (C2)",
-      "venueKey": "allens-hill",
-      "date": "2026-09-30",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://horsemonkey.com/uk/equestrian_event/90828/Showjumping+inc+BS+Club+%28Open+to+All%29%2C+Seniors+%28C2%29",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "ccr-equestrian-539444",
-      "title": "CCR Equestrian Clear Rounds",
-      "venueKey": "ccr-equestrian",
-      "date": "2026-09-30",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=539444",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-7785",
-      "title": "Onley Grounds Senior British Showjumping (Indoors) -30 September 2026",
-      "venueKey": "onley",
-      "date": "2026-09-30",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://entry.equipe.com/meetings/7785",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-573746",
-      "title": "Swallowfield Equestrian Evening Stressless Dressage sponsored by Align Rider Solutions",
-      "venueKey": "swallowfield",
-      "date": "2026-09-30",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=573746",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "ccr-equestrian-hm-87473",
       "title": "TAP Training Day Midlands (Gloucestershire) - Lucy Jackson ALL LEVELS Flatwork/ SJ Clinic at CCR Equestrian",
       "venueKey": "ccr-equestrian",
@@ -332,7 +284,7 @@
       "title": "Onley Grounds Oktoberfest Stables - 1st-4th Oct 2026",
       "venueKey": "onley",
       "date": "2026-10-01",
-      "endDate": "2026-10-04",
+      "endDate": null,
       "time": null,
       "type": "Other",
       "url": "https://entry.equipe.com/meetings/8479",
@@ -408,18 +360,6 @@
       "time": null,
       "type": "Dressage",
       "url": "https://horsemonkey.com/uk/equestrian_event/85505/Unaffiliated+Dressage+%28P-AM%29",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "lowlands-ecpro-10696",
-      "title": "Friday Clinic with Jo Hayward",
-      "venueKey": "lowlands",
-      "date": "2026-10-02",
-      "endDate": null,
-      "time": null,
-      "type": "Clinic",
-      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/10696",
       "notes": "",
       "source": "auto"
     },
@@ -1361,7 +1301,7 @@
     },
     {
       "id": "lowlands-ecpro-10927",
-      "title": "Tea with a Pony",
+      "title": "Tea with a Pony (Wear it Pink!)",
       "venueKey": "lowlands",
       "date": "2026-10-23",
       "endDate": null,
@@ -1564,6 +1504,18 @@
       "source": "auto"
     },
     {
+      "id": "swallowfield-577648",
+      "title": "Swallowfield Equestrian Halloween Hack & Snack",
+      "venueKey": "swallowfield",
+      "date": "2026-10-27",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=577648",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "allens-hill-hm-92383",
       "title": "Showjumping - Unaffiliated (70cm - 1.20m)",
       "venueKey": "allens-hill",
@@ -1656,6 +1608,18 @@
       "time": null,
       "type": "Clinic",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=568504",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-577649",
+      "title": "Swallowfield Equestrian Halloween Hack & Snack",
+      "venueKey": "swallowfield",
+      "date": "2026-10-29",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=577649",
       "notes": "",
       "source": "auto"
     },
@@ -2104,6 +2068,18 @@
       "source": "auto"
     },
     {
+      "id": "onley-equipe-9179",
+      "title": "Onley Grounds British Dressage (P-AM) + FS 10th November 2026",
+      "venueKey": "onley",
+      "date": "2026-11-10",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://entry.equipe.com/meetings/9179",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "onley-equipe-9358",
       "title": "Onley Grounds Equestrian Complex - Evening Dress Down Dressage - Tuesday 10th November - Indoor from 17.30pm",
       "venueKey": "onley",
@@ -2208,18 +2184,6 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553252",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-9179",
-      "title": "Onley Grounds British Dressage (P-AM) + FS 12th November 2026",
-      "venueKey": "onley",
-      "date": "2026-11-12",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://entry.equipe.com/meetings/9179",
       "notes": "",
       "source": "auto"
     },
@@ -3324,6 +3288,18 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553342",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "ccr-equestrian-553297",
+      "title": "CCR Equestrian Clear Rounds",
+      "venueKey": "ccr-equestrian",
+      "date": "2026-12-30",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553297",
       "notes": "",
       "source": "auto"
     }
