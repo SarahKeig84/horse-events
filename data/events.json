@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01",
+  "updated": "2026-10-02",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -242,102 +242,6 @@
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=568641",
       "notes": "Run by RG Equine Training",
       "source": "manual"
-    },
-    {
-      "id": "ccr-equestrian-hm-87473",
-      "title": "TAP Training Day Midlands (Gloucestershire) - Lucy Jackson ALL LEVELS Flatwork/ SJ Clinic at CCR Equestrian",
-      "venueKey": "ccr-equestrian",
-      "date": "2026-10-01",
-      "endDate": null,
-      "time": null,
-      "type": "Clinic",
-      "url": "https://horsemonkey.com/uk/equestrian_event/87473/TAP+Training+Day+Midlands+%28Gloucestershire%29+-+Lucy+Jackson+ALL+LEVELS+Flatwork+SJ+Clinic+at+CCR+Equestrian",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "moreton-morrell-553244",
-      "title": "Moreton Morrell Evening Unaff Dress Down Dressage Competition",
-      "venueKey": "moreton-morrell",
-      "date": "2026-10-01",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553244",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-8478",
-      "title": "Onley Grounds Oktoberfest Senior BS - 1st to 4th Oct 2026",
-      "venueKey": "onley",
-      "date": "2026-10-01",
-      "endDate": "2026-10-04",
-      "time": null,
-      "type": "Other",
-      "url": "https://entry.equipe.com/meetings/8478",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-8479",
-      "title": "Onley Grounds Oktoberfest Stables - 1st-4th Oct 2026",
-      "venueKey": "onley",
-      "date": "2026-10-01",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://entry.equipe.com/meetings/8479",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-565543",
-      "title": "British Dressage (P-GP/PYO FEI)+FS",
-      "venueKey": "solihull-rc",
-      "date": "2026-10-01",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=565543",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-573551",
-      "title": "Solihull Riding Club Quiz Night",
-      "venueKey": "solihull-rc",
-      "date": "2026-10-01",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=573551",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-576037",
-      "title": "Unaffiliated Dressage inc MCI Qualifiers",
-      "venueKey": "solihull-rc",
-      "date": "2026-10-01",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=576037",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-574331",
-      "title": "Design your Freestyle to Music Floorplan with Jo Swain",
-      "venueKey": "swallowfield",
-      "date": "2026-10-01",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=574331",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "allens-hill-hm-88534",
@@ -2132,7 +2036,7 @@
       "title": "Onley Grounds Senior BS Stabling November 12th - 15th",
       "venueKey": "onley",
       "date": "2026-11-11",
-      "endDate": "2026-11-15",
+      "endDate": null,
       "time": null,
       "type": "Other",
       "url": "https://entry.equipe.com/meetings/9230",
@@ -2800,6 +2704,18 @@
       "source": "auto"
     },
     {
+      "id": "swallowfield-578122",
+      "title": "Wreath Making Workshop with the Flower Barn",
+      "venueKey": "swallowfield",
+      "date": "2026-12-04",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=578122",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "allens-hill-hm-90957",
       "title": "British Dressage (P-GP/PYO FEI)",
       "venueKey": "allens-hill",
@@ -2868,6 +2784,18 @@
       "time": null,
       "type": "Other",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571137",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-578123",
+      "title": "Wreath Making Workshop with the Flower Barn",
+      "venueKey": "swallowfield",
+      "date": "2026-12-05",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=578123",
       "notes": "",
       "source": "auto"
     },
@@ -3300,6 +3228,18 @@
       "time": null,
       "type": "Other",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553297",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "allens-hill-hm-82365",
+      "title": "Allens Hill Membership",
+      "venueKey": "allens-hill",
+      "date": "2026-12-31",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://horsemonkey.com/uk/equestrian_event/82365/Allens+Hill+Membership",
       "notes": "",
       "source": "auto"
     }
