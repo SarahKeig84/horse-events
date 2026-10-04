@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-03",
+  "updated": "2026-10-04",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -242,66 +242,6 @@
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=568641",
       "notes": "Run by RG Equine Training",
       "source": "manual"
-    },
-    {
-      "id": "allens-hill-hm-88909",
-      "title": "British Dressage (P-GP/PYO FEI)",
-      "venueKey": "allens-hill",
-      "date": "2026-10-03",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/88909/British+Dressage+%28P-GPPYO+FEI%29",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "allens-hill-hm-85504",
-      "title": "Unaffiliated Dressage (P-AM)",
-      "venueKey": "allens-hill",
-      "date": "2026-10-03",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/85504/Unaffiliated+Dressage+%28P-AM%29",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-573586",
-      "title": "Weekend Winter Unaffiliated & Mini Show Jumping inc BRC Club & Trailblazers Qualifiers",
-      "venueKey": "solihull-rc",
-      "date": "2026-10-03",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=573586",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-571286",
-      "title": "Swallowfield Equestrian Cross Country Schooling",
-      "venueKey": "swallowfield",
-      "date": "2026-10-03",
-      "endDate": null,
-      "time": null,
-      "type": "Training",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571286",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-571134",
-      "title": "Working Equitation with Emma Taylor",
-      "venueKey": "swallowfield",
-      "date": "2026-10-03",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571134",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "allens-hill-hm-92376",
@@ -1572,6 +1512,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://entry.equipe.com/meetings/9285",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "rugby-riding-club-entrymaster-event22",
+      "title": "GHOST AND GHOULS HUNT RIDE",
+      "venueKey": "rugby-riding-club",
+      "date": "2026-10-31",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://rugbyrc.lite.events",
       "notes": "",
       "source": "auto"
     },
@@ -3228,6 +3180,30 @@
       "time": null,
       "type": "Other",
       "url": "https://entry.equipe.com/meetings/9501",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "ccr-equestrian-559842",
+      "title": "CCR Equestrian Junior British Show Jumping",
+      "venueKey": "ccr-equestrian",
+      "date": "2027-01-02",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=559842",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "solihull-rc-568536",
+      "title": "Junior British Show Jumping 2 Day Show",
+      "venueKey": "solihull-rc",
+      "date": "2027-01-02",
+      "endDate": "2027-01-03",
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=568536",
       "notes": "",
       "source": "auto"
     }
