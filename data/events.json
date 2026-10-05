@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-04",
+  "updated": "2026-10-05",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -244,78 +244,6 @@
       "source": "manual"
     },
     {
-      "id": "allens-hill-hm-92376",
-      "title": "Showjumping - Unaffiliated (60cm - 1.10m)",
-      "venueKey": "allens-hill",
-      "date": "2026-10-04",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://horsemonkey.com/uk/equestrian_event/92376/Showjumping+-+Unaffiliated+%2860cm+-+1.10m%29",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "horse-events-aston-le-walls-29430",
-      "title": "The Grafton Eventer Challenge Sunday 4th October 2026",
-      "venueKey": "aston-le-walls",
-      "date": "2026-10-04",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.horse-events.co.uk/horse-events/the-grafton-eventer-challenge-sunday-4th-october-2026",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "ccr-equestrian-553262",
-      "title": "CCR Equestrian Unafiliated SJ - Senior & Junior - TRAILLAZER QUALIFIER",
-      "venueKey": "ccr-equestrian",
-      "date": "2026-10-04",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553262",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "moreton-morrell-572044",
-      "title": "WHPC Open Winter Show Jumping Show",
-      "venueKey": "moreton-morrell",
-      "date": "2026-10-04",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=572044",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-9138",
-      "title": "Onley Grounds Equestrian Complex - Sunday 4th October - Unaffiliated Dressage - Outdoor",
-      "venueKey": "onley",
-      "date": "2026-10-04",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://entry.equipe.com/meetings/9138",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-574386",
-      "title": "BRC Winter Intermediate Team and Individual Junior and Senior Dressage Qualifer",
-      "venueKey": "solihull-rc",
-      "date": "2026-10-04",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=574386",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "solihull-rc-572689",
       "title": "Five Ways to Wellbeing Programme (Week 1 – Connect)",
       "venueKey": "solihull-rc",
@@ -347,7 +275,7 @@
       "endDate": null,
       "time": null,
       "type": "Showjumping",
-      "url": "https://horsemonkey.com/uk/equestrian_event/92380/Showjumping+-+Unaffiliated+%2870cm+-+1.20m%29",
+      "url": "https://horsemonkey.com/uk/equestrian_event/92380/Showjumping+-+Unaffiliated+%252870cm+-+1.20m%2529",
       "notes": "",
       "source": "auto"
     },
@@ -419,7 +347,7 @@
       "endDate": null,
       "time": null,
       "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/85851/PYO+Combined+Training+%28I-E+50cm-1.00m%29%2C+Unaffiliated+Dressage+%28I-E%29+%26+Clear+Round+Showjumping",
+      "url": "https://horsemonkey.com/uk/equestrian_event/85851/PYO+Combined+Training+%2528I-E+50cm-1.00m%2529%252C+Unaffiliated+Dressage+%2528I-E%2529+%2526+Clear+Round+Showjumping",
       "notes": "",
       "source": "auto"
     },
@@ -455,7 +383,7 @@
       "endDate": null,
       "time": null,
       "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/85881/PYO+Combined+Training+%26+Unaffiliated+Dressage+%26++NEW+-+MINI+SHOW+JUMPING+%26+Clear+Round",
+      "url": "https://horsemonkey.com/uk/equestrian_event/85881/PYO+Combined+Training+%2526+Unaffiliated+Dressage+%2526++NEW+-+MINI+SHOW+JUMPING+%2526+Clear+Round",
       "notes": "",
       "source": "auto"
     },
@@ -527,7 +455,7 @@
       "endDate": null,
       "time": null,
       "type": "Showjumping",
-      "url": "https://horsemonkey.com/uk/equestrian_event/92377/Showjumping+-+Unaffiliated+%2860cm+-+1.10m%29",
+      "url": "https://horsemonkey.com/uk/equestrian_event/92377/Showjumping+-+Unaffiliated+%252860cm+-+1.10m%2529",
       "notes": "",
       "source": "auto"
     },
@@ -611,7 +539,7 @@
       "endDate": null,
       "time": null,
       "type": "Clinic",
-      "url": "https://horsemonkey.com/uk/equestrian_event/92648/TAP+Training+Day+West+Mids+%28Worcestershire%29+-+Karen+Nicholas+Show+Jumping+Clinic+at+Allens+Hill",
+      "url": "https://horsemonkey.com/uk/equestrian_event/92648/TAP+Training+Day+West+Mids+%2528Worcestershire%2529+-+Karen+Nicholas+Show+Jumping+Clinic+at+Allens+Hill",
       "notes": "",
       "source": "auto"
     },
@@ -647,7 +575,7 @@
       "endDate": null,
       "time": null,
       "type": "Showjumping",
-      "url": "https://horsemonkey.com/uk/equestrian_event/92381/Showjumping+-+Unaffiliated+%2870cm+-+1.20m%29",
+      "url": "https://horsemonkey.com/uk/equestrian_event/92381/Showjumping+-+Unaffiliated+%252870cm+-+1.20m%2529",
       "notes": "",
       "source": "auto"
     },
@@ -767,7 +695,7 @@
       "endDate": null,
       "time": null,
       "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/90085/British+Dressage+%28P-AM%29%2BPE",
+      "url": "https://horsemonkey.com/uk/equestrian_event/90085/British+Dressage+%2528P-AM%2529%252BPE",
       "notes": "",
       "source": "auto"
     },
@@ -779,7 +707,7 @@
       "endDate": null,
       "time": null,
       "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/85503/Unaffiliated+Dressage+%28P-AM%29",
+      "url": "https://horsemonkey.com/uk/equestrian_event/85503/Unaffiliated+Dressage+%2528P-AM%2529",
       "notes": "",
       "source": "auto"
     },
@@ -839,7 +767,7 @@
       "endDate": null,
       "time": null,
       "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/85557/Unaffiliated+Dressage+%28I-E%29+NPS+Qualifer+%28P-N%29+Team+Dressage+%28I-E%29",
+      "url": "https://horsemonkey.com/uk/equestrian_event/85557/Unaffiliated+Dressage+%2528I-E%2529+NPS+Qualifer+%2528P-N%2529+Team+Dressage+%2528I-E%2529",
       "notes": "",
       "source": "auto"
     },
@@ -1000,6 +928,18 @@
       "source": "auto"
     },
     {
+      "id": "solihull-rc-578242",
+      "title": "Richard Seals Showjumping Clinic",
+      "venueKey": "solihull-rc",
+      "date": "2026-10-19",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=578242",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "ccr-equestrian-553335",
       "title": "CCR Equestrian Senior British Show Jumping Cat 2",
       "venueKey": "ccr-equestrian",
@@ -1043,7 +983,7 @@
       "endDate": null,
       "time": null,
       "type": "Showjumping",
-      "url": "https://horsemonkey.com/uk/equestrian_event/92382/Showjumping+-+Unaffiliated+%2870cm+-+1.20m%29",
+      "url": "https://horsemonkey.com/uk/equestrian_event/92382/Showjumping+-+Unaffiliated+%252870cm+-+1.20m%2529",
       "notes": "",
       "source": "auto"
     },
@@ -1103,7 +1043,7 @@
       "endDate": null,
       "time": null,
       "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/85852/PYO+Combined+Training+%28I-E+50cm-1.00m%29%2C+Unaffiliated+Dressage+%28I-E%29+%26+Clear+Round+Showjumping",
+      "url": "https://horsemonkey.com/uk/equestrian_event/85852/PYO+Combined+Training+%2528I-E+50cm-1.00m%2529%252C+Unaffiliated+Dressage+%2528I-E%2529+%2526+Clear+Round+Showjumping",
       "notes": "",
       "source": "auto"
     },
@@ -1127,7 +1067,7 @@
       "endDate": null,
       "time": null,
       "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/91935/PYO+Combined+Training+%26+Unaffiliated+Dressage+%26++NEW+-+MINI+SHOW+JUMPING+%26+Clear+Round",
+      "url": "https://horsemonkey.com/uk/equestrian_event/91935/PYO+Combined+Training+%2526+Unaffiliated+Dressage+%2526++NEW+-+MINI+SHOW+JUMPING+%2526+Clear+Round",
       "notes": "",
       "source": "auto"
     },
@@ -1211,7 +1151,7 @@
       "endDate": null,
       "time": null,
       "type": "Showjumping",
-      "url": "https://horsemonkey.com/uk/equestrian_event/92448/Showjumping+inc+BS+Club+%28Open+to+All%29+%26+Seniors+%28C1%29+with+Blue+Chip+Qualifiers",
+      "url": "https://horsemonkey.com/uk/equestrian_event/92448/Showjumping+inc+BS+Club+%2528Open+to+All%2529+%2526+Seniors+%2528C1%2529+with+Blue+Chip+Qualifiers",
       "notes": "",
       "source": "auto"
     },
@@ -1295,7 +1235,7 @@
       "endDate": "2026-10-27",
       "time": null,
       "type": "Other",
-      "url": "https://horsemonkey.com/uk/equestrian_event/80702/4646+BD+South+and+West+Regional+Senior%2C+Para+%26+Youth+Camp++-++%40+Unicorn+Trust%2C+Glos+with+Hannah+Biggs+%26+Alice+Peternell",
+      "url": "https://horsemonkey.com/uk/equestrian_event/80702/4646+BD+South+and+West+Regional+Senior%252C+Para+%2526+Youth+Camp++-++%2540+Unicorn+Trust%252C+Glos+with+Hannah+Biggs+%2526+Alice+Peternell",
       "notes": "",
       "source": "auto"
     },
@@ -1331,7 +1271,7 @@
       "endDate": null,
       "time": null,
       "type": "Showjumping",
-      "url": "https://horsemonkey.com/uk/equestrian_event/92383/Showjumping+-+Unaffiliated+%2870cm+-+1.20m%29",
+      "url": "https://horsemonkey.com/uk/equestrian_event/92383/Showjumping+-+Unaffiliated+%252870cm+-+1.20m%2529",
       "notes": "",
       "source": "auto"
     },
@@ -1391,7 +1331,7 @@
       "endDate": null,
       "time": null,
       "type": "Clinic",
-      "url": "https://horsemonkey.com/uk/equestrian_event/91627/TAP+Training+Day+Midlands+%28Gloucestershire%29+-+Lucy+Jackson+ALL+LEVELS+Flatwork+SJ+Clinic+at+CCR+Equestrian",
+      "url": "https://horsemonkey.com/uk/equestrian_event/91627/TAP+Training+Day+Midlands+%2528Gloucestershire%2529+-+Lucy+Jackson+ALL+LEVELS+Flatwork+SJ+Clinic+at+CCR+Equestrian",
       "notes": "",
       "source": "auto"
     },
@@ -1439,7 +1379,7 @@
       "endDate": null,
       "time": null,
       "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/85853/PYO+Combined+Training+%28I-E+50cm-1.00m%29%2C+Unaffiliated+Dressage+%28I-E%29+%26+Clear+Round+Showjumping",
+      "url": "https://horsemonkey.com/uk/equestrian_event/85853/PYO+Combined+Training+%2528I-E+50cm-1.00m%2529%252C+Unaffiliated+Dressage+%2528I-E%2529+%2526+Clear+Round+Showjumping",
       "notes": "",
       "source": "auto"
     },
@@ -1475,7 +1415,7 @@
       "endDate": null,
       "time": null,
       "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/91936/PYO+Combined+Training+%26+Unaffiliated+Dressage+%26++NEW+-+MINI+SHOW+JUMPING+%26+Clear+Round",
+      "url": "https://horsemonkey.com/uk/equestrian_event/91936/PYO+Combined+Training+%2526+Unaffiliated+Dressage+%2526++NEW+-+MINI+SHOW+JUMPING+%2526+Clear+Round",
       "notes": "",
       "source": "auto"
     },
@@ -1571,7 +1511,7 @@
       "endDate": "2026-11-01",
       "time": null,
       "type": "Other",
-      "url": "https://horsemonkey.com/uk/equestrian_event/86964/4636+2026++BD+Senior+Camp+++-++%40+Unicorn+Trust%2C+Glos+with+Becky+Moody%2C+Matt+Hicks+%26+Damian+Hallam",
+      "url": "https://horsemonkey.com/uk/equestrian_event/86964/4636+2026++BD+Senior+Camp+++-++%2540+Unicorn+Trust%252C+Glos+with+Becky+Moody%252C+Matt+Hicks+%2526+Damian+Hallam",
       "notes": "",
       "source": "auto"
     },
@@ -1583,7 +1523,7 @@
       "endDate": null,
       "time": null,
       "type": "Training",
-      "url": "https://horsemonkey.com/uk/equestrian_event/92286/4633+-+BD+NW+How+Classical+Groundwork+Training+can+help+improve+performance+and+prevent+injury+with+Charlotte+Wittbom+and+Rachel+Greetham+%28Team+GB+Physio%29%2C+Moreton+Morrell+College",
+      "url": "https://horsemonkey.com/uk/equestrian_event/92286/4633+-+BD+NW+How+Classical+Groundwork+Training+can+help+improve+performance+and+prevent+injury+with+Charlotte+Wittbom+and+Rachel+Greetham+%2528Team+GB+Physio%2529%252C+Moreton+Morrell+College",
       "notes": "",
       "source": "auto"
     },
@@ -1732,6 +1672,18 @@
       "source": "auto"
     },
     {
+      "id": "solihull-rc-578475",
+      "title": "Unaffiliated Dressage inc MCI Qualifiers",
+      "venueKey": "solihull-rc",
+      "date": "2026-11-05",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=578475",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "allens-hill-hm-90218",
       "title": "British Dressage (P-AM)",
       "venueKey": "allens-hill",
@@ -1739,7 +1691,7 @@
       "endDate": null,
       "time": null,
       "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/90218/British+Dressage+%28P-AM%29",
+      "url": "https://horsemonkey.com/uk/equestrian_event/90218/British+Dressage+%2528P-AM%2529",
       "notes": "",
       "source": "auto"
     },
@@ -1751,7 +1703,7 @@
       "endDate": null,
       "time": null,
       "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/85502/Unaffiliated+Dressage+%28P-AM%29",
+      "url": "https://horsemonkey.com/uk/equestrian_event/85502/Unaffiliated+Dressage+%2528P-AM%2529",
       "notes": "",
       "source": "auto"
     },
@@ -1775,7 +1727,7 @@
       "endDate": null,
       "time": null,
       "type": "Other",
-      "url": "https://horsemonkey.com/uk/equestrian_event/90222/Allens+Hill+Competition+%26+Livery+Centre+%28P-GPPYO+FEI%29",
+      "url": "https://horsemonkey.com/uk/equestrian_event/90222/Allens+Hill+Competition+%2526+Livery+Centre+%2528P-GPPYO+FEI%2529",
       "notes": "",
       "source": "auto"
     },
@@ -1787,7 +1739,7 @@
       "endDate": null,
       "time": null,
       "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/85501/Unaffiliated+Dressage+%28P-AM%29",
+      "url": "https://horsemonkey.com/uk/equestrian_event/85501/Unaffiliated+Dressage+%2528P-AM%2529",
       "notes": "",
       "source": "auto"
     },
@@ -1812,6 +1764,18 @@
       "time": null,
       "type": "Other",
       "url": "https://entry.equipe.com/meetings/9352",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-578500",
+      "title": "Pick & Mix Training Camp",
+      "venueKey": "swallowfield",
+      "date": "2026-11-07",
+      "endDate": null,
+      "time": null,
+      "type": "Training",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=578500",
       "notes": "",
       "source": "auto"
     },
@@ -2027,7 +1991,7 @@
       "endDate": null,
       "time": null,
       "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/85854/PYO+Combined+Training+%28I-E+50cm-1.00m%29%2C+Unaffiliated+Dressage+%28I-E%29+%26+Clear+Round+Showjumping",
+      "url": "https://horsemonkey.com/uk/equestrian_event/85854/PYO+Combined+Training+%2528I-E+50cm-1.00m%2529%252C+Unaffiliated+Dressage+%2528I-E%2529+%2526+Clear+Round+Showjumping",
       "notes": "",
       "source": "auto"
     },
@@ -2051,7 +2015,7 @@
       "endDate": null,
       "time": null,
       "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/85882/PYO+Combined+Training+%26+Unaffiliated+Dressage+%26++NEW+-+MINI+SHOW+JUMPING+%26+Clear+Round",
+      "url": "https://horsemonkey.com/uk/equestrian_event/85882/PYO+Combined+Training+%2526+Unaffiliated+Dressage+%2526++NEW+-+MINI+SHOW+JUMPING+%2526+Clear+Round",
       "notes": "",
       "source": "auto"
     },
@@ -2064,6 +2028,18 @@
       "time": null,
       "type": "Other",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553267",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "horse-events-dallas-burston-31280",
+      "title": "LandS EVENTING LTD Arena Eventing 14th Nov 2026",
+      "venueKey": "dallas-burston",
+      "date": "2026-11-14",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.horse-events.co.uk/horse-events/lands-eventing-ltd-arena-eventing-14th-nov-2026",
       "notes": "",
       "source": "auto"
     },
@@ -2100,6 +2076,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=572762",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-578471",
+      "title": "Swallowfield Equestrian Unaffiliated Stressless Dressage",
+      "venueKey": "swallowfield",
+      "date": "2026-11-14",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=578471",
       "notes": "",
       "source": "auto"
     },
@@ -2243,7 +2231,7 @@
       "endDate": null,
       "time": null,
       "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/90668/British+Dressage+%28P-AM%29",
+      "url": "https://horsemonkey.com/uk/equestrian_event/90668/British+Dressage+%2528P-AM%2529",
       "notes": "",
       "source": "auto"
     },
@@ -2255,7 +2243,7 @@
       "endDate": null,
       "time": null,
       "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/85500/Unaffiliated+Dressage+%28P-AM%29",
+      "url": "https://horsemonkey.com/uk/equestrian_event/85500/Unaffiliated+Dressage+%2528P-AM%2529",
       "notes": "",
       "source": "auto"
     },
@@ -2291,7 +2279,7 @@
       "endDate": null,
       "time": null,
       "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/85555/Unaffiliated+Dressage+%28I-E%29+NPS+Qualifer+%28P-N%29+Team+Dressage+%28I-E%29",
+      "url": "https://horsemonkey.com/uk/equestrian_event/85555/Unaffiliated+Dressage+%2528I-E%2529+NPS+Qualifer+%2528P-N%2529+Team+Dressage+%2528I-E%2529",
       "notes": "",
       "source": "auto"
     },
@@ -2316,6 +2304,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=573638",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-578470",
+      "title": "Swallowfield Equestrian Unaffiliated Long Arena Dressage",
+      "venueKey": "swallowfield",
+      "date": "2026-11-21",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=578470",
       "notes": "",
       "source": "auto"
     },
@@ -2423,7 +2423,7 @@
       "endDate": null,
       "time": null,
       "type": "Clinic",
-      "url": "https://horsemonkey.com/uk/equestrian_event/91628/TAP+Training+Day+Midlands+%28Gloucestershire%29+-+Lucy+Jackson+ALL+LEVELS+Flatwork+SJ+Clinic+at+CCR+Equestrian",
+      "url": "https://horsemonkey.com/uk/equestrian_event/91628/TAP+Training+Day+Midlands+%2528Gloucestershire%2529+-+Lucy+Jackson+ALL+LEVELS+Flatwork+SJ+Clinic+at+CCR+Equestrian",
       "notes": "",
       "source": "auto"
     },
@@ -2435,7 +2435,7 @@
       "endDate": null,
       "time": null,
       "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/85855/PYO+Combined+Training+%28I-E+50cm-1.00m%29%2C+Unaffiliated+Dressage+%28I-E%29+%26+Clear+Round+Showjumping",
+      "url": "https://horsemonkey.com/uk/equestrian_event/85855/PYO+Combined+Training+%2528I-E+50cm-1.00m%2529%252C+Unaffiliated+Dressage+%2528I-E%2529+%2526+Clear+Round+Showjumping",
       "notes": "",
       "source": "auto"
     },
@@ -2512,6 +2512,18 @@
       "source": "auto"
     },
     {
+      "id": "swallowfield-578473",
+      "title": "Unaffiliated Short Arena Dressage Series with Trailblazer First Round Qualifiers",
+      "venueKey": "swallowfield",
+      "date": "2026-11-29",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=578473",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "the-unicorn-hm-89920",
       "title": "RoR South East and Midlands - Day Camp With Bruce Haskell,  Unicorn Equestrian Centre Stud, GL54 1JZ",
       "venueKey": "the-unicorn",
@@ -2519,7 +2531,7 @@
       "endDate": null,
       "time": null,
       "type": "Other",
-      "url": "https://horsemonkey.com/uk/equestrian_event/89920/RoR+South+East+and+Midlands+-+Day+Camp+With+Bruce+Haskell%2C++Unicorn+Equestrian+Centre+Stud%2C+GL54+1JZ",
+      "url": "https://horsemonkey.com/uk/equestrian_event/89920/RoR+South+East+and+Midlands+-+Day+Camp+With+Bruce+Haskell%252C++Unicorn+Equestrian+Centre+Stud%252C+GL54+1JZ",
       "notes": "",
       "source": "auto"
     },
@@ -2591,7 +2603,7 @@
       "endDate": null,
       "time": null,
       "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/88566/British+Dressage+%28P-AM%29%2BPE",
+      "url": "https://horsemonkey.com/uk/equestrian_event/88566/British+Dressage+%2528P-AM%2529%252BPE",
       "notes": "",
       "source": "auto"
     },
@@ -2603,7 +2615,7 @@
       "endDate": null,
       "time": null,
       "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/85499/Unaffiliated+Dressage+%28P-AM%29",
+      "url": "https://horsemonkey.com/uk/equestrian_event/85499/Unaffiliated+Dressage+%2528P-AM%2529",
       "notes": "",
       "source": "auto"
     },
@@ -2639,7 +2651,7 @@
       "endDate": null,
       "time": null,
       "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/90957/British+Dressage+%28P-GPPYO+FEI%29",
+      "url": "https://horsemonkey.com/uk/equestrian_event/90957/British+Dressage+%2528P-GPPYO+FEI%2529",
       "notes": "",
       "source": "auto"
     },
@@ -2651,7 +2663,7 @@
       "endDate": null,
       "time": null,
       "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/85497/Unaffiliated+Dressage+%28P-AM%29",
+      "url": "https://horsemonkey.com/uk/equestrian_event/85497/Unaffiliated+Dressage+%2528P-AM%2529",
       "notes": "",
       "source": "auto"
     },
@@ -2879,7 +2891,7 @@
       "endDate": null,
       "time": null,
       "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/85856/PYO+Combined+Training+%28I-E+50cm-1.00m%29%2C+Unaffiliated+Dressage+%28I-E%29+%26+Clear+Round+Showjumping",
+      "url": "https://horsemonkey.com/uk/equestrian_event/85856/PYO+Combined+Training+%2528I-E+50cm-1.00m%2529%252C+Unaffiliated+Dressage+%2528I-E%2529+%2526+Clear+Round+Showjumping",
       "notes": "",
       "source": "auto"
     },
@@ -2903,7 +2915,7 @@
       "endDate": null,
       "time": null,
       "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/85883/PYO+Combined+Training+%26+Unaffiliated+Dressage+%26++NEW+-+MINI+SHOW+JUMPING+%26+Clear+Round",
+      "url": "https://horsemonkey.com/uk/equestrian_event/85883/PYO+Combined+Training+%2526+Unaffiliated+Dressage+%2526++NEW+-+MINI+SHOW+JUMPING+%2526+Clear+Round",
       "notes": "",
       "source": "auto"
     },
@@ -3023,7 +3035,7 @@
       "endDate": null,
       "time": null,
       "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/85496/Unaffiliated+Dressage+%28P-AM%29",
+      "url": "https://horsemonkey.com/uk/equestrian_event/85496/Unaffiliated+Dressage+%2528P-AM%2529",
       "notes": "",
       "source": "auto"
     },
@@ -3035,7 +3047,7 @@
       "endDate": null,
       "time": null,
       "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/85550/Unaffiliated+Dressage+%28I-E%29+NPS+Qualifer+%28P-N%29+Team+Dressage+%28I-E%29",
+      "url": "https://horsemonkey.com/uk/equestrian_event/85550/Unaffiliated+Dressage+%2528I-E%2529+NPS+Qualifer+%2528P-N%2529+Team+Dressage+%2528I-E%2529",
       "notes": "",
       "source": "auto"
     },
