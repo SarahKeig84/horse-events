@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06",
+  "updated": "2026-10-07",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -244,18 +244,6 @@
       "source": "manual"
     },
     {
-      "id": "ccr-equestrian-553333",
-      "title": "CCR Equestrian Senior British Show Jumping Cat 2",
-      "venueKey": "ccr-equestrian",
-      "date": "2026-10-06",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553333",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "allens-hill-hm-92380",
       "title": "Showjumping - Unaffiliated (70cm - 1.20m)",
       "venueKey": "allens-hill",
@@ -276,18 +264,6 @@
       "time": null,
       "type": "Other",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553284",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-9164",
-      "title": "British Agility Wednesday 7th - Sunday 11th October 2026",
-      "venueKey": "onley",
-      "date": "2026-10-07",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://entry.equipe.com/meetings/9164",
       "notes": "",
       "source": "auto"
     },
@@ -460,18 +436,6 @@
       "source": "auto"
     },
     {
-      "id": "onley-equipe-9173",
-      "title": "Onley Grounds Unaffiliated Showjumping - Sunday 11th October 2026 - Outdoor",
-      "venueKey": "onley",
-      "date": "2026-10-11",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://entry.equipe.com/meetings/9173",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "solihull-rc-566464",
       "title": "Solihull Riding Club Car Boot and Second-Hand Tack Sale",
       "venueKey": "solihull-rc",
@@ -592,18 +556,6 @@
       "source": "auto"
     },
     {
-      "id": "onley-equipe-9252",
-      "title": "Onley Grounds Evening Clear Round - Wednesday 14th October 2026",
-      "venueKey": "onley",
-      "date": "2026-10-14",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://entry.equipe.com/meetings/9252",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "swallowfield-571277",
       "title": "Indoor Polework Clinic with Jo Swain",
       "venueKey": "swallowfield",
@@ -636,18 +588,6 @@
       "time": null,
       "type": "Other",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553240",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-8672",
-      "title": "Onley Grounds EC Senior BS 15th October",
-      "venueKey": "onley",
-      "date": "2026-10-15",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://entry.equipe.com/meetings/8672",
       "notes": "",
       "source": "auto"
     },
@@ -736,18 +676,6 @@
       "source": "auto"
     },
     {
-      "id": "onley-equipe-9177",
-      "title": "Onley Grounds EC British Dressage (P-FEI INT 1Q + MUSIC + FEI + PYO) 16th October 2026",
-      "venueKey": "onley",
-      "date": "2026-10-16",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://entry.equipe.com/meetings/9177",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "allens-hill-hm-90086",
       "title": "British Dressage Quest WL",
       "venueKey": "allens-hill",
@@ -796,30 +724,6 @@
       "source": "auto"
     },
     {
-      "id": "onley-equipe-9126",
-      "title": "Onley Grounds - Horseball Stabling Saturday 17th & Sunday 18th October 2026",
-      "venueKey": "onley",
-      "date": "2026-10-17",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://entry.equipe.com/meetings/9126",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-9253",
-      "title": "Onley Grounds Equestrian Complex - Saturday 17th October 2026 - Unaffiliated Dressage & Combined Training 60cm-1m (PLS NOTE HELD ON OUTDOOR ARENA)",
-      "venueKey": "onley",
-      "date": "2026-10-17",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://entry.equipe.com/meetings/9253",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "lowlands-ecpro-9687",
       "title": "Unaffiliated Dressage Competition - CHAMPIONSHIP",
       "venueKey": "lowlands",
@@ -840,18 +744,6 @@
       "time": null,
       "type": "Show",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=569250",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-9254",
-      "title": "Onley Grounds Unaffiliated Showjumping - Sunday 18th October 2026 - OUTDOOR",
-      "venueKey": "onley",
-      "date": "2026-10-18",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://entry.equipe.com/meetings/9254",
       "notes": "",
       "source": "auto"
     },
@@ -900,18 +792,6 @@
       "time": null,
       "type": "Clinic",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=551177",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-9160",
-      "title": "Onley Grounds Equestrian Complex - Haddon Training Stable Bookings Tuesday 20th - Thursday 22nd October 2026",
-      "venueKey": "onley",
-      "date": "2026-10-19",
-      "endDate": null,
-      "time": null,
-      "type": "Training",
-      "url": "https://entry.equipe.com/meetings/9160",
       "notes": "",
       "source": "auto"
     },
@@ -1108,18 +988,6 @@
       "source": "auto"
     },
     {
-      "id": "onley-equipe-9178",
-      "title": "Onley Grounds EC British Dressage (P-GP/ PYO FEI) + FSM 24th October 2026",
-      "venueKey": "onley",
-      "date": "2026-10-24",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://entry.equipe.com/meetings/9178",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "solihull-rc-574015",
       "title": "Barrier Animal Health Spring Festival 2027 Area 7 Arena Eventing Qualifiers",
       "venueKey": "solihull-rc",
@@ -1164,18 +1032,6 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://horsemonkey.com/uk/equestrian_event/92448/Showjumping+inc+BS+Club+%2528Open+to+All%2529+%2526+Seniors+%2528C1%2529+with+Blue+Chip+Qualifiers",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-9255",
-      "title": "Onley Grounds Unaffiliated Showjumping - Sunday 25th October 2026 - Indoor - Starting at 10am",
-      "venueKey": "onley",
-      "date": "2026-10-25",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://entry.equipe.com/meetings/9255",
       "notes": "",
       "source": "auto"
     },
@@ -1312,18 +1168,6 @@
       "source": "auto"
     },
     {
-      "id": "onley-equipe-9256",
-      "title": "Onley Grounds Evening Clear Round - Wednesday 28th October 2026 - Indoor",
-      "venueKey": "onley",
-      "date": "2026-10-28",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://entry.equipe.com/meetings/9256",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "swallowfield-573747",
       "title": "Swallowfield Equestrian Evening Stressless Dressage sponsored by Align Rider Solutions",
       "venueKey": "swallowfield",
@@ -1332,18 +1176,6 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=573747",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-9088",
-      "title": "Onley Grounds Senior British Showjumping - 29 October 2026",
-      "venueKey": "onley",
-      "date": "2026-10-29",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://entry.equipe.com/meetings/9088",
       "notes": "",
       "source": "auto"
     },
@@ -1432,30 +1264,6 @@
       "source": "auto"
     },
     {
-      "id": "onley-equipe-9341",
-      "title": "Onley Grounds EC - Mounted Games Stables Bookings - Saturday 31st October 2026",
-      "venueKey": "onley",
-      "date": "2026-10-31",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://entry.equipe.com/meetings/9341",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-9285",
-      "title": "Onley Grounds Equestrian Complex - Saturday 31st October 2026 - Unaffiliated Dressage & Combined Training 60cm-1m (PLS NOTE HELD ON OUTDOOR ARENA)",
-      "venueKey": "onley",
-      "date": "2026-10-31",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://entry.equipe.com/meetings/9285",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "rugby-riding-club-entrymaster-event22",
       "title": "GHOST AND GHOULS HUNT RIDE",
       "venueKey": "rugby-riding-club",
@@ -1528,30 +1336,6 @@
       "source": "auto"
     },
     {
-      "id": "onley-equipe-9250",
-      "title": "Onley Grounds Midland Foal & Youngstock Stable Bookings - Sunday 1st Novmber 2026",
-      "venueKey": "onley",
-      "date": "2026-11-01",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://entry.equipe.com/meetings/9250",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-9342",
-      "title": "Onley Grounds Unaffiliated Showjumping - Sunday 1st November 2026 - Outdoor",
-      "venueKey": "onley",
-      "date": "2026-11-01",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://entry.equipe.com/meetings/9342",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "solihull-rc-566813",
       "title": "Senior British Show Jumping Cat 2 including Blue Chip Qualifiers",
       "venueKey": "solihull-rc",
@@ -1584,6 +1368,18 @@
       "time": null,
       "type": "Other",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=572695",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-578665",
+      "title": "Monday Club Ride (Open to Club Members Only)",
+      "venueKey": "swallowfield",
+      "date": "2026-11-02",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=578665",
       "notes": "",
       "source": "auto"
     },
@@ -1644,18 +1440,6 @@
       "time": null,
       "type": "Other",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=573378",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-9165",
-      "title": "British Agility Thursday 5th - Sunday 8th November 2026",
-      "venueKey": "onley",
-      "date": "2026-11-05",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://entry.equipe.com/meetings/9165",
       "notes": "",
       "source": "auto"
     },
@@ -1756,18 +1540,6 @@
       "source": "auto"
     },
     {
-      "id": "onley-equipe-9352",
-      "title": "Onley Grounds Daytime Clear Round - 30cm-1m - Saturday 7th November 2026 - 10am start",
-      "venueKey": "onley",
-      "date": "2026-11-07",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://entry.equipe.com/meetings/9352",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "swallowfield-578500",
       "title": "Pick & Mix Training Camp",
       "venueKey": "swallowfield",
@@ -1800,18 +1572,6 @@
       "time": null,
       "type": "Other",
       "url": "https://www.horse-events.co.uk/horse-events/aston-le-walls-kbis-arena-eventer-challenge-sunday-8th-november-2026",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-9355",
-      "title": "Onley Grounds Unaffiliated Showjumping - Sunday 8th November 2026 - Outdoor",
-      "venueKey": "onley",
-      "date": "2026-11-08",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://entry.equipe.com/meetings/9355",
       "notes": "",
       "source": "auto"
     },
@@ -1852,30 +1612,6 @@
       "source": "auto"
     },
     {
-      "id": "onley-equipe-9179",
-      "title": "Onley Grounds British Dressage (P-AM) + FS 10th November 2026",
-      "venueKey": "onley",
-      "date": "2026-11-10",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://entry.equipe.com/meetings/9179",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-9358",
-      "title": "Onley Grounds Equestrian Complex - Evening Dress Down Dressage - Tuesday 10th November - Indoor from 17.30pm",
-      "venueKey": "onley",
-      "date": "2026-11-10",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://entry.equipe.com/meetings/9358",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "solihull-rc-538986",
       "title": "Evening Progressive Clear Round Show Jumping",
       "venueKey": "solihull-rc",
@@ -1896,30 +1632,6 @@
       "time": null,
       "type": "Other",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553290",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-9251",
-      "title": "Onley Grounds EC Senior BS 12th -15th November 2026",
-      "venueKey": "onley",
-      "date": "2026-11-11",
-      "endDate": "2026-11-15",
-      "time": null,
-      "type": "Other",
-      "url": "https://entry.equipe.com/meetings/9251",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-9230",
-      "title": "Onley Grounds Senior BS Stabling November 12th - 15th",
-      "venueKey": "onley",
-      "date": "2026-11-11",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://entry.equipe.com/meetings/9230",
       "notes": "",
       "source": "auto"
     },
@@ -1972,18 +1684,6 @@
       "source": "auto"
     },
     {
-      "id": "onley-equipe-9105",
-      "title": "Onley Grounds Stables BS 12-15th November 2026",
-      "venueKey": "onley",
-      "date": "2026-11-12",
-      "endDate": "2026-11-15",
-      "time": null,
-      "type": "Other",
-      "url": "https://entry.equipe.com/meetings/9105",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "allens-hill-hm-85854",
       "title": "PYO Combined Training (I-E 50cm-1.00m), Unaffiliated Dressage (I-E) & Clear Round Showjumping",
       "venueKey": "allens-hill",
@@ -2004,6 +1704,18 @@
       "time": null,
       "type": "Clinic",
       "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/10702",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-578667",
+      "title": "Friday Club Ride (Open to Club Members Only)",
+      "venueKey": "swallowfield",
+      "date": "2026-11-13",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=578667",
       "notes": "",
       "source": "auto"
     },
@@ -2136,6 +1848,18 @@
       "time": null,
       "type": "Clinic",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=551178",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-578666",
+      "title": "Monday Club Ride (Open to Club Members Only)",
+      "venueKey": "swallowfield",
+      "date": "2026-11-16",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=578666",
       "notes": "",
       "source": "auto"
     },
@@ -2344,6 +2068,18 @@
       "source": "auto"
     },
     {
+      "id": "swallowfield-578675",
+      "title": "Jade Clark Dressage Clinic",
+      "venueKey": "swallowfield",
+      "date": "2026-11-23",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=578675",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "moreton-morrell-573051",
       "title": "WHPC Pony Club only - Evening Flatwork/Pole Rally - Moreton Morrell - Clara/Kiri",
       "venueKey": "moreton-morrell",
@@ -2460,6 +2196,18 @@
       "time": null,
       "type": "Clinic",
       "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/10704",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-578674",
+      "title": "Friday Club Ride (Open to Club Members Only)",
+      "venueKey": "swallowfield",
+      "date": "2026-11-27",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=578674",
       "notes": "",
       "source": "auto"
     },
@@ -3180,30 +2928,6 @@
       "time": null,
       "type": "Other",
       "url": "https://horsemonkey.com/uk/equestrian_event/82365/Allens+Hill+Membership",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-9330",
-      "title": "Onley Grounds New Years Bash - 31st Dec - 4th January 2027",
-      "venueKey": "onley",
-      "date": "2026-12-31",
-      "endDate": "2027-01-04",
-      "time": null,
-      "type": "Other",
-      "url": "https://entry.equipe.com/meetings/9330",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "onley-equipe-9501",
-      "title": "Onley Grounds New Years Bash - STABLES",
-      "venueKey": "onley",
-      "date": "2026-12-31",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://entry.equipe.com/meetings/9501",
       "notes": "",
       "source": "auto"
     },
