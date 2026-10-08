@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07",
+  "updated": "2026-10-08",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -244,42 +244,6 @@
       "source": "manual"
     },
     {
-      "id": "allens-hill-hm-92380",
-      "title": "Showjumping - Unaffiliated (70cm - 1.20m)",
-      "venueKey": "allens-hill",
-      "date": "2026-10-07",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://horsemonkey.com/uk/equestrian_event/92380/Showjumping+-+Unaffiliated+%252870cm+-+1.20m%2529",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "ccr-equestrian-553284",
-      "title": "CCR Equestrian Clear Rounds",
-      "venueKey": "ccr-equestrian",
-      "date": "2026-10-07",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553284",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-556771",
-      "title": "The Dancing Horse Clinic with Ali Lane",
-      "venueKey": "swallowfield",
-      "date": "2026-10-07",
-      "endDate": null,
-      "time": null,
-      "type": "Clinic",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=556771",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "moreton-morrell-573376",
       "title": "WHPC Pony Club only - Evening Flatwork - Moreton Morrell - Fran",
       "venueKey": "moreton-morrell",
@@ -312,18 +276,6 @@
       "time": null,
       "type": "Dressage",
       "url": "https://horsemonkey.com/uk/equestrian_event/85851/PYO+Combined+Training+%2528I-E+50cm-1.00m%2529%252C+Unaffiliated+Dressage+%2528I-E%2529+%2526+Clear+Round+Showjumping",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "lowlands-ecpro-10697",
-      "title": "Friday Clinic with Jo Hayward",
-      "venueKey": "lowlands",
-      "date": "2026-10-09",
-      "endDate": null,
-      "time": null,
-      "type": "Clinic",
-      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/10697",
       "notes": "",
       "source": "auto"
     },
@@ -605,7 +557,7 @@
     },
     {
       "id": "solihull-rc-575919",
-      "title": "Unaffiliated Dressage inc MCI Qualifiers",
+      "title": "Unaffiliated Dressage - Trailblazer 1st Rounds",
       "venueKey": "solihull-rc",
       "date": "2026-10-15",
       "endDate": null,
@@ -1061,7 +1013,7 @@
     },
     {
       "id": "solihull-rc-576003",
-      "title": "Unaffiliated Dressage inc MCI Qualifiers",
+      "title": "Unaffiliated Dressage inc Trailblazers first round",
       "venueKey": "solihull-rc",
       "date": "2026-10-25",
       "endDate": null,
@@ -1121,7 +1073,7 @@
     },
     {
       "id": "swallowfield-577648",
-      "title": "Swallowfield Equestrian Halloween Hack & Snack",
+      "title": "Swallowfield Equestrian Half Term Halloween Hack and Snack",
       "venueKey": "swallowfield",
       "date": "2026-10-27",
       "endDate": null,
@@ -1193,7 +1145,7 @@
     },
     {
       "id": "swallowfield-577649",
-      "title": "Swallowfield Equestrian Halloween Hack & Snack",
+      "title": "Swallowfield Equestrian Half Term Halloween Hack and Snack",
       "venueKey": "swallowfield",
       "date": "2026-10-29",
       "endDate": null,
@@ -1540,6 +1492,18 @@
       "source": "auto"
     },
     {
+      "id": "moreton-morrell-578792",
+      "title": "Moreton Morrell Riding Club Hosts the Equitech BRC Dressage to Music Qualifier",
+      "venueKey": "moreton-morrell",
+      "date": "2026-11-07",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=578792",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "swallowfield-578500",
       "title": "Pick & Mix Training Camp",
       "venueKey": "swallowfield",
@@ -1800,6 +1764,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=578471",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "horse-events-aston-le-walls-29600",
+      "title": "Bloxham Aston Le Walls Eventer Challenge Series Sunday 15th November",
+      "venueKey": "aston-le-walls",
+      "date": "2026-11-15",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.horse-events.co.uk/horse-events/bloxham-aston-le-walls-eventer-challenge-series-sunday-15th-november",
       "notes": "",
       "source": "auto"
     },
@@ -2872,18 +2848,6 @@
       "source": "auto"
     },
     {
-      "id": "solihull-rc-538989",
-      "title": "Evening Progressive Clear Round Show Jumping",
-      "venueKey": "solihull-rc",
-      "date": "2026-12-22",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=538989",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "ccr-equestrian-553296",
       "title": "CCR Equestrian Clear Rounds",
       "venueKey": "ccr-equestrian",
@@ -2952,6 +2916,30 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=568536",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "ccr-equestrian-553299",
+      "title": "CCR Equestrian Clear Rounds",
+      "venueKey": "ccr-equestrian",
+      "date": "2027-01-06",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553299",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "solihull-rc-566817",
+      "title": "Senior British Show Jumping Cat 2",
+      "venueKey": "solihull-rc",
+      "date": "2027-01-06",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=566817",
       "notes": "",
       "source": "auto"
     }
