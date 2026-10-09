@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08",
+  "updated": "2026-10-09",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -242,30 +242,6 @@
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=568641",
       "notes": "Run by RG Equine Training",
       "source": "manual"
-    },
-    {
-      "id": "moreton-morrell-573376",
-      "title": "WHPC Pony Club only - Evening Flatwork - Moreton Morrell - Fran",
-      "venueKey": "moreton-morrell",
-      "date": "2026-10-08",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=573376",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-568503",
-      "title": "Jane Richmond Evening Polework Clinic",
-      "venueKey": "solihull-rc",
-      "date": "2026-10-08",
-      "endDate": null,
-      "time": null,
-      "type": "Clinic",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=568503",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "allens-hill-hm-85851",
@@ -736,6 +712,18 @@
       "source": "auto"
     },
     {
+      "id": "lowlands-ecpro-10984",
+      "title": "Tea with a Pony",
+      "venueKey": "lowlands",
+      "date": "2026-10-19",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/10984",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "moreton-morrell-551177",
       "title": "Richard Baldwin one to one Dressage Clinic",
       "venueKey": "moreton-morrell",
@@ -864,6 +852,18 @@
       "time": null,
       "type": "Clinic",
       "url": "https://horsemonkey.com/uk/equestrian_event/91627/TAP+Training+Day+Midlands+%2528Gloucestershire%2529+-+Lucy+Jackson+ALL+LEVELS+Flatwork+SJ+Clinic+at+CCR+Equestrian",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "lowlands-ecpro-10985",
+      "title": "Tea with a Pony",
+      "venueKey": "lowlands",
+      "date": "2026-10-22",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/10985",
       "notes": "",
       "source": "auto"
     },
@@ -1036,6 +1036,18 @@
       "source": "auto"
     },
     {
+      "id": "lowlands-ecpro-10986",
+      "title": "Tea with a Pony",
+      "venueKey": "lowlands",
+      "date": "2026-10-26",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/10986",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "solihull-rc-572694",
       "title": "Five Ways to Wellbeing Programme (Week 4 – Take Notice)",
       "venueKey": "solihull-rc",
@@ -1132,6 +1144,18 @@
       "source": "auto"
     },
     {
+      "id": "lowlands-ecpro-10987",
+      "title": "Tea with a Pony",
+      "venueKey": "lowlands",
+      "date": "2026-10-29",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/10987",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "solihull-rc-568504",
       "title": "Jane Richmond Evening Polework Clinic",
       "venueKey": "solihull-rc",
@@ -1192,6 +1216,18 @@
       "source": "auto"
     },
     {
+      "id": "lowlands-ecpro-10988",
+      "title": "Tea with a Pony",
+      "venueKey": "lowlands",
+      "date": "2026-10-30",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/10988",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "allens-hill-hm-91936",
       "title": "PYO Combined Training & Unaffiliated Dressage &  NEW - MINI SHOW JUMPING & Clear Round",
       "venueKey": "allens-hill",
@@ -1205,7 +1241,7 @@
     },
     {
       "id": "ccr-equestrian-553264",
-      "title": "CCR Equestrian Unafiliated SJ - Senior & Junior - Halloween theme - CRICKLAND",
+      "title": "CCR KEYFLOW Unafiliated SJ - Senior & Junior - Halloween theme - CRICKLAND",
       "venueKey": "ccr-equestrian",
       "date": "2026-10-31",
       "endDate": null,
@@ -1697,7 +1733,7 @@
     },
     {
       "id": "ccr-equestrian-553267",
-      "title": "CCR Equestrian Unafiliated SJ - Senior & Junior - HARTPURY - TRAILLAZER- CRICKLAND",
+      "title": "CCR KEYFLOW Unafiliated SJ - Senior & Junior - HARTPURY - TRAILLAZER- CRICKLAND",
       "venueKey": "ccr-equestrian",
       "date": "2026-11-14",
       "endDate": null,
@@ -1864,6 +1900,18 @@
       "source": "auto"
     },
     {
+      "id": "solihull-rc-578916",
+      "title": "Jane Richmond Evening Polework Clinic",
+      "venueKey": "solihull-rc",
+      "date": "2026-11-17",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=578916",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "ccr-equestrian-553291",
       "title": "CCR Equestrian Clear Rounds",
       "venueKey": "ccr-equestrian",
@@ -1985,7 +2033,7 @@
     },
     {
       "id": "ccr-equestrian-553275",
-      "title": "CCR Equestrian Arena Eventing",
+      "title": "CCR Equestrian Arena Eventing - ELAND LODGE QUALIFER",
       "venueKey": "ccr-equestrian",
       "date": "2026-11-21",
       "endDate": null,
@@ -2657,7 +2705,7 @@
     },
     {
       "id": "ccr-equestrian-553270",
-      "title": "CCR Equestrian Unafiliated SJ - Senior & Junior - HARTPURY - TRAILLAZER- CRICKLAND",
+      "title": "CCR KEYFLOW Unafiliated SJ - Senior & Junior - HARTPURY - TRAILLAZER- CRICKLAND",
       "venueKey": "ccr-equestrian",
       "date": "2026-12-12",
       "endDate": null,
@@ -2764,6 +2812,18 @@
       "source": "auto"
     },
     {
+      "id": "allens-hill-hm-92670",
+      "title": "Allens Hill Competition & Livery Centre (P-AM)",
+      "venueKey": "allens-hill",
+      "date": "2026-12-18",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://horsemonkey.com/uk/equestrian_event/92670/Allens+Hill+Competition+%2526+Livery+Centre+%2528P-AM%2529",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "allens-hill-hm-85496",
       "title": "Unaffiliated Dressage (P-AM)",
       "venueKey": "allens-hill",
@@ -2772,6 +2832,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://horsemonkey.com/uk/equestrian_event/85496/Unaffiliated+Dressage+%2528P-AM%2529",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "allens-hill-hm-92672",
+      "title": "Allens Hill Competition & Livery Centre QWL",
+      "venueKey": "allens-hill",
+      "date": "2026-12-19",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://horsemonkey.com/uk/equestrian_event/92672/Allens+Hill+Competition+%2526+Livery+Centre+QWL",
       "notes": "",
       "source": "auto"
     },
@@ -2940,6 +3012,18 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=566817",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "ccr-equestrian-553343",
+      "title": "CCR Equestrian Senior British Show Jumping Cat 2",
+      "venueKey": "ccr-equestrian",
+      "date": "2027-01-07",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553343",
       "notes": "",
       "source": "auto"
     }
