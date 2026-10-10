@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09",
+  "updated": "2026-10-10",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -242,30 +242,6 @@
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=568641",
       "notes": "Run by RG Equine Training",
       "source": "manual"
-    },
-    {
-      "id": "allens-hill-hm-85851",
-      "title": "PYO Combined Training (I-E 50cm-1.00m), Unaffiliated Dressage (I-E) & Clear Round Showjumping",
-      "venueKey": "allens-hill",
-      "date": "2026-10-09",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/85851/PYO+Combined+Training+%2528I-E+50cm-1.00m%2529%252C+Unaffiliated+Dressage+%2528I-E%2529+%2526+Clear+Round+Showjumping",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "moreton-morrell-572307",
-      "title": "WHPC Mounted Games Training - Moreton Morrell  - MG Trainer",
-      "venueKey": "moreton-morrell",
-      "date": "2026-10-09",
-      "endDate": null,
-      "time": null,
-      "type": "Training",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=572307",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "allens-hill-hm-85881",
@@ -1696,18 +1672,6 @@
       "source": "auto"
     },
     {
-      "id": "lowlands-ecpro-10702",
-      "title": "Friday Clinic with Jo Hayward",
-      "venueKey": "lowlands",
-      "date": "2026-11-13",
-      "endDate": null,
-      "time": null,
-      "type": "Clinic",
-      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/10702",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "swallowfield-578667",
       "title": "Friday Club Ride (Open to Club Members Only)",
       "venueKey": "swallowfield",
@@ -2200,6 +2164,18 @@
       "source": "auto"
     },
     {
+      "id": "solihull-rc-578937",
+      "title": "Jane Richmond Evening Polework Clinic",
+      "venueKey": "solihull-rc",
+      "date": "2026-11-26",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=578937",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "allens-hill-hm-85855",
       "title": "PYO Combined Training (I-E 50cm-1.00m), Unaffiliated Dressage (I-E) & Clear Round Showjumping",
       "venueKey": "allens-hill",
@@ -2340,6 +2316,18 @@
       "time": null,
       "type": "Other",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=573380",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "solihull-rc-578938",
+      "title": "Jane Richmond Evening Polework Clinic",
+      "venueKey": "solihull-rc",
+      "date": "2026-12-01",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=578938",
       "notes": "",
       "source": "auto"
     },
