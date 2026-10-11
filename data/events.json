@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10",
+  "updated": "2026-10-11",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -242,78 +242,6 @@
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=568641",
       "notes": "Run by RG Equine Training",
       "source": "manual"
-    },
-    {
-      "id": "allens-hill-hm-85881",
-      "title": "PYO Combined Training & Unaffiliated Dressage &  NEW - MINI SHOW JUMPING & Clear Round",
-      "venueKey": "allens-hill",
-      "date": "2026-10-10",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/85881/PYO+Combined+Training+%2526+Unaffiliated+Dressage+%2526++NEW+-+MINI+SHOW+JUMPING+%2526+Clear+Round",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "horse-events-aston-le-walls-29584",
-      "title": "Aston le Walls KBIS Arena Eventer Challenge Saturday 10th October 2026",
-      "venueKey": "aston-le-walls",
-      "date": "2026-10-10",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.horse-events.co.uk/horse-events/aston-le-walls-kbis-arena-eventer-challenge-saturday-10th-october-2026",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "ccr-equestrian-553263",
-      "title": "CCR Equestrian Unafiliated SJ - Senior & Junior - HARTPURY QUALIFER",
-      "venueKey": "ccr-equestrian",
-      "date": "2026-10-10",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553263",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "moreton-morrell-571193",
-      "title": "Moreton Morrell British Dressage (P-GP/PYO FEI)+FS+PE",
-      "venueKey": "moreton-morrell",
-      "date": "2026-10-10",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=571193",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-575558",
-      "title": "Carefree & Casual Dressage",
-      "venueKey": "solihull-rc",
-      "date": "2026-10-10",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=575558",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-571275",
-      "title": "Pick & Mix Training Camp",
-      "venueKey": "swallowfield",
-      "date": "2026-10-10",
-      "endDate": null,
-      "time": null,
-      "type": "Training",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571275",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "allens-hill-hm-92377",
@@ -1392,6 +1320,18 @@
       "time": null,
       "type": "Clinic",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=556773",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "allens-hill-hm-93344",
+      "title": "TAP Training Day West Mids (Worcestershire) - Karen Nicholas Show Jumping Clinic at Bromyard Equestrian",
+      "venueKey": "allens-hill",
+      "date": "2026-11-05",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://horsemonkey.com/uk/equestrian_event/93344/TAP+Training+Day+West+Mids+%2528Worcestershire%2529+-+Karen+Nicholas+Show+Jumping+Clinic+at+Bromyard+Equestrian",
       "notes": "",
       "source": "auto"
     },
@@ -3012,6 +2952,30 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553343",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "ccr-equestrian-553387",
+      "title": "CCR Equestrian Senior British Show Jumping Cat 1",
+      "venueKey": "ccr-equestrian",
+      "date": "2027-01-09",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553387",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-572113",
+      "title": "WHPC Open Winter Show Jumping Show",
+      "venueKey": "moreton-morrell",
+      "date": "2027-01-09",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=572113",
       "notes": "",
       "source": "auto"
     }
