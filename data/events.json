@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11",
+  "updated": "2026-10-12",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -242,66 +242,6 @@
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=568641",
       "notes": "Run by RG Equine Training",
       "source": "manual"
-    },
-    {
-      "id": "allens-hill-hm-92377",
-      "title": "Showjumping - Unaffiliated (60cm - 1.10m)",
-      "venueKey": "allens-hill",
-      "date": "2026-10-11",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://horsemonkey.com/uk/equestrian_event/92377/Showjumping+-+Unaffiliated+%252860cm+-+1.10m%2529",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "horse-events-aston-le-walls-29096",
-      "title": "Bloxham Aston Le Walls Eventer Challenge Series 2027",
-      "venueKey": "aston-le-walls",
-      "date": "2026-10-11",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.horse-events.co.uk/horse-events/bloxham-aston-le-walls-eventer-challenge-series-2027",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-566464",
-      "title": "Solihull Riding Club Car Boot and Second-Hand Tack Sale",
-      "venueKey": "solihull-rc",
-      "date": "2026-10-11",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=566464",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-567258",
-      "title": "Swallowfield Equestrian British Dressage QWL",
-      "venueKey": "swallowfield",
-      "date": "2026-10-11",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=567258",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-574897",
-      "title": "Unaffiliated Short Arena Dressage Series with Trailblazer First Round Qualifiers",
-      "venueKey": "swallowfield",
-      "date": "2026-10-11",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=574897",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "allens-hill-hm-92787",
@@ -1132,6 +1072,30 @@
       "source": "auto"
     },
     {
+      "id": "moreton-morrell-579007",
+      "title": "WHPC Mounted Games Training - MG Trainer - BLOCK BOOKING (6 Sessions)",
+      "venueKey": "moreton-morrell",
+      "date": "2026-10-30",
+      "endDate": "2026-12-04",
+      "time": null,
+      "type": "Training",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=579007",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-579001",
+      "title": "WHPC Mounted Games Training - Moreton Morrell  - MG Trainer",
+      "venueKey": "moreton-morrell",
+      "date": "2026-10-30",
+      "endDate": null,
+      "time": null,
+      "type": "Training",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=579001",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "allens-hill-hm-91936",
       "title": "PYO Combined Training & Unaffiliated Dressage &  NEW - MINI SHOW JUMPING & Clear Round",
       "venueKey": "allens-hill",
@@ -1408,6 +1372,18 @@
       "source": "auto"
     },
     {
+      "id": "moreton-morrell-579002",
+      "title": "WHPC Mounted Games Training - Moreton Morrell  - MG Trainer",
+      "venueKey": "moreton-morrell",
+      "date": "2026-11-06",
+      "endDate": null,
+      "time": null,
+      "type": "Training",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=579002",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "allens-hill-hm-90222",
       "title": "Allens Hill Competition & Livery Centre (P-GP/PYO FEI)",
       "venueKey": "allens-hill",
@@ -1608,6 +1584,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://horsemonkey.com/uk/equestrian_event/85854/PYO+Combined+Training+%2528I-E+50cm-1.00m%2529%252C+Unaffiliated+Dressage+%2528I-E%2529+%2526+Clear+Round+Showjumping",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-579003",
+      "title": "WHPC Mounted Games Training - Moreton Morrell  - MG Trainer",
+      "venueKey": "moreton-morrell",
+      "date": "2026-11-13",
+      "endDate": null,
+      "time": null,
+      "type": "Training",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=579003",
       "notes": "",
       "source": "auto"
     },
@@ -1912,6 +1900,18 @@
       "source": "auto"
     },
     {
+      "id": "moreton-morrell-579004",
+      "title": "WHPC Mounted Games Training - Moreton Morrell  - MG Trainer",
+      "venueKey": "moreton-morrell",
+      "date": "2026-11-20",
+      "endDate": null,
+      "time": null,
+      "type": "Training",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=579004",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "allens-hill-hm-90926",
       "title": "British Dressage Quest WL",
       "venueKey": "allens-hill",
@@ -2140,6 +2140,18 @@
       "source": "auto"
     },
     {
+      "id": "moreton-morrell-579005",
+      "title": "WHPC Mounted Games Training - Moreton Morrell  - MG Trainer",
+      "venueKey": "moreton-morrell",
+      "date": "2026-11-27",
+      "endDate": null,
+      "time": null,
+      "type": "Training",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=579005",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "swallowfield-578674",
       "title": "Friday Club Ride (Open to Club Members Only)",
       "venueKey": "swallowfield",
@@ -2340,6 +2352,18 @@
       "time": null,
       "type": "Clinic",
       "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/10705",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-579006",
+      "title": "WHPC Mounted Games Training - Moreton Morrell  - MG Trainer",
+      "venueKey": "moreton-morrell",
+      "date": "2026-12-04",
+      "endDate": null,
+      "time": null,
+      "type": "Training",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=579006",
       "notes": "",
       "source": "auto"
     },
@@ -2976,6 +3000,18 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=572113",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "solihull-rc-578511",
+      "title": "Aspen Cooling Ltd Arena Eventing inc British Eventing ACE Qualifiers",
+      "venueKey": "solihull-rc",
+      "date": "2027-01-10",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=578511",
       "notes": "",
       "source": "auto"
     }
