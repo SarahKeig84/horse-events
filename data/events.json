@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13",
+  "updated": "2026-10-14",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -244,18 +244,6 @@
       "source": "manual"
     },
     {
-      "id": "moreton-morrell-573049",
-      "title": "WHPC Pony Club only - Evening Flatwork/Pole Rally - Moreton Morrell - Clara/Kiri",
-      "venueKey": "moreton-morrell",
-      "date": "2026-10-13",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=573049",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "allens-hill-hm-92381",
       "title": "Showjumping - Unaffiliated (70cm - 1.20m)",
       "venueKey": "allens-hill",
@@ -384,18 +372,6 @@
       "time": null,
       "type": "Clinic",
       "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/10698",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "lowlands-ecpro-10976",
-      "title": "Tea with a Pony",
-      "venueKey": "lowlands",
-      "date": "2026-10-16",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/10976",
       "notes": "",
       "source": "auto"
     },
@@ -2976,6 +2952,18 @@
       "time": null,
       "type": "Other",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=578511",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "ccr-equestrian-553344",
+      "title": "CCR Equestrian Senior British Show Jumping Cat 2",
+      "venueKey": "ccr-equestrian",
+      "date": "2027-01-12",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553344",
       "notes": "",
       "source": "auto"
     }
