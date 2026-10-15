@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14",
+  "updated": "2026-10-15",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -244,54 +244,6 @@
       "source": "manual"
     },
     {
-      "id": "allens-hill-hm-92381",
-      "title": "Showjumping - Unaffiliated (70cm - 1.20m)",
-      "venueKey": "allens-hill",
-      "date": "2026-10-14",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://horsemonkey.com/uk/equestrian_event/92381/Showjumping+-+Unaffiliated+%252870cm+-+1.20m%2529",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "ccr-equestrian-553285",
-      "title": "CCR Equestrian Clear Rounds",
-      "venueKey": "ccr-equestrian",
-      "date": "2026-10-14",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553285",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "moreton-morrell-hm-89093",
-      "title": "4613 - FREE Medium to Advanced Medium Training Opportunity at Moreton Morrell",
-      "venueKey": "moreton-morrell",
-      "date": "2026-10-14",
-      "endDate": null,
-      "time": null,
-      "type": "Training",
-      "url": "https://horsemonkey.com/uk/equestrian_event/89093/4613+-+FREE+Medium+to+Advanced+Medium+Training+Opportunity+at+Moreton+Morrell",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-571277",
-      "title": "Indoor Polework Clinic with Jo Swain",
-      "venueKey": "swallowfield",
-      "date": "2026-10-14",
-      "endDate": null,
-      "time": null,
-      "type": "Clinic",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571277",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "ccr-equestrian-553334",
       "title": "CCR Equestrian Senior British Show Jumping Cat 2",
       "venueKey": "ccr-equestrian",
@@ -360,18 +312,6 @@
       "time": null,
       "type": "Dressage",
       "url": "https://horsemonkey.com/uk/equestrian_event/85503/Unaffiliated+Dressage+%2528P-AM%2529",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "lowlands-ecpro-10698",
-      "title": "Friday Clinic with Jo Hayward",
-      "venueKey": "lowlands",
-      "date": "2026-10-16",
-      "endDate": null,
-      "time": null,
-      "type": "Clinic",
-      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/10698",
       "notes": "",
       "source": "auto"
     },
@@ -1224,18 +1164,6 @@
       "time": null,
       "type": "Clinic",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=556773",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "allens-hill-hm-93344",
-      "title": "TAP Training Day West Mids (Worcestershire) - Karen Nicholas Show Jumping Clinic at Bromyard Equestrian",
-      "venueKey": "allens-hill",
-      "date": "2026-11-05",
-      "endDate": null,
-      "time": null,
-      "type": "Clinic",
-      "url": "https://horsemonkey.com/uk/equestrian_event/93344/TAP+Training+Day+West+Mids+%2528Worcestershire%2529+-+Karen+Nicholas+Show+Jumping+Clinic+at+Bromyard+Equestrian",
       "notes": "",
       "source": "auto"
     },
@@ -2104,6 +2032,18 @@
       "source": "auto"
     },
     {
+      "id": "allens-hill-hm-93453",
+      "title": "PYO Combined Training & Unaffiliated Dressage &  NEW - MINI SHOW JUMPING & Clear Round",
+      "venueKey": "allens-hill",
+      "date": "2026-11-28",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://horsemonkey.com/uk/equestrian_event/93453/PYO+Combined+Training+%2526+Unaffiliated+Dressage+%2526++NEW+-+MINI+SHOW+JUMPING+%2526+Clear+Round",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "ccr-equestrian-553385",
       "title": "CCR Equestrian Senior British Show Jumping Cat 1 inc Blue Chip Qualifiers",
       "venueKey": "ccr-equestrian",
@@ -2620,6 +2560,18 @@
       "source": "auto"
     },
     {
+      "id": "solihull-rc-579377",
+      "title": "Pre- LIHS Unaffiliated Working Hunter Show",
+      "venueKey": "solihull-rc",
+      "date": "2026-12-12",
+      "endDate": null,
+      "time": null,
+      "type": "Show",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=579377",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "swallowfield-571126",
       "title": "Swallowfield Equestrian British Dressage QWL",
       "venueKey": "swallowfield",
@@ -2964,6 +2916,18 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553344",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "ccr-equestrian-553304",
+      "title": "CCR Equestrian Clear Rounds",
+      "venueKey": "ccr-equestrian",
+      "date": "2027-01-13",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553304",
       "notes": "",
       "source": "auto"
     }
