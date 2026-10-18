@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17",
+  "updated": "2026-10-18",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -244,54 +244,6 @@
       "source": "manual"
     },
     {
-      "id": "allens-hill-hm-90086",
-      "title": "British Dressage Quest WL",
-      "venueKey": "allens-hill",
-      "date": "2026-10-17",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/90086/British+Dressage+Quest+WL",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "allens-hill-hm-85557",
-      "title": "Unaffiliated Dressage (I-E) NPS Qualifer (P-N) Team Dressage (I-E)",
-      "venueKey": "allens-hill",
-      "date": "2026-10-17",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/85557/Unaffiliated+Dressage+%2528I-E%2529+NPS+Qualifer+%2528P-N%2529+Team+Dressage+%2528I-E%2529",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "ccr-equestrian-553384",
-      "title": "CCR Equestrian Senior British Show Jumping Cat 1 inc Blue Chip Qualifiers",
-      "venueKey": "ccr-equestrian",
-      "date": "2026-10-17",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553384",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "moreton-morrell-553245",
-      "title": "Moreton Morrell RC Unaffiliated Dressage inc Stoneleigh RC Points",
-      "venueKey": "moreton-morrell",
-      "date": "2026-10-17",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553245",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "moreton-morrell-569250",
       "title": "The Side Saddle Association Area 5 Autumn Show",
       "venueKey": "moreton-morrell",
@@ -336,18 +288,6 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=574896",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "lowlands-ecpro-10984",
-      "title": "Tea with a Pony",
-      "venueKey": "lowlands",
-      "date": "2026-10-19",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/10984",
       "notes": "",
       "source": "auto"
     },
@@ -3012,6 +2952,30 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=565549",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "horse-events-aston-le-walls-29596",
+      "title": "Aston le Walls KBIS Arena Eventer Challenge Saturday 16th January 2027",
+      "venueKey": "aston-le-walls",
+      "date": "2027-01-16",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.horse-events.co.uk/horse-events/aston-le-walls-kbis-arena-eventer-challenge-saturday-16th-january-2027",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "ccr-equestrian-553271",
+      "title": "CCR KEYFLOW Unafiliated SJ - Senior & Junior - HARTPURY - TRAILLAZER- CRICKLAND",
+      "venueKey": "ccr-equestrian",
+      "date": "2027-01-16",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553271",
       "notes": "",
       "source": "auto"
     }
