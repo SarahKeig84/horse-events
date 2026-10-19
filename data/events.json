@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18",
+  "updated": "2026-10-19",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -242,54 +242,6 @@
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=568641",
       "notes": "Run by RG Equine Training",
       "source": "manual"
-    },
-    {
-      "id": "moreton-morrell-569250",
-      "title": "The Side Saddle Association Area 5 Autumn Show",
-      "venueKey": "moreton-morrell",
-      "date": "2026-10-18",
-      "endDate": null,
-      "time": null,
-      "type": "Show",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=569250",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-575084",
-      "title": "British Riding Clubs Horslyx Area 5 Junior and Senior Show Jumping Qualifier",
-      "venueKey": "solihull-rc",
-      "date": "2026-10-18",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=575084",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-568030",
-      "title": "Swallowfield Equestrian British Dressage (P-AM)+FS",
-      "venueKey": "swallowfield",
-      "date": "2026-10-18",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=568030",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-574896",
-      "title": "Swallowfield Equestrian Unaffiliated Long Arena Dressage",
-      "venueKey": "swallowfield",
-      "date": "2026-10-18",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=574896",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "moreton-morrell-551177",
@@ -2788,6 +2740,18 @@
       "source": "auto"
     },
     {
+      "id": "swallowfield-579609",
+      "title": "Swallowfield Equestrian British Dressage QWL",
+      "venueKey": "swallowfield",
+      "date": "2026-12-27",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=579609",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "ccr-equestrian-553342",
       "title": "CCR Equestrian Senior British Show Jumping Cat 2",
       "venueKey": "ccr-equestrian",
@@ -2844,6 +2808,18 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=568536",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-579610",
+      "title": "Swallowfield Equestrian British Dressage (P-E)",
+      "venueKey": "swallowfield",
+      "date": "2027-01-03",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=579610",
       "notes": "",
       "source": "auto"
     },
@@ -2976,6 +2952,18 @@
       "time": null,
       "type": "Other",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553271",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "horse-events-aston-le-walls-29602",
+      "title": "Bloxham Aston Le Walls Eventer Challenge Series Sunday 17th January 2027",
+      "venueKey": "aston-le-walls",
+      "date": "2027-01-17",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.horse-events.co.uk/horse-events/bloxham-aston-le-walls-eventer-challenge-series-sunday-17th-january-2027",
       "notes": "",
       "source": "auto"
     }
