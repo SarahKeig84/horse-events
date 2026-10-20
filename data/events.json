@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19",
+  "updated": "2026-10-20",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -244,42 +244,6 @@
       "source": "manual"
     },
     {
-      "id": "moreton-morrell-551177",
-      "title": "Richard Baldwin one to one Dressage Clinic",
-      "venueKey": "moreton-morrell",
-      "date": "2026-10-19",
-      "endDate": null,
-      "time": null,
-      "type": "Clinic",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=551177",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-572693",
-      "title": "Five Ways to Wellbeing Programme (Week 3 – Be Active)",
-      "venueKey": "solihull-rc",
-      "date": "2026-10-19",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=572693",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-578242",
-      "title": "Richard Seals Showjumping Clinic",
-      "venueKey": "solihull-rc",
-      "date": "2026-10-19",
-      "endDate": null,
-      "time": null,
-      "type": "Clinic",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=578242",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "ccr-equestrian-553335",
       "title": "CCR Equestrian Senior British Show Jumping Cat 2",
       "venueKey": "ccr-equestrian",
@@ -372,18 +336,6 @@
       "time": null,
       "type": "Clinic",
       "url": "https://horsemonkey.com/uk/equestrian_event/91627/TAP+Training+Day+Midlands+%2528Gloucestershire%2529+-+Lucy+Jackson+ALL+LEVELS+Flatwork+SJ+Clinic+at+CCR+Equestrian",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "lowlands-ecpro-10985",
-      "title": "Tea with a Pony",
-      "venueKey": "lowlands",
-      "date": "2026-10-22",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/10985",
       "notes": "",
       "source": "auto"
     },
@@ -2896,6 +2848,18 @@
       "source": "auto"
     },
     {
+      "id": "swallowfield-579687",
+      "title": "Swallowfield Equestrian TQ",
+      "venueKey": "swallowfield",
+      "date": "2027-01-10",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=579687",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "ccr-equestrian-553344",
       "title": "CCR Equestrian Senior British Show Jumping Cat 2",
       "venueKey": "ccr-equestrian",
@@ -2964,6 +2928,18 @@
       "time": null,
       "type": "Other",
       "url": "https://www.horse-events.co.uk/horse-events/bloxham-aston-le-walls-eventer-challenge-series-sunday-17th-january-2027",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-578149",
+      "title": "Richard Baldwin one to one Dressage Clinic",
+      "venueKey": "moreton-morrell",
+      "date": "2027-01-18",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=578149",
       "notes": "",
       "source": "auto"
     }
