@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20",
+  "updated": "2026-10-21",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -242,42 +242,6 @@
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=568641",
       "notes": "Run by RG Equine Training",
       "source": "manual"
-    },
-    {
-      "id": "ccr-equestrian-553335",
-      "title": "CCR Equestrian Senior British Show Jumping Cat 2",
-      "venueKey": "ccr-equestrian",
-      "date": "2026-10-20",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553335",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "moreton-morrell-573377",
-      "title": "WHPC Pony Club only - Evening Flatwork - Moreton Morrell - Fran",
-      "venueKey": "moreton-morrell",
-      "date": "2026-10-20",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=573377",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-538985",
-      "title": "Evening Progressive Clear Round Show Jumping",
-      "venueKey": "solihull-rc",
-      "date": "2026-10-20",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=538985",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "allens-hill-hm-92382",
