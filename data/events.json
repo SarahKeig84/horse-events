@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -244,54 +244,6 @@
       "source": "manual"
     },
     {
-      "id": "allens-hill-hm-92382",
-      "title": "Showjumping - Unaffiliated (70cm - 1.20m)",
-      "venueKey": "allens-hill",
-      "date": "2026-10-21",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://horsemonkey.com/uk/equestrian_event/92382/Showjumping+-+Unaffiliated+%252870cm+-+1.20m%2529",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "ccr-equestrian-553287",
-      "title": "CCR Equestrian Clear Rounds",
-      "venueKey": "ccr-equestrian",
-      "date": "2026-10-21",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553287",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-566812",
-      "title": "Senior British Show Jumping Cat 2",
-      "venueKey": "solihull-rc",
-      "date": "2026-10-21",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=566812",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-556772",
-      "title": "The Dancing Horse Clinic with Ali Lane",
-      "venueKey": "swallowfield",
-      "date": "2026-10-21",
-      "endDate": null,
-      "time": null,
-      "type": "Clinic",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=556772",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "ccr-equestrian-hm-91627",
       "title": "TAP Training Day Midlands (Gloucestershire) - Lucy Jackson ALL LEVELS Flatwork/ SJ Clinic at CCR Equestrian",
       "venueKey": "ccr-equestrian",
@@ -324,18 +276,6 @@
       "time": null,
       "type": "Dressage",
       "url": "https://horsemonkey.com/uk/equestrian_event/85852/PYO+Combined+Training+%2528I-E+50cm-1.00m%2529%252C+Unaffiliated+Dressage+%2528I-E%2529+%2526+Clear+Round+Showjumping",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "lowlands-ecpro-10927",
-      "title": "Tea with a Pony (Wear it Pink!)",
-      "venueKey": "lowlands",
-      "date": "2026-10-23",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/10927",
       "notes": "",
       "source": "auto"
     },
@@ -929,7 +869,7 @@
     },
     {
       "id": "solihull-rc-578475",
-      "title": "Unaffiliated Dressage inc MCI Qualifiers",
+      "title": "Unaffiliated Dressage inc Trailblazers first round",
       "venueKey": "solihull-rc",
       "date": "2026-11-05",
       "endDate": null,
@@ -1552,6 +1492,18 @@
       "source": "auto"
     },
     {
+      "id": "solihull-rc-579795",
+      "title": "Unaffiliated Dressage inc Trailblazers first round",
+      "venueKey": "solihull-rc",
+      "date": "2026-11-19",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=579795",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "allens-hill-hm-90668",
       "title": "British Dressage (P-AM)",
       "venueKey": "allens-hill",
@@ -1644,6 +1596,18 @@
       "time": null,
       "type": "Other",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553275",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-579809",
+      "title": "Moreton Morrell Riding Club Hosts the BRC SEIB Grassroots Qualifier",
+      "venueKey": "moreton-morrell",
+      "date": "2026-11-21",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=579809",
       "notes": "",
       "source": "auto"
     },
@@ -2260,6 +2224,18 @@
       "source": "auto"
     },
     {
+      "id": "solihull-rc-579796",
+      "title": "Unaffiliated Dressage inc Trailblazers first round",
+      "venueKey": "solihull-rc",
+      "date": "2026-12-06",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=579796",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "swallowfield-574660",
       "title": "Unaffiliated Show Jumping (including Trailblazers Qualifiers)",
       "venueKey": "swallowfield",
@@ -2812,13 +2788,25 @@
       "source": "auto"
     },
     {
-      "id": "swallowfield-579687",
-      "title": "Swallowfield Equestrian TQ",
+      "id": "swallowfield-579820",
+      "title": "Swallowfield Equestrian British Dressage (P-AM)+FS",
       "venueKey": "swallowfield",
       "date": "2027-01-10",
       "endDate": null,
       "time": null,
-      "type": "Other",
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=579820",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-579687",
+      "title": "Swallowfield Equestrian British Dressage TQ",
+      "venueKey": "swallowfield",
+      "date": "2027-01-10",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=579687",
       "notes": "",
       "source": "auto"
@@ -2904,6 +2892,30 @@
       "time": null,
       "type": "Clinic",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=578149",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "ccr-equestrian-553307",
+      "title": "CCR Equestrian Clear Rounds",
+      "venueKey": "ccr-equestrian",
+      "date": "2027-01-20",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553307",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "solihull-rc-566818",
+      "title": "Senior British Show Jumping Cat 2",
+      "venueKey": "solihull-rc",
+      "date": "2027-01-20",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=566818",
       "notes": "",
       "source": "auto"
     }
