@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -244,66 +244,6 @@
       "source": "manual"
     },
     {
-      "id": "allens-hill-hm-91935",
-      "title": "PYO Combined Training & Unaffiliated Dressage &  NEW - MINI SHOW JUMPING & Clear Round",
-      "venueKey": "allens-hill",
-      "date": "2026-10-24",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/91935/PYO+Combined+Training+%2526+Unaffiliated+Dressage+%2526++NEW+-+MINI+SHOW+JUMPING+%2526+Clear+Round",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "ccr-equestrian-559839",
-      "title": "CCR Equestrian Junior British Show Jumping",
-      "venueKey": "ccr-equestrian",
-      "date": "2026-10-24",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=559839",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-574015",
-      "title": "Barrier Animal Health Spring Festival 2027 Area 7 Arena Eventing Qualifiers",
-      "venueKey": "solihull-rc",
-      "date": "2026-10-24",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=574015",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-575612",
-      "title": "Dressage Test Riding Clinic with Sue Ridley List 4 BD Judge",
-      "venueKey": "solihull-rc",
-      "date": "2026-10-24",
-      "endDate": null,
-      "time": null,
-      "type": "Clinic",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=575612",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-574899",
-      "title": "Swallowfield Equestrian Unaffiliated Stressless Dressage",
-      "venueKey": "swallowfield",
-      "date": "2026-10-24",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=574899",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "allens-hill-hm-92448",
       "title": "Showjumping inc BS Club (Open to All) & Seniors (C1) with Blue Chip Qualifiers",
       "venueKey": "allens-hill",
@@ -360,18 +300,6 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=574658",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "lowlands-ecpro-10986",
-      "title": "Tea with a Pony",
-      "venueKey": "lowlands",
-      "date": "2026-10-26",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/10986",
       "notes": "",
       "source": "auto"
     },
@@ -2892,6 +2820,18 @@
       "time": null,
       "type": "Clinic",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=571288",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "ccr-equestrian-559843",
+      "title": "CCR Equestrian Junior British Show Jumping",
+      "venueKey": "ccr-equestrian",
+      "date": "2027-01-23",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=559843",
       "notes": "",
       "source": "auto"
     }
