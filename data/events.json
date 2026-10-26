@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -242,66 +242,6 @@
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=568641",
       "notes": "Run by RG Equine Training",
       "source": "manual"
-    },
-    {
-      "id": "allens-hill-hm-92448",
-      "title": "Showjumping inc BS Club (Open to All) & Seniors (C1) with Blue Chip Qualifiers",
-      "venueKey": "allens-hill",
-      "date": "2026-10-25",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://horsemonkey.com/uk/equestrian_event/92448/Showjumping+inc+BS+Club+%2528Open+to+All%2529+%2526+Seniors+%2528C1%2529+with+Blue+Chip+Qualifiers",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "rugby-riding-club-entrymaster-event73",
-      "title": "HALLOWEEN SHOW",
-      "venueKey": "rugby-riding-club",
-      "date": "2026-10-25",
-      "endDate": null,
-      "time": null,
-      "type": "Show",
-      "url": "https://rugbyrc.lite.events",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-565545",
-      "title": "British Dressage (P-GP/PYO FEI)+FS",
-      "venueKey": "solihull-rc",
-      "date": "2026-10-25",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=565545",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-576003",
-      "title": "Unaffiliated Dressage inc Trailblazers first round",
-      "venueKey": "solihull-rc",
-      "date": "2026-10-25",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=576003",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-574658",
-      "title": "Unaffiliated Show Jumping (including Trailblazers Qualifiers)",
-      "venueKey": "swallowfield",
-      "date": "2026-10-25",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=574658",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "solihull-rc-572694",
