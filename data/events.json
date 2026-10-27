@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26",
+  "updated": "2026-10-27",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -242,30 +242,6 @@
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=568641",
       "notes": "Run by RG Equine Training",
       "source": "manual"
-    },
-    {
-      "id": "solihull-rc-572694",
-      "title": "Five Ways to Wellbeing Programme (Week 4 – Take Notice)",
-      "venueKey": "solihull-rc",
-      "date": "2026-10-26",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=572694",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "the-unicorn-hm-80702",
-      "title": "4646 BD South and West Regional Senior, Para & Youth Camp  -  @ Unicorn Trust, Glos with Hannah Biggs & Alice Peternell",
-      "venueKey": "the-unicorn",
-      "date": "2026-10-26",
-      "endDate": "2026-10-27",
-      "time": null,
-      "type": "Other",
-      "url": "https://horsemonkey.com/uk/equestrian_event/80702/4646+BD+South+and+West+Regional+Senior%252C+Para+%2526+Youth+Camp++-++%2540+Unicorn+Trust%252C+Glos+with+Hannah+Biggs+%2526+Alice+Peternell",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "moreton-morrell-553174",
@@ -828,6 +804,18 @@
       "time": null,
       "type": "Other",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571135",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "allens-hill-hm-93915",
+      "title": "Showjumping inc BS Club (Open to All) & Juniors with Blue Chip Qualifiers",
+      "venueKey": "allens-hill",
+      "date": "2026-11-08",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://horsemonkey.com/uk/equestrian_event/93915/Showjumping+inc+BS+Club+%2528Open+to+All%2529+%2526+Juniors+with+Blue+Chip+Qualifiers",
       "notes": "",
       "source": "auto"
     },
@@ -1720,6 +1708,18 @@
       "source": "auto"
     },
     {
+      "id": "solihull-rc-580239",
+      "title": "Diddy Arena Eventing Sponsored by 608 Equine and Farm Vets",
+      "venueKey": "solihull-rc",
+      "date": "2026-11-28",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=580239",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "swallowfield-571136",
       "title": "Working Equitation with Emma Taylor",
       "venueKey": "swallowfield",
@@ -1852,6 +1852,18 @@
       "source": "auto"
     },
     {
+      "id": "lowlands-ecpro-11075",
+      "title": "Tea with a Pony",
+      "venueKey": "lowlands",
+      "date": "2026-12-03",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/11075",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "moreton-morrell-553242",
       "title": "Moreton Morrell Thursday Night Progressive Clear Round Jumping",
       "venueKey": "moreton-morrell",
@@ -1896,6 +1908,18 @@
       "time": null,
       "type": "Clinic",
       "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/10705",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "lowlands-ecpro-11076",
+      "title": "Tea with a Pony",
+      "venueKey": "lowlands",
+      "date": "2026-12-04",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/11076",
       "notes": "",
       "source": "auto"
     },
@@ -2068,6 +2092,18 @@
       "source": "auto"
     },
     {
+      "id": "lowlands-ecpro-11077",
+      "title": "Tea with a Pony",
+      "venueKey": "lowlands",
+      "date": "2026-12-07",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/11077",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "moreton-morrell-551179",
       "title": "Richard Baldwin one to one Dressage Clinic",
       "venueKey": "moreton-morrell",
@@ -2164,6 +2200,18 @@
       "source": "auto"
     },
     {
+      "id": "lowlands-ecpro-11078",
+      "title": "Tea with a Pony",
+      "venueKey": "lowlands",
+      "date": "2026-12-10",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/11078",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "moreton-morrell-553254",
       "title": "Moreton Morrell Evening Unaff Dress Down Dressage Competition",
       "venueKey": "moreton-morrell",
@@ -2196,6 +2244,18 @@
       "time": null,
       "type": "Clinic",
       "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/10706",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "lowlands-ecpro-11079",
+      "title": "Tea with a Pony",
+      "venueKey": "lowlands",
+      "date": "2026-12-11",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/11079",
       "notes": "",
       "source": "auto"
     },
@@ -2260,6 +2320,18 @@
       "source": "auto"
     },
     {
+      "id": "lowlands-ecpro-11080",
+      "title": "Tea with a Pony",
+      "venueKey": "lowlands",
+      "date": "2026-12-14",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/11080",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "ccr-equestrian-553341",
       "title": "CCR Equestrian Senior British Show Jumping Cat 2",
       "venueKey": "ccr-equestrian",
@@ -2308,6 +2380,18 @@
       "source": "auto"
     },
     {
+      "id": "lowlands-ecpro-11081",
+      "title": "Tea with a Pony",
+      "venueKey": "lowlands",
+      "date": "2026-12-17",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/11081",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "moreton-morrell-573381",
       "title": "WHPC Pony Club only - Evening Flatwork - Moreton Morrell - Fran",
       "venueKey": "moreton-morrell",
@@ -2352,6 +2436,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://horsemonkey.com/uk/equestrian_event/85496/Unaffiliated+Dressage+%2528P-AM%2529",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "lowlands-ecpro-11082",
+      "title": "Tea with a Pony",
+      "venueKey": "lowlands",
+      "date": "2026-12-18",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/11082",
       "notes": "",
       "source": "auto"
     },
