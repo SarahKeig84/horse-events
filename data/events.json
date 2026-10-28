@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -242,30 +242,6 @@
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=568641",
       "notes": "Run by RG Equine Training",
       "source": "manual"
-    },
-    {
-      "id": "moreton-morrell-553174",
-      "title": "Kate Cowell 1 to 1 Dressage Clinic",
-      "venueKey": "moreton-morrell",
-      "date": "2026-10-27",
-      "endDate": null,
-      "time": null,
-      "type": "Clinic",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553174",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-577648",
-      "title": "Swallowfield Equestrian Half Term Halloween Hack and Snack",
-      "venueKey": "swallowfield",
-      "date": "2026-10-27",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=577648",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "allens-hill-hm-92383",
@@ -1948,6 +1924,18 @@
       "source": "auto"
     },
     {
+      "id": "the-unicorn-hm-92722",
+      "title": "TAP Training Day (Gloucestershire) - Lucy Jackson D/SJ Clinic at The Unicorn Equestrian Trust, Stow on the Wold",
+      "venueKey": "the-unicorn",
+      "date": "2026-12-04",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://horsemonkey.com/uk/equestrian_event/92722/TAP+Training+Day+%2528Gloucestershire%2529+-+Lucy+Jackson+DSJ+Clinic+at+The+Unicorn+Equestrian+Trust%252C+Stow+on+the+Wold",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "allens-hill-hm-90957",
       "title": "British Dressage (P-GP/PYO FEI)",
       "venueKey": "allens-hill",
@@ -2868,6 +2856,18 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=559843",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "ccr-equestrian-553345",
+      "title": "CCR Equestrian Senior British Show Jumping Cat 2",
+      "venueKey": "ccr-equestrian",
+      "date": "2027-01-26",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553345",
       "notes": "",
       "source": "auto"
     }
