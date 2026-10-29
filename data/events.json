@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -244,66 +244,6 @@
       "source": "manual"
     },
     {
-      "id": "allens-hill-hm-92383",
-      "title": "Showjumping - Unaffiliated (70cm - 1.20m)",
-      "venueKey": "allens-hill",
-      "date": "2026-10-28",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://horsemonkey.com/uk/equestrian_event/92383/Showjumping+-+Unaffiliated+%252870cm+-+1.20m%2529",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "ccr-equestrian-553288",
-      "title": "CCR Equestrian Clear Rounds",
-      "venueKey": "ccr-equestrian",
-      "date": "2026-10-28",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553288",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "moreton-morrell-568635",
-      "title": "Moreton Morrell British Dressage (P-GP/PYO FEI)+FS",
-      "venueKey": "moreton-morrell",
-      "date": "2026-10-28",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=568635",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-573747",
-      "title": "Swallowfield Equestrian Evening Stressless Dressage sponsored by Align Rider Solutions",
-      "venueKey": "swallowfield",
-      "date": "2026-10-28",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=573747",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "lowlands-ecpro-10987",
-      "title": "Tea with a Pony",
-      "venueKey": "lowlands",
-      "date": "2026-10-29",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/10987",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "solihull-rc-568504",
       "title": "Jane Richmond Evening Polework Clinic",
       "venueKey": "solihull-rc",
@@ -360,18 +300,6 @@
       "time": null,
       "type": "Clinic",
       "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/10700",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "lowlands-ecpro-10988",
-      "title": "Tea with a Pony",
-      "venueKey": "lowlands",
-      "date": "2026-10-30",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/10988",
       "notes": "",
       "source": "auto"
     },
@@ -568,6 +496,18 @@
       "source": "auto"
     },
     {
+      "id": "allens-hill-hm-93991",
+      "title": "Showjumping - Unaffiliated (70cm - 1.20m)",
+      "venueKey": "allens-hill",
+      "date": "2026-11-04",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://horsemonkey.com/uk/equestrian_event/93991/Showjumping+-+Unaffiliated+%252870cm+-+1.20m%2529",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "ccr-equestrian-553289",
       "title": "CCR Equestrian Clear Rounds",
       "venueKey": "ccr-equestrian",
@@ -713,13 +653,13 @@
     },
     {
       "id": "allens-hill-hm-90222",
-      "title": "Allens Hill Competition & Livery Centre (P-GP/PYO FEI)",
+      "title": "British Dressage (P-GP/PYO FEI)",
       "venueKey": "allens-hill",
       "date": "2026-11-07",
       "endDate": null,
       "time": null,
-      "type": "Other",
-      "url": "https://horsemonkey.com/uk/equestrian_event/90222/Allens+Hill+Competition+%2526+Livery+Centre+%2528P-GPPYO+FEI%2529",
+      "type": "Dressage",
+      "url": "https://horsemonkey.com/uk/equestrian_event/90222/British+Dressage+%2528P-GPPYO+FEI%2529",
       "notes": "",
       "source": "auto"
     },
@@ -864,6 +804,18 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=538986",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "allens-hill-hm-93992",
+      "title": "Showjumping - Unaffiliated (70cm - 1.20m)",
+      "venueKey": "allens-hill",
+      "date": "2026-11-11",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://horsemonkey.com/uk/equestrian_event/93992/Showjumping+-+Unaffiliated+%252870cm+-+1.20m%2529",
       "notes": "",
       "source": "auto"
     },
@@ -2548,6 +2500,18 @@
       "source": "auto"
     },
     {
+      "id": "swallowfield-580486",
+      "title": "Pick & Mix Training Day",
+      "venueKey": "swallowfield",
+      "date": "2026-12-28",
+      "endDate": null,
+      "time": null,
+      "type": "Training",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=580486",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "ccr-equestrian-553342",
       "title": "CCR Equestrian Senior British Show Jumping Cat 2",
       "venueKey": "ccr-equestrian",
@@ -2868,6 +2832,30 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553345",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "ccr-equestrian-553309",
+      "title": "CCR Equestrian Clear Rounds",
+      "venueKey": "ccr-equestrian",
+      "date": "2027-01-27",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553309",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "ccr-equestrian-555861",
+      "title": "CCR Equestrian Clear Rounds ARENA EVENTING",
+      "venueKey": "ccr-equestrian",
+      "date": "2027-01-27",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=555861",
       "notes": "",
       "source": "auto"
     }
