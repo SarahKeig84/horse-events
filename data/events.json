@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -244,30 +244,6 @@
       "source": "manual"
     },
     {
-      "id": "solihull-rc-568504",
-      "title": "Jane Richmond Evening Polework Clinic",
-      "venueKey": "solihull-rc",
-      "date": "2026-10-29",
-      "endDate": null,
-      "time": null,
-      "type": "Clinic",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=568504",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-577649",
-      "title": "Swallowfield Equestrian Half Term Halloween Hack and Snack",
-      "venueKey": "swallowfield",
-      "date": "2026-10-29",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=577649",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "allens-hill-hm-85853",
       "title": "PYO Combined Training (I-E 50cm-1.00m), Unaffiliated Dressage (I-E) & Clear Round Showjumping",
       "venueKey": "allens-hill",
@@ -288,18 +264,6 @@
       "time": null,
       "type": "Training",
       "url": "https://horsemonkey.com/uk/equestrian_event/92453/BS+Gloucestershire+Academy+Training",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "lowlands-ecpro-10700",
-      "title": "Friday Clinic with Jo Hayward",
-      "venueKey": "lowlands",
-      "date": "2026-10-30",
-      "endDate": null,
-      "time": null,
-      "type": "Clinic",
-      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/10700",
       "notes": "",
       "source": "auto"
     },
@@ -2656,6 +2620,18 @@
       "source": "auto"
     },
     {
+      "id": "moreton-morrell-580793",
+      "title": "Kate Cowell 1 to 1 Dressage Clinic",
+      "venueKey": "moreton-morrell",
+      "date": "2027-01-10",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=580793",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "solihull-rc-578511",
       "title": "Aspen Cooling Ltd Arena Eventing inc British Eventing ACE Qualifiers",
       "venueKey": "solihull-rc",
@@ -2716,6 +2692,18 @@
       "source": "auto"
     },
     {
+      "id": "moreton-morrell-580795",
+      "title": "Moreton Morrell Thursday Night Progressive Clear Round Jumping",
+      "venueKey": "moreton-morrell",
+      "date": "2027-01-14",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=580795",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "solihull-rc-565549",
       "title": "British Dressage (P-GP/PYO FEI)+FS",
       "venueKey": "solihull-rc",
@@ -2748,6 +2736,18 @@
       "time": null,
       "type": "Other",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553271",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-580794",
+      "title": "Moreton Morrell RC Unaffiliated Dressage inc Stoneleigh RC Points",
+      "venueKey": "moreton-morrell",
+      "date": "2027-01-16",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=580794",
       "notes": "",
       "source": "auto"
     },
