@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01",
+  "updated": "2026-11-02",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -242,54 +242,6 @@
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=568641",
       "notes": "Run by RG Equine Training",
       "source": "manual"
-    },
-    {
-      "id": "rugby-riding-club-entrymaster-event22",
-      "title": "GHOST AND GHOULS HUNT RIDE",
-      "venueKey": "rugby-riding-club",
-      "date": "2026-10-31",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://rugbyrc.lite.events",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "moreton-morrell-hm-92286",
-      "title": "4633 - BD NW How Classical Groundwork Training can help improve performance and prevent injury with Charlotte Wittbom and Rachel Greetham (Team GB Physio), Moreton Morrell College",
-      "venueKey": "moreton-morrell",
-      "date": "2026-11-01",
-      "endDate": null,
-      "time": null,
-      "type": "Training",
-      "url": "https://horsemonkey.com/uk/equestrian_event/92286/4633+-+BD+NW+How+Classical+Groundwork+Training+can+help+improve+performance+and+prevent+injury+with+Charlotte+Wittbom+and+Rachel+Greetham+%2528Team+GB+Physio%2529%252C+Moreton+Morrell+College",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-566813",
-      "title": "Senior British Show Jumping Cat 2 including Blue Chip Qualifiers",
-      "venueKey": "solihull-rc",
-      "date": "2026-11-01",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=566813",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-568032",
-      "title": "Swallowfield Equestrian British Dressage (P-AM)",
-      "venueKey": "swallowfield",
-      "date": "2026-11-01",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=568032",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "solihull-rc-572695",
@@ -2104,6 +2056,18 @@
       "source": "auto"
     },
     {
+      "id": "solihull-rc-581066",
+      "title": "Unaffiliated Dressage inc Trailblazers first round",
+      "venueKey": "solihull-rc",
+      "date": "2026-12-17",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=581066",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "allens-hill-hm-92670",
       "title": "Allens Hill Competition & Livery Centre (P-AM)",
       "venueKey": "allens-hill",
@@ -2500,6 +2464,18 @@
       "source": "auto"
     },
     {
+      "id": "solihull-rc-581073",
+      "title": "Unaffiliated Dressage inc Trailblazers first round",
+      "venueKey": "solihull-rc",
+      "date": "2027-01-14",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=581073",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "horse-events-aston-le-walls-29596",
       "title": "Aston le Walls KBIS Arena Eventer Challenge Saturday 16th January 2027",
       "venueKey": "aston-le-walls",
@@ -2644,6 +2620,30 @@
       "source": "auto"
     },
     {
+      "id": "solihull-rc-581074",
+      "title": "British Dressage (P-GP/PYO FEI)+FS",
+      "venueKey": "solihull-rc",
+      "date": "2027-01-28",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=581074",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "solihull-rc-581068",
+      "title": "Unaffiliated Dressage inc Trailblazers first round",
+      "venueKey": "solihull-rc",
+      "date": "2027-01-28",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=581068",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "ccr-equestrian-553276",
       "title": "CCR Equestrian Arena Eventing - ELAND LODGE QUALIFER",
       "venueKey": "ccr-equestrian",
@@ -2652,6 +2652,30 @@
       "time": null,
       "type": "Other",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553276",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-578140",
+      "title": "Kate Cowell 1 to 1 Dressage Clinic",
+      "venueKey": "moreton-morrell",
+      "date": "2027-01-31",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=578140",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-580425",
+      "title": "Swallowfield Equestrian British Dressage TQ",
+      "venueKey": "swallowfield",
+      "date": "2027-01-31",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=580425",
       "notes": "",
       "source": "auto"
     }
