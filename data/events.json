@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -242,30 +242,6 @@
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=568641",
       "notes": "Run by RG Equine Training",
       "source": "manual"
-    },
-    {
-      "id": "solihull-rc-572695",
-      "title": "Five Ways to Wellbeing Programme (Week 5 – Give )",
-      "venueKey": "solihull-rc",
-      "date": "2026-11-02",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=572695",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-578665",
-      "title": "Monday Club Ride (Open to Club Members Only)",
-      "venueKey": "swallowfield",
-      "date": "2026-11-02",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=578665",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "ccr-equestrian-553336",
@@ -904,18 +880,6 @@
       "source": "auto"
     },
     {
-      "id": "solihull-rc-578916",
-      "title": "Jane Richmond Evening Polework Clinic",
-      "venueKey": "solihull-rc",
-      "date": "2026-11-17",
-      "endDate": null,
-      "time": null,
-      "type": "Clinic",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=578916",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "ccr-equestrian-553291",
       "title": "CCR Equestrian Clear Rounds",
       "venueKey": "ccr-equestrian",
@@ -1456,6 +1420,18 @@
       "source": "auto"
     },
     {
+      "id": "swallowfield-581104",
+      "title": "Evening Test Riding with Lewis Pratley",
+      "venueKey": "swallowfield",
+      "date": "2026-11-30",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=581104",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "ccr-equestrian-553339",
       "title": "CCR Equestrian Senior British Show Jumping Cat 2",
       "venueKey": "ccr-equestrian",
@@ -1476,18 +1452,6 @@
       "time": null,
       "type": "Other",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=573380",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-578938",
-      "title": "Jane Richmond Evening Polework Clinic",
-      "venueKey": "solihull-rc",
-      "date": "2026-12-01",
-      "endDate": null,
-      "time": null,
-      "type": "Clinic",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=578938",
       "notes": "",
       "source": "auto"
     },
@@ -1908,6 +1872,18 @@
       "time": null,
       "type": "Other",
       "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/11079",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "the-unicorn-hm-94133",
+      "title": "RoR Midlands & South East - RoR and Agria Christmas Social Evening with Lloyd Crabb, Louise Robson and Bruce Haskell, Gloucestershire GL54 1JZ",
+      "venueKey": "the-unicorn",
+      "date": "2026-12-11",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://horsemonkey.com/uk/equestrian_event/94133/RoR+Midlands+%2526+South+East+-+RoR+and+Agria+Christmas+Social+Evening+with+Lloyd+Crabb%252C+Louise+Robson+and+Bruce+Haskell%252C+Gloucestershire+GL54+1JZ",
       "notes": "",
       "source": "auto"
     },
@@ -2676,6 +2652,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=580425",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-578150",
+      "title": "Richard Baldwin one to one Dressage Clinic",
+      "venueKey": "moreton-morrell",
+      "date": "2027-02-01",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=578150",
       "notes": "",
       "source": "auto"
     }
