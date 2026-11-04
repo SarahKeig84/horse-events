@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -242,18 +242,6 @@
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=568641",
       "notes": "Run by RG Equine Training",
       "source": "manual"
-    },
-    {
-      "id": "ccr-equestrian-553336",
-      "title": "CCR Equestrian Senior British Show Jumping Cat 2",
-      "venueKey": "ccr-equestrian",
-      "date": "2026-11-03",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553336",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "allens-hill-hm-93991",
@@ -881,25 +869,13 @@
     },
     {
       "id": "ccr-equestrian-553291",
-      "title": "CCR Equestrian Clear Rounds",
+      "title": "CCR Equestrian Clear Round Show Jumping & Arena Eventing",
       "venueKey": "ccr-equestrian",
       "date": "2026-11-18",
       "endDate": null,
       "time": null,
-      "type": "Other",
+      "type": "Showjumping",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553291",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "ccr-equestrian-555860",
-      "title": "CCR Equestrian Clear Rounds ARENA EVENTING",
-      "venueKey": "ccr-equestrian",
-      "date": "2026-11-18",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=555860",
       "notes": "",
       "source": "auto"
     },
@@ -1037,12 +1013,12 @@
     },
     {
       "id": "ccr-equestrian-553275",
-      "title": "CCR Equestrian Arena Eventing - ELAND LODGE QUALIFER",
+      "title": "CCR Equestrian Show Jumping & Arena Eventing - ELAND LODGE QUALIFER",
       "venueKey": "ccr-equestrian",
       "date": "2026-11-21",
       "endDate": null,
       "time": null,
-      "type": "Other",
+      "type": "Showjumping",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553275",
       "notes": "",
       "source": "auto"
@@ -1368,6 +1344,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553253",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "solihull-rc-581327",
+      "title": "Jane Richmond Mini Arena Eventing Clinic",
+      "venueKey": "solihull-rc",
+      "date": "2026-11-29",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=581327",
       "notes": "",
       "source": "auto"
     },
@@ -1876,6 +1864,18 @@
       "source": "auto"
     },
     {
+      "id": "swallowfield-581243",
+      "title": "Friday Club Ride (Open to Club Members Only)",
+      "venueKey": "swallowfield",
+      "date": "2026-12-11",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=581243",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "the-unicorn-hm-94133",
       "title": "RoR Midlands & South East - RoR and Agria Christmas Social Evening with Lloyd Crabb, Louise Robson and Bruce Haskell, Gloucestershire GL54 1JZ",
       "venueKey": "the-unicorn",
@@ -2148,6 +2148,18 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=572112",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-581244",
+      "title": "Monday Club Ride (Open to Club Members Only)",
+      "venueKey": "swallowfield",
+      "date": "2026-12-21",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=581244",
       "notes": "",
       "source": "auto"
     },
