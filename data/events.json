@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -242,42 +242,6 @@
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=568641",
       "notes": "Run by RG Equine Training",
       "source": "manual"
-    },
-    {
-      "id": "moreton-morrell-573378",
-      "title": "WHPC Pony Club only - Evening Flatwork - Moreton Morrell - Fran",
-      "venueKey": "moreton-morrell",
-      "date": "2026-11-05",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=573378",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-565553",
-      "title": "British Dressage (P-GP/PYO FEI)+FS",
-      "venueKey": "solihull-rc",
-      "date": "2026-11-05",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=565553",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-578475",
-      "title": "Unaffiliated Dressage inc Trailblazers first round",
-      "venueKey": "solihull-rc",
-      "date": "2026-11-05",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=578475",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "allens-hill-hm-90218",
@@ -1589,7 +1553,7 @@
     },
     {
       "id": "lowlands-ecpro-9611",
-      "title": "Christmas Horse Show",
+      "title": "🎄🎅Christmas Horse Show🎅 🎄",
       "venueKey": "lowlands",
       "date": "2026-12-06",
       "endDate": null,
@@ -1752,6 +1716,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553254",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "solihull-rc-581459",
+      "title": "Richard Seals Showjumping Clinic",
+      "venueKey": "solihull-rc",
+      "date": "2026-12-10",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=581459",
       "notes": "",
       "source": "auto"
     },
@@ -2452,6 +2428,18 @@
       "source": "auto"
     },
     {
+      "id": "solihull-rc-581460",
+      "title": "Richard Seals Showjumping Clinic",
+      "venueKey": "solihull-rc",
+      "date": "2027-01-17",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=581460",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "moreton-morrell-578149",
       "title": "Richard Baldwin one to one Dressage Clinic",
       "venueKey": "moreton-morrell",
@@ -2592,6 +2580,18 @@
       "time": null,
       "type": "Other",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553276",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-581462",
+      "title": "Moreton Morrell British Dressage (P-GP/PYO FEI)+FS+PE",
+      "venueKey": "moreton-morrell",
+      "date": "2027-01-30",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=581462",
       "notes": "",
       "source": "auto"
     },
