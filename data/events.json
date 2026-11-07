@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -242,42 +242,6 @@
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=568641",
       "notes": "Run by RG Equine Training",
       "source": "manual"
-    },
-    {
-      "id": "allens-hill-hm-90218",
-      "title": "British Dressage (P-AM)",
-      "venueKey": "allens-hill",
-      "date": "2026-11-06",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/90218/British+Dressage+%2528P-AM%2529",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "allens-hill-hm-85502",
-      "title": "Unaffiliated Dressage (P-AM)",
-      "venueKey": "allens-hill",
-      "date": "2026-11-06",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/85502/Unaffiliated+Dressage+%2528P-AM%2529",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "moreton-morrell-579002",
-      "title": "WHPC Mounted Games Training - Moreton Morrell  - MG Trainer",
-      "venueKey": "moreton-morrell",
-      "date": "2026-11-06",
-      "endDate": null,
-      "time": null,
-      "type": "Training",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=579002",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "allens-hill-hm-90222",
@@ -652,6 +616,18 @@
       "source": "auto"
     },
     {
+      "id": "allens-hill-hm-94175",
+      "title": "Showjumping inc BS Club (Open to All) & Seniors (C1) with Blue Chip qualifiers",
+      "venueKey": "allens-hill",
+      "date": "2026-11-15",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://horsemonkey.com/uk/equestrian_event/94175/Showjumping+inc+BS+Club+%2528Open+to+All%2529+%2526+Seniors+%2528C1%2529+with+Blue+Chip+qualifiers",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "horse-events-aston-le-walls-29600",
       "title": "Bloxham Aston Le Walls Eventer Challenge Series Sunday 15th November",
       "venueKey": "aston-le-walls",
@@ -948,6 +924,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=578470",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "allens-hill-hm-94306",
+      "title": "Arena Eventing inc Eland Lodge AE Qualifiers",
+      "venueKey": "allens-hill",
+      "date": "2026-11-22",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://horsemonkey.com/uk/equestrian_event/94306/Arena+Eventing+inc+Eland+Lodge+AE+Qualifiers",
       "notes": "",
       "source": "auto"
     },
@@ -2608,6 +2596,18 @@
       "source": "auto"
     },
     {
+      "id": "swallowfield-581515",
+      "title": "Swallowfield Equestrian British Dressage (P-AM)",
+      "venueKey": "swallowfield",
+      "date": "2027-01-31",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=581515",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "swallowfield-580425",
       "title": "Swallowfield Equestrian British Dressage TQ",
       "venueKey": "swallowfield",
@@ -2652,6 +2652,18 @@
       "time": null,
       "type": "Other",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=555862",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "the-unicorn-hm-92285",
+      "title": "4636 2027 Camp for all ages and abilities  -  @ Unicorn Trust, Glos",
+      "venueKey": "the-unicorn",
+      "date": "2027-02-05",
+      "endDate": "2027-02-06",
+      "time": null,
+      "type": "Other",
+      "url": "https://horsemonkey.com/uk/equestrian_event/92285/4636+2027+Camp+for+all+ages+and+abilities++-++%2540+Unicorn+Trust%252C+Glos",
       "notes": "",
       "source": "auto"
     }
