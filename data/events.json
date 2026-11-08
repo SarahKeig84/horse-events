@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -244,78 +244,6 @@
       "source": "manual"
     },
     {
-      "id": "allens-hill-hm-90222",
-      "title": "British Dressage (P-GP/PYO FEI)",
-      "venueKey": "allens-hill",
-      "date": "2026-11-07",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/90222/British+Dressage+%2528P-GPPYO+FEI%2529",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "allens-hill-hm-85501",
-      "title": "Unaffiliated Dressage (P-AM)",
-      "venueKey": "allens-hill",
-      "date": "2026-11-07",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/85501/Unaffiliated+Dressage+%2528P-AM%2529",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "ccr-equestrian-559840",
-      "title": "CCR Equestrian Junior British Show Jumping inc Blue Chip Qualifiers",
-      "venueKey": "ccr-equestrian",
-      "date": "2026-11-07",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=559840",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "moreton-morrell-578792",
-      "title": "Moreton Morrell Riding Club Hosts the Equitech BRC Dressage to Music Qualifier",
-      "venueKey": "moreton-morrell",
-      "date": "2026-11-07",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=578792",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-578500",
-      "title": "Pick & Mix Training Camp",
-      "venueKey": "swallowfield",
-      "date": "2026-11-07",
-      "endDate": null,
-      "time": null,
-      "type": "Training",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=578500",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-571135",
-      "title": "Working Equitation with Emma Taylor",
-      "venueKey": "swallowfield",
-      "date": "2026-11-07",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=571135",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "allens-hill-hm-93915",
       "title": "Showjumping inc BS Club (Open to All) & Juniors with Blue Chip Qualifiers",
       "venueKey": "allens-hill",
@@ -348,18 +276,6 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=574659",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "lowlands-ecpro-11045",
-      "title": "Tea with a Pony",
-      "venueKey": "lowlands",
-      "date": "2026-11-09",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/11045",
       "notes": "",
       "source": "auto"
     },
@@ -1937,13 +1853,13 @@
     },
     {
       "id": "allens-hill-hm-92670",
-      "title": "Allens Hill Competition & Livery Centre (P-AM)",
+      "title": "British Dressage (P-AM)",
       "venueKey": "allens-hill",
       "date": "2026-12-18",
       "endDate": null,
       "time": null,
-      "type": "Other",
-      "url": "https://horsemonkey.com/uk/equestrian_event/92670/Allens+Hill+Competition+%2526+Livery+Centre+%2528P-AM%2529",
+      "type": "Dressage",
+      "url": "https://horsemonkey.com/uk/equestrian_event/92670/British+Dressage+%2528P-AM%2529",
       "notes": "",
       "source": "auto"
     },
@@ -1973,13 +1889,13 @@
     },
     {
       "id": "allens-hill-hm-92672",
-      "title": "Allens Hill Competition & Livery Centre QWL",
+      "title": "British Dressage Quest QWL",
       "venueKey": "allens-hill",
       "date": "2026-12-19",
       "endDate": null,
       "time": null,
-      "type": "Other",
-      "url": "https://horsemonkey.com/uk/equestrian_event/92672/Allens+Hill+Competition+%2526+Livery+Centre+QWL",
+      "type": "Dressage",
+      "url": "https://horsemonkey.com/uk/equestrian_event/92672/British+Dressage+Quest+QWL",
       "notes": "",
       "source": "auto"
     },
