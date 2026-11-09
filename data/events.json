@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -242,42 +242,6 @@
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=568641",
       "notes": "Run by RG Equine Training",
       "source": "manual"
-    },
-    {
-      "id": "allens-hill-hm-93915",
-      "title": "Showjumping inc BS Club (Open to All) & Juniors with Blue Chip Qualifiers",
-      "venueKey": "allens-hill",
-      "date": "2026-11-08",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://horsemonkey.com/uk/equestrian_event/93915/Showjumping+inc+BS+Club+%2528Open+to+All%2529+%2526+Juniors+with+Blue+Chip+Qualifiers",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "horse-events-aston-le-walls-29594",
-      "title": "Aston le Walls KBIS Arena Eventer Challenge Sunday 8th November 2026",
-      "venueKey": "aston-le-walls",
-      "date": "2026-11-08",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.horse-events.co.uk/horse-events/aston-le-walls-kbis-arena-eventer-challenge-sunday-8th-november-2026",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-574659",
-      "title": "Unaffiliated Show Jumping (including Trailblazers Qualifiers)",
-      "venueKey": "swallowfield",
-      "date": "2026-11-08",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=574659",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "moreton-morrell-573050",
@@ -2580,6 +2544,42 @@
       "time": null,
       "type": "Other",
       "url": "https://horsemonkey.com/uk/equestrian_event/92285/4636+2027+Camp+for+all+ages+and+abilities++-++%2540+Unicorn+Trust%252C+Glos",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "horse-events-aston-le-walls-29597",
+      "title": "Aston le Walls KBIS Arena Eventer Challenge Championship Saturday 6th February 2027",
+      "venueKey": "aston-le-walls",
+      "date": "2027-02-06",
+      "endDate": null,
+      "time": null,
+      "type": "Show",
+      "url": "https://www.horse-events.co.uk/horse-events/aston-le-walls-kbis-arena-eventer-challenge-championship-saturday-6th-february-2027",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "ccr-equestrian-553277",
+      "title": "CCR Equestrian Arena Eventing - ELAND LODGE QUALIFER",
+      "venueKey": "ccr-equestrian",
+      "date": "2027-02-07",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553277",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-572114",
+      "title": "WHPC Open Winter Show Jumping Show",
+      "venueKey": "moreton-morrell",
+      "date": "2027-02-07",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=572114",
       "notes": "",
       "source": "auto"
     }
