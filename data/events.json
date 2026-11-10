@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -242,18 +242,6 @@
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=568641",
       "notes": "Run by RG Equine Training",
       "source": "manual"
-    },
-    {
-      "id": "moreton-morrell-573050",
-      "title": "WHPC Pony Club only - Evening Flatwork/Pole Rally - Moreton Morrell - Clara/Kiri",
-      "venueKey": "moreton-morrell",
-      "date": "2026-11-09",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=573050",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "moreton-morrell-553183",
