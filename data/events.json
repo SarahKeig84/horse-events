@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -244,30 +244,6 @@
       "source": "manual"
     },
     {
-      "id": "moreton-morrell-553183",
-      "title": "James McCullough Evening Pole Work Clinic",
-      "venueKey": "moreton-morrell",
-      "date": "2026-11-10",
-      "endDate": null,
-      "time": null,
-      "type": "Clinic",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553183",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-538986",
-      "title": "Evening Progressive Clear Round Show Jumping",
-      "venueKey": "solihull-rc",
-      "date": "2026-11-10",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=538986",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "allens-hill-hm-93992",
       "title": "Showjumping - Unaffiliated (70cm - 1.20m)",
       "venueKey": "allens-hill",
@@ -508,6 +484,18 @@
       "source": "auto"
     },
     {
+      "id": "horse-events-barcheston-32215",
+      "title": "Show Jumping Clinic with Jonty Evans",
+      "venueKey": "barcheston",
+      "date": "2026-11-15",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://www.horse-events.co.uk/horse-events/show-jumping-clinic-with-jonty-evans-20261115",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "moreton-morrell-563252",
       "title": "Kate Cowell 1 to 1 Dressage Clinic",
       "venueKey": "moreton-morrell",
@@ -684,18 +672,6 @@
       "time": null,
       "type": "Dressage",
       "url": "https://horsemonkey.com/uk/equestrian_event/85500/Unaffiliated+Dressage+%2528P-AM%2529",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "lowlands-ecpro-10703",
-      "title": "Friday Clinic with Jo Hayward",
-      "venueKey": "lowlands",
-      "date": "2026-11-20",
-      "endDate": null,
-      "time": null,
-      "type": "Clinic",
-      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/10703",
       "notes": "",
       "source": "auto"
     },
@@ -2200,6 +2176,18 @@
       "source": "auto"
     },
     {
+      "id": "swallowfield-581914",
+      "title": "The Dancing Horse Clinic with Ali Lane",
+      "venueKey": "swallowfield",
+      "date": "2027-01-13",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=581914",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "moreton-morrell-580795",
       "title": "Moreton Morrell Thursday Night Progressive Clear Round Jumping",
       "venueKey": "moreton-morrell",
@@ -2344,6 +2332,18 @@
       "source": "auto"
     },
     {
+      "id": "swallowfield-581913",
+      "title": "Indoor Polework Clinic with Jo Swain",
+      "venueKey": "swallowfield",
+      "date": "2027-01-20",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=581913",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "moreton-morrell-571288",
       "title": "James McCullough Evening Pole Work Clinic",
       "venueKey": "moreton-morrell",
@@ -2400,6 +2400,18 @@
       "time": null,
       "type": "Other",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=555861",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-581915",
+      "title": "The Dancing Horse Clinic with Ali Lane",
+      "venueKey": "swallowfield",
+      "date": "2027-01-27",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=581915",
       "notes": "",
       "source": "auto"
     },
@@ -2568,6 +2580,18 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=572114",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "ccr-equestrian-553346",
+      "title": "CCR Equestrian Senior British Show Jumping Cat 2",
+      "venueKey": "ccr-equestrian",
+      "date": "2027-02-09",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553346",
       "notes": "",
       "source": "auto"
     }
