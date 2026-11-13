@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -242,30 +242,6 @@
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=568641",
       "notes": "Run by RG Equine Training",
       "source": "manual"
-    },
-    {
-      "id": "ccr-equestrian-553337",
-      "title": "CCR Equestrian Senior British Show Jumping Cat 2",
-      "venueKey": "ccr-equestrian",
-      "date": "2026-11-12",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553337",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "moreton-morrell-553252",
-      "title": "Moreton Morrell Evening Unaff Dress Down Dressage Competition",
-      "venueKey": "moreton-morrell",
-      "date": "2026-11-12",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553252",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "allens-hill-hm-85854",
