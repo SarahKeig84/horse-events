@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -244,102 +244,6 @@
       "source": "manual"
     },
     {
-      "id": "allens-hill-hm-85882",
-      "title": "PYO Combined Training & Unaffiliated Dressage &  NEW - MINI SHOW JUMPING & Clear Round",
-      "venueKey": "allens-hill",
-      "date": "2026-11-14",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/85882/PYO+Combined+Training+%2526+Unaffiliated+Dressage+%2526++NEW+-+MINI+SHOW+JUMPING+%2526+Clear+Round",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "ccr-equestrian-553267",
-      "title": "CCR KEYFLOW Unafiliated SJ - Senior & Junior - HARTPURY - TRAILLAZER- CRICKLAND",
-      "venueKey": "ccr-equestrian",
-      "date": "2026-11-14",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553267",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "horse-events-dallas-burston-31280",
-      "title": "LandS EVENTING LTD Arena Eventing 14th Nov 2026",
-      "venueKey": "dallas-burston",
-      "date": "2026-11-14",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.horse-events.co.uk/horse-events/lands-eventing-ltd-arena-eventing-14th-nov-2026",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "moreton-morrell-571194",
-      "title": "Moreton Morrell British Dressage (P-GP/PYO FEI)+FS",
-      "venueKey": "moreton-morrell",
-      "date": "2026-11-14",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=571194",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-538997",
-      "title": "Weekend Winter Unaffiliated & Mini Show Jumping inc BRC Club & Trailblazers Qualifiers",
-      "venueKey": "solihull-rc",
-      "date": "2026-11-14",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=538997",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-572762",
-      "title": "Swallowfield Equestrian British Dressage QWL",
-      "venueKey": "swallowfield",
-      "date": "2026-11-14",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=572762",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-578471",
-      "title": "Swallowfield Equestrian Unaffiliated Stressless Dressage",
-      "venueKey": "swallowfield",
-      "date": "2026-11-14",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=578471",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "the-unicorn-hm-93589",
-      "title": "4706 - 2026 Off-Horse Foundation Academy Camp",
-      "venueKey": "the-unicorn",
-      "date": "2026-11-14",
-      "endDate": "2026-11-15",
-      "time": null,
-      "type": "Other",
-      "url": "https://horsemonkey.com/uk/equestrian_event/93589/4706+-+2026+Off-Horse+Foundation+Academy+Camp",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "allens-hill-hm-94175",
       "title": "Showjumping inc BS Club (Open to All) & Seniors (C1) with Blue Chip qualifiers",
       "venueKey": "allens-hill",
@@ -408,18 +312,6 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://horsemonkey.com/uk/equestrian_event/86029/RDA+Unicorn+Club+Fun+Hobby+Horse+Show+Jumping",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "lowlands-ecpro-11048",
-      "title": "Tea with a Pony",
-      "venueKey": "lowlands",
-      "date": "2026-11-16",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/11048",
       "notes": "",
       "source": "auto"
     },
@@ -2520,6 +2412,42 @@
       "time": null,
       "type": "Clinic",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=581916",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "ccr-equestrian-553388",
+      "title": "CCR Equestrian Senior British Show Jumping Cat 1 inc Blue Chip Qualifiers",
+      "venueKey": "ccr-equestrian",
+      "date": "2027-02-13",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553388",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "solihull-rc-578512",
+      "title": "Aspen Cooling Ltd Arena Eventing inc British Eventing ACE Qualifiers",
+      "venueKey": "solihull-rc",
+      "date": "2027-02-13",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=578512",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-582242",
+      "title": "Swallowfield Equestrian British Dressage TQ",
+      "venueKey": "swallowfield",
+      "date": "2027-02-13",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=582242",
       "notes": "",
       "source": "auto"
     }
