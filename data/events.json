@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -244,78 +244,6 @@
       "source": "manual"
     },
     {
-      "id": "allens-hill-hm-94175",
-      "title": "Showjumping inc BS Club (Open to All) & Seniors (C1) with Blue Chip qualifiers",
-      "venueKey": "allens-hill",
-      "date": "2026-11-15",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://horsemonkey.com/uk/equestrian_event/94175/Showjumping+inc+BS+Club+%2528Open+to+All%2529+%2526+Seniors+%2528C1%2529+with+Blue+Chip+qualifiers",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "horse-events-aston-le-walls-29600",
-      "title": "Bloxham Aston Le Walls Eventer Challenge Series Sunday 15th November",
-      "venueKey": "aston-le-walls",
-      "date": "2026-11-15",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.horse-events.co.uk/horse-events/bloxham-aston-le-walls-eventer-challenge-series-sunday-15th-november",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "horse-events-barcheston-32215",
-      "title": "Show Jumping Clinic with Jonty Evans",
-      "venueKey": "barcheston",
-      "date": "2026-11-15",
-      "endDate": null,
-      "time": null,
-      "type": "Clinic",
-      "url": "https://www.horse-events.co.uk/horse-events/show-jumping-clinic-with-jonty-evans-20261115",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "moreton-morrell-563252",
-      "title": "Kate Cowell 1 to 1 Dressage Clinic",
-      "venueKey": "moreton-morrell",
-      "date": "2026-11-15",
-      "endDate": null,
-      "time": null,
-      "type": "Clinic",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=563252",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-566820",
-      "title": "Senior British Show Jumping Cat 1 including Blue Chip Qualifiers",
-      "venueKey": "solihull-rc",
-      "date": "2026-11-15",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=566820",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "the-unicorn-hm-86029",
-      "title": "RDA Unicorn Club Fun Hobby Horse Show Jumping",
-      "venueKey": "the-unicorn",
-      "date": "2026-11-15",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://horsemonkey.com/uk/equestrian_event/86029/RDA+Unicorn+Club+Fun+Hobby+Horse+Show+Jumping",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "moreton-morrell-551178",
       "title": "Richard Baldwin one to one Dressage Clinic",
       "venueKey": "moreton-morrell",
@@ -460,6 +388,18 @@
       "source": "auto"
     },
     {
+      "id": "horse-events-dallas-burston-32312",
+      "title": "LandS Eventing LTD Assisted Arena Hire at Dallas Burston Polo Club Friday 20th Nov",
+      "venueKey": "dallas-burston",
+      "date": "2026-11-20",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.horse-events.co.uk/horse-events/lands-eventing-ltd-assisted-arena-hire-at-dallas-burston-polo-club-friday-20th-nov",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "lowlands-ecpro-11050",
       "title": "Tea with a Pony",
       "venueKey": "lowlands",
@@ -520,6 +460,18 @@
       "source": "auto"
     },
     {
+      "id": "horse-events-dallas-burston-32321",
+      "title": "LandS Eventing LTD Assisted Arena Hire at Dallas Burston Polo Club Saturday 21st Nov",
+      "venueKey": "dallas-burston",
+      "date": "2026-11-21",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.horse-events.co.uk/horse-events/lands-eventing-ltd-assisted-arena-hire-at-dallas-burston-polo-club-saturday-21st-nov",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "moreton-morrell-579809",
       "title": "Moreton Morrell Riding Club Hosts the BRC SEIB Grassroots Qualifier",
       "venueKey": "moreton-morrell",
@@ -568,6 +520,18 @@
       "source": "auto"
     },
     {
+      "id": "horse-events-dallas-burston-32322",
+      "title": "LandS Eventing LTD Assisted Arena Hire at Dallas Burston Polo Club Sunday 22nd Nov",
+      "venueKey": "dallas-burston",
+      "date": "2026-11-22",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.horse-events.co.uk/horse-events/lands-eventing-ltd-assisted-arena-hire-at-dallas-burston-polo-club-sunday-22nd-nov",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "moreton-morrell-571296",
       "title": "Kate Cowell 1 to 1 Dressage Clinic",
       "venueKey": "moreton-morrell",
@@ -592,6 +556,18 @@
       "source": "auto"
     },
     {
+      "id": "horse-events-dallas-burston-32323",
+      "title": "LandS Eventing LTD Assisted Arena Hire at Dallas Burston Polo Club Monday 23rd Nov",
+      "venueKey": "dallas-burston",
+      "date": "2026-11-23",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.horse-events.co.uk/horse-events/lands-eventing-ltd-assisted-arena-hire-at-dallas-burston-polo-club-monday-23rd-nov",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "lowlands-ecpro-11051",
       "title": "Tea with a Pony",
       "venueKey": "lowlands",
@@ -612,6 +588,18 @@
       "time": null,
       "type": "Clinic",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=578675",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "horse-events-dallas-burston-32325",
+      "title": "LandS Eventing LTD Assisted Arena Hire at Dallas Burston Polo Club Tuesday 24th Nov",
+      "venueKey": "dallas-burston",
+      "date": "2026-11-24",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.horse-events.co.uk/horse-events/lands-eventing-ltd-assisted-arena-hire-at-dallas-burston-polo-club-tuesday-24th-nov",
       "notes": "",
       "source": "auto"
     },
@@ -1104,18 +1092,6 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553386",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "horse-events-dallas-burston-31136",
-      "title": "LandS Eventing Super Arena Cross Country Pairs Festive Fancy Dress Optional 5th Dec 2026",
-      "venueKey": "dallas-burston",
-      "date": "2026-12-05",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.horse-events.co.uk/horse-events/lands-eventing-super-arena-cross-country-pairs-festive-fancy-dress-optional-5th-dec-2026",
       "notes": "",
       "source": "auto"
     },
@@ -1840,6 +1816,18 @@
       "source": "auto"
     },
     {
+      "id": "moreton-morrell-582348",
+      "title": "WHPC Pony Club only - Evening Flatwork/Pole Rally - Moreton Morrell - Clara/Kiri",
+      "venueKey": "moreton-morrell",
+      "date": "2027-01-05",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=582348",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "ccr-equestrian-553299",
       "title": "CCR Equestrian Clear Rounds",
       "venueKey": "ccr-equestrian",
@@ -1872,6 +1860,18 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553343",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-582361",
+      "title": "WHPC Mounted Games Training - Moreton Morrell  - MG Trainer",
+      "venueKey": "moreton-morrell",
+      "date": "2027-01-08",
+      "endDate": null,
+      "time": null,
+      "type": "Training",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=582361",
       "notes": "",
       "source": "auto"
     },
@@ -1960,6 +1960,18 @@
       "source": "auto"
     },
     {
+      "id": "moreton-morrell-582354",
+      "title": "WHPC Pony Club only - Evening Flatwork - Moreton Morrell - Fran",
+      "venueKey": "moreton-morrell",
+      "date": "2027-01-12",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=582354",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "ccr-equestrian-553304",
       "title": "CCR Equestrian Clear Rounds",
       "venueKey": "ccr-equestrian",
@@ -2016,6 +2028,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=581073",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-582362",
+      "title": "WHPC Mounted Games Training - Moreton Morrell  - MG Trainer",
+      "venueKey": "moreton-morrell",
+      "date": "2027-01-15",
+      "endDate": null,
+      "time": null,
+      "type": "Training",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=582362",
       "notes": "",
       "source": "auto"
     },
@@ -2092,6 +2116,18 @@
       "source": "auto"
     },
     {
+      "id": "moreton-morrell-582349",
+      "title": "WHPC Pony Club only - Evening Flatwork/Pole Rally - Moreton Morrell - Clara/Kiri",
+      "venueKey": "moreton-morrell",
+      "date": "2027-01-19",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=582349",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "ccr-equestrian-553307",
       "title": "CCR Equestrian Clear Rounds",
       "venueKey": "ccr-equestrian",
@@ -2152,6 +2188,18 @@
       "source": "auto"
     },
     {
+      "id": "moreton-morrell-582363",
+      "title": "WHPC Mounted Games Training - Moreton Morrell  - MG Trainer",
+      "venueKey": "moreton-morrell",
+      "date": "2027-01-22",
+      "endDate": null,
+      "time": null,
+      "type": "Training",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=582363",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "ccr-equestrian-559843",
       "title": "CCR Equestrian Junior British Show Jumping",
       "venueKey": "ccr-equestrian",
@@ -2160,6 +2208,18 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=559843",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "horse-events-onley-32334",
+      "title": "LandS Eventing Arena Eventing inc qualifier for British Eventing Bates Saddles Arena Eventing Championships",
+      "venueKey": "onley",
+      "date": "2027-01-23",
+      "endDate": null,
+      "time": null,
+      "type": "Show",
+      "url": "https://www.horse-events.co.uk/horse-events/lands-eventing-arena-eventing-inc-qualifier-for-british-eventing-bates-saddles-arena-eventing-championships",
       "notes": "",
       "source": "auto"
     },
@@ -2212,6 +2272,18 @@
       "source": "auto"
     },
     {
+      "id": "moreton-morrell-582355",
+      "title": "WHPC Pony Club only - Evening Flatwork - Moreton Morrell - Fran",
+      "venueKey": "moreton-morrell",
+      "date": "2027-01-28",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=582355",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "solihull-rc-581074",
       "title": "British Dressage (P-GP/PYO FEI)+FS",
       "venueKey": "solihull-rc",
@@ -2232,6 +2304,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=581068",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-582364",
+      "title": "WHPC Mounted Games Training - Moreton Morrell  - MG Trainer",
+      "venueKey": "moreton-morrell",
+      "date": "2027-01-29",
+      "endDate": null,
+      "time": null,
+      "type": "Training",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=582364",
       "notes": "",
       "source": "auto"
     },
@@ -2308,6 +2392,18 @@
       "source": "auto"
     },
     {
+      "id": "moreton-morrell-582350",
+      "title": "WHPC Pony Club only - Evening Flatwork/Pole Rally - Moreton Morrell - Clara/Kiri",
+      "venueKey": "moreton-morrell",
+      "date": "2027-02-02",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=582350",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "ccr-equestrian-553314",
       "title": "CCR Equestrian Clear Rounds",
       "venueKey": "ccr-equestrian",
@@ -2332,6 +2428,18 @@
       "source": "auto"
     },
     {
+      "id": "moreton-morrell-582365",
+      "title": "WHPC Mounted Games Training - Moreton Morrell  - MG Trainer",
+      "venueKey": "moreton-morrell",
+      "date": "2027-02-05",
+      "endDate": null,
+      "time": null,
+      "type": "Training",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=582365",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "the-unicorn-hm-92285",
       "title": "4636 2027 Camp for all ages and abilities  -  @ Unicorn Trust, Glos",
       "venueKey": "the-unicorn",
@@ -2352,6 +2460,18 @@
       "time": null,
       "type": "Show",
       "url": "https://www.horse-events.co.uk/horse-events/aston-le-walls-kbis-arena-eventer-challenge-championship-saturday-6th-february-2027",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "horse-events-aston-le-walls-29604",
+      "title": "Bloxham Aston Le Walls Eventer Challenge Championships Sunday 7th February 2027",
+      "venueKey": "aston-le-walls",
+      "date": "2027-02-07",
+      "endDate": null,
+      "time": null,
+      "type": "Show",
+      "url": "https://www.horse-events.co.uk/horse-events/bloxham-aston-le-walls-eventer-challenge-championships-sunday-7th-february-2027",
       "notes": "",
       "source": "auto"
     },
@@ -2388,6 +2508,18 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553346",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-582356",
+      "title": "WHPC Pony Club only - Evening Flatwork - Moreton Morrell - Fran",
+      "venueKey": "moreton-morrell",
+      "date": "2027-02-09",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=582356",
       "notes": "",
       "source": "auto"
     },
