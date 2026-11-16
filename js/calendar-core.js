@@ -8,11 +8,12 @@
 //   { updated: "YYYY-MM-DD" | null,
 //     venues: [{ key, name, color, url }],
 //     events: [{ id, title, venueKey, date, endDate, time, type, url, notes }],
-//     gaps: [{ venueKey, reason }] }
+//     gaps: [{ venueKey, reason }],
+//     hire: [{ venueKey, notes, url? }] }  -- url optional, falls back to the venue's own url
 window.HorseEventsCalendar = (function () {
   "use strict";
 
-  let DATA = { venues: [], events: [], gaps: [] };
+  let DATA = { venues: [], events: [], gaps: [], hire: [] };
   let hiddenVenues = new Set();
   let currentView = "calendar"; // "calendar" | "list"
   let calMonth; // Date, first-of-month cursor
@@ -205,6 +206,33 @@ window.HorseEventsCalendar = (function () {
     if (gapsSection) gapsSection.classList.toggle("hidden", !(DATA.gaps || []).length);
   }
 
+  function renderHire() {
+    const list = document.getElementById("hireList");
+    if (!list) return;
+    list.innerHTML = "";
+    const vbk = venueByKey();
+    (DATA.hire || []).forEach((h) => {
+      const li = document.createElement("li");
+      const v = vbk[h.venueKey];
+      const name = v ? v.name : h.venueKey;
+      const url = h.url || (v ? v.url : "");
+      if (url) {
+        const a = document.createElement("a");
+        a.href = url;
+        a.target = "_blank";
+        a.rel = "noopener";
+        a.textContent = name;
+        li.appendChild(a);
+      } else {
+        li.appendChild(document.createTextNode(name));
+      }
+      if (h.notes) li.appendChild(document.createTextNode(`: ${h.notes}`));
+      list.appendChild(li);
+    });
+    const hireSection = document.getElementById("hireSection");
+    if (hireSection) hireSection.classList.toggle("hidden", !(DATA.hire || []).length);
+  }
+
   function renderCurrentView() {
     if (currentView === "calendar") {
       renderCalendar();
@@ -236,6 +264,7 @@ window.HorseEventsCalendar = (function () {
 
     renderLegend();
     renderGaps();
+    renderHire();
     setView("calendar");
 
     document.getElementById("calendarViewBtn").addEventListener("click", () => setView("calendar"));

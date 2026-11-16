@@ -2465,5 +2465,24 @@
       "venueKey": "oak-tree-farm",
       "reason": "No single published calendar or discoverable venue page -- RG Equine Training's clinics there are tracked manually (found via MyRidingLife's own event search, not a scrapable venue link), but other instructors' activity at this venue isn't covered."
     }
+  ],
+  "hire": [
+    {
+      "venueKey": "moreton-morrell",
+      "notes": "Indoor Ashford arena (20m x 60m), 45-min slots, around £40 for up to 4 horses. Booking is online only via the venue's own listings — no phone/email bookings accepted."
+    },
+    {
+      "venueKey": "swallowfield",
+      "notes": "Indoor arena (20m x 60m) around £16-£20/45min, outdoor arena with a jump course around £20/45min (+£5 to bring a friend). No refunds; moving a booking needs 24 hours' written notice. 01564 784475 / info@swallowfieldec.co.uk."
+    },
+    {
+      "venueKey": "solihull-rc",
+      "notes": "Mostly for club members — email sarahj@solihullridingclub.co.uk for an arena hire code. General office: 01564 770180 / office@solihullridingclub.co.uk."
+    },
+    {
+      "venueKey": "lowlands",
+      "notes": "Indoor (20m x 40m) or outdoor (40m x 60m) arena, £17.50/30min or £35/60min (+£5 per extra horse/rider). Book via the venue's EC Pro portal: register, then use the arena's own Booking & Availability page.",
+      "url": "https://lowlandsequestriancentre.ecpro.co.uk/book/facility/337"
+    }
   ]
 }
