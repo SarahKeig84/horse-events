@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -242,30 +242,6 @@
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=568641",
       "notes": "Run by RG Equine Training",
       "source": "manual"
-    },
-    {
-      "id": "moreton-morrell-551178",
-      "title": "Richard Baldwin one to one Dressage Clinic",
-      "venueKey": "moreton-morrell",
-      "date": "2026-11-16",
-      "endDate": null,
-      "time": null,
-      "type": "Clinic",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=551178",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-578666",
-      "title": "Monday Club Ride (Open to Club Members Only)",
-      "venueKey": "swallowfield",
-      "date": "2026-11-16",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=578666",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "ccr-equestrian-553338",
@@ -2560,6 +2536,18 @@
       "source": "auto"
     },
     {
+      "id": "moreton-morrell-582373",
+      "title": "Moreton Morrell British Dressage (P-GP/PYO FEI)+FS+PE+PEFS",
+      "venueKey": "moreton-morrell",
+      "date": "2027-02-13",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=582373",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "solihull-rc-578512",
       "title": "Aspen Cooling Ltd Arena Eventing inc British Eventing ACE Qualifiers",
       "venueKey": "solihull-rc",
@@ -2580,6 +2568,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=582242",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-578141",
+      "title": "Kate Cowell 1 to 1 Dressage Clinic",
+      "venueKey": "moreton-morrell",
+      "date": "2027-02-15",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=578141",
       "notes": "",
       "source": "auto"
     }
