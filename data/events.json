@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -242,30 +242,6 @@
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=568641",
       "notes": "Run by RG Equine Training",
       "source": "manual"
-    },
-    {
-      "id": "ccr-equestrian-553338",
-      "title": "CCR Equestrian Senior British Show Jumping Cat 2",
-      "venueKey": "ccr-equestrian",
-      "date": "2026-11-17",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553338",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "moreton-morrell-573379",
-      "title": "WHPC Pony Club only - Evening Flatwork - Moreton Morrell - Fran",
-      "venueKey": "moreton-morrell",
-      "date": "2026-11-17",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=573379",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "allens-hill-hm-94438",
@@ -1696,6 +1672,18 @@
       "source": "auto"
     },
     {
+      "id": "swallowfield-582496",
+      "title": "The Corner House Equine Mini Arena Eventing",
+      "venueKey": "swallowfield",
+      "date": "2026-12-27",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=582496",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "swallowfield-580486",
       "title": "Pick & Mix Training Day",
       "venueKey": "swallowfield",
@@ -2316,6 +2304,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=581462",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-582497",
+      "title": "The Corner House Equine Mini Arena Eventing",
+      "venueKey": "swallowfield",
+      "date": "2027-01-30",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=582497",
       "notes": "",
       "source": "auto"
     },
