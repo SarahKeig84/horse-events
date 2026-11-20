@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -242,42 +242,6 @@
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=568641",
       "notes": "Run by RG Equine Training",
       "source": "manual"
-    },
-    {
-      "id": "moreton-morrell-553251",
-      "title": "Moreton Morrell Thursday Night Progressive Clear Round Jumping",
-      "venueKey": "moreton-morrell",
-      "date": "2026-11-19",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553251",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-565578",
-      "title": "British Dressage (P-GP/PYO FEI)+PE+PEFS",
-      "venueKey": "solihull-rc",
-      "date": "2026-11-19",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=565578",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-579795",
-      "title": "Unaffiliated Dressage inc Trailblazers first round",
-      "venueKey": "solihull-rc",
-      "date": "2026-11-19",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=579795",
-      "notes": "",
-      "source": "auto"
     },
     {
       "id": "allens-hill-hm-90668",
@@ -528,18 +492,6 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=538987",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "allens-hill-hm-94617",
-      "title": "Showjumping - Unaffiliated (70cm - 1.20m)",
-      "venueKey": "allens-hill",
-      "date": "2026-11-25",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://horsemonkey.com/uk/equestrian_event/94617/Showjumping+-+Unaffiliated+%252870cm+-+1.20m%2529",
       "notes": "",
       "source": "auto"
     },
@@ -2604,6 +2556,18 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=566819",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "ccr-equestrian-553347",
+      "title": "CCR Equestrian Senior British Show Jumping Cat 2",
+      "venueKey": "ccr-equestrian",
+      "date": "2027-02-18",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553347",
       "notes": "",
       "source": "auto"
     }
