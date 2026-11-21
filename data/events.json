@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -244,54 +244,6 @@
       "source": "manual"
     },
     {
-      "id": "allens-hill-hm-90668",
-      "title": "British Dressage (P-AM)",
-      "venueKey": "allens-hill",
-      "date": "2026-11-20",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/90668/British+Dressage+%2528P-AM%2529",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "allens-hill-hm-85500",
-      "title": "Unaffiliated Dressage (P-AM)",
-      "venueKey": "allens-hill",
-      "date": "2026-11-20",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://horsemonkey.com/uk/equestrian_event/85500/Unaffiliated+Dressage+%2528P-AM%2529",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "horse-events-dallas-burston-32312",
-      "title": "LandS Eventing LTD Assisted Arena Hire at Dallas Burston Polo Club Friday 20th Nov",
-      "venueKey": "dallas-burston",
-      "date": "2026-11-20",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.horse-events.co.uk/horse-events/lands-eventing-ltd-assisted-arena-hire-at-dallas-burston-polo-club-friday-20th-nov",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "moreton-morrell-579004",
-      "title": "WHPC Mounted Games Training - Moreton Morrell  - MG Trainer",
-      "venueKey": "moreton-morrell",
-      "date": "2026-11-20",
-      "endDate": null,
-      "time": null,
-      "type": "Training",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=579004",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "allens-hill-hm-90926",
       "title": "British Dressage Quest WL",
       "venueKey": "allens-hill",
@@ -516,6 +468,18 @@
       "time": null,
       "type": "Other",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553292",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "horse-events-dallas-burston-32326",
+      "title": "LandS Eventing LTD Assisted Arena Hire at Dallas Burston Polo Club Wednesday 25th Nov",
+      "venueKey": "dallas-burston",
+      "date": "2026-11-25",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.horse-events.co.uk/horse-events/lands-eventing-ltd-assisted-arena-hire-at-dallas-burston-polo-club-wednesday-25th-nov",
       "notes": "",
       "source": "auto"
     },
@@ -941,13 +905,13 @@
     },
     {
       "id": "the-unicorn-hm-92722",
-      "title": "TAP Training Day (Gloucestershire) - Lucy Jackson D/SJ Clinic at The Unicorn Equestrian Trust, Stow on the Wold",
+      "title": "TAP Training Day (Gloucestershire) - Lucy Jackson flat/ gridwork Clinic at The Unicorn Equestrian Trust, Stow on the Wold",
       "venueKey": "the-unicorn",
       "date": "2026-12-04",
       "endDate": null,
       "time": null,
       "type": "Clinic",
-      "url": "https://horsemonkey.com/uk/equestrian_event/92722/TAP+Training+Day+%2528Gloucestershire%2529+-+Lucy+Jackson+DSJ+Clinic+at+The+Unicorn+Equestrian+Trust%252C+Stow+on+the+Wold",
+      "url": "https://horsemonkey.com/uk/equestrian_event/92722/TAP+Training+Day+%2528Gloucestershire%2529+-+Lucy+Jackson+flat+gridwork+Clinic+at+The+Unicorn+Equestrian+Trust%252C+Stow+on+the+Wold",
       "notes": "",
       "source": "auto"
     },
@@ -1564,6 +1528,18 @@
       "source": "auto"
     },
     {
+      "id": "allens-hill-hm-94736",
+      "title": "Showjumping - Unaffiliated (60cm - 1.10m)",
+      "venueKey": "allens-hill",
+      "date": "2026-12-20",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://horsemonkey.com/uk/equestrian_event/94736/Showjumping+-+Unaffiliated+%252860cm+-+1.10m%2529",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "moreton-morrell-572112",
       "title": "WHPC Open Winter Show Jumping Show",
       "venueKey": "moreton-morrell",
@@ -1608,6 +1584,18 @@
       "time": null,
       "type": "Other",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553296",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "allens-hill-hm-94741",
+      "title": "Christmas Team & Individual Showjumping",
+      "venueKey": "allens-hill",
+      "date": "2026-12-27",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://horsemonkey.com/uk/equestrian_event/94741/Christmas+Team+%2526+Individual+Showjumping",
       "notes": "",
       "source": "auto"
     },
@@ -1792,6 +1780,18 @@
       "source": "auto"
     },
     {
+      "id": "the-unicorn-hm-94722",
+      "title": "TAP Training Day (Gloucestershire) - Lucy Jackson flat/ gridwork Clinic at The Unicorn Equestrian Trust, Stow on the Wold",
+      "venueKey": "the-unicorn",
+      "date": "2027-01-08",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://horsemonkey.com/uk/equestrian_event/94722/TAP+Training+Day+%2528Gloucestershire%2529+-+Lucy+Jackson+flat+gridwork+Clinic+at+The+Unicorn+Equestrian+Trust%252C+Stow+on+the+Wold",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "ccr-equestrian-553387",
       "title": "CCR Equestrian Senior British Show Jumping Cat 1",
       "venueKey": "ccr-equestrian",
@@ -1908,6 +1908,18 @@
       "time": null,
       "type": "Clinic",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=581914",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "ccr-equestrian-hm-94725",
+      "title": "TAP Training Day Midlands (Gloucestershire) - Lucy Jackson ALL LEVELS Flatwork/ SJ Clinic at CCR Equestrian",
+      "venueKey": "ccr-equestrian",
+      "date": "2027-01-14",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://horsemonkey.com/uk/equestrian_event/94725/TAP+Training+Day+Midlands+%2528Gloucestershire%2529+-+Lucy+Jackson+ALL+LEVELS+Flatwork+SJ+Clinic+at+CCR+Equestrian",
       "notes": "",
       "source": "auto"
     },
@@ -2356,6 +2368,18 @@
       "source": "auto"
     },
     {
+      "id": "ccr-equestrian-hm-94726",
+      "title": "TAP Training Day Midlands (Gloucestershire) - Lucy Jackson ALL LEVELS Flatwork/ SJ or Arena Eventing Clinic at CCR Equestrian",
+      "venueKey": "ccr-equestrian",
+      "date": "2027-02-04",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://horsemonkey.com/uk/equestrian_event/94726/TAP+Training+Day+Midlands+%2528Gloucestershire%2529+-+Lucy+Jackson+ALL+LEVELS+Flatwork+SJ+or+Arena+Eventing+Clinic+at+CCR+Equestrian",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "moreton-morrell-582365",
       "title": "WHPC Mounted Games Training - Moreton Morrell  - MG Trainer",
       "venueKey": "moreton-morrell",
@@ -2472,6 +2496,18 @@
       "time": null,
       "type": "Clinic",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=581916",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "the-unicorn-hm-94723",
+      "title": "TAP Training Day (Gloucestershire) - Lucy Jackson flat/ gridwork Clinic at The Unicorn Equestrian Trust, Stow on the Wold",
+      "venueKey": "the-unicorn",
+      "date": "2027-02-12",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://horsemonkey.com/uk/equestrian_event/94723/TAP+Training+Day+%2528Gloucestershire%2529+-+Lucy+Jackson+flat+gridwork+Clinic+at+The+Unicorn+Equestrian+Trust%252C+Stow+on+the+Wold",
       "notes": "",
       "source": "auto"
     },
