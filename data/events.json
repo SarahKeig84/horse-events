@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -244,54 +244,6 @@
       "source": "manual"
     },
     {
-      "id": "allens-hill-hm-94306",
-      "title": "Arena Eventing inc Eland Lodge AE Qualifiers",
-      "venueKey": "allens-hill",
-      "date": "2026-11-22",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://horsemonkey.com/uk/equestrian_event/94306/Arena+Eventing+inc+Eland+Lodge+AE+Qualifiers",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "horse-events-dallas-burston-32322",
-      "title": "LandS Eventing LTD Assisted Arena Hire at Dallas Burston Polo Club Sunday 22nd Nov",
-      "venueKey": "dallas-burston",
-      "date": "2026-11-22",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.horse-events.co.uk/horse-events/lands-eventing-ltd-assisted-arena-hire-at-dallas-burston-polo-club-sunday-22nd-nov",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "moreton-morrell-571296",
-      "title": "Kate Cowell 1 to 1 Dressage Clinic",
-      "venueKey": "moreton-morrell",
-      "date": "2026-11-22",
-      "endDate": null,
-      "time": null,
-      "type": "Clinic",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=571296",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-578509",
-      "title": "Aspen Cooling Ltd Arena Eventing inc British Eventing ACE Qualifiers",
-      "venueKey": "solihull-rc",
-      "date": "2026-11-22",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=578509",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "horse-events-dallas-burston-32323",
       "title": "LandS Eventing LTD Assisted Arena Hire at Dallas Burston Polo Club Monday 23rd Nov",
       "venueKey": "dallas-burston",
@@ -480,6 +432,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://horsemonkey.com/uk/equestrian_event/85855/PYO+Combined+Training+%2528I-E+50cm-1.00m%2529%252C+Unaffiliated+Dressage+%2528I-E%2529+%2526+Clear+Round+Showjumping",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "horse-events-dallas-burston-32328",
+      "title": "LandS Eventing LTD Assisted Arena Hire at Dallas Burston Polo Club Friday 27th Nov",
+      "venueKey": "dallas-burston",
+      "date": "2026-11-27",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.horse-events.co.uk/horse-events/lands-eventing-ltd-assisted-arena-hire-at-dallas-burston-polo-club-friday-27th-nov",
       "notes": "",
       "source": "auto"
     },
@@ -2288,7 +2252,7 @@
       "title": "British Dressage Winter Area Festival",
       "venueKey": "solihull-rc",
       "date": "2027-02-03",
-      "endDate": null,
+      "endDate": "2027-02-07",
       "time": null,
       "type": "Dressage",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=583074",
@@ -2544,6 +2508,18 @@
       "time": null,
       "type": "Other",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553272",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "solihull-rc-581069",
+      "title": "Unaffiliated Dressage inc Trailblazers first round",
+      "venueKey": "solihull-rc",
+      "date": "2027-02-21",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=581069",
       "notes": "",
       "source": "auto"
     }
