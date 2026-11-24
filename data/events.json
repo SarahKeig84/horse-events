@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -252,18 +252,6 @@
       "time": null,
       "type": "Other",
       "url": "https://www.horse-events.co.uk/horse-events/lands-eventing-ltd-assisted-arena-hire-at-dallas-burston-polo-club-monday-23rd-nov",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-578675",
-      "title": "Jade Clark Dressage Clinic",
-      "venueKey": "swallowfield",
-      "date": "2026-11-23",
-      "endDate": null,
-      "time": null,
-      "type": "Clinic",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=578675",
       "notes": "",
       "source": "auto"
     },
