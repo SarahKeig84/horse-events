@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -244,54 +244,6 @@
       "source": "manual"
     },
     {
-      "id": "horse-events-dallas-burston-32323",
-      "title": "LandS Eventing LTD Assisted Arena Hire at Dallas Burston Polo Club Monday 23rd Nov",
-      "venueKey": "dallas-burston",
-      "date": "2026-11-23",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.horse-events.co.uk/horse-events/lands-eventing-ltd-assisted-arena-hire-at-dallas-burston-polo-club-monday-23rd-nov",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "horse-events-dallas-burston-32325",
-      "title": "LandS Eventing LTD Assisted Arena Hire at Dallas Burston Polo Club Tuesday 24th Nov",
-      "venueKey": "dallas-burston",
-      "date": "2026-11-24",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.horse-events.co.uk/horse-events/lands-eventing-ltd-assisted-arena-hire-at-dallas-burston-polo-club-tuesday-24th-nov",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "moreton-morrell-573051",
-      "title": "WHPC Pony Club only - Evening Flatwork/Pole Rally - Moreton Morrell - Clara/Kiri",
-      "venueKey": "moreton-morrell",
-      "date": "2026-11-24",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=573051",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-538987",
-      "title": "Evening Progressive Clear Round Show Jumping",
-      "venueKey": "solihull-rc",
-      "date": "2026-11-24",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=538987",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "allens-hill-hm-94611",
       "title": "Showjumping - Unaffiliated (70cm - 1.20m)",
       "venueKey": "allens-hill",
@@ -508,8 +460,20 @@
       "source": "auto"
     },
     {
+      "id": "horse-events-dallas-burston-32329",
+      "title": "LandS Eventing LTD Assisted Arena Hire at Dallas Burston Polo Club Saturday 28th Nov",
+      "venueKey": "dallas-burston",
+      "date": "2026-11-28",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.horse-events.co.uk/horse-events/lands-eventing-ltd-assisted-arena-hire-at-dallas-burston-polo-club-saturday-28th-nov",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "moreton-morrell-572111",
-      "title": "WHPC Open Winter Show Jumping Show",
+      "title": "WHPC Open Winter Show Jumping Show EVENT NOW FULL",
       "venueKey": "moreton-morrell",
       "date": "2026-11-28",
       "endDate": null,
@@ -552,6 +516,18 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://horsemonkey.com/uk/equestrian_event/94613/Showjumping+inc+BS+Club+%2528Open+to+All%2529+%2526+Ponies+with+Blue+Chip+Qualifiers",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "horse-events-dallas-burston-32331",
+      "title": "LandS Eventing LTD Assisted Arena Hire at Dallas Burston Polo Club Sunday 29th Nov",
+      "venueKey": "dallas-burston",
+      "date": "2026-11-29",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.horse-events.co.uk/horse-events/lands-eventing-ltd-assisted-arena-hire-at-dallas-burston-polo-club-sunday-29th-nov",
       "notes": "",
       "source": "auto"
     },
@@ -1180,6 +1156,18 @@
       "source": "auto"
     },
     {
+      "id": "swallowfield-583496",
+      "title": "Swallowfield Equestrian Unaffiliated Stressless Dressage",
+      "venueKey": "swallowfield",
+      "date": "2026-12-12",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=583496",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "allens-hill-hm-94618",
       "title": "Christmas One Day Event (ODE)",
       "venueKey": "allens-hill",
@@ -1396,6 +1384,18 @@
       "source": "auto"
     },
     {
+      "id": "swallowfield-583494",
+      "title": "Unaffiliated Short Arena Dressage Series with Trailblazer First Round Qualifiers",
+      "venueKey": "swallowfield",
+      "date": "2026-12-19",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=583494",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "allens-hill-hm-94736",
       "title": "Showjumping - Unaffiliated (60cm - 1.10m)",
       "venueKey": "allens-hill",
@@ -1416,6 +1416,18 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=572112",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-583493",
+      "title": "Swallowfield Equestrian Unaffiliated Long Arena Dressage",
+      "venueKey": "swallowfield",
+      "date": "2026-12-20",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=583493",
       "notes": "",
       "source": "auto"
     },
@@ -1488,6 +1500,18 @@
       "time": null,
       "type": "Other",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=582496",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-583495",
+      "title": "Unaffiliated Short Arena Dressage Series with Trailblazer First Round Qualifiers",
+      "venueKey": "swallowfield",
+      "date": "2026-12-27",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=583495",
       "notes": "",
       "source": "auto"
     },
@@ -2508,6 +2532,30 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=581069",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "ccr-equestrian-553348",
+      "title": "CCR Equestrian Senior British Show Jumping Cat 2",
+      "venueKey": "ccr-equestrian",
+      "date": "2027-02-23",
+      "endDate": null,
+      "time": null,
+      "type": "Showjumping",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553348",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-582351",
+      "title": "WHPC Pony Club only - Evening Flatwork/Pole Rally - Moreton Morrell - Clara/Kiri",
+      "venueKey": "moreton-morrell",
+      "date": "2027-02-23",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=582351",
       "notes": "",
       "source": "auto"
     }
