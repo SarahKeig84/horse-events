@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -244,90 +244,6 @@
       "source": "manual"
     },
     {
-      "id": "allens-hill-hm-94611",
-      "title": "Showjumping - Unaffiliated (70cm - 1.20m)",
-      "venueKey": "allens-hill",
-      "date": "2026-11-25",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://horsemonkey.com/uk/equestrian_event/94611/Showjumping+-+Unaffiliated+%252870cm+-+1.20m%2529",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "ccr-equestrian-553292",
-      "title": "CCR Equestrian Clear Rounds",
-      "venueKey": "ccr-equestrian",
-      "date": "2026-11-25",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553292",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "horse-events-dallas-burston-32326",
-      "title": "LandS Eventing LTD Assisted Arena Hire at Dallas Burston Polo Club Wednesday 25th Nov",
-      "venueKey": "dallas-burston",
-      "date": "2026-11-25",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.horse-events.co.uk/horse-events/lands-eventing-ltd-assisted-arena-hire-at-dallas-burston-polo-club-wednesday-25th-nov",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "moreton-morrell-hm-89112",
-      "title": "4613 - FREE Medium to Advanced Medium Training Opportunity at Moreton Morrell",
-      "venueKey": "moreton-morrell",
-      "date": "2026-11-25",
-      "endDate": null,
-      "time": null,
-      "type": "Training",
-      "url": "https://horsemonkey.com/uk/equestrian_event/89112/4613+-+FREE+Medium+to+Advanced+Medium+Training+Opportunity+at+Moreton+Morrell",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "moreton-morrell-571198",
-      "title": "Moreton Morrell British Dressage (P-GP/PYO FEI)+FS+PE",
-      "venueKey": "moreton-morrell",
-      "date": "2026-11-25",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.myridinglife.com/eventdetails.aspx?id=571198",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-566815",
-      "title": "Senior British Show Jumping Cat 2",
-      "venueKey": "solihull-rc",
-      "date": "2026-11-25",
-      "endDate": null,
-      "time": null,
-      "type": "Showjumping",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=566815",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "swallowfield-573748",
-      "title": "Swallowfield Equestrian Evening Stressless Dressage sponsored by Align Rider Solutions",
-      "venueKey": "swallowfield",
-      "date": "2026-11-25",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=573748",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "ccr-equestrian-hm-91628",
       "title": "TAP Training Day Midlands (Gloucestershire) - Lucy Jackson ALL LEVELS Flatwork/ SJ Clinic at CCR Equestrian",
       "venueKey": "ccr-equestrian",
@@ -396,18 +312,6 @@
       "time": null,
       "type": "Clinic",
       "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/10704",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "lowlands-ecpro-11053",
-      "title": "Tea with a Pony",
-      "venueKey": "lowlands",
-      "date": "2026-11-27",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/11053",
       "notes": "",
       "source": "auto"
     },
@@ -792,6 +696,18 @@
       "time": null,
       "type": "Showjumping",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=553386",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "horse-events-dallas-burston-31136",
+      "title": "LandS Eventing Super Arena Cross Country Pairs Festive Fancy Dress Optional 5th Dec and 6th Dec 2026",
+      "venueKey": "dallas-burston",
+      "date": "2026-12-05",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.horse-events.co.uk/horse-events/lands-eventing-super-arena-cross-country-pairs-festive-fancy-dress-optional-5th-dec-2026",
       "notes": "",
       "source": "auto"
     },
@@ -1300,18 +1216,6 @@
       "source": "auto"
     },
     {
-      "id": "lowlands-ecpro-11082",
-      "title": "Tea with a Pony",
-      "venueKey": "lowlands",
-      "date": "2026-12-18",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/11082",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "allens-hill-hm-92672",
       "title": "British Dressage Quest QWL",
       "venueKey": "allens-hill",
@@ -1564,6 +1468,18 @@
       "source": "auto"
     },
     {
+      "id": "solihull-rc-583713",
+      "title": "Jane Richmond Evening Polework Clinic",
+      "venueKey": "solihull-rc",
+      "date": "2026-12-30",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=583713",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "allens-hill-hm-82365",
       "title": "Allens Hill Membership",
       "venueKey": "allens-hill",
@@ -1756,6 +1672,18 @@
       "source": "auto"
     },
     {
+      "id": "lowlands-ecpro-11219",
+      "title": "Tea with a Pony",
+      "venueKey": "lowlands",
+      "date": "2027-01-11",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/11219",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "ccr-equestrian-553344",
       "title": "CCR Equestrian Senior British Show Jumping Cat 2",
       "venueKey": "ccr-equestrian",
@@ -1852,6 +1780,18 @@
       "source": "auto"
     },
     {
+      "id": "lowlands-ecpro-11220",
+      "title": "Tea with a Pony",
+      "venueKey": "lowlands",
+      "date": "2027-01-15",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/11220",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "moreton-morrell-582362",
       "title": "WHPC Mounted Games Training - Moreton Morrell  - MG Trainer",
       "venueKey": "moreton-morrell",
@@ -1920,6 +1860,18 @@
       "time": null,
       "type": "Clinic",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=581460",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "lowlands-ecpro-11221",
+      "title": "Tea with a Pony",
+      "venueKey": "lowlands",
+      "date": "2027-01-18",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/11221",
       "notes": "",
       "source": "auto"
     },
@@ -2008,6 +1960,18 @@
       "source": "auto"
     },
     {
+      "id": "lowlands-ecpro-11222",
+      "title": "Tea with a Pony",
+      "venueKey": "lowlands",
+      "date": "2027-01-22",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/11222",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "moreton-morrell-582363",
       "title": "WHPC Mounted Games Training - Moreton Morrell  - MG Trainer",
       "venueKey": "moreton-morrell",
@@ -2040,6 +2004,18 @@
       "time": null,
       "type": "Show",
       "url": "https://www.horse-events.co.uk/horse-events/lands-eventing-arena-eventing-inc-qualifier-for-british-eventing-bates-saddles-arena-eventing-championships",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "lowlands-ecpro-11223",
+      "title": "Tea with a Pony",
+      "venueKey": "lowlands",
+      "date": "2027-01-25",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/11223",
       "notes": "",
       "source": "auto"
     },
@@ -2124,6 +2100,18 @@
       "time": null,
       "type": "Dressage",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=581068",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "lowlands-ecpro-11224",
+      "title": "Tea with a Pony",
+      "venueKey": "lowlands",
+      "date": "2027-01-29",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/11224",
       "notes": "",
       "source": "auto"
     },
@@ -2556,6 +2544,42 @@
       "time": null,
       "type": "Other",
       "url": "https://www.myridinglife.com/eventdetails.aspx?id=582351",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "ccr-equestrian-553317",
+      "title": "CCR Equestrian Clear Rounds",
+      "venueKey": "ccr-equestrian",
+      "date": "2027-02-24",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=553317",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-583073",
+      "title": "Moreton Morrell British Dressage (P-GP/PYO FEI)+FS+PE+PEFS",
+      "venueKey": "moreton-morrell",
+      "date": "2027-02-24",
+      "endDate": null,
+      "time": null,
+      "type": "Dressage",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=583073",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "swallowfield-581917",
+      "title": "The Dancing Horse Clinic with Ali Lane",
+      "venueKey": "swallowfield",
+      "date": "2027-02-24",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=581917",
       "notes": "",
       "source": "auto"
     }
