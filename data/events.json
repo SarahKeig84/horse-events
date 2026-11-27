@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "venues": [
     {
       "key": "moreton-morrell",
@@ -244,42 +244,6 @@
       "source": "manual"
     },
     {
-      "id": "ccr-equestrian-hm-91628",
-      "title": "TAP Training Day Midlands (Gloucestershire) - Lucy Jackson ALL LEVELS Flatwork/ SJ Clinic at CCR Equestrian",
-      "venueKey": "ccr-equestrian",
-      "date": "2026-11-26",
-      "endDate": null,
-      "time": null,
-      "type": "Clinic",
-      "url": "https://horsemonkey.com/uk/equestrian_event/91628/TAP+Training+Day+Midlands+%2528Gloucestershire%2529+-+Lucy+Jackson+ALL+LEVELS+Flatwork+SJ+Clinic+at+CCR+Equestrian",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "horse-events-dallas-burston-32327",
-      "title": "LandS Eventing LTD Assisted Arena Hire at Dallas Burston Polo Club Thursday 26th Nov",
-      "venueKey": "dallas-burston",
-      "date": "2026-11-26",
-      "endDate": null,
-      "time": null,
-      "type": "Other",
-      "url": "https://www.horse-events.co.uk/horse-events/lands-eventing-ltd-assisted-arena-hire-at-dallas-burston-polo-club-thursday-26th-nov",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "solihull-rc-578937",
-      "title": "Jane Richmond Evening Polework Clinic",
-      "venueKey": "solihull-rc",
-      "date": "2026-11-26",
-      "endDate": null,
-      "time": null,
-      "type": "Clinic",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=578937",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "allens-hill-hm-85855",
       "title": "PYO Combined Training (I-E 50cm-1.00m), Unaffiliated Dressage (I-E) & Clear Round Showjumping",
       "venueKey": "allens-hill",
@@ -300,18 +264,6 @@
       "time": null,
       "type": "Other",
       "url": "https://www.horse-events.co.uk/horse-events/lands-eventing-ltd-assisted-arena-hire-at-dallas-burston-polo-club-friday-27th-nov",
-      "notes": "",
-      "source": "auto"
-    },
-    {
-      "id": "lowlands-ecpro-10704",
-      "title": "Friday Clinic with Jo Hayward",
-      "venueKey": "lowlands",
-      "date": "2026-11-27",
-      "endDate": null,
-      "time": null,
-      "type": "Clinic",
-      "url": "https://lowlandsequestriancentre.ecpro.co.uk/events/10704",
       "notes": "",
       "source": "auto"
     },
@@ -1144,18 +1096,6 @@
       "source": "auto"
     },
     {
-      "id": "solihull-rc-554164",
-      "title": "Carefree & Casual Evening Dressage",
-      "venueKey": "solihull-rc",
-      "date": "2026-12-16",
-      "endDate": null,
-      "time": null,
-      "type": "Dressage",
-      "url": "https://www.equineaffairs.com/eventdetails.aspx?id=554164",
-      "notes": "",
-      "source": "auto"
-    },
-    {
       "id": "moreton-morrell-573381",
       "title": "WHPC Pony Club only - Evening Flatwork - Moreton Morrell - Fran",
       "venueKey": "moreton-morrell",
@@ -1384,6 +1324,18 @@
       "source": "auto"
     },
     {
+      "id": "horse-events-dallas-burston-32553",
+      "title": "LandS Eventing LTD Assisted Arena Hire at Dallas Burston Polo Club Sunday 27th December",
+      "venueKey": "dallas-burston",
+      "date": "2026-12-27",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.horse-events.co.uk/horse-events/lands-eventing-ltd-assisted-arena-hire-at-dallas-burston-polo-club-sunday-27th-december-20261227",
+      "notes": "",
+      "source": "auto"
+    },
+    {
       "id": "swallowfield-579609",
       "title": "Swallowfield Equestrian British Dressage QWL",
       "venueKey": "swallowfield",
@@ -1469,7 +1421,7 @@
     },
     {
       "id": "solihull-rc-583713",
-      "title": "Jane Richmond Evening Polework Clinic",
+      "title": "Jane Richmond Daytime Polework Clinic",
       "venueKey": "solihull-rc",
       "date": "2026-12-30",
       "endDate": null,
@@ -2285,13 +2237,13 @@
     },
     {
       "id": "the-unicorn-hm-92285",
-      "title": "4636 2027 Camp for all ages and abilities  -  @ Unicorn Trust, Glos",
+      "title": "4636 2027 Camp for all ages and abilities  -  @ Unicorn Trust, Glos with Jenny Ward & Damian Hallam",
       "venueKey": "the-unicorn",
       "date": "2027-02-05",
       "endDate": "2027-02-06",
       "time": null,
       "type": "Other",
-      "url": "https://horsemonkey.com/uk/equestrian_event/92285/4636+2027+Camp+for+all+ages+and+abilities++-++%2540+Unicorn+Trust%252C+Glos",
+      "url": "https://horsemonkey.com/uk/equestrian_event/92285/4636+2027+Camp+for+all+ages+and+abilities++-++%2540+Unicorn+Trust%252C+Glos+with+Jenny+Ward+%2526+Damian+Hallam",
       "notes": "",
       "source": "auto"
     },
@@ -2580,6 +2532,30 @@
       "time": null,
       "type": "Clinic",
       "url": "https://www.equineaffairs.com/eventdetails.aspx?id=581917",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-571289",
+      "title": "James McCullough Evening Pole Work Clinic",
+      "venueKey": "moreton-morrell",
+      "date": "2027-02-25",
+      "endDate": null,
+      "time": null,
+      "type": "Clinic",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=571289",
+      "notes": "",
+      "source": "auto"
+    },
+    {
+      "id": "moreton-morrell-582357",
+      "title": "WHPC Pony Club only - Evening Flatwork - Moreton Morrell - Fran",
+      "venueKey": "moreton-morrell",
+      "date": "2027-02-25",
+      "endDate": null,
+      "time": null,
+      "type": "Other",
+      "url": "https://www.myridinglife.com/eventdetails.aspx?id=582357",
       "notes": "",
       "source": "auto"
     }
